@@ -56,7 +56,7 @@ u = suppress errors
 - we are pin pointing and going deep into very selective services , so first we need to make sure we can write to those registry , we are able to write on some of them 
 
 ```powershell
-get-itemproperty HKLM_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\*
+Get-ItemProperty -Path HKLM_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\*
 ```
 <mark class="hltr-myblue">this will show us all the properties of every object in the services path</mark> 
 
