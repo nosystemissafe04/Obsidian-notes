@@ -18,5 +18,11 @@ get-help convertto-securestring -parameter *
 - we are using here invoke-command which is used to run a command on local and remote host [[Credentials and Remoting#Other commands which have remoting capabilities]]
 
 ```powershell
-invoke-command -computername <COMPUTERNAME> -Credential <ps-credential0bject> 
+invoke-command -computername <COMPUTERNAME> -Credential <ps-credential0bject> -filepath <powershellscript>
+```
+
+we can run a whole script 
+
+```
+
 ```
