@@ -53,4 +53,4 @@ w = show only object with write access
 s = recurse 
 u = suppress errors 
 
-- we are pin pointing and going deep into very selective services , so first we need to make sure we can write to those registry , 
+- we are pin pointing and going deep into very selective services , so first we need to make sure we can write to those registry , we are able to write on some of them 
