@@ -43,7 +43,7 @@ ANOTHER VECTOR FOR PRIVESC ,<mark class="hltr-mycolor"> PSREADLINE MODULE</mark>
 > 
 > - A service that runs in the context of the LocalSystem account inherits the security context of the SCM.
 
-**CROSS CHECKING PERMISSIONS WITH ACCESSCHK (SYSINTERNALS)**
+[^1]**CROSS CHECKING PERMISSIONS WITH ACCESSCHK (SYSINTERNALS)**
 
 ```POWERSHELL
 .\accesschk.exe -kwsu HKLM_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services
@@ -54,3 +54,5 @@ s = recurse
 u = suppress errors 
 
 - we are pin pointing and going deep into very selective services , so first we need to make sure we can write to those registry , we are able to write on some of them 
+
+[^1]: dfsdfsda
