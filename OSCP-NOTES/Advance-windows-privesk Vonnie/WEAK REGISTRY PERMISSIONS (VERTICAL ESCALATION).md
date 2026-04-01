@@ -38,6 +38,7 @@ ANOTHER VECTOR FOR PRIVESC ,<mark class="hltr-mycolor"> PSREADLINE MODULE</mark>
 #### LOCALSYSTEM
 
 > [!WE ARE DEALING WITH OPERATING SYSTEM]
+>> Yellow
 > - The LocalSystem account is a predefined local account used by the service control manager.
 > 
 > - <mark class="hltr-green-flag">It has extensive privileges on the local computer</mark>, and acts as the computer on the network. Its token includes the NT AUTHORITY\SYSTEM and BUILTIN\Administrators SIDs; <mark class="hltr-green-flag">these accounts have access to most system objects</mark>. The name of the account in all locales is .\LocalSystem. The name, LocalSystem or _ComputerName_\LocalSystem can also be used. This account does not have a password. If you specify the LocalSystem account in a call to the [**CreateService**](https://learn.microsoft.com/en-us/windows/desktop/api/Winsvc/nf-winsvc-createservicea) or [**ChangeServiceConfig**](https://learn.microsoft.com/en-us/windows/desktop/api/Winsvc/nf-winsvc-changeserviceconfiga) function, any password information you provide is ignored.
