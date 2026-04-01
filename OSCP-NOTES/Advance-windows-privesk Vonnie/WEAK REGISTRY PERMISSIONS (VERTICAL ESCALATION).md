@@ -4,5 +4,5 @@
 - **.NET Framework = the environment that runs your C# code**
 
 WE NEEDED TO FIND THE EXACT VERSION OF .NETFRAMWORK THE TARGET HOST RUNS
-
+![[Pasted image 20260402014431.png]]
 - DOWNLOADED WINPEAS FROM SHARCOLLECTION 
