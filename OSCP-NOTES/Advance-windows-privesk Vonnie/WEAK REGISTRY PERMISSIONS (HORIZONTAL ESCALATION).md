@@ -15,4 +15,6 @@ get-help convertto-securestring -parameter *
 
 - we need secure string to connect to a computer using powershell remoting , we need to create a powershell secure string option [[Credentials and Remoting#creating secure string from clear text passwords|creating secure string]]
 - we found password hash of the user , when we are jumping from one user to another which is not admin we are escalating horizontally , means it doesnt guarntee admin access , but it may have different attack vectors , 
-- we are using here invoke-command which is used to run a command on local and remote host [[Credentials and Remoting#]]
+- we are using here invoke-command which is used to run a command on local and remote host [[Credentials and Remoting#Other commands which have remoting capabilities]]
+
+``
