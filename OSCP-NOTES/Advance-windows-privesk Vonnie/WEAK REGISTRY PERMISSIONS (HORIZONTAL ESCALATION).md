@@ -14,4 +14,4 @@ get-help convertto-securestring -parameter *
 ```
 
 - we need secure string to connect to a computer using powershell remoting , we need to create a powershell secure string option [[Credentials and Remoting#creating secure string from clear text passwords|creating secure string]]
-	- 
+- we found password hash of the user , when we are  
