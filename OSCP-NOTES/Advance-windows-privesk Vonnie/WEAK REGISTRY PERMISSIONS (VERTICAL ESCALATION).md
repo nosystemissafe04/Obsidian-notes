@@ -51,3 +51,6 @@ ANOTHER VECTOR FOR PRIVESC ,<mark class="hltr-mycolor"> PSREADLINE MODULE</mark>
 k = name is the registry key 
 w = show only object with write access 
 s = recurse 
+u = suppress errors 
+
+- we are pin pointing and going deep into very selective services , so first we need to make sure we 
