@@ -146,7 +146,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "psreadline",
+                "query": "get-itempro",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -228,8 +228,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 370.5,
-    "collapsed": true
+    "width": 370.5
   },
   "right": {
     "id": "5689001c4553b175",
@@ -393,7 +392,7 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "32222b6192c07747",
+  "active": "974f9231aef97f7c",
   "lastOpenFiles": [
     "TREASURE/Powershell for Infosec/Modules.md",
     "TREASURE/Powershell for Infosec/Session History and History File.md",
