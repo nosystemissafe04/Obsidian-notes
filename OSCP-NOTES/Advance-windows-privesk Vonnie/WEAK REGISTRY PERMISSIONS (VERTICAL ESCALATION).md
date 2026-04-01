@@ -58,4 +58,5 @@ u = suppress errors
 ```powershell
 get-itemproperty HKLM_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\*
 ```
-this will show us all the properties of every object in the s
+<mark class="hltr-myblue">this will show us all the properties of every object in the services path</mark> 
+
