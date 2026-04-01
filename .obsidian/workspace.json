@@ -103,8 +103,7 @@
               "title": "Doubts"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -371,8 +370,9 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "957dada5321cb70c",
+  "active": "32222b6192c07747",
   "lastOpenFiles": [
+    "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION).md",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/assets/Pasted image 20260402014431.png",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (HORIZONTAL ESCALATION).md",

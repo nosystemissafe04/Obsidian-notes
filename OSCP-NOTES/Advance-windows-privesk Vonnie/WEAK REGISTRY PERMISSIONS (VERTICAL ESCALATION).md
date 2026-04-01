@@ -5,5 +5,7 @@
 
 WE NEEDED TO FIND THE EXACT VERSION OF .NETFRAMWORK THE TARGET HOST RUNS
 ![[Pasted image 20260402014431.png]]
-`cd HKLM:\` [[POWERSH]]
+
+`cd HKLM:\` [[Powershell Fundamentals#Powershell Providers]]
+
 - DOWNLOADED WINPEAS FROM SHARCOLLECTION 
