@@ -27,4 +27,5 @@ cd HKLM:\SOFTWARE\Microsoft\NET Framework Setup\NDP\<VERSION>
 **POWERSHELL HISTORY (PSREADLINE)**
 ANOTHER VECTOR FOR PRIVESC ,<mark class="hltr-mycolor"> PSREADLINE MODULE</mark> MAY CONTAIN SENSITIVE INFORMATION OR PASSWORDS see ([[Session History and History File]])
 
+- ALSO SHOWS LAPS AND <mark class="hltr-myblue">AV IS PRESENT OR NOT </mark>
 
