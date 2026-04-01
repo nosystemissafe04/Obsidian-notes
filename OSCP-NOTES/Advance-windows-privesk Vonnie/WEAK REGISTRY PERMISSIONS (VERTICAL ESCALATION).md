@@ -29,3 +29,4 @@ ANOTHER VECTOR FOR PRIVESC ,<mark class="hltr-mycolor"> PSREADLINE MODULE</mark>
 
 - ALSO SHOWS LAPS AND <mark class="hltr-myblue">AV IS PRESENT OR NOT </mark>
 
+## MODIFIABLE REGISTRY
