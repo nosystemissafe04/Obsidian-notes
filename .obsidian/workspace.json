@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TREASURE/SOURCES/COPY-OSCP/17. Windows Privilege Escalation.md",
+                "file": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,103 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "17. Windows Privilege Escalation"
-            }
-          },
-          {
-            "id": "54b40f5190655265",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TREASURE/Powershell for Infosec/Powershell logging and logging bypass.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Powershell logging and logging bypass"
-            }
-          },
-          {
-            "id": "957dada5321cb70c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Powershell Fundamentals"
-            }
-          },
-          {
-            "id": "979b8e32678b760d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TREASURE/Powershell for Infosec/Credentials and Remoting.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Credentials and Remoting"
-            }
-          },
-          {
-            "id": "01873f7407a00c17",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TREASURE/Powershell for Infosec/Doubts.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Doubts"
+              "title": "WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION)"
             }
           }
         ]
@@ -228,7 +132,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 370.5
+    "width": 370.5,
+    "collapsed": true
   },
   "right": {
     "id": "5689001c4553b175",
@@ -394,16 +299,17 @@
   },
   "active": "32222b6192c07747",
   "lastOpenFiles": [
+    "TREASURE/SOURCES/COPY-OSCP/17. Windows Privilege Escalation.md",
+    "TREASURE/Powershell for Infosec/Doubts.md",
+    "TREASURE/Powershell for Infosec/Credentials and Remoting.md",
+    "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",
+    "TREASURE/Powershell for Infosec/Powershell logging and logging bypass.md",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION).md",
     "TREASURE/Powershell for Infosec/Modules.md",
     "TREASURE/Powershell for Infosec/Session History and History File.md",
-    "TREASURE/Powershell for Infosec/Powershell logging and logging bypass.md",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/assets/Pasted image 20260402015109.png",
-    "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/assets/Pasted image 20260402014431.png",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (HORIZONTAL ESCALATION).md",
-    "TREASURE/Powershell for Infosec/Credentials and Remoting.md",
-    "TREASURE/Powershell for Infosec/Doubts.md",
     "payload-allthe-things-windows-priviledge-escalation.md",
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Infrastructure Based Enumeration/assets/subdomain-oneliner.sh",
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Remote Management Protocols/assets/Pasted image 20241020190639.png",
@@ -439,7 +345,6 @@
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Host Based Enumeration/DNS.md",
     "TREASURE/PEN-notes/cheatsheets/assets/davechild_regular-expressions.pdf",
     "TREASURE/PEN-notes/cheatsheets/assets/Sed & awk 101Hacks  .pdf",
-    "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Skill Asessments/attacking common service Easy.md",
     "TREASURE/PEN-notes/PRACTICAL MALWARE ANALYSIS/Basic Static Analysis.canvas",
     "Spaces/Untitled 1.canvas",
     "Untitled.canvas",

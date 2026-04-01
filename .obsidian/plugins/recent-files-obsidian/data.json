@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION)",
+      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION).md"
+    },
+    {
       "basename": "17. Windows Privilege Escalation",
       "path": "TREASURE/SOURCES/COPY-OSCP/17. Windows Privilege Escalation.md"
     },
     {
-      "basename": "WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION)",
-      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION).md"
+      "basename": "Doubts",
+      "path": "TREASURE/Powershell for Infosec/Doubts.md"
+    },
+    {
+      "basename": "Credentials and Remoting",
+      "path": "TREASURE/Powershell for Infosec/Credentials and Remoting.md"
+    },
+    {
+      "basename": "Powershell Fundamentals",
+      "path": "TREASURE/Powershell for Infosec/Powershell Fundamentals.md"
+    },
+    {
+      "basename": "Powershell logging and logging bypass",
+      "path": "TREASURE/Powershell for Infosec/Powershell logging and logging bypass.md"
     },
     {
       "basename": "Modules",
@@ -17,24 +33,8 @@
       "path": "TREASURE/Powershell for Infosec/Session History and History File.md"
     },
     {
-      "basename": "Powershell logging and logging bypass",
-      "path": "TREASURE/Powershell for Infosec/Powershell logging and logging bypass.md"
-    },
-    {
-      "basename": "Powershell Fundamentals",
-      "path": "TREASURE/Powershell for Infosec/Powershell Fundamentals.md"
-    },
-    {
       "basename": "WEAK REGISTRY PERMISSIONS (HORIZONTAL ESCALATION)",
       "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (HORIZONTAL ESCALATION).md"
-    },
-    {
-      "basename": "Credentials and Remoting",
-      "path": "TREASURE/Powershell for Infosec/Credentials and Remoting.md"
-    },
-    {
-      "basename": "Doubts",
-      "path": "TREASURE/Powershell for Infosec/Doubts.md"
     },
     {
       "basename": "active_directory_help_commands",
