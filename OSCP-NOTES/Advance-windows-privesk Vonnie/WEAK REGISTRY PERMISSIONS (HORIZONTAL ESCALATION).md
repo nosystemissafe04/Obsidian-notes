@@ -23,6 +23,10 @@ invoke-command -computername <COMPUTERNAME> -Credential <ps-credential0bject> -f
 
 we can run a whole script 
 
+```powershell
+invoke-command -computername <COMPUTERNAME> -Credential <ps-credential0bject> -command <powershellscript>
 ```
 
+```powershell
+invoke-command -computername <COMPUTERNAME> -Credential <ps-credential0bject> -scriptblock { ... }
 ```
