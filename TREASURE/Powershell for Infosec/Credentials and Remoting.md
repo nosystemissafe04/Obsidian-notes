@@ -146,13 +146,13 @@ For example, you can use one of the following ways to set the `TrustedHosts` v
     ```
     
 - The command prompt:
-    
-     ```powershell
-    winrm s winrm/config/client @{TrustedHosts="*.contoso.com"}
-        ```
+      
+    ```powershell
+ winrm s winrm/config/client @{TrustedHosts="*.contoso.com"}
+    ```
 - you can add all the computer onthe local hosts (very insecure way ) but avoids the hassle to add computers all the time if you want to address computer by ip you have to add the ip to trusted hosts 
 ```powershell
-	Set-Item WSMan:\localhost\Client\TrustedHosts -Value "*"
+Set-Item WSMan:\localhost\Client\TrustedHosts -Value "*"
 ```
 by using a wildcard you can bypass that check everytime you wanna connect to a computer 
 #### Why TrustedHosts is Required
