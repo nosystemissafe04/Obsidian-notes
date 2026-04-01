@@ -60,3 +60,4 @@ Get-ItemProperty -Path HKLM_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\*
 ```
 <mark class="hltr-myblue">this will show us all the properties of every object in the services path</mark> 
 
+![[Pasted image 20260402031303.png]]
