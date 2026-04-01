@@ -31,4 +31,4 @@ invoke-command -computername <COMPUTERNAME> -Credential <ps-credential0bject> -c
 invoke-command -computername <COMPUTERNAME> -Credential <ps-credential0bject> -scriptblock { .... }
 ```
 
-- so here we will be running a downloa
+- so here we will be running a download cradle to download nishang ps script a rev shell , in context of the user which is hector in this case , and we jumped to the new user , by his credential 
