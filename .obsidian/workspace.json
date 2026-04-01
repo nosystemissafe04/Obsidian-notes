@@ -32,6 +32,30 @@
             }
           },
           {
+            "id": "54b40f5190655265",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TREASURE/Powershell for Infosec/Powershell logging and logging bypass.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Powershell logging and logging bypass"
+            }
+          },
+          {
             "id": "957dada5321cb70c",
             "type": "leaf",
             "state": {
@@ -372,9 +396,10 @@
   },
   "active": "32222b6192c07747",
   "lastOpenFiles": [
+    "TREASURE/Powershell for Infosec/Powershell logging and logging bypass.md",
+    "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION).md",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/assets/Pasted image 20260402015109.png",
     "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",
-    "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION).md",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/assets/Pasted image 20260402014431.png",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (HORIZONTAL ESCALATION).md",
     "TREASURE/Powershell for Infosec/Credentials and Remoting.md",
@@ -389,7 +414,6 @@
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Host Based Enumeration/assets/Pasted image 20240923192239.png",
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Host Based Enumeration/assets/Pasted image 20240923180256.png",
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Host Based Enumeration/assets/Pasted image 20240923180801.png",
-    "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Host Based Enumeration/assets/Pasted image 20240923175721.png",
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Shells & Payloads/assets/Shells_Payloads_Module_Cheat_Sheet.pdf",
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Network Enumeration with Nmap/assets/Network_Enumeration_With_Nmap_Module_Cheat_Sheet.pdf",
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Infosec Overview Basic Pentesting/assets/Getting_Started_Module_Cheat_Sheet.pdf",

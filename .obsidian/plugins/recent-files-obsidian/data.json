@@ -5,6 +5,10 @@
       "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION).md"
     },
     {
+      "basename": "Powershell logging and logging bypass",
+      "path": "TREASURE/Powershell for Infosec/Powershell logging and logging bypass.md"
+    },
+    {
       "basename": "Powershell Fundamentals",
       "path": "TREASURE/Powershell for Infosec/Powershell Fundamentals.md"
     },
