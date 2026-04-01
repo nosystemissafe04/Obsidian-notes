@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Modules",
+      "path": "TREASURE/Powershell for Infosec/Modules.md"
+    },
+    {
       "basename": "WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION)",
       "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION).md"
     },
@@ -143,10 +147,6 @@
     {
       "basename": "Execution policy",
       "path": "TREASURE/Powershell for Infosec/Execution policy.md"
-    },
-    {
-      "basename": "Modules",
-      "path": "TREASURE/Powershell for Infosec/Modules.md"
     },
     {
       "basename": "basics_of_linux",
