@@ -46,5 +46,5 @@ ANOTHER VECTOR FOR PRIVESC ,<mark class="hltr-mycolor"> PSREADLINE MODULE</mark>
 **CROSS CHECKING PERMISSIONS WITH ACCESSCHK (SYSINTERNALS)**
 
 ```POWERSHELL
-.\accessch
+.\accesschk.exe -kwsu HKLM_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services
 ```
