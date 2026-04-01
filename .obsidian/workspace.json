@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -347,10 +347,10 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "01873f7407a00c17",
+  "active": "979b8e32678b760d",
   "lastOpenFiles": [
-    "TREASURE/Powershell for Infosec/Credentials and Remoting.md",
     "TREASURE/Powershell for Infosec/Doubts.md",
+    "TREASURE/Powershell for Infosec/Credentials and Remoting.md",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (HORIZONTAL ESCALATION).md",
     "payload-allthe-things-windows-priviledge-escalation.md",
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Infrastructure Based Enumeration/assets/subdomain-oneliner.sh",
