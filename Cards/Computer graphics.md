@@ -1,0 +1,2 @@
+PPI = pixel per inch . when we calculate the total length of a screen we calculate it diagonally means that the total length of that screen diagonally will be considered as the total size of the screen . to calculate PPI we have to know the resolution of the screen then we can just use pythogorous theoram to find the total number of pixels diagonally . and to find the total number of pixels per inch we can devide the total size in inch to the answer come from the pythogorous theoram and we have PPI 
+

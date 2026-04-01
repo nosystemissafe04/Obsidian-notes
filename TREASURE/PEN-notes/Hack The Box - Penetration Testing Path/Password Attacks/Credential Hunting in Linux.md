@@ -1,0 +1,258 @@
+# Credential Hunting in Linux
+
+---
+
+Hunting for credentials is one of the first steps once we have access to the system. These low-hanging fruits can give us elevated privileges within seconds or minutes. Among other things, this is part of the local privilege escalation process that we will cover here. However, it is important to note here that we are far from covering all possible situations and therefore focus on the different approaches.
+
+We can imagine that we have successfully gained access to a system via a vulnerable web application and have therefore obtained a reverse shell, for example. Therefore, to escalate our privileges most efficiently, we can search for passwords or even whole credentials that we can use to log in to our target. There are several sources that can provide us with credentials that we put in four categories. These include, but are not limited to:
+
+| **`Files`**  | **`History`**        | **`Memory`**         | **`Key-Rings`**            |
+| ------------ | -------------------- | -------------------- | -------------------------- |
+| Configs      | Logs                 | Cache                | Browser stored credentials |
+| Databases    | Command-line History | In-memory Processing |                            |
+| Notes        |                      |                      |                            |
+| Scripts      |                      |                      |                            |
+| Source codes |                      |                      |                            |
+| Cronjobs     |                      |                      |                            |
+| SSH Keys     |                      |                      |                            |
+
+Enumerating all these categories will allow us to increase the probability of successfully finding out with some ease credentials of existing users on the system. There are countless different situations in which we will always see different results. Therefore, we should adapt our approach to the circumstances of the environment and keep the big picture in mind. Above all, it is crucial to keep in mind how the system works, its focus, what purpose it exists for, and what role it plays in the business logic and the overall network. For example, suppose it is an isolated database server. In that case, we will not necessarily find normal users there since it is a sensitive interface in the management of data to which only a few people are granted access.
+
+---
+
+## Files
+
+One core principle of Linux is that everything is a file. Therefore, it is crucial to keep this concept in mind and search, find and filter the appropriate files according to our requirements. We should look for, find, and inspect several categories of files one by one. These categories are the following:
+
+||||
+|---|---|---|
+|Configuration files|Databases|Notes|
+|Scripts|Cronjobs|SSH keys|
+
+Configuration files are the core of the functionality of services on Linux distributions. Often they even contain credentials that we will be able to read. Their insight also allows us to understand how the service works and its requirements precisely. Usually, the configuration files are marked with the following three file extensions (`.config`, `.conf`, `.cnf`). However, these configuration files or the associated extension files can be renamed, which means that these file extensions are not necessarily required. Furthermore, even when recompiling a service, the required filename for the basic configuration can be changed, which would result in the same effect. However, this is a rare case that we will not encounter often, but this possibility should not be left out of our search.
+
+The most crucial part of any system enumeration is to obtain an overview of it. Therefore, the first step should be to find all possible configuration files on the system, which we can then examine and analyze individually in more detail. There are many methods to find these configuration files, and with the following method, we will see we have reduced our search to these three file extensions.
+
+#### Configuration Files
+
+  Credential Hunting in Linux
+
+```shell-session
+cry0l1t3@unixclient:~$ for l in $(echo ".conf .config .cnf");do echo -e "\nFile extension: " $l; find / -name *$l 2>/dev/null | grep -v "lib\|fonts\|share\|core" ;done
+
+File extension:  .conf
+/run/tmpfiles.d/static-nodes.conf
+/run/NetworkManager/resolv.conf
+/run/NetworkManager/no-stub-resolv.conf
+/run/NetworkManager/conf.d/10-globally-managed-devices.conf
+...SNIP...
+/etc/ltrace.conf
+/etc/rygel.conf
+/etc/ld.so.conf.d/x86_64-linux-gnu.conf
+/etc/ld.so.conf.d/fakeroot-x86_64-linux-gnu.conf
+/etc/fprintd.conf
+
+File extension:  .config
+/usr/src/linux-headers-5.13.0-27-generic/.config
+/usr/src/linux-headers-5.11.0-27-generic/.config
+/usr/src/linux-hwe-5.13-headers-5.13.0-27/tools/perf/Makefile.config
+/usr/src/linux-hwe-5.13-headers-5.13.0-27/tools/power/acpi/Makefile.config
+/usr/src/linux-hwe-5.11-headers-5.11.0-27/tools/perf/Makefile.config
+/usr/src/linux-hwe-5.11-headers-5.11.0-27/tools/power/acpi/Makefile.config
+/home/cry0l1t3/.config
+/etc/X11/Xwrapper.config
+/etc/manpath.config
+
+File extension:  .cnf
+/etc/ssl/openssl.cnf
+/etc/alternatives/my.cnf
+/etc/mysql/my.cnf
+/etc/mysql/debian.cnf
+/etc/mysql/mysql.conf.d/mysqld.cnf
+/etc/mysql/mysql.conf.d/mysql.cnf
+/etc/mysql/mysql.cnf
+/etc/mysql/conf.d/mysqldump.cnf
+/etc/mysql/conf.d/mysql.cnf
+```
+
+Optionally, we can save the result in a text file and use it to examine the individual files one after the other. Another option is to run the scan directly for each file found with the specified file extension and output the contents. In this example, we search for three words (`user`, `password`, `pass`) in each file with the file extension `.cnf`.
+
+#### Credentials in Configuration Files
+
+  Credential Hunting in Linux
+
+```shell
+cry0l1t3@unixclient:~$ for i in $(find / -name "*.cnf" 2>/dev/null | grep -v "doc\|lib");do echo -e "\nFile: " $i; grep "user\|password\|pass" $i 2>/dev/null | grep -v "\#";done
+
+File:  /snap/core18/2128/etc/ssl/openssl.cnf
+challengePassword		= A challenge password
+
+File:  /usr/share/ssl-cert/ssleay.cnf
+
+File:  /etc/ssl/openssl.cnf
+challengePassword		= A challenge password
+
+File:  /etc/alternatives/my.cnf
+
+File:  /etc/mysql/my.cnf
+
+File:  /etc/mysql/debian.cnf
+
+File:  /etc/mysql/mysql.conf.d/mysqld.cnf
+user		= mysql
+
+File:  /etc/mysql/mysql.conf.d/mysql.cnf
+
+File:  /etc/mysql/mysql.cnf
+
+File:  /etc/mysql/conf.d/mysqldump.cnf
+
+File:  /etc/mysql/conf.d/mysql.cnf
+```
+
+We can apply this simple search to the other file extensions as well. Additionally, we can apply this search type to databases stored in files with different file extensions, and we can then read those.
+
+**note:whenever we try to use wildcard in find command we have to enclose that in search keyword in quotes** 
+#### Databases
+
+
+```shell
+cry0l1t3@unixclient:~$ for l in $(echo ".sql .db .*db .db*");do echo -e "\nDB File extension: " $l; find / -name "*$l" 2>/dev/null | grep -v "doc\|lib\|headers\|share\|man";done
+
+DB File extension:  .sql
+
+DB File extension:  .db
+/var/cache/dictionaries-common/ispell.db
+/var/cache/dictionaries-common/aspell.db
+/var/cache/dictionaries-common/wordlist.db
+/var/cache/dictionaries-common/hunspell.db
+/home/cry0l1t3/.mozilla/firefox/1bplpd86.default-release/cert9.db
+/home/cry0l1t3/.mozilla/firefox/1bplpd86.default-release/key4.db
+/home/cry0l1t3/.cache/tracker/meta.db
+
+DB File extension:  .*db
+/var/cache/dictionaries-common/ispell.db
+/var/cache/dictionaries-common/aspell.db
+/var/cache/dictionaries-common/wordlist.db
+/var/cache/dictionaries-common/hunspell.db
+/home/cry0l1t3/.mozilla/firefox/1bplpd86.default-release/cert9.db
+/home/cry0l1t3/.mozilla/firefox/1bplpd86.default-release/key4.db
+/home/cry0l1t3/.config/pulse/3a1ee8276bbe4c8e8d767a2888fc2b1e-card-database.tdb
+/home/cry0l1t3/.config/pulse/3a1ee8276bbe4c8e8d767a2888fc2b1e-device-volumes.tdb
+/home/cry0l1t3/.config/pulse/3a1ee8276bbe4c8e8d767a2888fc2b1e-stream-volumes.tdb
+/home/cry0l1t3/.cache/tracker/meta.db
+/home/cry0l1t3/.cache/tracker/ontologies.gvdb
+
+DB File extension:  .db*
+/var/cache/dictionaries-common/ispell.db
+/var/cache/dictionaries-common/aspell.db
+/var/cache/dictionaries-common/wordlist.db
+/var/cache/dictionaries-common/hunspell.db
+/home/cry0l1t3/.dbus
+/home/cry0l1t3/.mozilla/firefox/1bplpd86.default-release/cert9.db
+/home/cry0l1t3/.mozilla/firefox/1bplpd86.default-release/key4.db
+/home/cry0l1t3/.cache/tracker/meta.db-shm
+/home/cry0l1t3/.cache/tracker/meta.db-wal
+/home/cry0l1t3/.cache/tracker/meta.db
+```
+
+Depending on the environment we are in and the purpose of the host we are on, we can often find notes about specific processes on the system. These often include lists of many different access points or even their credentials. However, it is often challenging to find notes right away if stored somewhere on the system and not on the desktop or in its subfolders. This is because they can be named anything and do not have to have a specific file extension, such as `.txt`. Therefore, in this case, we need to search for files including the `.txt` file extension and files that have no file extension at all.
+
+#### Notes
+
+```shell
+cry0l1t3@unixclient:~$ find /home/* -type f /(-name "*.txt" -o ! -name "*.*"/)
+
+/home/cry0l1t3/.config/caja/desktop-metadata
+/home/cry0l1t3/.config/clipit/clipitrc
+/home/cry0l1t3/.config/dconf/user
+/home/cry0l1t3/.mozilla/firefox/bh4w5vd0.default-esr/pkcs11.txt
+/home/cry0l1t3/.mozilla/firefox/bh4w5vd0.default-esr/serviceworker.txt
+...SNIP...
+```
+
+Scripts are files that often contain highly sensitive information and processes. Among other things, these also contain credentials that are necessary to be able to call up and execute the processes automatically. Otherwise, the administrator or developer would have to enter the corresponding password each time the script or the compiled program is called.
+
+**note: if we dont use paranthesis in -name field the condition of -type f will not apply to both the filters** 
+#### Scripts
+
+```shell
+cry0l1t3@unixclient:~$ for l in $(echo ".py .pyc .pl .go .jar .c .sh");do echo -e "\nFile extension: " $l; find / -name "*$l" 2>/dev/null | grep -v "doc\|lib\|headers\|share";done
+
+File extension:  .py
+
+File extension:  .pyc
+
+File extension:  .pl
+
+File extension:  .go
+
+File extension:  .jar
+
+File extension:  .c
+
+File extension:  .sh
+/snap/gnome-3-34-1804/72/etc/profile.d/vte-2.91.sh
+/snap/gnome-3-34-1804/72/usr/bin/gettext.sh
+/snap/core18/2128/etc/init.d/hwclock.sh
+/snap/core18/2128/etc/wpa_supplicant/action_wpa.sh
+/snap/core18/2128/etc/wpa_supplicant/functions.sh
+...SNIP...
+/etc/profile.d/xdg_dirs_desktop_session.sh
+/etc/profile.d/cedilla-portuguese.sh
+/etc/profile.d/im-config_wayland.sh
+/etc/profile.d/vte-2.91.sh
+/etc/profile.d/bash_completion.sh
+/etc/profile.d/apps-bin-path.sh
+```
+
+Cronjobs are independent execution of commands, programs, scripts. These are divided into the system-wide area (`/etc/crontab`) and user-dependent executions. Some applications and scripts require credentials to run and are therefore incorrectly entered in the cronjobs. Furthermore, there are the areas that are divided into different time ranges (`/etc/cron.daily`, `/etc/cron.hourly`, `/etc/cron.monthly`, `/etc/cron.weekly`). The scripts and files used by `cron` can also be found in `/etc/cron.d/` for Debian-based distributions.
+
+#### Cronjobs
+
+```shell
+cry0l1t3@unixclient:~$ cat /etc/crontab 
+
+# /etc/crontab: system-wide crontab
+# Unlike any other crontab you don't have to run the `crontab'
+# command to install the new version when you edit this file
+# and files in /etc/cron.d. These files also have username fields,
+# that none of the other crontabs do.
+
+SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+# Example of job definition:
+# .---------------- minute (0 - 59)
+# |  .------------- hour (0 - 23)
+# |  |  .---------- day of month (1 - 31)
+# |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...
+# |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
+# |  |  |  |  |
+# *  *  *  *  * user-name command to be executed
+17 *    * * *   root    cd / && run-parts --report /etc/cron.hourly
+```
+
+  
+```shell
+cry0l1t3@unixclient:~$ ls -la /etc/cron.*/
+
+/etc/cron.d/:
+total 28
+drwxr-xr-x 1 root root  106  3. Jan 20:27 .
+drwxr-xr-x 1 root root 5728  1. Feb 00:06 ..
+-rw-r--r-- 1 root root  201  1. Mär 2021  e2scrub_all
+-rw-r--r-- 1 root root  331  9. Jan 2021  geoipupdate
+-rw-r--r-- 1 root root  607 25. Jan 2021  john
+-rw-r--r-- 1 root root  589 14. Sep 2020  mdadm
+-rw-r--r-- 1 root root  712 11. Mai 2020  php
+-rw-r--r-- 1 root root  102 22. Feb 2021  .placeholder
+-rw-r--r-- 1 root root  396  2. Feb 2021  sysstat
+
+/etc/cron.daily/:
+total 68
+drwxr-xr-x 1 root root  252  6. Jan 16:24 .
+drwxr-xr-x 1 root root 5728  1. Feb 00:06 ..
+...SNIP...
+```
+

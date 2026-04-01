@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"a1b00ef01fc3aced","type":"text","text":"active directory enumeration","x":-340,"y":-140,"width":600,"height":100,"color":"4"},
+		{"id":"3db6605835ac52e6","type":"text","text":"objects ","x":-163,"y":90,"width":303,"height":50,"color":"5"},
+		{"id":"1bd39c400af05871","type":"text","text":"","x":213,"y":20,"width":181,"height":252,"color":"5"},
+		{"id":"42ce4c6f82c50315","type":"text","text":"permissions & priviledge[[22. Active Directory Introduction and Enumeration]]","x":-680,"y":115,"width":430,"height":116,"color":"5"}
+	],
+	"edges":[
+		{"id":"0541e5aaf2fab5d6","fromNode":"a1b00ef01fc3aced","fromSide":"bottom","toNode":"3db6605835ac52e6","toSide":"top"},
+		{"id":"3ba8c76758d2e13c","fromNode":"a1b00ef01fc3aced","fromSide":"bottom","toNode":"42ce4c6f82c50315","toSide":"top"},
+		{"id":"936f319e6cfc781d","fromNode":"a1b00ef01fc3aced","fromSide":"bottom","toNode":"1bd39c400af05871","toSide":"top"}
+	]
+}

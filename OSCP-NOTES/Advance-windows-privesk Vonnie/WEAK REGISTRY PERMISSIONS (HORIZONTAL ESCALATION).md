@@ -1,0 +1,17 @@
+**GETTING HELP IN POWERSHELL** 7.0,0 [[recording-multitrack-2024-08-08T13-17-25-981Z.wav|powershell intro]]
+
+```powershell
+update-help
+```
+
+```POWERSHELL
+GET-HELP *secure*string*
+```
+- use autocompletion with just a `-` then clicking tab to find out all the options or parameters , to get a list of all the parameter and what they do we can use `-parameter *`
+
+```powershell
+get-help convertto-securestring -parameter *
+```
+
+- we need secure string to connect to a computer using powershell remoting , we need to create a powershell secure string option [[Credentials and Remoting#creating secure string from clear text passwords|creating secure string]]
+	- 

@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"cmd0","type":"text","text":"Task","x":0,"y":-100,"width":150,"height":50,"color":"0"},
+		{"id":"cmd1","type":"text","text":"Task Priority","x":200,"y":-100,"width":150,"height":40,"color":"1"},
+		{"id":"cmd2","type":"text","text":"Call out","x":400,"y":-100,"width":150,"height":40,"color":"2"},
+		{"id":"cmd3","type":"text","text":"Task + Callout","x":600,"y":-100,"width":150,"height":40,"color":"3"},
+		{"id":"0","type":"text","text":"-","x":0,"y":0,"width":150,"height":40,"color":"-1"},
+		{"id":"1","type":"text","text":"- [ ]","x":120,"y":80,"width":150,"height":40,"color":"-1"},
+		{"id":"2","type":"text","text":"- [x] || ✅ {time:: YYYY-MM-DD}","x":240,"y":160,"width":150,"height":40,"color":"-1"},
+		{"id":"3","type":"text","text":"","x":360,"y":240,"width":150,"height":40,"color":"-1"},
+		{"id":"4","type":"text","text":"- [ ] #p1","x":480,"y":320,"width":150,"height":40,"color":"-1"},
+		{"id":"5","type":"text","text":"- [ ] #p2","x":600,"y":400,"width":150,"height":40,"color":"-1"},
+		{"id":"6","type":"text","text":"- [ ] #p3","x":720,"y":480,"width":150,"height":40,"color":"-1"},
+		{"id":"7","type":"text","text":"- ?","x":840,"y":560,"width":150,"height":40,"color":"-1"},
+		{"id":"8","type":"text","text":"- !","x":960,"y":640,"width":150,"height":40,"color":"-1"},
+		{"id":"9","type":"text","text":"- ~","x":1080,"y":720,"width":150,"height":40,"color":"-1"}
+	],
+	"edges":[
+		{"id":"edge0->1","fromNode":"0","fromSide":"bottom","toNode":"1","toSide":"top","color":"3"},
+		{"id":"edge1->2","fromNode":"1","fromSide":"bottom","toNode":"2","toSide":"top","color":"3"},
+		{"id":"edge2->3","fromNode":"2","fromSide":"bottom","toNode":"3","toSide":"top","color":"3"},
+		{"id":"edge3->0","fromNode":"3","fromSide":"bottom","toNode":"0","toSide":"left","color":"3"},
+		{"id":"edge1->4","fromNode":"1","fromSide":"bottom","toNode":"4","toSide":"top","color":"1"},
+		{"id":"edge4->5","fromNode":"4","fromSide":"bottom","toNode":"5","toSide":"top","color":"1"},
+		{"id":"edge5->6","fromNode":"5","fromSide":"bottom","toNode":"6","toSide":"top","color":"1"},
+		{"id":"edge6->1","fromNode":"6","fromSide":"bottom","toNode":"1","toSide":"left","color":"1"},
+		{"id":"edge7->8","fromNode":"7","fromSide":"bottom","toNode":"8","toSide":"top","color":"3"},
+		{"id":"edge8->9","fromNode":"8","fromSide":"bottom","toNode":"9","toSide":"top","color":"3"},
+		{"id":"edge9->7","fromNode":"9","fromSide":"bottom","toNode":"7","toSide":"left","color":"3"}
+	]
+}

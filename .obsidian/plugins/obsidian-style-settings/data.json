@@ -1,0 +1,19 @@
+{
+  "catppuccin-theme-settings@@catppuccin-theme-dark": "ctp-macchiato",
+  "catppuccin-theme-settings@@catppuccin-theme-accents": "ctp-accent-teal",
+  "catppuccin-heading-settings@@ctp-h1": "var(--ctp-flamingo)",
+  "catppuccin-heading-settings@@ctp-h2": "var(--ctp-mauve)",
+  "catppuccin-heading-settings@@ctp-h3": "var(--ctp-green)",
+  "catppuccin-heading-settings@@ctp-h4": "var(--ctp-lavender)",
+  "catppuccin-heading-settings@@ctp-h6": "var(--ctp-subtext0)",
+  "anuppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-macchiato",
+  "anuppuccin-theme-settings@@anuppuccin-theme-light": "ctp-rosepine-light",
+  "anuppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-mauve",
+  "catppuccin-interface-styles@@ctp-bold-folder-title": true,
+  "shimmering-focus@@centered-canvas-notes": true,
+  "shimmering-focus@@show-urls": true,
+  "shimmering-focus@@private-mode": false,
+  "shimmering-focus@@no-codeblock-line-numbers": true,
+  "shimmering-focus@@show-vault-in-file-explorer": true,
+  "shimmering-focus@@show-file-explorer-navigation": true
+}

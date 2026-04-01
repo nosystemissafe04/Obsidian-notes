@@ -1,0 +1,13 @@
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - file.links
+      - file.tags
+    sort:
+      - property: file.mtime
+        direction: DESC
+    columnSize:
+      file.backlinks: 788
+      file.links: 323

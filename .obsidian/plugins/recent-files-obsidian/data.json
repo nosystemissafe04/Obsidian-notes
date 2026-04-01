@@ -1,0 +1,188 @@
+{
+  "recentFiles": [
+    {
+      "basename": "WEAK REGISTRY PERMISSIONS (HORIZONTAL ESCALATION)",
+      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (HORIZONTAL ESCALATION).md"
+    },
+    {
+      "basename": "Credentials and Remoting",
+      "path": "TREASURE/Powershell for Infosec/Credentials and Remoting.md"
+    },
+    {
+      "basename": "active_directory_help_commands",
+      "path": "security/docs/attacking_active_directory_domain/good_to_know/active_directory_help_commands.md"
+    },
+    {
+      "basename": "recording-multitrack-2024-08-08T13-17-25-981Z",
+      "path": "Extras/Audio-recordings/recording-multitrack-2024-08-08T13-17-25-981Z.wav"
+    },
+    {
+      "basename": "Powershell Core",
+      "path": "TREASURE/Powershell for Infosec/Powershell Core.md"
+    },
+    {
+      "basename": "WEAK REGISTRY",
+      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY.md"
+    },
+    {
+      "basename": "KERNEL EXPLOIT",
+      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/KERNEL EXPLOIT.md"
+    },
+    {
+      "basename": "Active directory Enumeration",
+      "path": "OSCP-NOTES/Active Directory Introduction and Enumeration/Active directory Enumeration.md"
+    },
+    {
+      "basename": "Filtering commands",
+      "path": "OSCP-NOTES/CHEATSHEETS/Filtering commands.md"
+    },
+    {
+      "basename": "AWK",
+      "path": "OSCP-NOTES/CHEATSHEETS/AWK.md"
+    },
+    {
+      "basename": "STUCKED AT",
+      "path": "OSCP-NOTES/CTF/STUCKED AT.md"
+    },
+    {
+      "basename": "PASSWORD ATTACK IN ACTIVE DIRECTORY",
+      "path": "OSCP-NOTES/PASSWORD ATTACK IN ACTIVE DIRECTORY.md"
+    },
+    {
+      "basename": "FEROXBUSTER",
+      "path": "OSCP-NOTES/FEROXBUSTER.md"
+    },
+    {
+      "basename": "Commands",
+      "path": "OSCP-NOTES/Commands.md"
+    },
+    {
+      "basename": "ACTIVE DIRECTORY ENUMERATION USING LEGACY TOOLS",
+      "path": "OSCP-NOTES/ACTIVE DIRECTORY ENUMERATION USING LEGACY TOOLS.md"
+    },
+    {
+      "basename": "Attacking SQL Databases",
+      "path": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Attacking Common Services/Attacking SQL Databases.md"
+    },
+    {
+      "basename": "KERBEROSTING",
+      "path": "OSCP-NOTES/Kerberos/KERBEROSTING.md"
+    },
+    {
+      "basename": "IMPACKET-SMB-ENUMERATION",
+      "path": "OSCP-NOTES/SMB-ENUMERATION/IMPACKET-SMB-ENUMERATION.md"
+    },
+    {
+      "basename": "NETEXEC - SMB ENUMERATION",
+      "path": "OSCP-NOTES/SMB-ENUMERATION/NETEXEC - SMB ENUMERATION.md"
+    },
+    {
+      "basename": "KERBEROS AUTHENTICATION AND TICKETS",
+      "path": "OSCP-NOTES/Kerberos/KERBEROS AUTHENTICATION AND TICKETS.md"
+    },
+    {
+      "basename": "16. Password Attacks",
+      "path": "TREASURE/SOURCES/COPY-OSCP/16. Password Attacks.md"
+    },
+    {
+      "basename": "Windows File Transfer Methods",
+      "path": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/File Transfers @@/Windows File Transfer Methods.md"
+    },
+    {
+      "basename": "LDAP-ENUMERATION WITH NETEXEC",
+      "path": "OSCP-NOTES/LDAP-ENUMERATION/LDAP-ENUMERATION WITH NETEXEC.md"
+    },
+    {
+      "basename": "USER ENUMERATION",
+      "path": "OSCP-NOTES/WINDOWS PrivEsk/USER ENUMERATION.md"
+    },
+    {
+      "basename": "Extra Mile Offensive Cloud Lab 02",
+      "path": "TREASURE/SOURCES/COPY-OSCP/Extra Mile Offensive Cloud Lab 02.md"
+    },
+    {
+      "basename": "dowloadnotes",
+      "path": "TREASURE/SOURCES/COPY-OSCP/dowloadnotes.js"
+    },
+    {
+      "basename": "iNFORMATINO GATHERING",
+      "path": "TREASURE/SOURCES/COPY-OSCP/iNFORMATINO GATHERING.md"
+    },
+    {
+      "basename": "mynotes",
+      "path": "TREASURE/SOURCES/COPY-OSCP/mynotes.html"
+    },
+    {
+      "basename": "LAB-SETUP",
+      "path": "OSCP-NOTES/LDAP-ENUMERATION/LAB-SETUP.md"
+    },
+    {
+      "basename": "John The Ripper",
+      "path": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Password Attacks/John The Ripper.md"
+    },
+    {
+      "basename": "initial_access",
+      "path": "security/docs/initial_access/initial_access.md"
+    },
+    {
+      "basename": "Execution policy",
+      "path": "TREASURE/Powershell for Infosec/Execution policy.md"
+    },
+    {
+      "basename": "Modules",
+      "path": "TREASURE/Powershell for Infosec/Modules.md"
+    },
+    {
+      "basename": "Powershell Fundamentals",
+      "path": "TREASURE/Powershell for Infosec/Powershell Fundamentals.md"
+    },
+    {
+      "basename": "basics_of_linux",
+      "path": "security/docs/basics_of_linux/basics_of_linux.md"
+    },
+    {
+      "basename": "Credential Hunting in Windows",
+      "path": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Password Attacks/Credential Hunting in Windows.md"
+    },
+    {
+      "basename": "Privileges level and user account access Level",
+      "path": "OSCP-NOTES/INFO-WHY'S/Privileges level and user account access Level.md"
+    },
+    {
+      "basename": "TOKEN IMPERSONATION FOR PRIVESK",
+      "path": "OSCP-NOTES/WINDOWS PrivEsk/TOKEN IMPERSONATION FOR PRIVESK.md"
+    },
+    {
+      "basename": "manual recon on users and groups in non ad environment",
+      "path": "TREASURE/Powershell for Infosec/manual recon on users and groups in non ad environment.md"
+    },
+    {
+      "basename": "TUNNELING AND PORT FORWORDING",
+      "path": "OSCP-NOTES/TUNNELING AND PORT FORWORDING.md"
+    },
+    {
+      "basename": "passwords_in_active_directory_attribute",
+      "path": "security/docs/attacking_cloud_environment/attacking_azure/passwords_in_active_directory_attribute.md"
+    },
+    {
+      "basename": "attacking common service Easy",
+      "path": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Skill Asessments/attacking common service Easy.md"
+    },
+    {
+      "basename": "19. Port Redirection and SSH Tunneling",
+      "path": "TREASURE/SOURCES/COPY-OSCP/19. Port Redirection and SSH Tunneling.md"
+    },
+    {
+      "basename": "18. Linux Privilege Escalation",
+      "path": "TREASURE/SOURCES/COPY-OSCP/18. Linux Privilege Escalation.md"
+    },
+    {
+      "basename": "17. Windows Privilege Escalation",
+      "path": "TREASURE/SOURCES/COPY-OSCP/17. Windows Privilege Escalation.md"
+    }
+  ],
+  "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false
+}

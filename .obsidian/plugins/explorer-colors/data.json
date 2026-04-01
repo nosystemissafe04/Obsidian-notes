@@ -1,0 +1,12 @@
+{
+  "settings": {},
+  "TREASURE/Sources": {
+    "itemColor": "#ff0000"
+  },
+  "TREASURE/Sources/Atomic-notes": {
+    "itemColor": "#fffafa"
+  },
+  "TREASURE/Sources/COPY-OSCP": {
+    "itemColor": "#ffffff"
+  }
+}

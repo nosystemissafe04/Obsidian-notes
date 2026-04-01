@@ -1,0 +1,111 @@
+:root {
+	--current-color: #d0d0d0;
+	--default-text-color: #d0d0d0;
+	--highlight: #fff;
+	--shadow: #0b0c2c;
+
+	--nav-item-weight-hover: bold;
+}
+
+/* Light Theme Specific Variables */
+.theme-light {
+	--contrast-color: var(--shadow);
+	--default-text-color: var(--shadow);
+	--bg-contrast-amount: 70%;
+	--fg-contrast-amount: 30%;
+	--medium-constrast-amount: 60%;
+	--active-contrast-amount: 30%;
+}
+
+/* Dark Theme Specific Variables */
+.theme-dark {
+	--contrast-color: var(--highlight);
+	--bg-contrast-amount: 15%;
+	--fg-contrast-amount: 40%;
+	--medium-constrast-amount: 20%;
+	--active-contrast-amount: 10%;
+}
+
+/* Styles for the Color Picker Modal */
+.explorer-colors-color-picker-modal {
+	display: block;
+}
+.explorer-colors-color-picker-modal .picker-container {
+	display: flex;
+	align-items: flex-end;
+	justify-content: start;
+}
+.explorer-colors-color-picker-modal .footer-container {
+	display: flex;
+	align-items: flex-end;
+	justify-content: end;
+}
+.explorer-colors-color-picker-modal .picker-container .picker-description {
+	margin-bottom: var(--size-2-2);
+	margin-right: var(--size-4-4);
+}
+.explorer-colors-color-picker-modal .footer-container button {
+	margin-left: var(--size-4-4);
+	float: right;
+}
+
+/* Styles for customised Explorer items */
+.nav-folder-title {
+	color: var(--current-color);
+	--nav-item-color-hover: color-mix(
+		in srgb,
+		var(--current-color) var(--fg-contrast-amount),
+	  	var(--contrast-color)
+	);
+	--nav-item-background-hover: color-mix(
+	  	in srgb,
+	  	var(--current-color) var(--bg-contrast-amount),
+	  	transparent
+	);
+	--background-modifier-border-focus: color-mix(
+	  	in srgb,
+	  	var(--current-color) 40%,
+	  	transparent
+	);
+	--nav-collapse-icon-color: color-mix(
+	  in srgb,
+	  var(--current-color) 60%,
+	  transparent
+	);
+}
+.nav-folder-title:hover {
+	--nav-collapse-icon-color: color-mix(
+		in srgb,
+		var(--current-color) 60%,
+		var(--contrast-color)
+	);
+}
+.tree-item-children:has(.nav-file-title) {
+	--nav-indentation-guide-color: color-mix(
+		in srgb,
+		var(--current-color) var(--medium-constrast-amount),
+		transparent
+	);
+}
+.tree-item-children .nav-file-title, .nav-file-title {
+	color: color-mix(
+		in srgb,
+		var(--current-color) var(--medium-constrast-amount),
+		var(--default-text-color)
+	);
+	--nav-item-background-hover: color-mix(
+		in srgb,
+		color-mix(in srgb, var(--current-color) 50%, var(--highlight)) var(--bg-contrast-amount),
+		transparent
+	);
+	--background-modifier-border-focus: color-mix(
+		in srgb,
+		var(--current-color) 40%,
+		transparent
+	);
+	--nav-item-background-active: color-mix(
+		in srgb,
+		var(--current-color) var(--active-contrast-amount),
+		transparent
+	);
+}

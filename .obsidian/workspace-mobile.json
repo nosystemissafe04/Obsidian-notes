@@ -1,0 +1,173 @@
+{
+  "main": {
+    "id": "831228407d5d473a",
+    "type": "split",
+    "children": [
+      {
+        "id": "df9630c783b6f0e9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7a252ed2a49a8e68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OSCP-NOTES/Information gathering/Passive Information Gathering.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Passive Information Gathering"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6e1af8006bd4370a",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "fd41724b17932b1e",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "c3f2b172737b8c59",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "Scp ",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "f7cbc4a40bf02795",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "27c4b69e341a045b",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "dccae80a6fa1639a",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "3bbde3c8cb585fb3",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "PEN-notes/Hack The Box - Penetration Testing Path/File Transfers @@/Linux File Transfer Methods.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "84cc13bc489f5763",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "f2fcd600c1aeb13a",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {},
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      },
+      {
+        "id": "9b8a11bf106ce18b",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {},
+          "icon": "calendar-with-checkmark",
+          "title": "Calendar"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "callout-manager:Insert Callout": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "password-protection:Lock password protection": false,
+      "custom-sort:Toggle custom sorting": false
+    }
+  },
+  "active": "7a252ed2a49a8e68",
+  "lastOpenFiles": [
+    "OSCP-NOTES/Information gathering/Information-gathering aka enumeration.md",
+    "PEN-notes/Hack The Box - Penetration Testing Path/File Transfers @@/Linux File Transfer Methods.md",
+    "PEN-notes/Daily_notes/2025-04-08.md",
+    "PEN-notes/Hack The Box - Penetration Testing Path/Penetration Testing Process/Lateral Movement.md",
+    "PEN-notes/Hack The Box - Penetration Testing Path/Password Attacks/Pass the Hash (PtH).md",
+    "PEN-notes/Hack The Box - Penetration Testing Path/Password Attacks/Network Services.md",
+    "PEN-notes/Hack The Box - Penetration Testing Path/Explanation/Waiting for new data to arrive, keeps the process alive.md",
+    "PEN-notes/Linux Programming Interface/Linux Programming Interface.md",
+    "PEN-notes/Hack The Box - Penetration Testing Path/Password Attacks/Theory of Protection.md"
+  ]
+}

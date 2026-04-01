@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: otkvf-5sjas
+created: 2024-11-03T17:22:42+05:30

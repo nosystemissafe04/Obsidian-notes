@@ -1,0 +1,270 @@
+<div data-v-a0523401="" class="overflow-x-hidden overflow-y-auto"><div data-v-efe2273c="" data-v-a0523401="" class="my-6 note px-4"><div data-v-efe2273c="" class="flex flex-col"><span data-v-efe2273c="" class="flex flex-row"><span data-v-efe2273c="" class="text-sm text-neutral-600 text-bold flex-grow">Windows Privilege Escalation</span><div data-v-efe2273c="" class="edit-icons-container flex row-reverse"><div data-v-efe2273c="" class="pl-2.5 cursor-pointer"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="removeNote" class="fa-regular fa-trash-can font-l"></i></div></div><div data-v-efe2273c="" class="pl-2.5 cursor-pointer ml-2"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="editNote" class="fa-regular fa-pen-to-square font-l"></i></div></div></div></span><span data-v-efe2273c="" class="flex flex-row text-xs text-neutral-600"><span data-v-efe2273c="" class="flex-grow">Windows Privilege Escalation</span><span data-v-efe2273c="">June 15, 2025</span></span></div><section data-v-efe2273c="" class="note-content mt-2">target varies as:
+- os version 
+- patch level
+- system configuration ...etc
+
+windows priviledge and access control :
+- priviledge:
+permission of specific user or object 
+- control mechanism: determines the priviledge , and checks for priviledge based on priviledge of that user by checking source and deciding whether to run it or not 
+
+control mechnism:
+-SID
+-ACCESS TOKEN
+-MANDATORY INTEGRITY CENTER
+-USER ACCOUNT CONTROL</section></div><div data-v-efe2273c="" data-v-a0523401="" class="my-6 note px-4"><div data-v-efe2273c="" class="flex flex-col"><span data-v-efe2273c="" class="flex flex-row"><span data-v-efe2273c="" class="text-sm text-neutral-600 text-bold flex-grow">Windows Privilege Escalation</span><div data-v-efe2273c="" class="edit-icons-container flex row-reverse"><div data-v-efe2273c="" class="pl-2.5 cursor-pointer"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="removeNote" class="fa-regular fa-trash-can font-l"></i></div></div><div data-v-efe2273c="" class="pl-2.5 cursor-pointer ml-2"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="editNote" class="fa-regular fa-pen-to-square font-l"></i></div></div></div></span><span data-v-efe2273c="" class="flex flex-row text-xs text-neutral-600"><span data-v-efe2273c="" class="flex-grow">Windows Privilege Escalation</span><span data-v-efe2273c="">June 15, 2025</span></span></div><section data-v-efe2273c="" class="note-content mt-2">SID:
+unique value assigned to entity orprinciple which can authenticate themselfs or by windows 
+example :
+users and groups 
+
+- SID is assined by LSA for local user 
+- SID is assigned by domain controller for domain user and groups 
+
+- SID is unchangable and is assigned whenthe entity was created 
+- windows only rely on SID to identify each object or entity not the username 
+
+::structure:
+S-R-X-Y
+-S=it says its an SID 
+-R=revision always set to 1 
+-X=who gave this SID to this entity mostly =5</section></div><div data-v-efe2273c="" data-v-a0523401="" class="my-6 note px-4"><div data-v-efe2273c="" class="flex flex-col"><span data-v-efe2273c="" class="flex flex-row"><span data-v-efe2273c="" class="text-sm text-neutral-600 text-bold flex-grow">Windows Privilege Escalation</span><div data-v-efe2273c="" class="edit-icons-container flex row-reverse"><div data-v-efe2273c="" class="pl-2.5 cursor-pointer"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="removeNote" class="fa-regular fa-trash-can font-l"></i></div></div><div data-v-efe2273c="" class="pl-2.5 cursor-pointer ml-2"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="editNote" class="fa-regular fa-pen-to-square font-l"></i></div></div></div></span><span data-v-efe2273c="" class="flex flex-row text-xs text-neutral-600"><span data-v-efe2273c="" class="flex-grow">Windows Privilege Escalation</span><span data-v-efe2273c="">June 15, 2025</span></span></div><section data-v-efe2273c="" class="note-content mt-2">- 5 means nt/authority  
+
+- Y = sub authority , X is the authoritywhich gave the permissions , what are the permissions and priviledge  aredefinedin -Y 
+- details about doman and user
+- structure Y1-Y2-Y3-Y4
+- last one is called RID relative identifier 
+- Rid determine unique user and doman or group a unique entity pointed finger by this last entry of Y
+- everything else in Y is to determine domain id or local computer identifier and other info, going down a tree branch,</section></div><div data-v-efe2273c="" data-v-a0523401="" class="my-6 note px-4"><div data-v-efe2273c="" class="flex flex-col"><span data-v-efe2273c="" class="flex flex-row"><span data-v-efe2273c="" class="text-sm text-neutral-600 text-bold flex-grow">Windows Privilege Escalation</span><div data-v-efe2273c="" class="edit-icons-container flex row-reverse"><div data-v-efe2273c="" class="pl-2.5 cursor-pointer"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="removeNote" class="fa-regular fa-trash-can font-l"></i></div></div><div data-v-efe2273c="" class="pl-2.5 cursor-pointer ml-2"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="editNote" class="fa-regular fa-pen-to-square font-l"></i></div></div></div></span><span data-v-efe2273c="" class="flex flex-row text-xs text-neutral-600"><span data-v-efe2273c="" class="flex-grow">Windows Privilege Escalation</span><span data-v-efe2273c="">June 15, 2025</span></span></div><section data-v-efe2273c="" class="note-content mt-2">if sub authority (Y)==32
+then its a built-in principle 
+
+- RID starts with 1000
+- SID under RID range (1000) are called well known SID 
+- which identify built in acounts and groups which are present prior to user interaction to os 
+
+:windows priviledge = granting and revoking: 
+- if user or principle is authenticated , a ACCESS TOKEN is assigned to that entity 
+::ACCESS TOKEN:
+- Describe security context = set of rules or  attributes that r currently in effect or running , ongoing</section></div><div data-v-efe2273c="" data-v-a0523401="" class="my-6 note px-4"><div data-v-efe2273c="" class="flex flex-col"><span data-v-efe2273c="" class="flex flex-row"><span data-v-efe2273c="" class="text-sm text-neutral-600 text-bold flex-grow">Windows Privilege Escalation</span><div data-v-efe2273c="" class="edit-icons-container flex row-reverse"><div data-v-efe2273c="" class="pl-2.5 cursor-pointer"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="removeNote" class="fa-regular fa-trash-can font-l"></i></div></div><div data-v-efe2273c="" class="pl-2.5 cursor-pointer ml-2"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="editNote" class="fa-regular fa-pen-to-square font-l"></i></div></div></div></span><span data-v-efe2273c="" class="flex flex-row text-xs text-neutral-600"><span data-v-efe2273c="" class="flex-grow">Windows Privilege Escalation</span><span data-v-efe2273c="">June 15, 2025</span></span></div><section data-v-efe2273c="" class="note-content mt-2">:::SECURITY CONTEXT:
+- have information of :
+--SID of user
+--SIDs of groups the user is part of 
+--that user and those group priviledge
+--further info decribing the scope and boundry of the token 
+
+---&amp;gt; flow control:
+- user starts a process or thread the 
+- TOKEN will be assined to process or threads or objects , 
+- specifying the acces and permission, when they interact with other objects 
+- this token is called PRIMARY TOKEN 
+- COPY of access token of the user running that process</section></div><div data-v-efe2273c="" data-v-a0523401="" class="my-6 note px-4"><div data-v-efe2273c="" class="flex flex-col"><span data-v-efe2273c="" class="flex flex-row"><span data-v-efe2273c="" class="text-sm text-neutral-600 text-bold flex-grow">Understanding Windows Privileges and Access Control Mechanisms</span><div data-v-efe2273c="" class="edit-icons-container flex row-reverse"><div data-v-efe2273c="" class="pl-2.5 cursor-pointer"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="removeNote" class="fa-regular fa-trash-can font-l"></i></div></div><div data-v-efe2273c="" class="pl-2.5 cursor-pointer ml-2"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="editNote" class="fa-regular fa-pen-to-square font-l"></i></div></div></div></span><span data-v-efe2273c="" class="flex flex-row text-xs text-neutral-600"><span data-v-efe2273c="" class="flex-grow">Windows Privilege Escalation</span><span data-v-efe2273c="">June 15, 2025</span></span></div><section data-v-efe2273c="" class="note-content mt-2">impersonation token:
+- a thread can have impersonation token , the process that owns that thread can have different security context as security context of thread assinged with impersonation token
+
+- Thread interaction with other objects on behalf of other entity , 
+- first windows check security context of thread then check process 
+:example = webserver running on networkservice , a thread which access the  web server need to have elevated priv to interact , then revokes</section></div><div data-v-efe2273c="" data-v-a0523401="" class="my-6 note px-4"><div data-v-efe2273c="" class="flex flex-col"><span data-v-efe2273c="" class="flex flex-row"><span data-v-efe2273c="" class="text-sm text-neutral-600 text-bold flex-grow">Understanding Windows Privileges and Access Control Mechanisms</span><div data-v-efe2273c="" class="edit-icons-container flex row-reverse"><div data-v-efe2273c="" class="pl-2.5 cursor-pointer"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="removeNote" class="fa-regular fa-trash-can font-l"></i></div></div><div data-v-efe2273c="" class="pl-2.5 cursor-pointer ml-2"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="editNote" class="fa-regular fa-pen-to-square font-l"></i></div></div></div></span><span data-v-efe2273c="" class="flex flex-row text-xs text-neutral-600"><span data-v-efe2273c="" class="flex-grow">Windows Privilege Escalation</span><span data-v-efe2273c="">June 15, 2025</span></span></div><section data-v-efe2273c="" class="note-content mt-2">:MANDATORY INTEGRITY CONTROL-
+- OBJECTS have integrity levels which determine the trust by operating system 
+- used for access control 
+- restrict low interity process from accesing higher integrity process 
+- process got there IL from its creator ,hence user 
+- even with sufficient permission low IL process cannot modify higher IL process</section></div><div data-v-efe2273c="" data-v-a0523401="" class="my-6 note px-4"><div data-v-efe2273c="" class="flex flex-col"><span data-v-efe2273c="" class="flex flex-row"><span data-v-efe2273c="" class="text-sm text-neutral-600 text-bold flex-grow">Understanding Windows Privileges and Access Control Mechanisms</span><div data-v-efe2273c="" class="edit-icons-container flex row-reverse"><div data-v-efe2273c="" class="pl-2.5 cursor-pointer"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="removeNote" class="fa-regular fa-trash-can font-l"></i></div></div><div data-v-efe2273c="" class="pl-2.5 cursor-pointer ml-2"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="editNote" class="fa-regular fa-pen-to-square font-l"></i></div></div></div></span><span data-v-efe2273c="" class="flex flex-row text-xs text-neutral-600"><span data-v-efe2273c="" class="flex-grow">Windows Privilege Escalation</span><span data-v-efe2273c="">June 15, 2025</span></span></div><section data-v-efe2273c="" class="note-content mt-2">From Windows Vista onward, processes run on five integrity levels:
+
+- System integrity – Kernel-mode processes with SYSTEM privileges
+- High integrity – Processes with administrative privileges
+- Medium integrity – Processes running with standard user privileges
+- Low integrity level – Restricted processes, often used for security   [sandboxing], such as web browsers.
+- Untrusted – The lowest integrity level, assigned to highly restricted processes that pose potential security risks</section></div><div data-v-efe2273c="" data-v-a0523401="" class="my-6 note px-4"><div data-v-efe2273c="" class="flex flex-col"><span data-v-efe2273c="" class="flex flex-row"><span data-v-efe2273c="" class="text-sm text-neutral-600 text-bold flex-grow">Understanding Windows Privileges and Access Control Mechanisms</span><div data-v-efe2273c="" class="edit-icons-container flex row-reverse"><div data-v-efe2273c="" class="pl-2.5 cursor-pointer"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="removeNote" class="fa-regular fa-trash-can font-l"></i></div></div><div data-v-efe2273c="" class="pl-2.5 cursor-pointer ml-2"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="editNote" class="fa-regular fa-pen-to-square font-l"></i></div></div></div></span><span data-v-efe2273c="" class="flex flex-row text-xs text-neutral-600"><span data-v-efe2273c="" class="flex-grow">Windows Privilege Escalation</span><span data-v-efe2273c="">June 15, 2025</span></span></div><section data-v-efe2273c="" class="note-content mt-2">child process IL &amp;lt;= parent process IL 
+
+TO CHECK IL :
+- process explorer can be used to find the user and there IL of that running process , 
+- whoami /groups /privs /all = can give you info regarding the current user permission and priviledge 
+- to check file integrity leve = ICACLS isused 
+
+:USER ACCESS CONTROL
+- run most of the applicatoin with standard user priviledge of medium IL 
+- UAC  aligns with SEcurity model of IL 
+- EVEN admin have medium IL , BUT THEY CAN ELEVATE , STILL CONFIRMS</section></div><div data-v-efe2273c="" data-v-a0523401="" class="my-6 note px-4"><div data-v-efe2273c="" class="flex flex-col"><span data-v-efe2273c="" class="flex flex-row"><span data-v-efe2273c="" class="text-sm text-neutral-600 text-bold flex-grow">Understanding Windows Privileges and Access Control Mechanisms</span><div data-v-efe2273c="" class="edit-icons-container flex row-reverse"><div data-v-efe2273c="" class="pl-2.5 cursor-pointer"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="removeNote" class="fa-regular fa-trash-can font-l"></i></div></div><div data-v-efe2273c="" class="pl-2.5 cursor-pointer ml-2"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="editNote" class="fa-regular fa-pen-to-square font-l"></i></div></div></div></span><span data-v-efe2273c="" class="flex flex-row text-xs text-neutral-600"><span data-v-efe2273c="" class="flex-grow">Windows Privilege Escalation</span><span data-v-efe2273c="">June 15, 2025</span></span></div><section data-v-efe2273c="" class="note-content mt-2">-UAC issues = two tokens 
+--standard token
+--regular admin token 
+
+standard = regular or filtered admin token , non-priviledge operation
+regularadmin token = for admin tasks 
+
+used to run with least priviledge levels , this assigns the IL to applicaiont and  securable objects 
+
+IL= DOES THE THIS LEVEL HAVE ACCESS TO READ THIS FILE OR NOT 
+MEDIUM INTEGRITY USER CANNOT ACCESS SYSTEM FILES OR REGISTORY 
+
+BYPASSING UAC  is the main motive to get more priviledge by increasing the IL ,</section></div><div data-v-efe2273c="" data-v-a0523401="" class="my-6 note px-4"><div data-v-efe2273c="" class="flex flex-col"><span data-v-efe2273c="" class="flex flex-row"><span data-v-efe2273c="" class="text-sm text-neutral-600 text-bold flex-grow">Understanding Windows Privileges and Access Control Mechanisms</span><div data-v-efe2273c="" class="edit-icons-container flex row-reverse"><div data-v-efe2273c="" class="pl-2.5 cursor-pointer"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="removeNote" class="fa-regular fa-trash-can font-l"></i></div></div><div data-v-efe2273c="" class="pl-2.5 cursor-pointer ml-2"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="editNote" class="fa-regular fa-pen-to-square font-l"></i></div></div></div></span><span data-v-efe2273c="" class="flex flex-row text-xs text-neutral-600"><span data-v-efe2273c="" class="flex-grow">Windows Privilege Escalation</span><span data-v-efe2273c="">June 15, 2025</span></span></div><section data-v-efe2273c="" class="note-content mt-2">SID
+S-1-0-0                       Nobody        
+S-1-1-0	                      Everybody
+S-1-5-11                      Authenticated Users
+S-1-5-18                      Local System
+S-1-5-domainidentifier-500    Administrator</section></div><div data-v-efe2273c="" data-v-a0523401="" class="my-6 note px-4"><div data-v-efe2273c="" class="flex flex-col"><span data-v-efe2273c="" class="flex flex-row"><span data-v-efe2273c="" class="text-sm text-neutral-600 text-bold flex-grow">Situational Awareness</span><div data-v-efe2273c="" class="edit-icons-container flex row-reverse"><div data-v-efe2273c="" class="pl-2.5 cursor-pointer"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="removeNote" class="fa-regular fa-trash-can font-l"></i></div></div><div data-v-efe2273c="" class="pl-2.5 cursor-pointer ml-2"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="editNote" class="fa-regular fa-pen-to-square font-l"></i></div></div></div></span><span data-v-efe2273c="" class="flex flex-row text-xs text-neutral-600"><span data-v-efe2273c="" class="flex-grow">Windows Privilege Escalation</span><span data-v-efe2273c="">June 15, 2025</span></span></div><section data-v-efe2273c="" class="note-content mt-2">SITUATIONAL AWARENESS:=ENUMERATION
+
+its a post exploitation enumeration phase where we collect as much info about target to find a attack vector to elevate the priviledge 
+
+There are several key pieces of information we should always obtain:
+
+- Username and hostname
+- Group memberships of the current user
+- Existing users and groups
+- Operating system, version and architecture
+- Network information
+- Installed applications
+- Running processes</section></div><div data-v-efe2273c="" data-v-a0523401="" class="my-6 note px-4"><div data-v-efe2273c="" class="flex flex-col"><span data-v-efe2273c="" class="flex flex-row"><span data-v-efe2273c="" class="text-sm text-neutral-600 text-bold flex-grow">Situational Awareness</span><div data-v-efe2273c="" class="edit-icons-container flex row-reverse"><div data-v-efe2273c="" class="pl-2.5 cursor-pointer"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="removeNote" class="fa-regular fa-trash-can font-l"></i></div></div><div data-v-efe2273c="" class="pl-2.5 cursor-pointer ml-2"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="editNote" class="fa-regular fa-pen-to-square font-l"></i></div></div></div></span><span data-v-efe2273c="" class="flex flex-row text-xs text-neutral-600"><span data-v-efe2273c="" class="flex-grow">Windows Privilege Escalation</span><span data-v-efe2273c="">June 15, 2025</span></span></div><section data-v-efe2273c="" class="note-content mt-2">starting with whoami:
+--&amp;gt; whoami 
+hostname\user
+
+hostname determines the perpose of the machine like web mssql1 
+
+--&amp;gt; whoami /groups 
+member of which groups , finding this info can reveal some priviledge assigned tothat user , for example printspooler shows that user can use printer over network , 
+
+even determines what a user is capable of like remote desktop user so we can rdp to this user 
+
+additional info can be ignores as it confuses a lot of people</section></div><div data-v-efe2273c="" data-v-a0523401="" class="my-6 note px-4"><div data-v-efe2273c="" class="flex flex-col"><span data-v-efe2273c="" class="flex flex-row"><span data-v-efe2273c="" class="text-sm text-neutral-600 text-bold flex-grow">Situational Awareness</span><div data-v-efe2273c="" class="edit-icons-container flex row-reverse"><div data-v-efe2273c="" class="pl-2.5 cursor-pointer"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="removeNote" class="fa-regular fa-trash-can font-l"></i></div></div><div data-v-efe2273c="" class="pl-2.5 cursor-pointer ml-2"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="editNote" class="fa-regular fa-pen-to-square font-l"></i></div></div></div></span><span data-v-efe2273c="" class="flex flex-row text-xs text-neutral-600"><span data-v-efe2273c="" class="flex-grow">Windows Privilege Escalation</span><span data-v-efe2273c="">June 15, 2025</span></span></div><section data-v-efe2273c="" class="note-content mt-2">whoami /priv :
+- can give you the current priviledge owned by this user like for mimikatz to urn we need sedebugprocess priviledge if we have that , we can do process injection , 
+
+next -&amp;gt;&amp;gt; powershell:
+get-localuser
+- all the local user on this machine 
+- as we go down the rabbit hole connect the dots , like we know dave have remote access priviledge and is part of helpdesk 
+
+we found more accounts used for these perposes 
+with new user steve</section></div><div data-v-efe2273c="" data-v-a0523401="" class="my-6 note px-4"><div data-v-efe2273c="" class="flex flex-col"><span data-v-efe2273c="" class="flex flex-row"><span data-v-efe2273c="" class="text-sm text-neutral-600 text-bold flex-grow">Situational Awareness</span><div data-v-efe2273c="" class="edit-icons-container flex row-reverse"><div data-v-efe2273c="" class="pl-2.5 cursor-pointer"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="removeNote" class="fa-regular fa-trash-can font-l"></i></div></div><div data-v-efe2273c="" class="pl-2.5 cursor-pointer ml-2"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="editNote" class="fa-regular fa-pen-to-square font-l"></i></div></div></div></span><span data-v-efe2273c="" class="flex flex-row text-xs text-neutral-600"><span data-v-efe2273c="" class="flex-grow">Windows Privilege Escalation</span><span data-v-efe2273c="">June 15, 2025</span></span></div><section data-v-efe2273c="" class="note-content mt-2">get-localgroup:
+- get local existing local group on the host,
+net localgroup and get-localgroup both can be used 
+
+- review non standard groups , will give another golden info about the groups which are present for a specific perpose , we can find out all theuser of that local  group , and try to compromise one of those to elevate our priviledge very known and basic methodology
+
+for extra context , we can use get-localgroup which will show the description about the group</section></div><div data-v-efe2273c="" data-v-a0523401="" class="my-6 note px-4"><div data-v-efe2273c="" class="flex flex-col"><span data-v-efe2273c="" class="flex flex-row"><span data-v-efe2273c="" class="text-sm text-neutral-600 text-bold flex-grow">Situational Awareness</span><div data-v-efe2273c="" class="edit-icons-container flex row-reverse"><div data-v-efe2273c="" class="pl-2.5 cursor-pointer"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="removeNote" class="fa-regular fa-trash-can font-l"></i></div></div><div data-v-efe2273c="" class="pl-2.5 cursor-pointer ml-2"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="editNote" class="fa-regular fa-pen-to-square font-l"></i></div></div></div></span><span data-v-efe2273c="" class="flex flex-row text-xs text-neutral-600"><span data-v-efe2273c="" class="flex-grow">Windows Privilege Escalation</span><span data-v-efe2273c="">June 15, 2025</span></span></div><section data-v-efe2273c="" class="note-content mt-2">built-in groups and non-standardgroups 
+
+S-1-5-32-xxx → Builtin Local groups
+S-1-5-xx → Well-known groups
+
+other then this every group is non-standard 
+
+Members of Backup Operators can backup and restore all files on a computer, even those files they don't have permissions for. We must not confuse this group with non-standard groups such as BackupUsers in our example.</section></div><div data-v-efe2273c="" data-v-a0523401="" class="my-6 note px-4"><div data-v-efe2273c="" class="flex flex-col"><span data-v-efe2273c="" class="flex flex-row"><span data-v-efe2273c="" class="text-sm text-neutral-600 text-bold flex-grow">Situational Awareness</span><div data-v-efe2273c="" class="edit-icons-container flex row-reverse"><div data-v-efe2273c="" class="pl-2.5 cursor-pointer"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="removeNote" class="fa-regular fa-trash-can font-l"></i></div></div><div data-v-efe2273c="" class="pl-2.5 cursor-pointer ml-2"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="editNote" class="fa-regular fa-pen-to-square font-l"></i></div></div></div></span><span data-v-efe2273c="" class="flex flex-row text-xs text-neutral-600"><span data-v-efe2273c="" class="flex-grow">Windows Privilege Escalation</span><span data-v-efe2273c="">June 15, 2025</span></span></div><section data-v-efe2273c="" class="note-content mt-2">Members of Remote Desktop Users can access the system with RDP, while members of Remote Management Users can access it with WinRM.
+:get-localgroupmember :
+
+get to know which user belongs to which group 
+
+:get-localgroupmember Administrators :
+
+- will give allthe users in admin group they are admins , principle source will tell the source , local or remote or domain
+
+getting high value targets as admins . 
+amoung these users we also need to identify which user supports rdp for better interaction</section></div><div data-v-efe2273c="" data-v-a0523401="" class="my-6 note px-4"><div data-v-efe2273c="" class="flex flex-col"><span data-v-efe2273c="" class="flex flex-row"><span data-v-efe2273c="" class="text-sm text-neutral-600 text-bold flex-grow">Situational Awareness</span><div data-v-efe2273c="" class="edit-icons-container flex row-reverse"><div data-v-efe2273c="" class="pl-2.5 cursor-pointer"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="removeNote" class="fa-regular fa-trash-can font-l"></i></div></div><div data-v-efe2273c="" class="pl-2.5 cursor-pointer ml-2"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="editNote" class="fa-regular fa-pen-to-square font-l"></i></div></div></div></span><span data-v-efe2273c="" class="flex flex-row text-xs text-neutral-600"><span data-v-efe2273c="" class="flex-grow">Windows Privilege Escalation</span><span data-v-efe2273c="">June 15, 2025</span></span></div><section data-v-efe2273c="" class="note-content mt-2">access right of user and groups can be determined by these command next 
+
+we wiil gather info about configuration adn application runnong on it
+
+-&amp;gt;systeminfo:
+
+operating system version and architechture 
+vital to find public exploits 
+
+next will be network 
+
+-&amp;gt;ipconfig /all
+
+list all interface 
+got to know it is not using dhcp , other info like gteway dns , subnet mask can lead us to understand the network 
+
+-&amp;gt;route print 
+
+display the routing table , which may show priviously unkonwn networks</section></div><div data-v-efe2273c="" data-v-a0523401="" class="my-6 note px-4"><div data-v-efe2273c="" class="flex flex-col"><span data-v-efe2273c="" class="flex flex-row"><span data-v-efe2273c="" class="text-sm text-neutral-600 text-bold flex-grow">Situational Awareness</span><div data-v-efe2273c="" class="edit-icons-container flex row-reverse"><div data-v-efe2273c="" class="pl-2.5 cursor-pointer"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="removeNote" class="fa-regular fa-trash-can font-l"></i></div></div><div data-v-efe2273c="" class="pl-2.5 cursor-pointer ml-2"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="editNote" class="fa-regular fa-pen-to-square font-l"></i></div></div></div></span><span data-v-efe2273c="" class="flex flex-row text-xs text-neutral-600"><span data-v-efe2273c="" class="flex-grow">Windows Privilege Escalation</span><span data-v-efe2273c="">June 15, 2025</span></span></div><section data-v-efe2273c="" class="note-content mt-2">we shuld always check the routing table on a target system to insure we dontmiss any information 
+
+list network connection 
+-&amp;gt;netstat -ano
+
+-a=all
+-n=disable name resoltuion
+-o=show process id of each connection</section></div><div data-v-efe2273c="" data-v-a0523401="" class="my-6 note px-4"><div data-v-efe2273c="" class="flex flex-col"><span data-v-efe2273c="" class="flex flex-row"><span data-v-efe2273c="" class="text-sm text-neutral-600 text-bold flex-grow">Situational Awareness</span><div data-v-efe2273c="" class="edit-icons-container flex row-reverse"><div data-v-efe2273c="" class="pl-2.5 cursor-pointer"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="removeNote" class="fa-regular fa-trash-can font-l"></i></div></div><div data-v-efe2273c="" class="pl-2.5 cursor-pointer ml-2"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="editNote" class="fa-regular fa-pen-to-square font-l"></i></div></div></div></span><span data-v-efe2273c="" class="flex flex-row text-xs text-neutral-600"><span data-v-efe2273c="" class="flex-grow">Windows Privilege Escalation</span><span data-v-efe2273c="">June 15, 2025</span></span></div><section data-v-efe2273c="" class="note-content mt-2">Next, we'll check all installed applications. We can query two registry keys to list both 32-bit and 64-bit applications in the Windows Registry with the Get-ItemProperty Cmdlet. We pipe the output to select with the argument displayname to only display the application's names. We begin with the 32-bit applications and then display the 64-bit applications.
+
+Get-ItemProperty "HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*" | select displayname</section></div><div data-v-efe2273c="" data-v-a0523401="" class="my-6 note px-4"><div data-v-efe2273c="" class="flex flex-col"><span data-v-efe2273c="" class="flex flex-row"><span data-v-efe2273c="" class="text-sm text-neutral-600 text-bold flex-grow">Situational Awareness</span><div data-v-efe2273c="" class="edit-icons-container flex row-reverse"><div data-v-efe2273c="" class="pl-2.5 cursor-pointer"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="removeNote" class="fa-regular fa-trash-can font-l"></i></div></div><div data-v-efe2273c="" class="pl-2.5 cursor-pointer ml-2"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="editNote" class="fa-regular fa-pen-to-square font-l"></i></div></div></div></span><span data-v-efe2273c="" class="flex flex-row text-xs text-neutral-600"><span data-v-efe2273c="" class="flex-grow">Windows Privilege Escalation</span><span data-v-efe2273c="">June 15, 2025</span></span></div><section data-v-efe2273c="" class="note-content mt-2">Get-ItemProperty "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\*" | select displayname
+
+as we got a lot of ineteresting applicaiton running on target like keepas 7zip xampp filezilla we can findpublic exploits 
+we could also leverage password attacks to get the password of keepass master password ,</section></div><div data-v-efe2273c="" data-v-a0523401="" class="my-6 note px-4"><div data-v-efe2273c="" class="flex flex-col"><span data-v-efe2273c="" class="flex flex-row"><span data-v-efe2273c="" class="text-sm text-neutral-600 text-bold flex-grow">Situational Awareness</span><div data-v-efe2273c="" class="edit-icons-container flex row-reverse"><div data-v-efe2273c="" class="pl-2.5 cursor-pointer"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="removeNote" class="fa-regular fa-trash-can font-l"></i></div></div><div data-v-efe2273c="" class="pl-2.5 cursor-pointer ml-2"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="editNote" class="fa-regular fa-pen-to-square font-l"></i></div></div></div></span><span data-v-efe2273c="" class="flex flex-row text-xs text-neutral-600"><span data-v-efe2273c="" class="flex-grow">Windows Privilege Escalation</span><span data-v-efe2273c="">June 15, 2025</span></span></div><section data-v-efe2273c="" class="note-content mt-2">always check both 32 and 64 bit program files directories , and downloads folder as a good source of information 
+
+
+running programs , running process 
+
+-&amp;gt;get-process</section></div><div data-v-efe2273c="" data-v-a0523401="" class="my-6 note px-4"><div data-v-efe2273c="" class="flex flex-col"><span data-v-efe2273c="" class="flex flex-row"><span data-v-efe2273c="" class="text-sm text-neutral-600 text-bold flex-grow">Situational Awareness</span><div data-v-efe2273c="" class="edit-icons-container flex row-reverse"><div data-v-efe2273c="" class="pl-2.5 cursor-pointer"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="removeNote" class="fa-regular fa-trash-can font-l"></i></div></div><div data-v-efe2273c="" class="pl-2.5 cursor-pointer ml-2"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="editNote" class="fa-regular fa-pen-to-square font-l"></i></div></div></div></span><span data-v-efe2273c="" class="flex flex-row text-xs text-neutral-600"><span data-v-efe2273c="" class="flex-grow">Windows Privilege Escalation</span><span data-v-efe2273c="">June 15, 2025</span></span></div><section data-v-efe2273c="" class="note-content mt-2">It contains our bind shell with ID 2064 and the PowerShell session we started for the enumeration process with ID 9756.
+
+When we review the netstat output of Listing 14 again, we can confirm that the process ID 3508 belongs to mysqld and ID 4316 to Apache displayed as httpd.
+
+Due to the information we obtained previously by listing the installed applications, we can infer that both Apache and MySQL were started through XAMPP.</section></div><div data-v-efe2273c="" data-v-a0523401="" class="my-6 note px-4"><div data-v-efe2273c="" class="flex flex-col"><span data-v-efe2273c="" class="flex flex-row"><span data-v-efe2273c="" class="text-sm text-neutral-600 text-bold flex-grow">Situational Awareness</span><div data-v-efe2273c="" class="edit-icons-container flex row-reverse"><div data-v-efe2273c="" class="pl-2.5 cursor-pointer"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="removeNote" class="fa-regular fa-trash-can font-l"></i></div></div><div data-v-efe2273c="" class="pl-2.5 cursor-pointer ml-2"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="editNote" class="fa-regular fa-pen-to-square font-l"></i></div></div></div></span><span data-v-efe2273c="" class="flex flex-row text-xs text-neutral-600"><span data-v-efe2273c="" class="flex-grow">Windows Privilege Escalation</span><span data-v-efe2273c="">June 15, 2025</span></span></div><section data-v-efe2273c="" class="note-content mt-2">We gathered quite a lot of information with the previous commands. Let's briefly summarize what we found out about the target system:
+
+The system is a 64-bit Windows 11 Pro Build 22621 with an active web server on ports 80 and 443, MySQL server on port 3306, our bind shell on port 4444, and an active RDP connection on port 3389 from 192.168.48.3. Additionally, we found out that KeePass Password Manager, 7Zip, and XAMPP are installed on the target system.</section></div><div data-v-efe2273c="" data-v-a0523401="" class="my-6 note px-4"><div data-v-efe2273c="" class="flex flex-col"><span data-v-efe2273c="" class="flex flex-row"><span data-v-efe2273c="" class="text-sm text-neutral-600 text-bold flex-grow">Situational Awareness</span><div data-v-efe2273c="" class="edit-icons-container flex row-reverse"><div data-v-efe2273c="" class="pl-2.5 cursor-pointer"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="removeNote" class="fa-regular fa-trash-can font-l"></i></div></div><div data-v-efe2273c="" class="pl-2.5 cursor-pointer ml-2"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="editNote" class="fa-regular fa-pen-to-square font-l"></i></div></div></div></span><span data-v-efe2273c="" class="flex flex-row text-xs text-neutral-600"><span data-v-efe2273c="" class="flex-grow">Windows Privilege Escalation</span><span data-v-efe2273c="">June 15, 2025</span></span></div><section data-v-efe2273c="" class="note-content mt-2">The information we gathered on users and groups as well as the target system provide a good overview of the machine. In the next section, we'll search for sensitive information on the target system and interpret it based on the information gathered in the situational awareness process.</section></div><div data-v-efe2273c="" data-v-a0523401="" class="my-6 note px-4"><div data-v-efe2273c="" class="flex flex-col"><span data-v-efe2273c="" class="flex flex-row"><span data-v-efe2273c="" class="text-sm text-neutral-600 text-bold flex-grow">Hidden in Plain View</span><div data-v-efe2273c="" class="edit-icons-container flex row-reverse"><div data-v-efe2273c="" class="pl-2.5 cursor-pointer"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="removeNote" class="fa-regular fa-trash-can font-l"></i></div></div><div data-v-efe2273c="" class="pl-2.5 cursor-pointer ml-2"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="editNote" class="fa-regular fa-pen-to-square font-l"></i></div></div></div></span><span data-v-efe2273c="" class="flex flex-row text-xs text-neutral-600"><span data-v-efe2273c="" class="flex-grow">Windows Privilege Escalation</span><span data-v-efe2273c="">June 15, 2025</span></span></div><section data-v-efe2273c="" class="note-content mt-2">enumeration always finds its path based on information collected priviously , 
+the data we get via situational awareness 
+can be used to find sensitive information on systems ,like password and databases , 
+configuration files etc ,
+
+using 
+Get-ChildItem -Path C:\ -Include *.kdbx -File -Recurse -ErrorAction SilentlyContinue
+
+Get-ChildItem -Path C:\xampp -Include *.txt,*.ini -File -Recurse -ErrorAction SilentlyContinue
+
+found passwords.txt and my.ini its a config fille formysql</section></div><div data-v-efe2273c="" data-v-a0523401="" class="my-6 note px-4"><div data-v-efe2273c="" class="flex flex-col"><span data-v-efe2273c="" class="flex flex-row"><span data-v-efe2273c="" class="text-sm text-neutral-600 text-bold flex-grow">Hidden in Plain View</span><div data-v-efe2273c="" class="edit-icons-container flex row-reverse"><div data-v-efe2273c="" class="pl-2.5 cursor-pointer"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="removeNote" class="fa-regular fa-trash-can font-l"></i></div></div><div data-v-efe2273c="" class="pl-2.5 cursor-pointer ml-2"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="editNote" class="fa-regular fa-pen-to-square font-l"></i></div></div></div></span><span data-v-efe2273c="" class="flex flex-row text-xs text-neutral-600"><span data-v-efe2273c="" class="flex-grow">Windows Privilege Escalation</span><span data-v-efe2273c="">June 15, 2025</span></span></div><section data-v-efe2273c="" class="note-content mt-2">passwords.txt contain default passwords of different xampp components 
+
+Get-ChildItem -Path C:\Users\dave\ -Include *.txt,*.pdf,*.xls,*.xlsx,*.doc,*.docx -File -Recurse -ErrorAction SilentlyContinue
+
+found a file containng passworf for database 
+
+steve password is collected , 
+net user steve 
+
+remote deskop users 
+
+when you find another access for user login and repeat the whole process to find sensitive files every user have different permissions on file and folder</section></div><div data-v-efe2273c="" data-v-a0523401="" class="my-6 note px-4"><div data-v-efe2273c="" class="flex flex-col"><span data-v-efe2273c="" class="flex flex-row"><span data-v-efe2273c="" class="text-sm text-neutral-600 text-bold flex-grow">Hidden in Plain View</span><div data-v-efe2273c="" class="edit-icons-container flex row-reverse"><div data-v-efe2273c="" class="pl-2.5 cursor-pointer"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="removeNote" class="fa-regular fa-trash-can font-l"></i></div></div><div data-v-efe2273c="" class="pl-2.5 cursor-pointer ml-2"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="editNote" class="fa-regular fa-pen-to-square font-l"></i></div></div></div></span><span data-v-efe2273c="" class="flex flex-row text-xs text-neutral-600"><span data-v-efe2273c="" class="flex-grow">Windows Privilege Escalation</span><span data-v-efe2273c="">June 15, 2025</span></span></div><section data-v-efe2273c="" class="note-content mt-2">enumeration is cyclic , its important to grasp the concept of reevaluating new information based on access
+
+user steve can access the my.ini file 
+
+found password of mysql and the same password used in backupadmin 
+
+now again enumerate this user permission 
+
+if admin then use this user 
+
+so in our case only the users with remote desktop user can access rdp and the backupadmin is not a part of it 
+
+enable-psremoting 
+winrm quickconfig 
+so now we have password we can execute commands as this user</section></div><div data-v-efe2273c="" data-v-a0523401="" class="my-6 note px-4"><div data-v-efe2273c="" class="flex flex-col"><span data-v-efe2273c="" class="flex flex-row"><span data-v-efe2273c="" class="text-sm text-neutral-600 text-bold flex-grow">Hidden in Plain View</span><div data-v-efe2273c="" class="edit-icons-container flex row-reverse"><div data-v-efe2273c="" class="pl-2.5 cursor-pointer"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="removeNote" class="fa-regular fa-trash-can font-l"></i></div></div><div data-v-efe2273c="" class="pl-2.5 cursor-pointer ml-2"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="editNote" class="fa-regular fa-pen-to-square font-l"></i></div></div></div></span><span data-v-efe2273c="" class="flex flex-row text-xs text-neutral-600"><span data-v-efe2273c="" class="flex-grow">Windows Privilege Escalation</span><span data-v-efe2273c="">June 15, 2025</span></span></div><section data-v-efe2273c="" class="note-content mt-2">from the output its seems teh user is part of admin group 
+we can access this user via runas verb 
+runas can be used for local and domain account as logn as the user has the ability to log on to the system . 
+
+
+start-process</section></div><div data-v-efe2273c="" data-v-a0523401="" class="my-6 note px-4"><div data-v-efe2273c="" class="flex flex-col"><span data-v-efe2273c="" class="flex flex-row"><span data-v-efe2273c="" class="text-sm text-neutral-600 text-bold flex-grow">Hidden in Plain View</span><div data-v-efe2273c="" class="edit-icons-container flex row-reverse"><div data-v-efe2273c="" class="pl-2.5 cursor-pointer"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="removeNote" class="fa-regular fa-trash-can font-l"></i></div></div><div data-v-efe2273c="" class="pl-2.5 cursor-pointer ml-2"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="editNote" class="fa-regular fa-pen-to-square font-l"></i></div></div></div></span><span data-v-efe2273c="" class="flex flex-row text-xs text-neutral-600"><span data-v-efe2273c="" class="flex-grow">Windows Privilege Escalation</span><span data-v-efe2273c="">June 15, 2025</span></span></div><section data-v-efe2273c="" class="note-content mt-2">- start-process with -verb runas = UAC 
+-  runasuser = PROMPT for username and password 
+- another optoins is -credential optoinin start-process which take secure string it works in gui but not in winrm or other shell 
+- another approach is INVOKE-COMMAND 
+still i am not getting login
+
+
+Without access to a GUI we cannot use Runas since the password prompt doesn't accept our input in commonly used shells, such as our bind shell or WinRM.</section></div><div data-v-efe2273c="" data-v-a0523401="" class="my-6 note px-4"><div data-v-efe2273c="" class="flex flex-col"><span data-v-efe2273c="" class="flex flex-row"><span data-v-efe2273c="" class="text-sm text-neutral-600 text-bold flex-grow">Hidden in Plain View</span><div data-v-efe2273c="" class="edit-icons-container flex row-reverse"><div data-v-efe2273c="" class="pl-2.5 cursor-pointer"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="removeNote" class="fa-regular fa-trash-can font-l"></i></div></div><div data-v-efe2273c="" class="pl-2.5 cursor-pointer ml-2"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="editNote" class="fa-regular fa-pen-to-square font-l"></i></div></div></div></span><span data-v-efe2273c="" class="flex flex-row text-xs text-neutral-600"><span data-v-efe2273c="" class="flex-grow">Windows Privilege Escalation</span><span data-v-efe2273c="">June 15, 2025</span></span></div><section data-v-efe2273c="" class="note-content mt-2">methods to access the system as another user , 
+we can use winrm or rdp 
+if the target user has the LOG ON AS A BATCH JOB access right we can create a task schedular and run the executable as this user 
+if the target user has active ssession , we can use psexec from sysinternals 
+
+we have gui access so all the above commands disscussed except invoke-command will be working 
+using runas 
+runas /user:backupadmin cmd
+
+
+runas /user:backupadmin cmd</section></div><div data-v-efe2273c="" data-v-a0523401="" class="my-6 note px-4"><div data-v-efe2273c="" class="flex flex-col"><span data-v-efe2273c="" class="flex flex-row"><span data-v-efe2273c="" class="text-sm text-neutral-600 text-bold flex-grow">Hidden in Plain View</span><div data-v-efe2273c="" class="edit-icons-container flex row-reverse"><div data-v-efe2273c="" class="pl-2.5 cursor-pointer"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="removeNote" class="fa-regular fa-trash-can font-l"></i></div></div><div data-v-efe2273c="" class="pl-2.5 cursor-pointer ml-2"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="editNote" class="fa-regular fa-pen-to-square font-l"></i></div></div></div></span><span data-v-efe2273c="" class="flex flex-row text-xs text-neutral-600"><span data-v-efe2273c="" class="flex-grow">Windows Privilege Escalation</span><span data-v-efe2273c="">June 15, 2025</span></span></div><section data-v-efe2273c="" class="note-content mt-2">when we find passwords in configuration or text files, we should always try them for all possible users or services as passwords are often reused.</section></div><div data-v-efe2273c="" data-v-a0523401="" class="my-6 note px-4"><div data-v-efe2273c="" class="flex flex-col"><span data-v-efe2273c="" class="flex flex-row"><span data-v-efe2273c="" class="text-sm text-neutral-600 text-bold flex-grow">Hidden in Plain View</span><div data-v-efe2273c="" class="edit-icons-container flex row-reverse"><div data-v-efe2273c="" class="pl-2.5 cursor-pointer"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="removeNote" class="fa-regular fa-trash-can font-l"></i></div></div><div data-v-efe2273c="" class="pl-2.5 cursor-pointer ml-2"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="editNote" class="fa-regular fa-pen-to-square font-l"></i></div></div></div></span><span data-v-efe2273c="" class="flex flex-row text-xs text-neutral-600"><span data-v-efe2273c="" class="flex-grow">Windows Privilege Escalation</span><span data-v-efe2273c="">June 16, 2025</span></span></div><section data-v-efe2273c="" class="note-content mt-2">.pdf,.txt
+.ini
+.conf
+.xml
+.xls
+.xlsx
+.doc
+.docx
+.ps1
+.bat 
+
+these are some common files which may contian sensitive information</section></div><div data-v-efe2273c="" data-v-a0523401="" class="my-6 note px-4"><div data-v-efe2273c="" class="flex flex-col"><span data-v-efe2273c="" class="flex flex-row"><span data-v-efe2273c="" class="text-sm text-neutral-600 text-bold flex-grow">Information Goldmine PowerShell</span><div data-v-efe2273c="" class="edit-icons-container flex row-reverse"><div data-v-efe2273c="" class="pl-2.5 cursor-pointer"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="removeNote" class="fa-regular fa-trash-can font-l"></i></div></div><div data-v-efe2273c="" class="pl-2.5 cursor-pointer ml-2"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="editNote" class="fa-regular fa-pen-to-square font-l"></i></div></div></div></span><span data-v-efe2273c="" class="flex flex-row text-xs text-neutral-600"><span data-v-efe2273c="" class="flex-grow">Windows Privilege Escalation</span><span data-v-efe2273c="">June 17, 2025</span></span></div><section data-v-efe2273c="" class="note-content mt-2">$keywords = 'password|passwd|secret|token|credential|creds|SecureString'
+Get-WinEvent -LogName "Microsoft-Windows-PowerShell/Operational" -FilterXPath "*[System[(EventID=4104)]]" |
+    Where-Object { $_.Message -match $keywords } |
+    Select-Object TimeCreated, Message |
+    Format-List</section></div><div data-v-efe2273c="" data-v-a0523401="" class="my-6 note px-4"><div data-v-efe2273c="" class="flex flex-col"><span data-v-efe2273c="" class="flex flex-row"><span data-v-efe2273c="" class="text-sm text-neutral-600 text-bold flex-grow">Information Goldmine PowerShell</span><div data-v-efe2273c="" class="edit-icons-container flex row-reverse"><div data-v-efe2273c="" class="pl-2.5 cursor-pointer"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="removeNote" class="fa-regular fa-trash-can font-l"></i></div></div><div data-v-efe2273c="" class="pl-2.5 cursor-pointer ml-2"><div data-v-efe2273c="" class="v-popper v-popper--theme-tooltip"><i data-v-efe2273c="" id="editNote" class="fa-regular fa-pen-to-square font-l"></i></div></div></div></span><span data-v-efe2273c="" class="flex flex-row text-xs text-neutral-600"><span data-v-efe2273c="" class="flex-grow">Windows Privilege Escalation</span><span data-v-efe2273c="">June 17, 2025</span></span></div><section data-v-efe2273c="" class="note-content mt-2">use event id for scriptblock logging and other types of logging search for cheatsheet about event logs you will find a lot of info there</section></div></div>

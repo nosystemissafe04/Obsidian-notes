@@ -1,0 +1,58 @@
+{
+  "cascadeColors": true,
+  "colorBackground": true,
+  "palette": [
+    {
+      "id": "EcRzkAFFnGzmTZqtjXxtM",
+      "name": "",
+      "value": "#ff0000"
+    },
+    {
+      "id": "DmgTKav7CyJoMw1N7mlxI",
+      "name": "",
+      "value": "#8d2ab2"
+    },
+    {
+      "id": "HRiw5JbhKdyKu6TQ6YH_-",
+      "name": "",
+      "value": "#001eff"
+    },
+    {
+      "id": "iHJdEBo16257r69ASylEw",
+      "name": "",
+      "value": "#00ff11"
+    },
+    {
+      "id": "PnYvQAvPYJLsFJUQKX6oW",
+      "name": "",
+      "value": "#ffe11f"
+    },
+    {
+      "id": "6WJQpbWcHoovPUxv0k9dU",
+      "name": "",
+      "value": "#000000"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "TREASURE/SOURCES/COPY-OSCP",
+      "color": "EcRzkAFFnGzmTZqtjXxtM"
+    },
+    {
+      "path": "TREASURE/SOURCES/Atomic-notes",
+      "color": "DmgTKav7CyJoMw1N7mlxI"
+    },
+    {
+      "path": "OSCP-NOTES",
+      "color": "HRiw5JbhKdyKu6TQ6YH_-"
+    },
+    {
+      "path": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path",
+      "color": "iHJdEBo16257r69ASylEw"
+    },
+    {
+      "path": "TREASURE/Powershell for Infosec",
+      "color": "PnYvQAvPYJLsFJUQKX6oW"
+    }
+  ]
+}
