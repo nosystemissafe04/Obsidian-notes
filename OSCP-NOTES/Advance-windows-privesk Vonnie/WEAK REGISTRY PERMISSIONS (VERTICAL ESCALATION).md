@@ -43,4 +43,4 @@ ANOTHER VECTOR FOR PRIVESC ,<mark class="hltr-mycolor"> PSREADLINE MODULE</mark>
 > 
 > - A service that runs in the context of the LocalSystem account inherits the security context of the SCM.
 
-**CROSS CHECKING PERMISSIONS WITH ACCESSCHK**
+**CROSS CHECKING PERMISSIONS WITH ACCESSCHK (SYSINTERNALS)**
