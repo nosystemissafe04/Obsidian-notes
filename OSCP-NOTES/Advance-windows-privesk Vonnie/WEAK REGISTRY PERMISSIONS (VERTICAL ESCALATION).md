@@ -3,5 +3,6 @@
 -  **C# = the language you write in**
 - **.NET Framework = the environment that runs your C# code**
 
-WE NEEDED TO FIND THE EXACT VERSION THE TARGET HOST 
+WE NEEDED TO FIND THE EXACT VERSION OF .NETFRAMWORK THE TARGET HOST RUNS
+
 - DOWNLOADED WINPEAS FROM SHARCOLLECTION 
