@@ -54,9 +54,33 @@
               "icon": "lucide-file",
               "title": "Credentials and Remoting"
             }
+          },
+          {
+            "id": "01873f7407a00c17",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TREASURE/Powershell for Infosec/Doubts.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Doubts"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -323,10 +347,11 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "979b8e32678b760d",
+  "active": "01873f7407a00c17",
   "lastOpenFiles": [
-    "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (HORIZONTAL ESCALATION).md",
     "TREASURE/Powershell for Infosec/Credentials and Remoting.md",
+    "TREASURE/Powershell for Infosec/Doubts.md",
+    "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (HORIZONTAL ESCALATION).md",
     "payload-allthe-things-windows-priviledge-escalation.md",
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Infrastructure Based Enumeration/assets/subdomain-oneliner.sh",
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Remote Management Protocols/assets/Pasted image 20241020190639.png",
@@ -370,7 +395,6 @@
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Shells & Payloads/Shells Jack Us In, Payloads Deliver Us Shells (Introduction).md",
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Shells & Payloads/Laudanum, One Webshell to Rule Them All.md",
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Shells & Payloads/Introduction to Web Shells.md",
-    "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Shells & Payloads/Infiltrating Windows.md",
     "TREASURE/PEN-notes/PRACTICAL MALWARE ANALYSIS/Basic Static Analysis.canvas",
     "Spaces/Untitled 1.canvas",
     "Untitled.canvas",
