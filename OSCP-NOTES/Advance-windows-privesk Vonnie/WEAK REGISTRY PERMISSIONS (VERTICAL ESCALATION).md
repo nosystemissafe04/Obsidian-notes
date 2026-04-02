@@ -52,7 +52,9 @@ k = name is the registry key
 w = show only object with write access 
 s = recurse 
 u = suppress errors 
-
+```POWERSHELL
+.\accesschk.exe -kwsu HKLM_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services | findstr "HKLM"
+```
 - we are pin pointing and going deep into very selective services , so first we need to make sure we can write to those registry , we are able to write on some of them 
 
 ```powershell
