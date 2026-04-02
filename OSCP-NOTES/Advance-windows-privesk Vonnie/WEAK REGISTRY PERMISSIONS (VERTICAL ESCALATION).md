@@ -74,6 +74,9 @@ Get-ItemProperty -Path HKLM_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\* | 
 
 *THERE IS A DIFFERENCE IN WRITING TO A SERVICE AND RESTARTING A SERVICE BOTH ARE DIFFERENT AND BOTH NEED DIFFERENT PERMISSIONS, WE FOUND WHICH SERVICES WE CAN WRITE ON , ON THOSE SERVICES WHICH ONE'S ARE RUNNING AS LOCALSYSTEM AND CAN BE MANUALLY RESTARTED , BUT IT DOES NOT GIVE US THE PERMISSIONS TO START WE JUST FOUND OUT SERVICES WHICH NEEDS MANUAL START TO START THEM <mark class="hltr-mycolor">BUT IT DOES NOT SHOW US IF WE CAN START THEM OR NOT</mark> , SO TO FIDN THAT WE WILL USE A TOOL CALLED <mark class="hltr-green-flag">SC SDSHOW</mark> 
 
+> [!]
+> [found this blog which will be usefull in future ](https://decoder.cloud/2019/02/07/demystifying-windows-service-permissions-configuration/)
+
 <span style="font-size: 29px;"><strong>SC SDSHOW</strong></span>
 - Displays a service's [SECURITY DESCRIPTOR](https://learn.microsoft.com/en-us/windows/win32/secauthz/security-descriptors), using the Security Descriptor Definition Language (SDDL).
 - **Windows “sc.exe”.**  This program has a lot of options and with “**sdset**” it is possible to modifiy the security setting of a service, but you have to specify it in the cryptic SDDL ([Security Description Definition Language](https://docs.microsoft.com/it-it/windows/desktop/SecAuthZ/security-descriptor-definition-language)). The opposite command “sdshow” will list the SDDL:
