@@ -87,10 +87,12 @@ cmd \c sc sdshow wuauserv
 ![[Pasted image 20260402225936.png]]
  
 (Type;;Permissions;;;Principal)
-****
+
+**Type**
 - TYPE defines allow or deny here `A` means allow 
 
 **Permissons**
 ![[Pasted image 20260402230004.png]]
 
+**principal**
 ![[Pasted image 20260402230040.png]]
