@@ -74,7 +74,7 @@ Get-ItemProperty -Path HKLM_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\* | 
 
 *THERE IS A DIFFERENCE IN WRITING TO A SERVICE AND RESTARTING A SERVICE BOTH ARE DIFFERENT AND BOTH NEED DIFFERENT PERMISSIONS, WE FOUND WHICH SERVICES WE CAN WRITE ON , ON THOSE SERVICES WHICH ONE'S ARE RUNNING AS LOCALSYSTEM AND CAN BE MANUALLY RESTARTED , BUT IT DOES NOT GIVE US THE PERMISSIONS TO START WE JUST FOUND OUT SERVICES WHICH NEEDS MANUAL START TO START THEM <mark class="hltr-mycolor">BUT IT DOES NOT SHOW US IF WE CAN START THEM OR NOT</mark> , SO TO FIDN THAT WE WILL USE A TOOL CALLED <mark class="hltr-green-flag">SC SDSHOW</mark> 
 
-> [!]
+> [!info]
 > [found this blog which will be usefull in future ](https://decoder.cloud/2019/02/07/demystifying-windows-service-permissions-configuration/)
 
 <span style="font-size: 29px;"><strong>SC SDSHOW</strong></span>
