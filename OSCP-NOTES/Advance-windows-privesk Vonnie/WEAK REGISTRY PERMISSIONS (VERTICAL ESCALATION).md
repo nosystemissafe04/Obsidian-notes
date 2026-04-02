@@ -63,4 +63,5 @@ Get-ItemProperty -Path HKLM_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\*
 - **filter services which we can restart and runs as localsystem**
 	- the **objectname** field contains which user or account this service runs as 
 	- the **PSChildName** contains the service name 
-	- the start field contains 
+	- the **start** field contains <mark class="hltr-myblue">start-type</mark>
+	![[Pasted image 20260402182047.png]]
