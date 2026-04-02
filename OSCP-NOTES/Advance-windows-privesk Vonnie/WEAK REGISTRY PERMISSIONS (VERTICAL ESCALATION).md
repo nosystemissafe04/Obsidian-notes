@@ -76,7 +76,7 @@ Get-ItemProperty -Path HKLM_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\* | 
 
 <span style="font-size: 29px;"><strong>SC SDSHOW</strong></span>
 - Displays a service's [SECURITY DESCRIPTOR](https://learn.microsoft.com/en-us/windows/win32/secauthz/security-descriptors), using the Security Descriptor Definition Language (SDDL).
-
+- **Windows “sc.exe”.**  This program has a lot of options and with “**sdset**” it is possible to modifiy the security setting of a service, but you have to specify it in the cryptic SDDL ([Security Description Definition Language](https://docs.microsoft.com/it-it/windows/desktop/SecAuthZ/security-descriptor-definition-language)). The opposite command “sdshow” will list the SDDL:
 ```CMD
 cmd \c sc sdshow wuauserv
 ```
