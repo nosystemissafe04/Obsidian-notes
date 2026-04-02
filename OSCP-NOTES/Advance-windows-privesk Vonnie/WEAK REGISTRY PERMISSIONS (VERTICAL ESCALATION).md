@@ -96,3 +96,4 @@ cmd \c sc sdshow wuauserv
 
 **principal**
 ![[Pasted image 20260402230040.png]]
+
