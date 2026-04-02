@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "security/docs/attacking_active_directory_domain/active_directory_privilege_escalation/misconfigured_access_control_lists.md",
+                "file": "TREASURE/SOURCES/COPY-OSCP/17. Windows Privilege Escalation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "misconfigured_access_control_lists"
+              "title": "17. Windows Privilege Escalation"
             }
           }
         ]
@@ -133,7 +133,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 370.5
+    "width": 370.5,
+    "collapsed": true
   },
   "right": {
     "id": "5689001c4553b175",
@@ -297,8 +298,9 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "9fe5df7679baec76",
+  "active": "32222b6192c07747",
   "lastOpenFiles": [
+    "security/docs/attacking_active_directory_domain/active_directory_privilege_escalation/misconfigured_access_control_lists.md",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION).md",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/assets/Pasted image 20260402182047.png",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/assets/Pasted image 20260402031303.png",
