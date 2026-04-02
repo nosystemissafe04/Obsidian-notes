@@ -78,6 +78,7 @@ Get-ItemProperty -Path HKLM_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\* | 
 - Displays a service's [SECURITY DESCRIPTOR](https://learn.microsoft.com/en-us/windows/win32/secauthz/security-descriptors), using the Security Descriptor Definition Language (SDDL).
 
 ```CMD
-CMD \C
+cmd \c sc sdshow wuauserv
 ```
+
 (Type;;Permissions;;;Principal)
