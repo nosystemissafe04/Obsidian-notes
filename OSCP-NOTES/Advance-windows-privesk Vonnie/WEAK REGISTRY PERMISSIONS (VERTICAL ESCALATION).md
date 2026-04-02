@@ -1,3 +1,6 @@
+---
+aliases:
+---
 ### SHARPCOLLECTION 
 - PRE-COMPILED C# OFFENSIVE TOOLS AND BINARY FOR DIFFERENT ARCHITECTURE HOSTS
 -  **C# = the language you write in**
