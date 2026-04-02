@@ -85,8 +85,10 @@ cmd \c sc sdshow wuauserv
 ```
 
 ![[Pasted image 20260402225936.png]]
-- granting access means `A`
+ 
 (Type;;Permissions;;;Principal)
+****
+- TYPE defines allow or deny here `A` means allow 
 
 **Permissons**
 ![[Pasted image 20260402230004.png]]
