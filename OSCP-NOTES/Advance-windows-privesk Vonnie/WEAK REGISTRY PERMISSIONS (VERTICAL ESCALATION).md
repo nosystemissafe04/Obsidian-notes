@@ -60,6 +60,4 @@ Get-ItemProperty -Path HKLM_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\*
 ```
 <mark class="hltr-myblue">this will show us all the properties of every object in the services path</mark> 
 
-
-
-we will only get services which runs as localsystem and that we can restart 
+- filter services which we can restart and runs as localsystem 
