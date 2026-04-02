@@ -71,3 +71,5 @@ Get-ItemProperty -Path HKLM_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\*
 ```powershell
 Get-ItemProperty -Path HKLM_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\* | where-object { ($_.objectname -eq 'LocalSystem') -and ($_.start -eq '3')}
 ```
+
+*THERE IS A DIFFERENCE IN WRITING TO A SERVICE AND RESTARTING A SERVICE BOTH ARE DIFFERENT , WE FOUND WHICH SERVICES WE CAN WRITE ON , ON THOSE SERVICES WHICH ONE'S ARE RUNNING AS LOCALSYSTEM AND *
