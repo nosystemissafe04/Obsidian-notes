@@ -83,5 +83,6 @@ Get-ItemProperty -Path HKLM_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\* | 
 ```CMD
 cmd \c sc sdshow wuauserv
 ```
-
+![[Pasted image 20260402225936.png]]
 (Type;;Permissions;;;Principal)
+![[Pasted image 20260402230004.png]]
