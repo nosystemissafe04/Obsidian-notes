@@ -65,3 +65,7 @@ Get-ItemProperty -Path HKLM_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\*
 	- the **PSChildName** contains the service name 
 	- the **start** field contains <mark class="hltr-myblue">start-type</mark> , so we need 3 which is manually started 
 	![[Pasted image 20260402182047.png]]
+
+```powershell
+Get-ItemProperty -Path HKLM_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\* |
+```
