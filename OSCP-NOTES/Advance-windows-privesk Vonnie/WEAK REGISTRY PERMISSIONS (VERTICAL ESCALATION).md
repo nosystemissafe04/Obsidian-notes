@@ -67,5 +67,5 @@ Get-ItemProperty -Path HKLM_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\*
 	![[Pasted image 20260402182047.png]]
 
 ```powershell
-Get-ItemProperty -Path HKLM_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\* |
+Get-ItemProperty -Path HKLM_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\* | where-object { ($_.objectname -eq 'LocalSystem') -}
 ```
