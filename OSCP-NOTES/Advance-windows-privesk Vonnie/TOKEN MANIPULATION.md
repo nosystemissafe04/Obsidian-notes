@@ -105,5 +105,7 @@ here -o means options with comma seperated , and `\\\\` there is only two backsl
 **USING TREE IN THE MOUNTED SMB SHARE**
 WE WILL BE INCREASEING AND DECREASING THE LEVEL OF DEPTH IN SEARCHING THROUGH DIRECTORIES WITH `-L`
 
+```SHELL
+tree -L 2 
 ```
-```
+
