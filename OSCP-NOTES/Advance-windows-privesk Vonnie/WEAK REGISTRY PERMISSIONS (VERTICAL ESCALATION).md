@@ -132,5 +132,7 @@ THESE ARE SOME DIRECTORIES ARE PERMITTED BY APPLOCKER, THESE ARE ALLOWED
 
 ![[Pasted image 20260403183213.png]]
 
-**NAMEING NETCAT **
+**NAMEING NETCAT TO IEXPLORE.EXE**
+- iexplore.exe is the name of the process for internet explorer in microsoft
 
+ALSO HELPS 
