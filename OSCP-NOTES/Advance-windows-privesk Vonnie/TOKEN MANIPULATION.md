@@ -150,5 +150,10 @@ RECONFIGURE
 ```
 
 ```SQL
-sp_configure ''
+sp_configure 'xp_cmdshell',1
+reconfigure
+```
+
+```sql
+xp_cmdshell 'whoami /priv'
 ```
