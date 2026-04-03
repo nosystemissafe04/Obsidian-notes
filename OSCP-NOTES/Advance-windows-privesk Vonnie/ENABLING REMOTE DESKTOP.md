@@ -11,3 +11,5 @@ REG ADD "HKLM\SYSTEM\CurrentControlSet\Control\Terminal Server" /v "fDenyTSConne
 ```cmd
 call netsh firewall add portopening protocol=tcp port=3389 name=RemoteDesktop_TCP3389
 ```
+
+#### PERSISTANCE 
