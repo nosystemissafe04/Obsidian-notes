@@ -78,3 +78,9 @@ nxc smb <targetip> -u '<username>' -p '<password>' --users
 ```shell
 nxc smb <targetip> -u '<username>' -p '<password>' --groups
 ```
+
+**SMBMAP**
+
+```SHELL
+sudo smbmap -u 'finanace' -p 'password' -H <target-ip->
+```
