@@ -14,3 +14,6 @@ locate sharepoint
 sudo find / -iname "*sharepoint*" -type f -exec wc -l {} + 2>/dev/null
 ```
 
+
+> [!NOTE] fact
+> Contents
