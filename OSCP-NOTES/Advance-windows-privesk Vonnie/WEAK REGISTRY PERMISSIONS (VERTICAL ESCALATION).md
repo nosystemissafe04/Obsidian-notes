@@ -101,4 +101,5 @@ cmd \c sc sdshow wuauserv
 foreach($service in $inhackable.PSChildName){ $sddl=(cmd \c sc sdshow $service); if($sddl -match "someregex"){$service}}
 ```
 
-- when preparing regex we can use 
+- when preparing regex we can use https://regexr.com
+- 
