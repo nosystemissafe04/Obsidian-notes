@@ -109,18 +109,22 @@ WE WILL BE INCREASEING AND DECREASING THE LEVEL OF DEPTH IN SEARCHING THROUGH DI
 tree -L 2 
 ```
 
-<span style='font-size :4'>**LIGHT REVERSE ENGINEERING BINARY**
+<span style='font-size :30px;'><strong>LIGHT REVERSE ENGINEERING BINARY</strong></span>
+
 REMEMBER IN OSCP IT IS ADVANCE STUFF , <mark class="hltr-green-flag">SO ONLY STRINGS AND GREPPING THROUGH BINARY FILE IS ENOUGH</mark> , IF WE DONT FIND ANYTHING MOVE ON , 
 FIRST WE ARE TESTER THEN WE ARE HACKER 
 
+**file**
 ```shell
 file <binary>
 ```
 
+**strings**
 ```SHELL
 strings <binary>-n 10 #the lines are atleast 10 chars long
 ```
 
+grep\
 ```shell
 sudo grep --color=always -inaE 'pwd|pass|cred|key' <binary>
 ```
