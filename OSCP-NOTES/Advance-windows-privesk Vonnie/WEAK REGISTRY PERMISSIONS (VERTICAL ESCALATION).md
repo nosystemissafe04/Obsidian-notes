@@ -94,6 +94,6 @@ cmd \c sc sdshow wuauserv
 **Permissons**
 ![[Pasted image 20260402230004.png]]
 
-**principal**
+**Principal**
 ![[Pasted image 20260402230040.png]]
 
