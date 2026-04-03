@@ -109,6 +109,6 @@ foreach($service in $ishackable.PSChildName){ $sddl=(cmd \c sc sdshow $service);
 
 $ishackable=Get-ItemProperty -Path HKLM_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\* | where-object { ($_.objectname -eq 'LocalSystem') -and ($_.start -eq '3')}
 
-$canstart=foreach($service in $ishackable.PSChildName){ $sddl=(cmd \c sc sdshow $service); if($sddl -match "RP[A]"){$service}}
+$canstart=foreach($service in $ishackable.PSChildName){ $sddl=(cmd \c sc sdshow $service); if($sddl -match "RP[A-Z]*?;;;AU"){$service}}
 
 ```
