@@ -139,4 +139,5 @@ r2 <binary>
 > pdf
 ```
 
-**debeaver**
+**dbeaver**
+SQL SERVER MANAGEMENT STUDIO WHICH WE CAN USE 
