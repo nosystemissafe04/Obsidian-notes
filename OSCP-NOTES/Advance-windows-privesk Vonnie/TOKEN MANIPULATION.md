@@ -123,5 +123,5 @@ strings
 ```SHELL
 radare <binary>
 > aaaa
-> afl
+> afl #list all functions
 ```
