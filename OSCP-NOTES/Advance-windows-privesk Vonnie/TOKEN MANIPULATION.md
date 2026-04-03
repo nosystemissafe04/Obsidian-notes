@@ -118,9 +118,12 @@ file <binary>
 ```
 
 ```SHELL
-strings 
+strings <binary>-n 10 #the lines are atleast 10 chars long
 ```
 
+```shell
+sudo grep --color=always -ina
+```
 **radare**
 ```SHELL
 r2 <binary>
