@@ -145,5 +145,10 @@ SQL SERVER MANAGEMENT STUDIO WHICH WE CAN USE FOR DIFFERENT FLAVOURS
 
 **ENABLING COMMAND EXECUTION IN SQL**
 ```SQL
-sp_configure 'show advanced options' 1
+sp_configure 'show advanced options',1
+RECONFIGURE
+```
+
+```SQL
+sp_configure ''
 ```
