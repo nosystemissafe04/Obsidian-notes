@@ -17,3 +17,9 @@ sudo find / -iname "*sharepoint*" -type f -exec wc -l {} + 2>/dev/null
 
 > [!info] fact
 > .docx files are zip files 
+
+**grepping through dir-busting-results**
+
+```shell
+sudo grep --color =always -ni 'doc' t
+```
