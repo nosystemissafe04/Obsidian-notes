@@ -15,5 +15,5 @@ sudo find / -iname "*sharepoint*" -type f -exec wc -l {} + 2>/dev/null
 ```
 
 
-> [!NOTE] fact
-> Contents
+> [!info] fact
+> .docx files are zip files 
