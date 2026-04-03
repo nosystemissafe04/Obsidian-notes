@@ -45,4 +45,9 @@ tree -h
 
 FOUND KEEPASS DATABASE 
 
-**CRACKING KEEPASS**
+**CRACKING KEEPASS DATABASE FILE WITH HASHCAT**
+
+```SHELL
+keepass2john <hash.kdbx>a
+
+```
