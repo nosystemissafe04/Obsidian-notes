@@ -53,5 +53,6 @@ keepass2john <hash.kdbx>
 
 ```shell
 hashcat --example-hashes | grep -i keepass -B 1
-hashcat 
 ```
+
+ALWAYS PAY ATTENTION TO THE FORMAT HASHCAT REQUIRED , WHEN  
