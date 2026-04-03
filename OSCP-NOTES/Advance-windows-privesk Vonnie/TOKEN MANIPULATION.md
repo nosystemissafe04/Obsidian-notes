@@ -19,7 +19,7 @@ sudo find / -iname "*sharepoint*" -type f -exec wc -l {} + 2>/dev/null
 > .docx files are zip files 
 
 **grepping through dir-busting-results**
-
+- chaining grep commands 
 ```shell
-sudo grep --color =always -ni 'doc' t
+sudo grep --color =always -ni 'doc' tally.gobuster | grep 200
 ```
