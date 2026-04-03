@@ -38,7 +38,8 @@ sudo wget --mirror --user=<username> --password=<'password'> ftp://<target-host>
 > - mount remote ftp host as local directory  
 
 **USING <mark class="hltr-green-flag">TREE</mark> COMMAND TO INTERACT WITH THE FTP SERVER MIRRORED FILES**
-
+- -h for human readable files size , and <mark class="hltr-myblue">configure depth</mark> 
 ```SHELL
-
+tree -h 
 ```
+	
