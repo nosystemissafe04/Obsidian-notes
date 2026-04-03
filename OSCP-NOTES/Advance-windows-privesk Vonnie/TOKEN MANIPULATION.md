@@ -43,3 +43,6 @@ sudo wget --mirror --user=<username> --password=<'password'> ftp://<target-host>
 tree -h 
 ```
 
+FOUND KEEPASS DATABASE 
+
+**CRACKING KEEPASS**
