@@ -102,4 +102,4 @@ foreach($service in $inhackable.PSChildName){ $sddl=(cmd \c sc sdshow $service);
 ```
 
 - when preparing regex we can use https://regexr.com
-- 
+![[Pasted image 20260403155826.png]]
