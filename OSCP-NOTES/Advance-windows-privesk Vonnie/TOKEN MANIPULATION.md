@@ -98,5 +98,6 @@ sudo smbmap -u 'finanace' -p 'password' -H <target-ip-OR-hostname> -r <sharename
 **MOUNTING SMB SHARE ON LOCAL FILESYSTEM**
 
 ```SHELL
-sudo mount -t cifs -o username=<username>,password=<password> 
+sudo mount -t cifs -o username=<username>,password=<password> \\\\<targetip>\\<sharename> path-to-mount-on
 ```
+here -o means options with comma seperated , and `\\\\` there is only two 
