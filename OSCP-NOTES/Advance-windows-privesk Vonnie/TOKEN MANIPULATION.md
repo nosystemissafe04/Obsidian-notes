@@ -9,6 +9,8 @@ SIMILAR TO EXPLOIT-DB or ALTERNATIVE TO EXPLOIT-DB
 locate sharepoint
 ```
 
+- most number of lines in the file and picking that one 
 ```shell
-sudo find / -iname "*sharepoint*" -type f -exec wc -l {} + 
+sudo find / -iname "*sharepoint*" -type f -exec wc -l {} + 2>/dev/null
 ```
+
