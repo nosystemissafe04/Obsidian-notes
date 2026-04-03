@@ -139,8 +139,9 @@ r2 <binary>
 > pdf
 ```
 
-##### **SQL dbeaver**
+##### **SQL 
 
+**dbeaver**
 SQL SERVER MANAGEMENT STUDIO WHICH WE CAN USE FOR DIFFERENT FLAVOURS 
 
 **ENABLING COMMAND EXECUTION IN SQL**
@@ -157,3 +158,6 @@ reconfigure
 ```sql
 xp_cmdshell 'whoami /priv'
 ```
+
+**sqsh**
+sqlshell 
