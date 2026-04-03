@@ -120,8 +120,12 @@ file <binary>
 ```SHELL
 strings 
 ```
+
+**radare**
 ```SHELL
-radare <binary>
+r2 <binary>
 > aaaa
 > afl #list all functions
+> s main
+> pdf
 ```
