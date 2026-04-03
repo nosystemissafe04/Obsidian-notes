@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "ENABLING REMOTE DESKTOP",
+      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/ENABLING REMOTE DESKTOP.md"
+    },
+    {
       "basename": "WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION)",
       "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION).md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "19. Port Redirection and SSH Tunneling",
       "path": "TREASURE/SOURCES/COPY-OSCP/19. Port Redirection and SSH Tunneling.md"
-    },
-    {
-      "basename": "18. Linux Privilege Escalation",
-      "path": "TREASURE/SOURCES/COPY-OSCP/18. Linux Privilege Escalation.md"
     }
   ],
   "omittedPaths": [],
