@@ -112,3 +112,5 @@ $ishackable=Get-ItemProperty -Path HKLM_LOCAL_MACHINE\SYSTEM\CurrentControlSet\S
 $canstart=foreach($service in $ishackable.PSChildName){ $sddl=(cmd \c sc sdshow $service); if($sddl -match "RP[A-Z]*?;;;AU"){$service}}
 
 ```
+
+NOW WITH THIS SCRIPT WE KNOW WHI
