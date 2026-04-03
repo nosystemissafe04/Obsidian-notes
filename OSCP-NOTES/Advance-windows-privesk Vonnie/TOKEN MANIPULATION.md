@@ -100,4 +100,4 @@ sudo smbmap -u 'finanace' -p 'password' -H <target-ip-OR-hostname> -r <sharename
 ```SHELL
 sudo mount -t cifs -o username=<username>,password=<password> \\\\<targetip>\\<sharename> path-to-mount-on
 ```
-here -o means options with comma seperated , and `\\\\` there is only two 
+here -o means options with comma seperated , and `\\\\` there is only two backslashes required but another 2 is being added for escaping the backslash , we are on shell so it interprets them 
