@@ -48,6 +48,9 @@ FOUND KEEPASS DATABASE
 **CRACKING KEEPASS DATABASE FILE WITH HASHCAT**
 
 ```SHELL
-keepass2john <hash.kdbx>a
+keepass2john <hash.kdbx>
+```
 
+```shell
+hashcat --example-hashes | grep -i 
 ```
