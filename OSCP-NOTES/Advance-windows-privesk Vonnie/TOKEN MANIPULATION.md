@@ -98,5 +98,5 @@ sudo smbmap -u 'finanace' -p 'password' -H <target-ip-OR-hostname> -r <sharename
 **MOUNTING SMB SHARE ON LOCAL FILESYSTEM**
 
 ```SHELL
-mou
+mount -t cifs -u
 ```
