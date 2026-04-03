@@ -113,4 +113,4 @@ $canstart=foreach($service in $ishackable.PSChildName){ $sddl=(cmd \c sc sdshow 
 
 ```
 
-NOW WITH THIS SCRIPT WE KNOW WHICH SERVICE ARE 
+NOW WITH THIS SCRIPT WE KNOW WHICH SERVICE ARE RUN BY LO
