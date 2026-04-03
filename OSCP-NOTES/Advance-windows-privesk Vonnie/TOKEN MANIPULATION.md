@@ -124,7 +124,7 @@ file <binary>
 strings <binary>-n 10 #the lines are atleast 10 chars long
 ```
 
-grep\
+**grep**
 ```shell
 sudo grep --color=always -inaE 'pwd|pass|cred|key' <binary>
 ```
