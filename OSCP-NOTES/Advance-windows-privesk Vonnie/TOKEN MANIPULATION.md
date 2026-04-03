@@ -68,5 +68,13 @@ FOUND CREDENTIAL TO ACCESS AN SMB SHARE IN KEEPASS DATABASE
 **NETEXEC**
 
 ```SHELL
-nxc smb <targetip> -u 
+nxc smb <targetip> -u '<username>' -p '<password>' --shares 
+```
+
+```shell
+nxc smb <targetip> -u '<username>' -p '<password>' --users
+```
+
+```shell
+nxc smb <targetip> -u '<username>' -p '<password>' --groups
 ```
