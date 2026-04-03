@@ -103,4 +103,7 @@ sudo mount -t cifs -o username=<username>,password=<password> \\\\<targetip>\\<s
 here -o means options with comma seperated , and `\\\\` there is only two backslashes required but another 2 is being added for escaping the backslash , we are on shell so it interprets them 
 
 **USING TREE IN THE MOUNTED SMB SHARE**
-WE WILL BE INCREASEING AND DECREASING THE LEVEL OF DEP
+WE WILL BE INCREASEING AND DECREASING THE LEVEL OF DEPTH IN SEARCHING THROUGH DIRECTORIES WITH `-L`
+
+```
+```
