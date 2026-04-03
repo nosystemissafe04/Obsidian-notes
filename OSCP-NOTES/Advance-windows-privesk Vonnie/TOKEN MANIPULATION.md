@@ -24,3 +24,6 @@ sudo find / -iname "*sharepoint*" -type f -exec wc -l {} + 2>/dev/null
 sudo grep --color =always -ni 'doc' tally.gobuster | grep 200
 ```
 
+IF THERE IS WORKGROUP INFO AND HOSTNAME THEY BOTHS CAN COMBINE TO MAKE A FQDN IT MAY NOT WORK BUT STILL ITS A VALUEABLE INFO 
+
+**USING WGET TO MIRROR THE WHOLE FOLDER AND FILES OF FTP SERVER **
