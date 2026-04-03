@@ -164,5 +164,5 @@ sqlshell is a command linux to interact with sql
 we need the same command in sql to enable command execution 
 
 ```shell
-sqsh -u <username> 
+sudo sqsh -U <username> -P <password> -S <TARGET-IP-OR-HOSTNAME>
 ```
