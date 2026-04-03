@@ -23,3 +23,4 @@ sudo find / -iname "*sharepoint*" -type f -exec wc -l {} + 2>/dev/null
 ```shell
 sudo grep --color =always -ni 'doc' tally.gobuster | grep 200
 ```
+
