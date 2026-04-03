@@ -122,8 +122,10 @@ strings <binary>-n 10 #the lines are atleast 10 chars long
 ```
 
 ```shell
-sudo grep --color=always -ina
+sudo grep --color=always -inaE 'pwd|pass|cred|key' <binary>
 ```
+`a` treat binary like text `E` regular expression
+
 **radare**
 ```SHELL
 r2 <binary>
