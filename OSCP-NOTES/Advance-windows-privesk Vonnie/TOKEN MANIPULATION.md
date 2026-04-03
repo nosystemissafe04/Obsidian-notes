@@ -32,6 +32,8 @@ IF THERE IS WORKGROUP INFO AND HOSTNAME THEY BOTHS CAN COMBINE TO MAKE A FQDN IT
 sudo wget --mirror --user=<username> --password=<'password'> ftp://<target-host>
 ```
 
-**ANOTHER TOOL CURLFTPFS**
+> [!info]
+> **ANOTHER TOOL FOR FTP INTERACTION <mark class="hltr-myblue">CURLFTPFS</mark>**
+> 
+> - mount remote ftp host as local directory  
 
-- mount remote ftp host as local directory  
