@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/Advance-windows-privesk Vonnie/ENABLING REMOTE DESKTOP.md",
+                "file": "OSCP-NOTES/Advance-windows-privesk Vonnie/TOKEN MANIPULATION.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ENABLING REMOTE DESKTOP"
+              "title": "TOKEN MANIPULATION"
             }
           }
         ]
@@ -133,8 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 370.5,
-    "collapsed": true
+    "width": 370.5
   },
   "right": {
     "id": "5689001c4553b175",
@@ -300,8 +299,9 @@
   },
   "active": "32222b6192c07747",
   "lastOpenFiles": [
-    "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION).md",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/ENABLING REMOTE DESKTOP.md",
+    "OSCP-NOTES/Advance-windows-privesk Vonnie/TOKEN MANIPULATION.md",
+    "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION).md",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/assets/Pasted image 20260403183213.png",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/assets/Pasted image 20260403155826.png",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (HORIZONTAL ESCALATION).md",
@@ -343,7 +343,6 @@
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Host Based Enumeration/MySQL.md",
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Host Based Enumeration/MSSQL.md",
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Host Based Enumeration/IPMI.md",
-    "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Host Based Enumeration/IMAP & POP3.md",
     "TREASURE/PEN-notes/cheatsheets/assets/davechild_regular-expressions.pdf",
     "TREASURE/PEN-notes/cheatsheets/assets/Sed & awk 101Hacks  .pdf",
     "TREASURE/PEN-notes/PRACTICAL MALWARE ANALYSIS/Basic Static Analysis.canvas",

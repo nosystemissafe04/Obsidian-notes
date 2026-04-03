@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "TOKEN MANIPULATION",
+      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/TOKEN MANIPULATION.md"
+    },
+    {
       "basename": "ENABLING REMOTE DESKTOP",
       "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/ENABLING REMOTE DESKTOP.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "attacking common service Easy",
       "path": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Skill Asessments/attacking common service Easy.md"
-    },
-    {
-      "basename": "19. Port Redirection and SSH Tunneling",
-      "path": "TREASURE/SOURCES/COPY-OSCP/19. Port Redirection and SSH Tunneling.md"
     }
   ],
   "omittedPaths": [],
