@@ -1,2 +1,2 @@
 https://sploitus.com
-SIMILAR TO EXPLOIT
+SIMILAR TO EXPLOIT-DB
