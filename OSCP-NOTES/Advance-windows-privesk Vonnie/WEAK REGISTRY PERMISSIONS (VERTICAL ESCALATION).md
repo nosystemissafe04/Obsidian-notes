@@ -69,7 +69,7 @@ Get-ItemProperty -Path HKLM_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\*
 	![[Pasted image 20260402182047.png]]
 
 ```powershell
-Get-ItemProperty -Path HKLM_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\* | where-object { ($_.objectname -eq 'LocalSystem') -and ($_.start -eq '3')}
+Get-ItemProperty -Path HKLM:\SYSTEM\CurrentControlSet\Services\* | where-object { ($_.objectname -eq 'LocalSystem') -and ($_.start -eq '3')}
 ```
 
 *THERE IS A DIFFERENCE IN WRITING TO A SERVICE AND RESTARTING A SERVICE BOTH ARE DIFFERENT AND BOTH NEED DIFFERENT PERMISSIONS, WE FOUND WHICH SERVICES WE CAN WRITE ON , ON THOSE SERVICES WHICH ONE'S ARE RUNNING AS LOCALSYSTEM AND CAN BE MANUALLY RESTARTED , BUT IT DOES NOT GIVE US THE PERMISSIONS TO START WE JUST FOUND OUT SERVICES WHICH NEEDS MANUAL START TO START THEM <mark class="hltr-mycolor">BUT IT DOES NOT SHOW US IF WE CAN START THEM OR NOT</mark> , SO TO FIDN THAT WE WILL USE A TOOL CALLED <mark class="hltr-green-flag">SC SDSHOW</mark> 
@@ -98,7 +98,7 @@ cmd \c sc sdshow wuauserv
 ![[Pasted image 20260402230040.png]]
 
 ```powershell
-foreach($service in $ishackable.PSChildName){ $sddl=(cmd \c sc sdshow $service); if($sddl -match "someregex"){$service}}
+foreach($service in $ishackable.PSChildName){ $sddl=(cmd /c sc sdshow $service); if($sddl -match "someregex"){$service}}
 ```
 
 - when preparing regex we can use https://regexr.com
@@ -107,7 +107,7 @@ foreach($service in $ishackable.PSChildName){ $sddl=(cmd \c sc sdshow $service);
 - the full script would be 
 ```powershell
 
-$ishackable=Get-ItemProperty -Path HKLM_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\* | where-object { ($_.objectname -eq 'LocalSystem') -and ($_.start -eq '3')}
+$ishackable=Get-ItemProperty -Path HKLM:\SYSTEM\CurrentControlSet\Services\* | where-object { ($_.objectname -eq 'LocalSystem') -and ($_.start -eq '3')}
 
 $canstart=foreach($service in $ishackable.PSChildName){ $sddl=(cmd /c sc sdshow $service); if($sddl -match "RP[A-Z]*?;;;AU"){$service}}
 
