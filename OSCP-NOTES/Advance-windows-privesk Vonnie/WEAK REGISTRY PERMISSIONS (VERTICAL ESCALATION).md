@@ -98,5 +98,5 @@ cmd \c sc sdshow wuauserv
 ![[Pasted image 20260402230040.png]]
 
 ```powershell
-foreach($service in $inhackable.PSChildName){ $sddl=cmd \c sc sdshow $service}
+foreach($service in $inhackable.PSChildName){ $sddl=(cmd \c sc sdshow $service); if($sddl -match)}
 ```
