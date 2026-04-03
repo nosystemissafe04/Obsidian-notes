@@ -52,5 +52,6 @@ keepass2john <hash.kdbx>
 ```
 
 ```shell
-hashcat --example-hashes | grep -i 
+hashcat --example-hashes | grep -i keepass -B 1
+hashcat 
 ```
