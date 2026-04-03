@@ -183,3 +183,4 @@ go
 xp_cmdshell 'whoami /priv'
 go
 ```
+  
