@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "WEAK REGISTRY",
+      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY.md"
+    },
+    {
+      "basename": "KERNEL EXPLOIT",
+      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/KERNEL EXPLOIT.md"
+    },
+    {
+      "basename": "WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION)",
+      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION).md"
+    },
+    {
+      "basename": "WEAK REGISTRY PERMISSIONS (HORIZONTAL ESCALATION)",
+      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (HORIZONTAL ESCALATION).md"
+    },
+    {
       "basename": "TOKEN MANIPULATION (VERTICAL ESCALATION)",
       "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/TOKEN MANIPULATION (VERTICAL ESCALATION).md"
     },
@@ -11,14 +27,6 @@
     {
       "basename": "ENABLING REMOTE DESKTOP",
       "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/ENABLING REMOTE DESKTOP.md"
-    },
-    {
-      "basename": "WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION)",
-      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION).md"
-    },
-    {
-      "basename": "WEAK REGISTRY PERMISSIONS (HORIZONTAL ESCALATION)",
-      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (HORIZONTAL ESCALATION).md"
     },
     {
       "basename": "misconfigured_access_control_lists",
@@ -63,14 +71,6 @@
     {
       "basename": "Powershell Core",
       "path": "TREASURE/Powershell for Infosec/Powershell Core.md"
-    },
-    {
-      "basename": "WEAK REGISTRY",
-      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY.md"
-    },
-    {
-      "basename": "KERNEL EXPLOIT",
-      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/KERNEL EXPLOIT.md"
     },
     {
       "basename": "Active directory Enumeration",
