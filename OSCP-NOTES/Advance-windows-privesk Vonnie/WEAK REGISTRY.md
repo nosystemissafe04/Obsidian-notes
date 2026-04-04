@@ -1,3 +1,4 @@
+R
 - always scan from port 0 to 65535 like this -p0-65535 in nmap scans , port 0 can also be used in some ctf environment 
 
 - copyright date can also reveal the date of creation and help in finding public exploits 
