@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "TOKEN MANIPULATION (VERTICAL ESCALATION)",
+      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/TOKEN MANIPULATION (VERTICAL ESCALATION).md"
+    },
+    {
       "basename": "TOKEN MANIPULATION",
       "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/TOKEN MANIPULATION.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "passwords_in_active_directory_attribute",
       "path": "security/docs/attacking_cloud_environment/attacking_azure/passwords_in_active_directory_attribute.md"
-    },
-    {
-      "basename": "attacking common service Easy",
-      "path": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Skill Asessments/attacking common service Easy.md"
     }
   ],
   "omittedPaths": [],

