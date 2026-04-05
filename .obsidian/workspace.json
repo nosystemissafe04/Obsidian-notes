@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY.md",
+                "file": "OSCP-NOTES/SQLi/Untitled.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "WEAK REGISTRY"
+              "title": "Untitled"
             }
           }
         ]
@@ -296,9 +296,11 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "9fe5df7679baec76",
+  "active": "32222b6192c07747",
   "lastOpenFiles": [
-    "OSCP-NOTES/Untitled",
+    "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY.md",
+    "OSCP-NOTES/SQLi/Untitled.md",
+    "OSCP-NOTES/SQLi",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/KERNEL EXPLOIT.md",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION).md",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (HORIZONTAL ESCALATION).md",
@@ -341,9 +343,7 @@
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Host Based Enumeration/SMTP.md",
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Host Based Enumeration/SMB.md",
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Host Based Enumeration/Oracle TNS.md",
-    "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Host Based Enumeration/NFS.md",
     "TREASURE/PEN-notes/cheatsheets/assets/davechild_regular-expressions.pdf",
-    "TREASURE/PEN-notes/cheatsheets/assets/Sed & awk 101Hacks  .pdf",
     "TREASURE/PEN-notes/PRACTICAL MALWARE ANALYSIS/Basic Static Analysis.canvas",
     "Spaces/Untitled 1.canvas",
     "Untitled.canvas",

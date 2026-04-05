@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "OSCP-NOTES/SQLi/Untitled.md"
+    },
+    {
       "basename": "WEAK REGISTRY",
       "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "TUNNELING AND PORT FORWORDING",
       "path": "OSCP-NOTES/TUNNELING AND PORT FORWORDING.md"
-    },
-    {
-      "basename": "passwords_in_active_directory_attribute",
-      "path": "security/docs/attacking_cloud_environment/attacking_azure/passwords_in_active_directory_attribute.md"
     }
   ],
   "omittedPaths": [],
