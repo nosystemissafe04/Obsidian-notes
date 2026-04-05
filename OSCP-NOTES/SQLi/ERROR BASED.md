@@ -2,4 +2,6 @@
 
 #### FINDING TABLE NAME IN MSSQL 
 
-**HAVING 1=1**
+**'HAVING 1=1--**
+
+![[Pasted image 20260406044741.png]]
