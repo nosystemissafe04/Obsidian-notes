@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/SQLi/Untitled.md",
+                "file": "OSCP-NOTES/SQLi/ERROR BASED.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "ERROR BASED"
             }
           }
         ]
@@ -296,10 +296,10 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "32222b6192c07747",
+  "active": "9fe5df7679baec76",
   "lastOpenFiles": [
     "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY.md",
-    "OSCP-NOTES/SQLi/Untitled.md",
+    "OSCP-NOTES/SQLi/ERROR BASED.md",
     "OSCP-NOTES/SQLi",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/KERNEL EXPLOIT.md",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION).md",
