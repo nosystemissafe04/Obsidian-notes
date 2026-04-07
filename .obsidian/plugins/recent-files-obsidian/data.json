@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "TERMINAL HISTORY",
+      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/TERMINAL HISTORY.md"
+    },
+    {
       "basename": "ERROR BASED",
       "path": "OSCP-NOTES/SQLi/ERROR BASED.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "manual recon on users and groups in non ad environment",
       "path": "TREASURE/Powershell for Infosec/manual recon on users and groups in non ad environment.md"
-    },
-    {
-      "basename": "TUNNELING AND PORT FORWORDING",
-      "path": "OSCP-NOTES/TUNNELING AND PORT FORWORDING.md"
     }
   ],
   "omittedPaths": [],
