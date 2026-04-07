@@ -11,3 +11,8 @@ reg query HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU
 ```
 
 **FOLDERPATH FOR DIFFERENT THINGS **
+
+```POWERSHELL
+reg query HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer
+```
+
