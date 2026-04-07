@@ -16,3 +16,9 @@ reg query HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU
 reg query HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer
 ```
 
+#### Saved Credentials
+
+```powershell
+cmdkey /list
+```
+
