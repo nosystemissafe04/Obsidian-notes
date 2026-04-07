@@ -6,3 +6,7 @@
 
 ![[Pasted image 20260406044741.png]]
 
+**GETTING NTLM HASH WITH STACKED SQLi QUERY**
+
+```
+```
