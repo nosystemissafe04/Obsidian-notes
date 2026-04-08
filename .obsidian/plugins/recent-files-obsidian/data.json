@@ -195,10 +195,6 @@
     {
       "basename": "TOKEN IMPERSONATION FOR PRIVESK",
       "path": "OSCP-NOTES/WINDOWS PrivEsk/TOKEN IMPERSONATION FOR PRIVESK.md"
-    },
-    {
-      "basename": "manual recon on users and groups in non ad environment",
-      "path": "TREASURE/Powershell for Infosec/manual recon on users and groups in non ad environment.md"
     }
   ],
   "omittedPaths": [],
