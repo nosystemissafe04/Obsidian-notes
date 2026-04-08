@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION).md",
+                "file": "OSCP-NOTES/Advance-windows-privesk Vonnie/TERMINAL HISTORY.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION)"
+              "title": "TERMINAL HISTORY"
             }
           }
         ]
@@ -296,10 +296,11 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "32222b6192c07747",
+  "active": "9fe5df7679baec76",
   "lastOpenFiles": [
-    "OSCP-NOTES/Untitled.md",
+    "OSCP-NOTES/Untitled",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION).md",
+    "OSCP-NOTES/Untitled.md",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/TERMINAL HISTORY.md",
     "OSCP-NOTES/SQLi/ERROR BASED.md",
     "OSCP-NOTES/SQLi/assets/Pasted image 20260406044741.png",
@@ -343,7 +344,6 @@
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Remote Management Protocols/Linux Remote Management.md",
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Host Based Enumeration/assets",
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Host Based Enumeration/SNMP.md",
-    "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Host Based Enumeration/SMTP.md",
     "TREASURE/PEN-notes/PRACTICAL MALWARE ANALYSIS/Basic Static Analysis.canvas",
     "Spaces/Untitled 1.canvas",
     "Untitled.canvas",
