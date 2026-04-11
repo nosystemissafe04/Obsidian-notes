@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "privilege_escalation_-_linux",
+      "path": "security/docs/post_exploitation/privilege_escalation_-_linux.md"
+    },
+    {
       "basename": "NFS",
       "path": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Host Based Enumeration/NFS.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "initial_access",
       "path": "security/docs/initial_access/initial_access.md"
-    },
-    {
-      "basename": "Execution policy",
-      "path": "TREASURE/Powershell for Infosec/Execution policy.md"
     }
   ],
   "omittedPaths": [],
