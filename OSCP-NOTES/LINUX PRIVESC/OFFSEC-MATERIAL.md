@@ -33,3 +33,15 @@ ifconfig
 ```shell
 ip a 
 ```
+
+```shell
+route 
+
+or  
+
+routel
+```
+
+```shell
+ss -anp
+```
