@@ -45,3 +45,7 @@ routel
 ```shell
 ss -anp
 ```
+
+```shell
+iptables
+```
