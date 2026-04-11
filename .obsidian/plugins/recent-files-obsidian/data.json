@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "list_of_common_ports",
+      "path": "security/docs/attacking_internal_network/list_of_common_ports.md"
+    },
+    {
+      "basename": "Interacting with Common Services",
+      "path": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Attacking Common Services/Interacting with Common Services.md"
+    },
+    {
       "basename": "EBOWLA",
       "path": "OSCP-NOTES/AV-BYPASS/EBOWLA.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Credential Hunting in Windows",
       "path": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Password Attacks/Credential Hunting in Windows.md"
-    },
-    {
-      "basename": "Privileges level and user account access Level",
-      "path": "OSCP-NOTES/INFO-WHY'S/Privileges level and user account access Level.md"
-    },
-    {
-      "basename": "TOKEN IMPERSONATION FOR PRIVESK",
-      "path": "OSCP-NOTES/WINDOWS PrivEsk/TOKEN IMPERSONATION FOR PRIVESK.md"
     }
   ],
   "omittedPaths": [],

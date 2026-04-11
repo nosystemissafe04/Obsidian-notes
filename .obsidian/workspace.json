@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/AV-BYPASS/EBOWLA.md",
+                "file": "security/docs/attacking_internal_network/list_of_common_ports.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "EBOWLA"
+              "title": "list_of_common_ports"
             }
           }
         ]
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ACE",
+                "query": "NFS",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -128,8 +128,7 @@
               "title": "Files"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -298,8 +297,9 @@
   },
   "active": "32222b6192c07747",
   "lastOpenFiles": [
-    "OSCP-NOTES/Advance-windows-privesk Vonnie/TERMINAL HISTORY.md",
+    "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Attacking Common Services/Interacting with Common Services.md",
     "OSCP-NOTES/AV-BYPASS/EBOWLA.md",
+    "OSCP-NOTES/Advance-windows-privesk Vonnie/TERMINAL HISTORY.md",
     "OSCP-NOTES/AV-BYPASS",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION).md",
     "OSCP-NOTES/Untitled.md",
@@ -343,7 +343,6 @@
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Remote Management Protocols/assets",
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Remote Management Protocols/Windows Remote Management.md",
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Remote Management Protocols/Linux Remote Management.md",
-    "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Host Based Enumeration/SNMP.md",
     "TREASURE/PEN-notes/PRACTICAL MALWARE ANALYSIS/Basic Static Analysis.canvas",
     "Spaces/Untitled 1.canvas",
     "Untitled.canvas",
