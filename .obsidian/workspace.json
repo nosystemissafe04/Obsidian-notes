@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "security/docs/attacking_internal_network/list_of_common_ports.md",
+                "file": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Host Based Enumeration/NFS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "list_of_common_ports"
+              "title": "NFS"
             }
           }
         ]
@@ -297,6 +297,8 @@
   },
   "active": "32222b6192c07747",
   "lastOpenFiles": [
+    "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Password Attacks/Network Services.md",
+    "security/docs/attacking_internal_network/list_of_common_ports.md",
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Attacking Common Services/Interacting with Common Services.md",
     "OSCP-NOTES/AV-BYPASS/EBOWLA.md",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/TERMINAL HISTORY.md",
@@ -341,8 +343,6 @@
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Infrastructure Based Enumeration/Cloud Resources.md",
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/assets/Footprinting_Module_Cheat_Sheet.pdf",
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Remote Management Protocols/assets",
-    "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Remote Management Protocols/Windows Remote Management.md",
-    "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Remote Management Protocols/Linux Remote Management.md",
     "TREASURE/PEN-notes/PRACTICAL MALWARE ANALYSIS/Basic Static Analysis.canvas",
     "Spaces/Untitled 1.canvas",
     "Untitled.canvas",

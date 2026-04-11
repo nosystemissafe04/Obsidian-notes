@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "NFS",
+      "path": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Host Based Enumeration/NFS.md"
+    },
+    {
+      "basename": "Network Services",
+      "path": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Password Attacks/Network Services.md"
+    },
+    {
       "basename": "list_of_common_ports",
       "path": "security/docs/attacking_internal_network/list_of_common_ports.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Execution policy",
       "path": "TREASURE/Powershell for Infosec/Execution policy.md"
-    },
-    {
-      "basename": "basics_of_linux",
-      "path": "security/docs/basics_of_linux/basics_of_linux.md"
-    },
-    {
-      "basename": "Credential Hunting in Windows",
-      "path": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Password Attacks/Credential Hunting in Windows.md"
     }
   ],
   "omittedPaths": [],
