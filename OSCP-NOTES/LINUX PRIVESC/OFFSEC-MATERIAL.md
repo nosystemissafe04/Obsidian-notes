@@ -22,9 +22,13 @@ cat /etc/os-release
 uname -a 
 ```
 
+**process**
+
 ```shell
 ps aux
 ```
+
+**network**
 
 ```shell
 ifconfig
@@ -41,6 +45,8 @@ or
 
 routel
 ```
+
+**firewall**
 
 ```shell
 ss -anp
