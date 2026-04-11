@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "privilege_escalation_-_linux",
-      "path": "security/docs/post_exploitation/privilege_escalation_-_linux.md"
-    },
-    {
       "basename": "NFS",
       "path": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Host Based Enumeration/NFS.md"
+    },
+    {
+      "basename": "privilege_escalation_-_linux",
+      "path": "security/docs/post_exploitation/privilege_escalation_-_linux.md"
     },
     {
       "basename": "Network Services",

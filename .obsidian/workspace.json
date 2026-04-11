@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "security/docs/post_exploitation/privilege_escalation_-_linux.md",
+                "file": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Host Based Enumeration/NFS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "privilege_escalation_-_linux"
+              "title": "NFS"
             }
           }
         ]
@@ -297,6 +297,7 @@
   },
   "active": "32222b6192c07747",
   "lastOpenFiles": [
+    "security/docs/post_exploitation/privilege_escalation_-_linux.md",
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Host Based Enumeration/NFS.md",
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Password Attacks/Network Services.md",
     "security/docs/attacking_internal_network/list_of_common_ports.md",
@@ -340,7 +341,6 @@
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Infosec Overview Basic Pentesting/assets/Getting_Started_Module_Cheat_Sheet.pdf",
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Infrastructure Based Enumeration/assets",
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Infrastructure Based Enumeration/Staff.md",
-    "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Infrastructure Based Enumeration/Domain Information.md",
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/assets/Footprinting_Module_Cheat_Sheet.pdf",
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Remote Management Protocols/assets",
     "TREASURE/PEN-notes/PRACTICAL MALWARE ANALYSIS/Basic Static Analysis.canvas",
