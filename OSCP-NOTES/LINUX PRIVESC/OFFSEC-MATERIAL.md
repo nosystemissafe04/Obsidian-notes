@@ -46,11 +46,13 @@ or
 routel
 ```
 
-**firewall**
+**socket and active sessions on ports or services running on which ports **
 
 ```shell
 ss -anp
 ```
+
+**firewall**
 
 ```shell
 iptables
