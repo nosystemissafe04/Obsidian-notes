@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "OFFSEC-MATERIAL",
+      "path": "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md"
+    },
+    {
       "basename": "NFS",
       "path": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Host Based Enumeration/NFS.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "John The Ripper",
       "path": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Password Attacks/John The Ripper.md"
-    },
-    {
-      "basename": "initial_access",
-      "path": "security/docs/initial_access/initial_access.md"
     }
   ],
   "omittedPaths": [],
