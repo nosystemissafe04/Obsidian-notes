@@ -9,3 +9,7 @@ cat /etc/passwd
 ```
 hostname
 ```
+
+```shell
+cat /etc/issue
+```
