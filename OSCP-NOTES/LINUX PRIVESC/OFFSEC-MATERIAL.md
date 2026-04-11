@@ -25,3 +25,11 @@ uname -a
 ```shell
 ps aux
 ```
+
+```shell
+ifconfig
+```
+
+```shell
+ip a 
+```
