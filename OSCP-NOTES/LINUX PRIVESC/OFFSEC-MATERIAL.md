@@ -58,6 +58,9 @@ ss -anp
 iptables
 ```
 
-```shell
+**firewall configuration**
 
+```shell
+cd /etc/iptables
+ls 
 ```
