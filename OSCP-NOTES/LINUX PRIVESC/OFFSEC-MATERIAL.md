@@ -52,13 +52,13 @@ routel
 ss -anp
 ```
 
-**firewall**
+**FIREWALL**
 
 ```shell
 iptables
 ```
 
-**firewall configuration**
+**FIREWALL CONFIGURATION**
 
 ```shell
 cd /etc/iptables
@@ -66,3 +66,7 @@ ls
 ```
 
 **SCHEDULED TASKS**
+
+```SHELL
+
+```
