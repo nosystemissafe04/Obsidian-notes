@@ -110,11 +110,13 @@ lsmod
 ```
 
 ```shell
-/sbin/modinfo libata
+/sbin/modinfo <MODULE-NAME>
 ```
 
 **SETUID SETGID**
  
+```SHELL
 
+```
 
 
