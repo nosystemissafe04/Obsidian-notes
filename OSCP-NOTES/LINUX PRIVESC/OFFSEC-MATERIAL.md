@@ -68,5 +68,5 @@ ls
 **SCHEDULED TASKS**
 
 ```SHELL
-
+ls -lah /etc/cron*
 ```
