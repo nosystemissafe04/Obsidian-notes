@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION)",
+      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION).md"
+    },
+    {
+      "basename": "ENABLING REMOTE DESKTOP",
+      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/ENABLING REMOTE DESKTOP.md"
+    },
+    {
+      "basename": "KERNEL EXPLOIT",
+      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/KERNEL EXPLOIT.md"
+    },
+    {
+      "basename": "TERMINAL HISTORY",
+      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/TERMINAL HISTORY.md"
+    },
+    {
+      "basename": "TOKEN MANIPULATION",
+      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/TOKEN MANIPULATION.md"
+    },
+    {
+      "basename": "TOKEN MANIPULATION (VERTICAL ESCALATION)",
+      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/TOKEN MANIPULATION (VERTICAL ESCALATION).md"
+    },
+    {
+      "basename": "WEAK REGISTRY PERMISSIONS (HORIZONTAL ESCALATION)",
+      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (HORIZONTAL ESCALATION).md"
+    },
+    {
       "basename": "OFFSEC-MATERIAL",
       "path": "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md"
     },
@@ -29,40 +57,12 @@
       "path": "OSCP-NOTES/AV-BYPASS/EBOWLA.md"
     },
     {
-      "basename": "TERMINAL HISTORY",
-      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/TERMINAL HISTORY.md"
-    },
-    {
-      "basename": "WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION)",
-      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION).md"
-    },
-    {
       "basename": "ERROR BASED",
       "path": "OSCP-NOTES/SQLi/ERROR BASED.md"
     },
     {
       "basename": "WEAK REGISTRY",
       "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY.md"
-    },
-    {
-      "basename": "KERNEL EXPLOIT",
-      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/KERNEL EXPLOIT.md"
-    },
-    {
-      "basename": "WEAK REGISTRY PERMISSIONS (HORIZONTAL ESCALATION)",
-      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (HORIZONTAL ESCALATION).md"
-    },
-    {
-      "basename": "TOKEN MANIPULATION (VERTICAL ESCALATION)",
-      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/TOKEN MANIPULATION (VERTICAL ESCALATION).md"
-    },
-    {
-      "basename": "TOKEN MANIPULATION",
-      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/TOKEN MANIPULATION.md"
-    },
-    {
-      "basename": "ENABLING REMOTE DESKTOP",
-      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/ENABLING REMOTE DESKTOP.md"
     },
     {
       "basename": "misconfigured_access_control_lists",
