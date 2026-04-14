@@ -86,3 +86,18 @@ sudo crontab -l #sudo doenst mean highest priv it just allow us to use sudo on s
 ```SHELL
 dpkg -l 
 ```
+
+**find**
+
+```shell
+find / -writable -type d 2>/dev/null
+```
+
+
+
+
+
+
+
+
+
