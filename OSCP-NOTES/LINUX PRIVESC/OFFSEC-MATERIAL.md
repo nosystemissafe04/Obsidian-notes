@@ -71,4 +71,8 @@ ls
 ls -lah /etc/cron*
 ```
 
- 
+**current user cron jobs**
+
+```shell
+crontab -l 
+```
