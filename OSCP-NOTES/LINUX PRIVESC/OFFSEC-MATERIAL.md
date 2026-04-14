@@ -75,4 +75,6 @@ ls -lah /etc/cron*
 
 ```shell
 crontab -l 
+
+or 
 ```
