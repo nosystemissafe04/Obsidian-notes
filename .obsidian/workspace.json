@@ -133,8 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5,
-    "collapsed": true
+    "width": 377.5
   },
   "right": {
     "id": "5689001c4553b175",
@@ -297,7 +296,7 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "32222b6192c07747",
+  "active": "9fe5df7679baec76",
   "lastOpenFiles": [
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Host Based Enumeration/NFS.md",
     "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md",
