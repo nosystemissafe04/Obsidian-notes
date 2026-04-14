@@ -96,10 +96,12 @@ find / -writable -type d 2>/dev/null
 **UNMOUNTED DRIVES**
 
 ```shell
-cat /etc/fst
+cat /etc/fstab
 ```
 
-
+```shell
+lsblk
+```
 
 
 
