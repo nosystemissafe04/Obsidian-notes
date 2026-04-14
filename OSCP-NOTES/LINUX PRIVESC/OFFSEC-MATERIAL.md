@@ -110,9 +110,10 @@ lsmod
 ```
 
 ```shell
-/sbin/modindo
+/sbin/modinfo libata
 ```
 
+**SETUID SETGID**
 
 
 
