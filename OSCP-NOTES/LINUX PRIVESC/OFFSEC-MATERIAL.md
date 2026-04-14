@@ -80,3 +80,9 @@ or
 
 sudo crontab -l #sudo doenst mean highest priv it just allow us to use sudo on some binary 
 ```
+
+**INSTALLED APPLICATION**
+
+```SHELL
+dpkg -l 
+```
