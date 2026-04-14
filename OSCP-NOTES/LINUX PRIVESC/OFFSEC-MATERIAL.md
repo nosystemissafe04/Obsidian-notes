@@ -100,7 +100,17 @@ cat /etc/fstab
 ```
 
 ```shell
-lsblk
+lsblk 
+```
+
+**drivers and kernel modules**
+
+```shell
+lsmod
+```
+
+```shell
+/sbin/modindo
 ```
 
 
