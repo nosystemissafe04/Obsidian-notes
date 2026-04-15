@@ -120,3 +120,10 @@ find / -perm -u=s -type f 2>/dev/null
 ```
 
 
+### FILE-TRANSFER 
+
+**NETCAT**
+
+```BASH
+nc -nvlp 
+```

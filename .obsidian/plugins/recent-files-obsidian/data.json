@@ -5,6 +5,10 @@
       "path": "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md"
     },
     {
+      "basename": "Untitled",
+      "path": "OSCP-NOTES/LINUX PRIVESC/Untitled.md"
+    },
+    {
       "basename": "WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION)",
       "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION).md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "LAB-SETUP",
       "path": "OSCP-NOTES/LDAP-ENUMERATION/LAB-SETUP.md"
-    },
-    {
-      "basename": "John The Ripper",
-      "path": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Password Attacks/John The Ripper.md"
     }
   ],
   "omittedPaths": [],
