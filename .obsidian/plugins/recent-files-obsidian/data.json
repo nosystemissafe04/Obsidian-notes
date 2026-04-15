@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "OFFSEC-MATERIAL",
+      "path": "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md"
+    },
+    {
       "basename": "WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION)",
       "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION).md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "WEAK REGISTRY PERMISSIONS (HORIZONTAL ESCALATION)",
       "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (HORIZONTAL ESCALATION).md"
-    },
-    {
-      "basename": "OFFSEC-MATERIAL",
-      "path": "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md"
     },
     {
       "basename": "NFS",
