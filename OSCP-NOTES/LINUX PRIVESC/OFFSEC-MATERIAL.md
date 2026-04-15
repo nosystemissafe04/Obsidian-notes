@@ -129,5 +129,5 @@ nc -nvlp <port> > <filename>
 ```
 
 ```shell
-nc -nv <victim-ip> <vip> 
+nc -nv <victim-ip> <victim-port> < \</file/to/transfer> 
 ```
