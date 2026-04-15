@@ -125,5 +125,9 @@ find / -perm -u=s -type f 2>/dev/null
 **NETCAT**
 
 ```BASH
-nc -nvlp 
+nc -nvlp <port> > <filename>
+```
+
+```shell
+nc -nv <victim-ip> <vip> 
 ```
