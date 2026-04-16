@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "BASH FOO",
+      "path": "OSCP-NOTES/BASH FOO.md"
+    },
+    {
       "basename": "OFFSEC-MATERIAL",
       "path": "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "mynotes",
       "path": "TREASURE/SOURCES/COPY-OSCP/mynotes.html"
-    },
-    {
-      "basename": "LAB-SETUP",
-      "path": "OSCP-NOTES/LDAP-ENUMERATION/LAB-SETUP.md"
     }
   ],
   "omittedPaths": [],
