@@ -1,2 +1,4 @@
-```SHEL
+```SHELL
+sudo rm {*.md,*.txt,......regex}
 ```
+
