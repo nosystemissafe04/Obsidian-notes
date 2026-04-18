@@ -42,7 +42,12 @@ A0002 LIST "" "*"
 A0003 SELECT INBOX
 ```
 
+dot notation to files in index folder 
 ```shell
 A0004 SELECT "INBOX.Trash"
+```
+
+```shell
+A0005 FETCH "inbox.send items"
 ```
 
