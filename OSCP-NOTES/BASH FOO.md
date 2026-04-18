@@ -33,3 +33,8 @@ IN IMAP WE HAVE TO USE AN IDENTIFYIER LIKE `A0001` AND WE WILL INCREMENT THIS VA
 A0001 Login <username> <password>
 ```
 
+	**LIST EVERYTHING**
+	
+	```
+	A0002 LIST "" "*"
+	```
