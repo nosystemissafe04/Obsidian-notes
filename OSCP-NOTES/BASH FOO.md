@@ -13,3 +13,8 @@ replace newline with comma
 cat emails.txt | tr '\n' ',' | sed s/,$//g
 ```
 `$` end of the line then subsitute with this its enclosed in those slashes so nothing `//` `g` global
+
+**sending mail via command line**
+```shell
+sudo swaks --to $(cat emails.txt | tr '\n' ',' | sed s/,$//g)
+```
