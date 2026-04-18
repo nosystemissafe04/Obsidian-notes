@@ -43,5 +43,6 @@ A0003 SELECT INBOX
 ```
 
 ```shell
-A0004 SELECT "INBOX."
+A0004 SELECT "INBOX.Trash"
 ```
+
