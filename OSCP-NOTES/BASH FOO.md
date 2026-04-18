@@ -52,5 +52,5 @@ A0005 FETCH "inbox.send items"
 ```
 
 ```shell
-
+A0006 FETCH 1 BODY.PEEK[]
 ```
