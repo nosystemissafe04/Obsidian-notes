@@ -10,6 +10,6 @@ vim => :set list
 **translate or delete character**
 replace newline with comma 
 ```shell
-cat emails.txt | tr '\n' ','
+cat emails.txt | tr '\n' ',' | sed s/,$//g
 ```
 
