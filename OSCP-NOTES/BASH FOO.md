@@ -12,4 +12,4 @@ replace newline with comma
 ```shell
 cat emails.txt | tr '\n' ',' | sed s/,$//g
 ```
-
+`$` end of the line then `//` `g` global
