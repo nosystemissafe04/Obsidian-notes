@@ -23,3 +23,9 @@ sudo swaks --to $(cat emails.txt | tr '\n' ',' | sed s/,$//g) --from support@sne
 ```shell
 hurl --url <encoded command>
 ```
+
+**interacting with imap**
+```shell
+nc <target> 143
+```
+
