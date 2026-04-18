@@ -21,5 +21,5 @@ sudo swaks --to $(cat emails.txt | tr '\n' ',' | sed s/,$//g) --from support@sne
 
 **hURL = hexadecimal and url encoder and decoder**
 ```shell
-hurl --url <encoded comman>
+hurl --url <encoded command>
 ```
