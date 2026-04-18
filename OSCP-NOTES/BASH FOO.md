@@ -38,3 +38,7 @@ A0001 Login <username> <password>
 A0002 LIST "" "*"
 ```
 
+```SHELL
+A0003 SELECT INBOX
+```
+
