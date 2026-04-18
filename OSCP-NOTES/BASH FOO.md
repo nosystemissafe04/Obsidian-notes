@@ -29,3 +29,7 @@ hurl --url <encoded command>
 nc <target> 143
 ```
 IN IMAP WE HAVE TO USE AN IDENTIFYIER LIKE `A0001` AND WE WILL INCREMENT THIS VALUE 
+```SHELL
+A0001 Login <username> <password>
+```
+
