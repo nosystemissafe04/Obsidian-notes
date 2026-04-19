@@ -53,3 +53,5 @@ ps auxwwf
 `u` = userlist
 `w` = wide output add one more to get extra wide
 `f` = full format
+
+**FINDING THE HASH TYPE TO CRACK IT**
