@@ -38,7 +38,7 @@ find . -type f 2>/dev/null
 
 USE GREP TO EXCLUDE FILE EXTENSION WHICH ARE NOT USEFULL IN ENUMERATION MAKE IT CLEAN
 ```SHELL
-find . -type f 2>/dev/null | grep -v 
+find . -type f 2>/dev/null | grep -v "*.whl"
 ```
 
 ```shell
