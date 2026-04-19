@@ -24,4 +24,7 @@ sudo swaks --to $(cat emails.txt | tr '\n' ',' | sed s/,$//g) --from support@sne
 hurl --url <encoded command>
 ```
 
-**FINIDN**
+**FINDING ALL THE USERS ON THE SYSTEM VIA /etc/passwd file**
+```shell
+cat /etc/passwd | awk -F ':' print{$1,$}
+```
