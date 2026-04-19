@@ -51,4 +51,4 @@ ps auxwwf
 ```
 `a`= all process
 `u` = userlist
-`x` = 
+`w` = wide output add one more to get extra wide
