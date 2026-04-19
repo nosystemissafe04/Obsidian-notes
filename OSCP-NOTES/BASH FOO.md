@@ -1,13 +1,14 @@
+**regular-exp** ^regex
 ```SHELL
 sudo rm {*.md,*.txt,......regex}
 ```
 
-**display where the tab is used in the data **
+###### **display where the tab is used in the data **
 ```shell
 vim => :set list
 ```
 
-**replace newline with comma**
+###### **replace newline with comma**
 translate or delete character
 ```shell
 cat emails.txt | tr '\n' ',' | sed s/,$//g
