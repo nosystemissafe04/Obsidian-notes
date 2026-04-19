@@ -49,3 +49,6 @@ tree .
 ```shell
 ps auxwwf
 ```
+`a`= all process
+`u` = userlist
+`x` = 
