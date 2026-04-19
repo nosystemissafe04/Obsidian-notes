@@ -14,3 +14,5 @@ this php function can be used to execute commands via an http header which is no
 
 ITS A WEBSHELL , WHERE THE COMMAND WILL BE PASSED ON `HTTP_ACCEPT_LANGUAGE` HEADER , WHICH IS NOT LOGGED 
 
+![[Pasted image 20260419172814.png]]
+
