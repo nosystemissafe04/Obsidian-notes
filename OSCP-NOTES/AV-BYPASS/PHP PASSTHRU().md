@@ -1,6 +1,6 @@
 ## DEFENCE EVASION
 
-**WHENEVER WE GOT A FILE UPLOAD VULN WHERE WE CAN EXECT**
+**WHENEVER WE GOT A FILE UPLOAD VULN WHERE WE CAN UPLOAD ARBITRARY CODE TO A MACHINE AND CAN EXECUTE IT , WE CAN DO THIS EVASIVELY **
 `passthru()` = executes an external program and display the raw output
 
 this php function can be used to execute commands via an http header which is not logged most often ,
