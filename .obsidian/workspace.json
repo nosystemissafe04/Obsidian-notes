@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/AV-BYPASS/PHP.md",
+                "file": "OSCP-NOTES/AV-BYPASS/PHP PASSTHRU().md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "PHP"
+              "title": "PHP PASSTHRU()"
             }
           }
         ]
@@ -133,7 +133,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 377.5,
+    "collapsed": true
   },
   "right": {
     "id": "5689001c4553b175",
@@ -299,7 +300,7 @@
   "active": "32222b6192c07747",
   "lastOpenFiles": [
     "OSCP-NOTES/IMAP.md",
-    "OSCP-NOTES/AV-BYPASS/PHP.md",
+    "OSCP-NOTES/AV-BYPASS/PHP PASSTHRU().md",
     "OSCP-NOTES/BASH FOO.md",
     "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md",
     "OSCP-NOTES/LINUX PRIVESC/Untitled.md",
