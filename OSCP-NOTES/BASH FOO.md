@@ -44,3 +44,8 @@ find . -type f 2>/dev/null | grep -v "*.whl"
 ```shell
 tree . 
 ```
+
+**printing the process tree with ps**
+```shell
+ps auxwwf
+```
