@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/AV-BYPASS/PHP PASSTHRU().md",
+                "file": "OSCP-NOTES/BASH FOO.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "PHP PASSTHRU()"
+              "title": "BASH FOO"
             }
           }
         ]
@@ -299,11 +299,11 @@
   },
   "active": "32222b6192c07747",
   "lastOpenFiles": [
+    "OSCP-NOTES/AV-BYPASS/PHP PASSTHRU().md",
     "OSCP-NOTES/AV-BYPASS/assets/Pasted image 20260419173054.png",
     "OSCP-NOTES/AV-BYPASS/assets/Pasted image 20260419172814.png",
     "OSCP-NOTES/AV-BYPASS/assets",
     "OSCP-NOTES/IMAP.md",
-    "OSCP-NOTES/AV-BYPASS/PHP PASSTHRU().md",
     "OSCP-NOTES/BASH FOO.md",
     "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md",
     "OSCP-NOTES/LINUX PRIVESC/Untitled.md",
@@ -336,7 +336,6 @@
     "security/docs/attacking_active_directory_domain/active_directory_privilege_escalation/misconfigured_access_control_lists.md",
     "TREASURE/SOURCES/COPY-OSCP/17. Windows Privilege Escalation.md",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/assets/Pasted image 20260402182047.png",
-    "OSCP-NOTES/Advance-windows-privesk Vonnie/assets/Pasted image 20260402031303.png",
     "TREASURE/Powershell for Infosec/Doubts.md",
     "TREASURE/Powershell for Infosec/Credentials and Remoting.md",
     "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",

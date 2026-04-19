@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "BASH FOO",
+      "path": "OSCP-NOTES/BASH FOO.md"
+    },
+    {
       "basename": "PHP PASSTHRU()",
       "path": "OSCP-NOTES/AV-BYPASS/PHP PASSTHRU().md"
     },
     {
       "basename": "IMAP",
       "path": "OSCP-NOTES/IMAP.md"
-    },
-    {
-      "basename": "BASH FOO",
-      "path": "OSCP-NOTES/BASH FOO.md"
     },
     {
       "basename": "OFFSEC-MATERIAL",

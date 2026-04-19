@@ -24,3 +24,4 @@ sudo swaks --to $(cat emails.txt | tr '\n' ',' | sed s/,$//g) --from support@sne
 hurl --url <encoded command>
 ```
 
+**FINIDN**
