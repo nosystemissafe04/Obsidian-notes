@@ -26,5 +26,5 @@ hurl --url <encoded command>
 
 **FINDING ALL THE USERS ON THE SYSTEM VIA /etc/passwd file**
 ```shell
-cat /etc/passwd | awk -F ':' print{$1,$}
+cat /etc/passwd | awk -F : 'print{$1, $7}' | grep -v /usr/sbin/nologin
 ```
