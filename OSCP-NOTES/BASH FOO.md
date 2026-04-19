@@ -36,6 +36,11 @@ INSTEAD OF GOING INTO EVERY DIR AND FINDING WHATS IN THEM WE CAN USE TREE OR FIN
 find . -type f 2>/dev/null
 ```
 
+USE GREP TO EXCLUDE FILE EXTENSION WHICH ARE NOT USEFULL IN ENUMERATION MAKE IT CLEAN
+```SHELL
+find . -type f 2>/dev/null | grep -v 
+```
+
 ```shell
 tree . 
 ```
