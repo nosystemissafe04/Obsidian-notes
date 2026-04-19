@@ -29,3 +29,5 @@ hurl --url <encoded command>
 ```shell
 cat /etc/passwd | awk -F : 'print{$1, $7}' | grep -v /usr/sbin/nologin
 ```
+
+**finding all the files in the current folder **
