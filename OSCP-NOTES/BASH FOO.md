@@ -30,4 +30,12 @@ hurl --url <encoded command>
 cat /etc/passwd | awk -F : 'print{$1, $7}' | grep -v /usr/sbin/nologin
 ```
 
-**finding all the files in the current folder **
+**finding all the files in the current folder**
+INSTEAD OF GOING INTO EVERY DIR AND FINDING WHATS IN THEM WE CAN USE TREE OR FIND COMMAND TO GET THE SNAPSHOT OF WHATS IN THERE 
+```SHELL
+find . -type f 2>/dev/null
+```
+
+```shell
+tree . 
+```
