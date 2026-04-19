@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "BASH FOO",
-      "path": "OSCP-NOTES/BASH FOO.md"
+      "basename": "PHP",
+      "path": "OSCP-NOTES/AV-BYPASS/PHP.md"
     },
     {
       "basename": "IMAP",
       "path": "OSCP-NOTES/IMAP.md"
+    },
+    {
+      "basename": "BASH FOO",
+      "path": "OSCP-NOTES/BASH FOO.md"
     },
     {
       "basename": "OFFSEC-MATERIAL",
@@ -195,10 +199,6 @@
     {
       "basename": "dowloadnotes",
       "path": "TREASURE/SOURCES/COPY-OSCP/dowloadnotes.js"
-    },
-    {
-      "basename": "iNFORMATINO GATHERING",
-      "path": "TREASURE/SOURCES/COPY-OSCP/iNFORMATINO GATHERING.md"
     }
   ],
   "omittedPaths": [],
