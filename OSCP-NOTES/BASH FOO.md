@@ -45,10 +45,11 @@ find . -type f 2>/dev/null | grep -v "*.whl"
 tree . 
 ```
 
-**printing the process tree with ps**
+###### **printing the process tree with ps**
 ```shell
 ps auxwwf
 ```
 `a`= all process
 `u` = userlist
 `w` = wide output add one more to get extra wide
+`f` = full format
