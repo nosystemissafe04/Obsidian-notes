@@ -5,6 +5,10 @@
       "path": "OSCP-NOTES/BASH FOO.md"
     },
     {
+      "basename": "IMAP",
+      "path": "OSCP-NOTES/IMAP.md"
+    },
+    {
       "basename": "OFFSEC-MATERIAL",
       "path": "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "iNFORMATINO GATHERING",
       "path": "TREASURE/SOURCES/COPY-OSCP/iNFORMATINO GATHERING.md"
-    },
-    {
-      "basename": "mynotes",
-      "path": "TREASURE/SOURCES/COPY-OSCP/mynotes.html"
     }
   ],
   "omittedPaths": [],
