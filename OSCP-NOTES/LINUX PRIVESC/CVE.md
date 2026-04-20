@@ -7,3 +7,8 @@ sudo masscan -e tun0 -p0-65535,U:0-65535 $TARGET --rate=750 | tee blunder.massca
 sudo nmap -vvv -Pn -sCV -T5 --reason -p80 -oN BLUNDER.NMAP <TARGET>
 ```
 
+**SPIDER THE HOST WITH BURP**
+*ENABLE INTERCEPT SERVER RESPONSE*
+
+**VIEW SOURCE CODE OF WEBSITE**
+USE FIND FUNCTION TO FIND COMMENT AND OUT
