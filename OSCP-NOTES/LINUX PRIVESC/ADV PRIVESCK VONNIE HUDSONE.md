@@ -25,3 +25,7 @@ except:
 ```shell
 python setup.py sdist upload -r <package-name>
 ```
+
+https://github.com/mschwager/0wned
+
+a great example of what can be done with python pip installation , 
