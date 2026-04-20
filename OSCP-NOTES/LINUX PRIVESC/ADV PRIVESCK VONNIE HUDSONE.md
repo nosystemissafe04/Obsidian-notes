@@ -12,3 +12,8 @@ TO ACTIVE IT `
 source <path-to-active-bin-in-venv>
 ```
 
+```python
+try:
+	print('anystring')
+	with p
+```
