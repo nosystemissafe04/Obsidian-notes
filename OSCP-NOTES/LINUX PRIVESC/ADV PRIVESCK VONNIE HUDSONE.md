@@ -35,3 +35,14 @@ https://0xdf.gitlab.io/2020/11/28/htb-sneakymailer.html#:~:text=and%20it%20works
 a blog post by 0xdf 
 
 remember after creating python package we also have to create .pypirc file to package for remote pypi
+
+```pypirc
+[distutils]
+index-servers =
+  sneaky
+[sneaky]
+repository: http://pypi.sneakycorp.htb:8080
+username: pypi
+password: soufianeelhaoui
+```
+
