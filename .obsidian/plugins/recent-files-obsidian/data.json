@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "OSCP-NOTES/LINUX PRIVESC/Untitled.md"
+    },
+    {
+      "basename": "STUCKED AT",
+      "path": "OSCP-NOTES/CTF/STUCKED AT.md"
+    },
+    {
       "basename": "IMAP",
       "path": "OSCP-NOTES/IMAP.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "OFFSEC-MATERIAL",
       "path": "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "OSCP-NOTES/LINUX PRIVESC/Untitled.md"
     },
     {
       "basename": "WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION)",
@@ -135,10 +139,6 @@
     {
       "basename": "AWK",
       "path": "OSCP-NOTES/CHEATSHEETS/AWK.md"
-    },
-    {
-      "basename": "STUCKED AT",
-      "path": "OSCP-NOTES/CTF/STUCKED AT.md"
     },
     {
       "basename": "PASSWORD ATTACK IN ACTIVE DIRECTORY",
