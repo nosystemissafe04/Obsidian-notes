@@ -84,7 +84,7 @@ Routes all requests through index.php — used by Laravel, WordPress, CodeIgnite
 
 ---
 
-### 2. Blocking/Allowing Access
+###### 2. Blocking/Allowing Access
 
 ```apache
 # Block everyone
@@ -96,9 +96,7 @@ Allow from 192.168.1.1
 
 ---
 
-### 3. Enabling/Disabling PHP in a Directory
-
-apache
+###### 3. Enabling/Disabling PHP in a Directory
 
 ```apache
 # Disable PHP execution in uploads folder
@@ -111,9 +109,7 @@ This is why many boxes have PHP disabled in `/uploads` — and why attackers try
 
 ---
 
-### 4. Forcing File Types
-
-apache
+###### 4. Forcing File Types
 
 ```apache
 # Treat all files as PHP regardless of extension
@@ -124,9 +120,7 @@ This is a dangerous one — if an attacker writes this to `.htaccess` in the upl
 
 ---
 
-### 5. Password Protection
-
-apache
+###### 5. Password Protection
 
 ```apache
 AuthType Basic
@@ -137,7 +131,7 @@ Require valid-user
 
 ---
 
-### 6. Custom Error Pages
+###### 6. Custom Error Pages
 
 apache
 
