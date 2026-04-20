@@ -23,5 +23,5 @@ except:
 
 **rebuilding the package**
 ```shell
-python setup.py sdist upload -r example_pk
+python setup.py sdist upload -r <package-name>
 ```
