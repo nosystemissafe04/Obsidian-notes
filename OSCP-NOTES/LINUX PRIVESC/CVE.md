@@ -41,8 +41,13 @@ USING `sys` PYTHON MODULE TO GET THE WORDLIST FROM COMMAND LINE
 with open(sys.argv[1]) as f:
 	password=f.read().splitlines()
 ```
+splitlines() = it will split the wordlist into list
+the exploit will use over wordlists , which is password here 
 
-the exploit will use 
+**generating a wordlist with cewl**
+```shell
+
+```
 
 
 
