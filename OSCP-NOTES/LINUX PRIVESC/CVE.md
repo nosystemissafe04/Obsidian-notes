@@ -148,5 +148,7 @@ ErrorDocument 404 /errors/notfound.html
 - A `.htaccess` in `/uploads` only affects `/uploads`
 - If `AllowOverride None` is set in main Apache config, `.htaccess` is **completely ignored** — some boxes use this as a hardening measure
 
+![[Pasted image 20260421033341.png]]
 
+WHAT WE DID HERE IS WE REWRITTEN .htaccess CONFIG WHICH USUALLY 
 
