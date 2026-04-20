@@ -4,5 +4,6 @@ sudo masscan -e tun0 -p0-65535,U:0-65535 $TARGET --rate=750 | tee blunder.massca
 ```
 
 ```SHELL
-sudo nmap -vvv -Pn -sCV -
+sudo nmap -vvv -Pn -sCV -T5 --reason -p80 -oN BLUNDER.NMAP <TARGET>
 ```
+
