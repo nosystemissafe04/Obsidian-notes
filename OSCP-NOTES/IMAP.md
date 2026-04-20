@@ -1,3 +1,8 @@
+###### **sending mail via command line for phishing**
+```shell
+sudo swaks --to $(cat emails.txt | tr '\n' ',' | sed s/,$//g) --from support@sneakymail.htb --header "Subject: [ACTION REQUIRED] PLEASE REGISTER YOUR ACCOUNT" --body "the registration link <attacker-ip/route-to-phish>" --server <target-ip>
+```
+
 **interacting with imap**
 ```shell
 nc <target> 143

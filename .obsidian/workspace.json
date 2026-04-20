@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/BASH FOO.md",
+                "file": "OSCP-NOTES/IMAP.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "BASH FOO"
+              "title": "IMAP"
             }
           }
         ]
@@ -133,8 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5,
-    "collapsed": true
+    "width": 377.5
   },
   "right": {
     "id": "5689001c4553b175",
@@ -299,12 +298,12 @@
   },
   "active": "32222b6192c07747",
   "lastOpenFiles": [
+    "OSCP-NOTES/BASH FOO.md",
     "OSCP-NOTES/AV-BYPASS/PHP PASSTHRU().md",
     "OSCP-NOTES/AV-BYPASS/assets/Pasted image 20260419173054.png",
     "OSCP-NOTES/AV-BYPASS/assets/Pasted image 20260419172814.png",
     "OSCP-NOTES/AV-BYPASS/assets",
     "OSCP-NOTES/IMAP.md",
-    "OSCP-NOTES/BASH FOO.md",
     "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md",
     "OSCP-NOTES/LINUX PRIVESC/Untitled.md",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION).md",
