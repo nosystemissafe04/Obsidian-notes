@@ -18,7 +18,7 @@ USE FIND FUNCTION TO FIND COMMENT AND OTHER KEYWORD LIKE PASS , KEY , TOKEN
 
 **BASH FOO TO SCRAP LINK FROM A WEBPAGE**
 ```SHELL
-curl -s <>
+curl -s <target> | grep -Eo '(href|src)=".*"' | sed -
 ```
 
 **GITHUB ENUMERATION**
