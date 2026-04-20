@@ -137,3 +137,16 @@ Require valid-user
 ErrorDocument 404 /errors/notfound.html
 ```
 
+| Scenario                            | What's happening                             |
+| ----------------------------------- | -------------------------------------------- |
+| Overwrite to disable RewriteEngine  | Bypass URL rewriting to reach uploaded shell |
+| Overwrite to enable PHP in uploads  | Make uploaded file executable                |
+| Overwrite to remove `Deny from all` | Unlock a restricted directory                |
+| Read `.htaccess`                    | Leak directory structure or auth config      |
+| `AddType` abuse                     | Execute non-PHP files as PHP                 |
+
+- A `.htaccess` in `/uploads` only affects `/uploads`
+- If `AllowOverride None` is set in main Apache config, `.htaccess` is **completely ignored** — some boxes use this as a hardening measure
+
+
+
