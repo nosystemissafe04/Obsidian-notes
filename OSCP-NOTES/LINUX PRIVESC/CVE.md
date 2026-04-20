@@ -36,7 +36,10 @@ sort the whole thing
  
 **FOUND A POC TO BYPASS BRUTEFORCE ACCOUNT LOCKOUT**
 
-USING `sys` PYTHON 
+USING `sys` PYTHON MODULE TO GET THE WORDLIST FROM COMMAND LINE 
+```PYTHON
+with open(sys.argv[1])
+```
 
 
 
