@@ -133,8 +133,6 @@ Require valid-user
 
 ###### 6. Custom Error Pages
 
-apache
-
 ```apache
 ErrorDocument 404 /errors/notfound.html
 ```
