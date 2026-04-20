@@ -38,8 +38,11 @@ sort the whole thing
 
 USING `sys` PYTHON MODULE TO GET THE WORDLIST FROM COMMAND LINE 
 ```PYTHON
-with open(sys.argv[1])
+with open(sys.argv[1]) as f:
+	password=f.read().splitlines()
 ```
+
+the exploit will use 
 
 
 
