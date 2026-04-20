@@ -30,3 +30,6 @@ https://github.com/mschwager/0wned
 
 *a great example of what can be done with python pip installation* , an arbitrary code execution at installation of python packages can be achived 
 
+https://0xdf.gitlab.io/2020/11/28/htb-sneakymailer.html#:~:text=and%20it%20works%3A-,Create%20Malicious%20Python%20Package,-This%20tutorial%20includes
+
+a blog post by 0xdf 
