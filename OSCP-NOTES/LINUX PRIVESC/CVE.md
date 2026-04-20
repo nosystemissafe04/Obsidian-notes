@@ -71,4 +71,4 @@ REPLACE `SPACE`  WITH `\x` ON THE MAGIC BYTE
 *RENAME THE JPEG FILE MOST LIKELY IT WILL BE SANITIZING OVER FILENAME WE CAN UPLOAD PHP FILE WITH `EXPLOIT.PHP.JPEG`*
 
 **WHAT IS .htaccess**
-its a per directory apache configurato
+means its a per directory apache configuraton file . apache read it automatically when serving files from that directory . it lets you control apache behavior without touching the man server config 
