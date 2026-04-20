@@ -38,6 +38,7 @@ sort the whole thing
 
 USING `sys` PYTHON MODULE TO GET THE WORDLIST FROM COMMAND LINE 
 ```PYTHON
+import sys
 with open(sys.argv[1]) as f:
 	password=f.read().splitlines()
 ```
