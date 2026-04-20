@@ -47,7 +47,7 @@ the exploit will use over wordlists , which is password here
 
 **generating a wordlist with cewl**
 ```shell
-
+sudo cewl <target-url> > wordlist.cewl
 ```
 
 
