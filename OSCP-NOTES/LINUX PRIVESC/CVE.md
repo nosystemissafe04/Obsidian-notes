@@ -56,4 +56,8 @@ sudo time python3 poc.py <wordlist>
 ```
 
 **exploiting a upload functionality**
-*A L*
+
+*A LOT OF TIME WE SEE THE UPLOAD SANITIZATION BYPASS IS THE THE ATTACKER WILL USE THE MAGIC BYTES TO SPOOF THE FILE AS THE ONE WHICH ONES AR ALLOWD LIKE JPEG AND PNG *
+
+
+
