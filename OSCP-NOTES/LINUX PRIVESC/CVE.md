@@ -72,3 +72,75 @@ REPLACE `SPACE`  WITH `\x` ON THE MAGIC BYTE
 
 **WHAT IS .htaccess**
 means `hypertext access` its a per directory apache configuraton file . apache read it automatically when serving files from that directory . it lets you control apache behavior without touching the man server config 
+
+###### 1. URL Rewriting
+
+```apache
+RewriteEngine On
+RewriteRule ^(.*)$ index.php [QSA,L]
+```
+
+Routes all requests through index.php — used by Laravel, WordPress, CodeIgniter etc.
+
+---
+
+### 2. Blocking/Allowing Access
+
+```apache
+# Block everyone
+Deny from all
+
+# Allow only specific IP
+Allow from 192.168.1.1
+```
+
+---
+
+### 3. Enabling/Disabling PHP in a Directory
+
+apache
+
+```apache
+# Disable PHP execution in uploads folder
+php_flag engine off
+
+# This is a security measure — stops uploaded PHP files from executing
+```
+
+This is why many boxes have PHP disabled in `/uploads` — and why attackers try to overwrite `.htaccess` to turn it back on.
+
+---
+
+### 4. Forcing File Types
+
+apache
+
+```apache
+# Treat all files as PHP regardless of extension
+AddType application/x-httpd-php .jpg .png .txt
+```
+
+This is a dangerous one — if an attacker writes this to `.htaccess` in the uploads directory, your uploaded image becomes executable PHP.
+
+---
+
+### 5. Password Protection
+
+apache
+
+```apache
+AuthType Basic
+AuthName "Restricted"
+AuthUserFile /etc/apache2/.htpasswd
+Require valid-user
+```
+
+---
+
+### 6. Custom Error Pages
+
+apache
+
+```apache
+ErrorDocument 404 /errors/notfound.html
+```
