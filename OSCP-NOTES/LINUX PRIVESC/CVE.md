@@ -52,7 +52,7 @@ sudo cewl <target-url> > wordlist.cewl
 
 **benchmarking our bruteforce with time**
 ```shell
-sudo time python3 poc.py 
+sudo time python3 poc.py <wordlist>
 ```
 
 
