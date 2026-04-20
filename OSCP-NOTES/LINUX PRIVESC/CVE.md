@@ -21,7 +21,9 @@ USE FIND FUNCTION TO FIND COMMENT AND OTHER KEYWORD LIKE PASS , KEY , TOKEN
 curl -s <target> | grep -Eo '(href|src)=".*"' | sed -r 's/(href|src)=//g' | tr -d '"' | sort
 ```
 grep -E = extended regex , o = only-the-occurance which is the string after href and src
-sed -r = extended regex , s for subsitute href and src 
+sed -r = extended regex , s for subsitute href and src to nothing 
+tr -d = delete the character
+sort the whole thing 
 
 **GITHUB ENUMERATION**
 -  GO TO THE CMS OR OTHER SOFTWARE IF THE TARGET IS USING ONE , AND SEARCH FOR FILES IN THE PROJECT EX: DATABASE , ADMIN,PASSWORD,TOKEN
