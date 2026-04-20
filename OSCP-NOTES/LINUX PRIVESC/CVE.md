@@ -55,4 +55,5 @@ sudo cewl <target-url> > wordlist.cewl
 sudo time python3 poc.py <wordlist>
 ```
 
-
+**exploiting a upload functionality**
+*A L*
