@@ -28,4 +28,5 @@ python setup.py sdist upload -r <package-name>
 
 https://github.com/mschwager/0wned
 
-a great example of what can be done with python pip installation , 
+*a great example of what can be done with python pip installation* , an arbitrary code execution at installation of python packages can be achived 
+
