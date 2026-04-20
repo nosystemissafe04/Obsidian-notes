@@ -33,3 +33,5 @@ https://github.com/mschwager/0wned
 https://0xdf.gitlab.io/2020/11/28/htb-sneakymailer.html#:~:text=and%20it%20works%3A-,Create%20Malicious%20Python%20Package,-This%20tutorial%20includes
 
 a blog post by 0xdf 
+
+remember after creating python package we also have to create .pypirc file to package for remote pypi
