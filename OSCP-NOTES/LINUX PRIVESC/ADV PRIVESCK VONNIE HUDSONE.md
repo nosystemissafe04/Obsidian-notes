@@ -21,3 +21,7 @@ except:
 	setup(.....<setup-code-for-package>.....)
 ```
 
+**rebuilding the package**
+```shell
+python setup.py sdist upload -r example_pk
+```
