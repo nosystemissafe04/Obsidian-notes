@@ -50,6 +50,9 @@ the exploit will use over wordlists , which is password here
 sudo cewl <target-url> > wordlist.cewl
 ```
 
-
+**benchmarking our bruteforce with time**
+```shell
+sudo time python3 poc.py 
+```
 
 
