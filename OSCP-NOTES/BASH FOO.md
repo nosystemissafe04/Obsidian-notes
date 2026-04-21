@@ -69,7 +69,10 @@ HASHCAT -M MODE HASH WORDLIST --USER --FORCE
 ```
 
 **how to find exploit from a set of exploits with bash**
-WE MAY ENCOUNTER PAYLOADALLTHETHINGS 
+WE MAY ENCOUNTER <mark class="hltr-green-flag">PAYLOADALLTHETHINGS</mark> WHERE WE NEEDED TO FIND AN EXPLOIT
+```SHELL
+cat <path-to-payload-all-things-exploit> | grep 
+```
 
 
 
