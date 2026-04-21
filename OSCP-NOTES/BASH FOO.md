@@ -80,7 +80,9 @@ vim = :set number = :<linenumber>
 
 now we located the exploit , 
 
-****
+```shell
+cat <path-to-exploit-WHICH-IS-A-README-FILE> 
+```
 
 
 
