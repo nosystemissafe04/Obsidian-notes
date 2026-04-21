@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "OSCP-NOTES/Untitled.md"
+    },
+    {
+      "basename": "TUNNELING AND PORT FORWORDING",
+      "path": "OSCP-NOTES/TUNNELING AND PORT FORWORDING.md"
+    },
+    {
       "basename": "BASH FOO",
       "path": "OSCP-NOTES/BASH FOO.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Windows File Transfer Methods",
       "path": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/File Transfers @@/Windows File Transfer Methods.md"
-    },
-    {
-      "basename": "LDAP-ENUMERATION WITH NETEXEC",
-      "path": "OSCP-NOTES/LDAP-ENUMERATION/LDAP-ENUMERATION WITH NETEXEC.md"
-    },
-    {
-      "basename": "USER ENUMERATION",
-      "path": "OSCP-NOTES/WINDOWS PrivEsk/USER ENUMERATION.md"
     }
   ],
   "omittedPaths": [],
