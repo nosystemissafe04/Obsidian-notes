@@ -71,9 +71,16 @@ HASHCAT -M MODE HASH WORDLIST --USER --FORCE
 **how to find exploit from a set of exploits with bash**
 WE MAY ENCOUNTER <mark class="hltr-green-flag">PAYLOADALLTHETHINGS</mark> WHERE WE NEEDED TO FIND AN EXPLOIT
 ```SHELL
-cat <path-to-payload-all-things-exploit> | grep 
+cat <path-to-payload-all-things-exploit> | grep -in <stringtosearch>
 ```
 
+```shell
+vim = :set number = :<linenumber>
+```
+
+now we located the exploit , 
+
+****
 
 
 
