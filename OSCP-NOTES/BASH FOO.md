@@ -68,7 +68,8 @@ SIMILARLY WE CAN PIPE THE OUTPUT TO VIM OR NVIM AND THEN SEARCH THERE
 HASHCAT -M MODE HASH WORDLIST --USER --FORCE
 ```
 
-**how to find **
+**how to find exploit from a set of exploits with bash**
+WE MAY ENCOUNTER PAYLOADALLTHETHINGS 
 
 
 
