@@ -84,8 +84,11 @@ now we located the exploit ,
 cat <path-to-exploit-WHICH-IS-A-README-FILE> | head -n <line-number> | tail -n 1
 ```
 
+**MODIFYING EXPLOIT WITH STREAMEDITOR**
 
-
+```SHELL
+sed -i 's/ip/our-ip/'
+```
 
 
 
