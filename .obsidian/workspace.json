@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/LINUX PRIVESC/Untitled.md",
+                "file": "OSCP-NOTES/LINUX PRIVESC/MODIFY LAUNCH DAEMON.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "MODIFY LAUNCH DAEMON"
             }
           }
         ]
@@ -299,7 +299,7 @@
   "active": "32222b6192c07747",
   "lastOpenFiles": [
     "OSCP-NOTES/LINUX PRIVESC/ADV PRIVESCK VONNIE HUDSONE.md",
-    "OSCP-NOTES/LINUX PRIVESC/Untitled.md",
+    "OSCP-NOTES/LINUX PRIVESC/MODIFY LAUNCH DAEMON.md",
     "OSCP-NOTES/LINUX PRIVESC/CVE.md",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260421033341.png",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260421030425.png",
