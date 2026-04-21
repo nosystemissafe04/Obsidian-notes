@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/TUNNELING THROUGH DEEP PACKET INSPECTION.md",
+                "file": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-DYNAMIC-PORT-FORWARDING-EXPLANATION.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TUNNELING THROUGH DEEP PACKET INSPECTION"
+              "title": "SSH-DYNAMIC-PORT-FORWARDING-EXPLANATION"
             }
           }
         ]
@@ -133,7 +133,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 377.5,
+    "collapsed": true
   },
   "right": {
     "id": "5689001c4553b175",
@@ -298,6 +299,8 @@
   },
   "active": "32222b6192c07747",
   "lastOpenFiles": [
+    "OSCP-NOTES/TUNNELING AND PORT FORWARDING/TUNNELING THROUGH DEEP PACKET INSPECTION.md",
+    "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-DYNAMIC-PORT-FORWARDING-EXPLANATION.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/TUNNELING AND PORT FORWORDING.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-LOCAL-PORT-FORWARD-EXPLANATION.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING",
@@ -331,7 +334,6 @@
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Attacking Common Services/Interacting with Common Services.md",
     "OSCP-NOTES/AV-BYPASS/EBOWLA.md",
     "OSCP-NOTES/AV-BYPASS",
-    "OSCP-NOTES/SQLi/ERROR BASED.md",
     "OSCP-NOTES/SQLi/assets/Pasted image 20260406044741.png",
     "OSCP-NOTES/SQLi/assets",
     "OSCP-NOTES/SQLi",
