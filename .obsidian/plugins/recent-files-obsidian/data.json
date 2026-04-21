@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "BASH FOO",
+      "path": "OSCP-NOTES/BASH FOO.md"
+    },
+    {
       "basename": "MODIFY LAUNCH DAEMON",
       "path": "OSCP-NOTES/LINUX PRIVESC/MODIFY LAUNCH DAEMON.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "IMAP",
       "path": "OSCP-NOTES/IMAP.md"
-    },
-    {
-      "basename": "BASH FOO",
-      "path": "OSCP-NOTES/BASH FOO.md"
     },
     {
       "basename": "PHP PASSTHRU()",
