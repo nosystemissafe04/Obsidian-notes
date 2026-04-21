@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/LINUX PRIVESC/CVE.md",
+                "file": "OSCP-NOTES/LINUX PRIVESC/Untitled.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CVE"
+              "title": "Untitled"
             }
           }
         ]
@@ -133,8 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5,
-    "collapsed": true
+    "width": 377.5
   },
   "right": {
     "id": "5689001c4553b175",
@@ -299,11 +298,12 @@
   },
   "active": "32222b6192c07747",
   "lastOpenFiles": [
+    "OSCP-NOTES/LINUX PRIVESC/ADV PRIVESCK VONNIE HUDSONE.md",
+    "OSCP-NOTES/LINUX PRIVESC/Untitled.md",
+    "OSCP-NOTES/LINUX PRIVESC/CVE.md",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260421033341.png",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260421030425.png",
     "OSCP-NOTES/LINUX PRIVESC/assets",
-    "OSCP-NOTES/LINUX PRIVESC/ADV PRIVESCK VONNIE HUDSONE.md",
-    "OSCP-NOTES/LINUX PRIVESC/CVE.md",
     "OSCP-NOTES/CTF/STUCKED AT.md",
     "OSCP-NOTES/IMAP.md",
     "OSCP-NOTES/BASH FOO.md",
@@ -337,7 +337,6 @@
     "OSCP-NOTES/Advance-windows-privesk Vonnie/assets/Pasted image 20260403155826.png",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/assets/Pasted image 20260402230040.png",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/assets/Pasted image 20260402230004.png",
-    "OSCP-NOTES/Advance-windows-privesk Vonnie/assets/Pasted image 20260402225936.png",
     "security/docs/attacking_active_directory_domain/active_directory_privilege_escalation/misconfigured_access_control_lists.md",
     "TREASURE/SOURCES/COPY-OSCP/17. Windows Privilege Escalation.md",
     "TREASURE/Powershell for Infosec/Doubts.md",

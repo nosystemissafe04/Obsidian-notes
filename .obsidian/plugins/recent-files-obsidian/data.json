@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "CVE",
-      "path": "OSCP-NOTES/LINUX PRIVESC/CVE.md"
+      "basename": "Untitled",
+      "path": "OSCP-NOTES/LINUX PRIVESC/Untitled.md"
     },
     {
       "basename": "ADV PRIVESCK VONNIE HUDSONE",
       "path": "OSCP-NOTES/LINUX PRIVESC/ADV PRIVESCK VONNIE HUDSONE.md"
+    },
+    {
+      "basename": "CVE",
+      "path": "OSCP-NOTES/LINUX PRIVESC/CVE.md"
     },
     {
       "basename": "STUCKED AT",
@@ -195,10 +199,6 @@
     {
       "basename": "USER ENUMERATION",
       "path": "OSCP-NOTES/WINDOWS PrivEsk/USER ENUMERATION.md"
-    },
-    {
-      "basename": "Extra Mile Offensive Cloud Lab 02",
-      "path": "TREASURE/SOURCES/COPY-OSCP/Extra Mile Offensive Cloud Lab 02.md"
     }
   ],
   "omittedPaths": [],
