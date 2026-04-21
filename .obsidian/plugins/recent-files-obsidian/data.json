@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "SSH-LOCAL-PORT-FORWARD-EXPLANATION",
+      "path": "OSCP-NOTES/SSH-LOCAL-PORT-FORWARD-EXPLANATION.md"
+    },
+    {
       "basename": "TUNNELING AND PORT-FORWARD CHEATSHEET",
       "path": "OSCP-NOTES/TUNNELING AND PORT-FORWARD CHEATSHEET.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "16. Password Attacks",
       "path": "TREASURE/SOURCES/COPY-OSCP/16. Password Attacks.md"
-    },
-    {
-      "basename": "Windows File Transfer Methods",
-      "path": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/File Transfers @@/Windows File Transfer Methods.md"
     }
   ],
   "omittedPaths": [],
