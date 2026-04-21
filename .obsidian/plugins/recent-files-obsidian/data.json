@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "TUNNELING THROUGH DEEP PACKET INSPECTION",
+      "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/TUNNELING THROUGH DEEP PACKET INSPECTION.md"
+    },
+    {
       "basename": "TUNNELING AND PORT FORWORDING",
       "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/TUNNELING AND PORT FORWORDING.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "KERBEROS AUTHENTICATION AND TICKETS",
       "path": "OSCP-NOTES/Kerberos/KERBEROS AUTHENTICATION AND TICKETS.md"
-    },
-    {
-      "basename": "16. Password Attacks",
-      "path": "TREASURE/SOURCES/COPY-OSCP/16. Password Attacks.md"
     }
   ],
   "omittedPaths": [],

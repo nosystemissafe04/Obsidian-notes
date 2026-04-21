@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/TUNNELING AND PORT FORWORDING.md",
+                "file": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/TUNNELING THROUGH DEEP PACKET INSPECTION.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TUNNELING AND PORT FORWORDING"
+              "title": "TUNNELING THROUGH DEEP PACKET INSPECTION"
             }
           }
         ]
@@ -133,8 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5,
-    "collapsed": true
+    "width": 377.5
   },
   "right": {
     "id": "5689001c4553b175",
@@ -299,10 +298,10 @@
   },
   "active": "32222b6192c07747",
   "lastOpenFiles": [
+    "OSCP-NOTES/TUNNELING AND PORT FORWARDING/TUNNELING AND PORT FORWORDING.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-LOCAL-PORT-FORWARD-EXPLANATION.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/TUNNELING AND PORT-FORWARD CHEATSHEET.md",
-    "OSCP-NOTES/TUNNELING AND PORT FORWARDING/TUNNELING AND PORT FORWORDING.md",
     "OSCP-NOTES/BASH FOO.md",
     "OSCP-NOTES/LINUX PRIVESC/MODIFY LAUNCH DAEMON.md",
     "OSCP-NOTES/LINUX PRIVESC/ADV PRIVESCK VONNIE HUDSONE.md",
