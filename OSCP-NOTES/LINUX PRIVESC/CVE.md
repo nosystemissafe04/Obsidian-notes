@@ -154,4 +154,18 @@ WHAT WE DID HERE IS WE REWRITTEN .htaccess CONFIG WHICH IS USUALLY NOT WRITABLE 
 WHICH WILL <mark class="hltr-mycolor">IGNORE ALL THE RULES IN THE CONFIG FILE</mark> , OTHERWISE IN APACHE MOST OFTEN ITS NOT ALLOWED TO EXECUTE AN UPLOADED FILE ,
 
 **SUDO VULN PRIVILEDGE ESCALATION**
+### CVE-2019-14287 — sudo `-u#-1` Integer Overflow
+
+#### What it is
+
+When sudo converts a user ID to run a command as, it uses a function that interprets the numeric user ID. The integer `-1` (or its unsigned equivalent `#4294967295`) is **mishandled** — the OS treats it as UID 0 (root), because `-1` in an unsigned 32-bit integer wraps around to `4294967295`, which the `getpwuid()` function returns as **root (UID 0)**.
+#### The core bug
+
+```
+sudo -u#-1 id
+```
+or
+```
+sudo -u#4294967295 id
+```
 
