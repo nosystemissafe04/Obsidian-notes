@@ -87,9 +87,9 @@ cat <path-to-exploit-WHICH-IS-A-README-FILE> | head -n <line-number> | tail -n 1
 **MODIFYING EXPLOIT WITH STREAMEDITOR**
 
 ```SHELL
-sed -i 's/ip/our-ip/'
+sed -i 's/ip/our-ip/g' payload.txt
 ```
-
+SAME WITH PORT AND OTHER THINGS TO BE REPLACED 
 
 
 
