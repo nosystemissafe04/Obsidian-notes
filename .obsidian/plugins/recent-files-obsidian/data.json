@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "ERROR BASED",
+      "path": "OSCP-NOTES/SQLi/ERROR BASED.md"
+    },
+    {
       "basename": "MEGA-CHEATSHEET",
       "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/MEGA-CHEATSHEET.md"
     },
@@ -123,10 +127,6 @@
     {
       "basename": "EBOWLA",
       "path": "OSCP-NOTES/AV-BYPASS/EBOWLA.md"
-    },
-    {
-      "basename": "ERROR BASED",
-      "path": "OSCP-NOTES/SQLi/ERROR BASED.md"
     },
     {
       "basename": "WEAK REGISTRY",
