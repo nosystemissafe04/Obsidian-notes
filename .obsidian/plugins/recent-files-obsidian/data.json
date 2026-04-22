@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "TUNNELING AND PORT-FORWARD CHEATSHEET",
-      "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/TUNNELING AND PORT-FORWARD CHEATSHEET.md"
+      "basename": "MEGA-CHEATSHEET",
+      "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/MEGA-CHEATSHEET.md"
+    },
+    {
+      "basename": "TUNNELING AND PORT-FORWARD INTRODUCTION",
+      "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/TUNNELING AND PORT-FORWARD INTRODUCTION.md"
     },
     {
       "basename": "SOCAT",
@@ -195,10 +199,6 @@
     {
       "basename": "Commands",
       "path": "OSCP-NOTES/Commands.md"
-    },
-    {
-      "basename": "ACTIVE DIRECTORY ENUMERATION USING LEGACY TOOLS",
-      "path": "OSCP-NOTES/ACTIVE DIRECTORY ENUMERATION USING LEGACY TOOLS.md"
     }
   ],
   "omittedPaths": [],
