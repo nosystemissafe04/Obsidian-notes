@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/Untitled.md"
+    },
+    {
       "basename": "SSH-REMOTE-PORT-FORWARDING",
       "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-REMOTE-PORT-FORWARDING.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "KERBEROSTING",
       "path": "OSCP-NOTES/Kerberos/KERBEROSTING.md"
-    },
-    {
-      "basename": "IMPACKET-SMB-ENUMERATION",
-      "path": "OSCP-NOTES/SMB-ENUMERATION/IMPACKET-SMB-ENUMERATION.md"
     }
   ],
   "omittedPaths": [],
