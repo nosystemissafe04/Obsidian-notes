@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "RUSTSCAN",
+      "path": "OSCP-NOTES/TOOLS/RUSTSCAN.md"
+    },
+    {
       "basename": "ERROR BASED",
       "path": "OSCP-NOTES/SQLi/ERROR BASED.md"
     },
@@ -194,11 +198,7 @@
     },
     {
       "basename": "FEROXBUSTER",
-      "path": "OSCP-NOTES/FEROXBUSTER.md"
-    },
-    {
-      "basename": "Commands",
-      "path": "OSCP-NOTES/Commands.md"
+      "path": "OSCP-NOTES/TOOLS/FEROXBUSTER.md"
     }
   ],
   "omittedPaths": [],

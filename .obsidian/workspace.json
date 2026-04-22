@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/SQLi/ERROR BASED.md",
+                "file": "OSCP-NOTES/TOOLS/RUSTSCAN.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ERROR BASED"
+              "title": "RUSTSCAN"
             }
           }
         ]
@@ -298,6 +298,9 @@
   },
   "active": "32222b6192c07747",
   "lastOpenFiles": [
+    "OSCP-NOTES/SQLi/ERROR BASED.md",
+    "OSCP-NOTES/TOOLS/RUSTSCAN.md",
+    "OSCP-NOTES/TOOLS",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/MEGA-CHEATSHEET.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/TUNNELING AND PORT-FORWARD INTRODUCTION.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SOCAT.md",
@@ -329,8 +332,6 @@
     "OSCP-NOTES/Advance-windows-privesk Vonnie/TERMINAL HISTORY.md",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/TOKEN MANIPULATION.md",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/TOKEN MANIPULATION (VERTICAL ESCALATION).md",
-    "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (HORIZONTAL ESCALATION).md",
-    "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Host Based Enumeration/NFS.md",
     "OSCP-NOTES/LINUX PRIVESC",
     "OSCP-NOTES/AV-BYPASS",
     "OSCP-NOTES/SQLi/assets/Pasted image 20260406044741.png",
@@ -343,7 +344,6 @@
     "OSCP-NOTES/Advance-windows-privesk Vonnie/assets/Pasted image 20260402230004.png",
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Infrastructure Based Enumeration/assets/subdomain-oneliner.sh",
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Shells & Payloads/assets/Shells_Payloads_Module_Cheat_Sheet.pdf",
-    "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Network Enumeration with Nmap/assets/Network_Enumeration_With_Nmap_Module_Cheat_Sheet.pdf",
     "TREASURE/PEN-notes/PRACTICAL MALWARE ANALYSIS/Basic Static Analysis.canvas",
     "Spaces/Untitled 1.canvas",
     "Untitled.canvas",
