@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "SOCAT",
+      "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SOCAT.md"
+    },
+    {
       "basename": "CHISEL",
       "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/CHISEL.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "ACTIVE DIRECTORY ENUMERATION USING LEGACY TOOLS",
       "path": "OSCP-NOTES/ACTIVE DIRECTORY ENUMERATION USING LEGACY TOOLS.md"
-    },
-    {
-      "basename": "Attacking SQL Databases",
-      "path": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Attacking Common Services/Attacking SQL Databases.md"
     }
   ],
   "omittedPaths": [],

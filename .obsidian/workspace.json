@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/CHISEL.md",
+                "file": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SOCAT.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHISEL"
+              "title": "SOCAT"
             }
           }
         ]
@@ -298,8 +298,9 @@
   },
   "active": "32222b6192c07747",
   "lastOpenFiles": [
-    "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-REMOTE-DYNAMIC-PORT-FORWARDING.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/CHISEL.md",
+    "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SOCAT.md",
+    "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-REMOTE-DYNAMIC-PORT-FORWARDING.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-REMOTE-PORT-FORWARDING.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-DYNAMIC-PORT-FORWARDING-EXPLANATION.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/TUNNELING THROUGH DEEP PACKET INSPECTION.md",
@@ -331,7 +332,6 @@
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Host Based Enumeration/NFS.md",
     "OSCP-NOTES/LINUX PRIVESC",
     "security/docs/post_exploitation/privilege_escalation_-_linux.md",
-    "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Password Attacks/Network Services.md",
     "OSCP-NOTES/AV-BYPASS",
     "OSCP-NOTES/SQLi/assets/Pasted image 20260406044741.png",
     "OSCP-NOTES/SQLi/assets",
