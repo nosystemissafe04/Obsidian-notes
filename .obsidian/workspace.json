@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SOCAT.md",
+                "file": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/TUNNELING AND PORT-FORWARD CHEATSHEET.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "SOCAT"
+              "title": "TUNNELING AND PORT-FORWARD CHEATSHEET"
             }
           }
         ]
@@ -133,7 +133,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 377.5,
+    "collapsed": true
   },
   "right": {
     "id": "5689001c4553b175",
@@ -298,8 +299,8 @@
   },
   "active": "32222b6192c07747",
   "lastOpenFiles": [
-    "OSCP-NOTES/TUNNELING AND PORT FORWARDING/CHISEL.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SOCAT.md",
+    "OSCP-NOTES/TUNNELING AND PORT FORWARDING/CHISEL.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-REMOTE-DYNAMIC-PORT-FORWARDING.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-REMOTE-PORT-FORWARDING.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-DYNAMIC-PORT-FORWARDING-EXPLANATION.md",
