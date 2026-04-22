@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "RUSTSCAN"
             }
+          },
+          {
+            "id": "5fa0c6653de1c775",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OSCP-NOTES/BASH FOO.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "BASH FOO"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -297,10 +322,10 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "32222b6192c07747",
+  "active": "5fa0c6653de1c775",
   "lastOpenFiles": [
-    "OSCP-NOTES/SQLi/ERROR BASED.md",
     "OSCP-NOTES/TOOLS/RUSTSCAN.md",
+    "OSCP-NOTES/SQLi/ERROR BASED.md",
     "OSCP-NOTES/TOOLS",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/MEGA-CHEATSHEET.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/TUNNELING AND PORT-FORWARD INTRODUCTION.md",
