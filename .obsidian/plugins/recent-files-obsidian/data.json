@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "CHISEL",
+      "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/CHISEL.md"
+    },
+    {
       "basename": "SSH-REMOTE-DYNAMIC-PORT-FORWARDING",
       "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-REMOTE-DYNAMIC-PORT-FORWARDING.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Attacking SQL Databases",
       "path": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Attacking Common Services/Attacking SQL Databases.md"
-    },
-    {
-      "basename": "KERBEROSTING",
-      "path": "OSCP-NOTES/Kerberos/KERBEROSTING.md"
     }
   ],
   "omittedPaths": [],
