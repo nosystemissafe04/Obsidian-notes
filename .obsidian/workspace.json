@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md",
+                "file": "OSCP-NOTES/LINUX PRIVESC/CVE.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "OFFSEC-MATERIAL"
+              "title": "CVE"
             }
           }
         ],
@@ -158,8 +158,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5,
-    "collapsed": true
+    "width": 377.5
   },
   "right": {
     "id": "5689001c4553b175",
@@ -324,6 +323,8 @@
   },
   "active": "5fa0c6653de1c775",
   "lastOpenFiles": [
+    "OSCP-NOTES/LINUX PRIVESC/ADV PRIVESCK VONNIE HUDSONE.md",
+    "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md",
     "OSCP-NOTES/Commands.md",
     "OSCP-NOTES/BASH FOO.md",
     "OSCP-NOTES/TOOLS/RUSTSCAN.md",
@@ -341,7 +342,6 @@
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-LOCAL-PORT-FORWARD-EXPLANATION.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING",
     "OSCP-NOTES/LINUX PRIVESC/MODIFY LAUNCH DAEMON.md",
-    "OSCP-NOTES/LINUX PRIVESC/ADV PRIVESCK VONNIE HUDSONE.md",
     "OSCP-NOTES/LINUX PRIVESC/CVE.md",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260421033341.png",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260421030425.png",
@@ -352,7 +352,6 @@
     "OSCP-NOTES/AV-BYPASS/assets/Pasted image 20260419173054.png",
     "OSCP-NOTES/AV-BYPASS/assets/Pasted image 20260419172814.png",
     "OSCP-NOTES/AV-BYPASS/assets",
-    "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION).md",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/ENABLING REMOTE DESKTOP.md",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/KERNEL EXPLOIT.md",

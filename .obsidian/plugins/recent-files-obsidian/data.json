@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "CVE",
+      "path": "OSCP-NOTES/LINUX PRIVESC/CVE.md"
+    },
+    {
+      "basename": "ADV PRIVESCK VONNIE HUDSONE",
+      "path": "OSCP-NOTES/LINUX PRIVESC/ADV PRIVESCK VONNIE HUDSONE.md"
+    },
+    {
       "basename": "OFFSEC-MATERIAL",
       "path": "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md"
     },
@@ -63,14 +71,6 @@
     {
       "basename": "MODIFY LAUNCH DAEMON",
       "path": "OSCP-NOTES/LINUX PRIVESC/MODIFY LAUNCH DAEMON.md"
-    },
-    {
-      "basename": "ADV PRIVESCK VONNIE HUDSONE",
-      "path": "OSCP-NOTES/LINUX PRIVESC/ADV PRIVESCK VONNIE HUDSONE.md"
-    },
-    {
-      "basename": "CVE",
-      "path": "OSCP-NOTES/LINUX PRIVESC/CVE.md"
     },
     {
       "basename": "STUCKED AT",
