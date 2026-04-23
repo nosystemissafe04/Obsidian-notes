@@ -153,5 +153,5 @@ hydra -l eve -P wordlist <ip> -t 4 ssh -V
 
 **PROCESS SNAPSHOT TO FIND WHICH PROCESSES AND DAEMONS ARE RUNNING AS ROOT ON THE SYSTEM**
 ```SHELL
-watch -n 1 "ps -aux "
+watch -n 1 "ps -aux | "
 ```
