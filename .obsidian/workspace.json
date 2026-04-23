@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/BASH FOO.md",
+                "file": "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "BASH FOO"
+              "title": "OFFSEC-MATERIAL"
             }
           }
         ],
@@ -323,12 +323,12 @@
   },
   "active": "5fa0c6653de1c775",
   "lastOpenFiles": [
+    "OSCP-NOTES/BASH FOO.md",
+    "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md",
     "OSCP-NOTES/LINUX PRIVESC/MODIFY LAUNCH DAEMON.md",
     "OSCP-NOTES/LINUX PRIVESC/CVE.md",
     "OSCP-NOTES/LINUX PRIVESC/ADV PRIVESCK VONNIE HUDSONE.md",
-    "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md",
     "OSCP-NOTES/Commands.md",
-    "OSCP-NOTES/BASH FOO.md",
     "OSCP-NOTES/TOOLS/RUSTSCAN.md",
     "OSCP-NOTES/SQLi/ERROR BASED.md",
     "OSCP-NOTES/TOOLS",

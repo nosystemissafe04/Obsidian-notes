@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "OFFSEC-MATERIAL",
+      "path": "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md"
+    },
+    {
       "basename": "BASH FOO",
       "path": "OSCP-NOTES/BASH FOO.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "ADV PRIVESCK VONNIE HUDSONE",
       "path": "OSCP-NOTES/LINUX PRIVESC/ADV PRIVESCK VONNIE HUDSONE.md"
-    },
-    {
-      "basename": "OFFSEC-MATERIAL",
-      "path": "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md"
     },
     {
       "basename": "Commands",
