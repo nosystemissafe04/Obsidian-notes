@@ -132,4 +132,8 @@ nc -nvlp <port> > <filename>
 nc -nv <victim-ip> <victim-port> < '<file/to/transfer>' 
 ```
 
- 
+**CHECK ENVIRONMENT VARIABLE FOR SAVED PASSWORDS**
+```SHELL
+env
+```
+
