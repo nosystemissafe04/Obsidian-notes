@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "OFFSEC-MATERIAL",
+      "path": "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md"
+    },
+    {
+      "basename": "Commands",
+      "path": "OSCP-NOTES/Commands.md"
+    },
+    {
       "basename": "BASH FOO",
       "path": "OSCP-NOTES/BASH FOO.md"
     },
@@ -75,10 +83,6 @@
     {
       "basename": "PHP PASSTHRU()",
       "path": "OSCP-NOTES/AV-BYPASS/PHP PASSTHRU().md"
-    },
-    {
-      "basename": "OFFSEC-MATERIAL",
-      "path": "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md"
     },
     {
       "basename": "WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION)",
@@ -195,10 +199,6 @@
     {
       "basename": "PASSWORD ATTACK IN ACTIVE DIRECTORY",
       "path": "OSCP-NOTES/PASSWORD ATTACK IN ACTIVE DIRECTORY.md"
-    },
-    {
-      "basename": "FEROXBUSTER",
-      "path": "OSCP-NOTES/TOOLS/FEROXBUSTER.md"
     }
   ],
   "omittedPaths": [],
