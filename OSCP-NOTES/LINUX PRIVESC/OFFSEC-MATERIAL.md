@@ -167,6 +167,6 @@ watch -n 1 "ps auxwwf | grep <string-to-search>"
 
 *CHECKING CRON LOGS FOR RUNNING CRON JOBS*
 ```SHELL
-grep "CRON" /var/log/
+grep "CRON" /var/log/syslog
 ```
 
