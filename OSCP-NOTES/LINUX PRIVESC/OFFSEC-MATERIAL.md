@@ -158,6 +158,10 @@ watch -n 1 "ps -aux"
 
 ![[BASH FOO#**printing the process tree with ps**]]
 
-COMBINE 
+COMBINE BOTH OF THEM 
+```SHELL
+watch -n 1 "ps auxwwf | grep <string-to-search>"
+```
+
 
 
