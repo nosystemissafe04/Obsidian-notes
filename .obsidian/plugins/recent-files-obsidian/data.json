@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "MODIFY LAUNCH DAEMON",
+      "path": "OSCP-NOTES/LINUX PRIVESC/MODIFY LAUNCH DAEMON.md"
+    },
+    {
       "basename": "CVE",
       "path": "OSCP-NOTES/LINUX PRIVESC/CVE.md"
     },
@@ -67,10 +71,6 @@
     {
       "basename": "SSH-LOCAL-PORT-FORWARD-EXPLANATION",
       "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-LOCAL-PORT-FORWARD-EXPLANATION.md"
-    },
-    {
-      "basename": "MODIFY LAUNCH DAEMON",
-      "path": "OSCP-NOTES/LINUX PRIVESC/MODIFY LAUNCH DAEMON.md"
     },
     {
       "basename": "STUCKED AT",

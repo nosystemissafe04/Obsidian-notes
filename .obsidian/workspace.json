@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/LINUX PRIVESC/CVE.md",
+                "file": "OSCP-NOTES/LINUX PRIVESC/MODIFY LAUNCH DAEMON.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CVE"
+              "title": "MODIFY LAUNCH DAEMON"
             }
           }
         ],
@@ -323,6 +323,7 @@
   },
   "active": "5fa0c6653de1c775",
   "lastOpenFiles": [
+    "OSCP-NOTES/LINUX PRIVESC/CVE.md",
     "OSCP-NOTES/LINUX PRIVESC/ADV PRIVESCK VONNIE HUDSONE.md",
     "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md",
     "OSCP-NOTES/Commands.md",
@@ -342,7 +343,6 @@
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-LOCAL-PORT-FORWARD-EXPLANATION.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING",
     "OSCP-NOTES/LINUX PRIVESC/MODIFY LAUNCH DAEMON.md",
-    "OSCP-NOTES/LINUX PRIVESC/CVE.md",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260421033341.png",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260421030425.png",
     "OSCP-NOTES/LINUX PRIVESC/assets",
