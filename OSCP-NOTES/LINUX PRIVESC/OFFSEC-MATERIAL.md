@@ -163,5 +163,5 @@ COMBINE BOTH OF THEM
 watch -n 1 "ps auxwwf | grep <string-to-search>"
 ```
 
-
+**ABUSING CRON JOBS**
 
