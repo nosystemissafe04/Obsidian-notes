@@ -141,3 +141,8 @@ env
 ```SHELL
 crunch 6 6 -t Lab%%% > wordlist
 ```
+
+**BRUTEFORCING SSH FOR HORIZONTAL ESCALATION**
+```SHELL
+hydra 
+```
