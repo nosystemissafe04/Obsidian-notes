@@ -138,3 +138,6 @@ env
 ```
 
 **GENERATING A CUSTOM WORDLIST FOR PRIVESCK**
+```SHELL
+crunch 6 6 -t Lab%%% > wordlist
+```
