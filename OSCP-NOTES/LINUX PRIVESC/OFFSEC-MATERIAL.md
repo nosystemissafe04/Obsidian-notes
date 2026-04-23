@@ -156,5 +156,8 @@ hydra -l eve -P wordlist <ip> -t 4 ssh -V
 watch -n 1 "ps -aux"
 ```
 
-[[BASH FOO#**printing the process tree with ps**]]
+![[BASH FOO#**printing the process tree with ps**]]
+
+COMBINE 
+
 
