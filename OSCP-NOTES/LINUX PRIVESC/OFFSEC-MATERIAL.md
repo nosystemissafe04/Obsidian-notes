@@ -137,3 +137,4 @@ nc -nv <victim-ip> <victim-port> < '<file/to/transfer>'
 env
 ```
 
+**GENERATING A CUSTOM WORDLIST FOR PRIVESCK**
