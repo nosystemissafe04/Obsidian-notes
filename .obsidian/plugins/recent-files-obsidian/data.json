@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "LAB-SETUP",
+      "path": "OSCP-NOTES/LDAP-ENUMERATION/LAB-SETUP.md"
+    },
+    {
+      "basename": "LDAP-ENUMERATION WITH NETEXEC",
+      "path": "OSCP-NOTES/LDAP-ENUMERATION/LDAP-ENUMERATION WITH NETEXEC.md"
+    },
+    {
+      "basename": "NETEXEC - SMB ENUMERATION",
+      "path": "OSCP-NOTES/SMB-ENUMERATION/NETEXEC - SMB ENUMERATION.md"
+    },
+    {
+      "basename": "IMPACKET-SMB-ENUMERATION",
+      "path": "OSCP-NOTES/SMB-ENUMERATION/IMPACKET-SMB-ENUMERATION.md"
+    },
+    {
       "basename": "NETWORK ENUMERATION",
       "path": "OSCP-NOTES/WINDOWS PrivEsk/NETWORK ENUMERATION.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "Session History and History File",
       "path": "TREASURE/Powershell for Infosec/Session History and History File.md"
-    },
-    {
-      "basename": "active_directory_help_commands",
-      "path": "security/docs/attacking_active_directory_domain/good_to_know/active_directory_help_commands.md"
-    },
-    {
-      "basename": "recording-multitrack-2024-08-08T13-17-25-981Z",
-      "path": "Extras/Audio-recordings/recording-multitrack-2024-08-08T13-17-25-981Z.wav"
-    },
-    {
-      "basename": "Powershell Core",
-      "path": "TREASURE/Powershell for Infosec/Powershell Core.md"
-    },
-    {
-      "basename": "Active directory Enumeration",
-      "path": "OSCP-NOTES/Active Directory Introduction and Enumeration/Active directory Enumeration.md"
     }
   ],
   "omittedPaths": [],
