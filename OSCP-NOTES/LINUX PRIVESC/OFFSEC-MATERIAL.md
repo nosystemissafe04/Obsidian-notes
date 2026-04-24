@@ -194,3 +194,9 @@ su root2
 
 **ABUSING SETUID BINARIES AND CAPABILITIES**
 
+
+```shell
+ps u -C passwd
+```
+
+![[Pasted image 20260425035506.png]]
