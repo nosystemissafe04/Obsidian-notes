@@ -75,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "NFS",
+                "query": "SUDO",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -153,13 +153,11 @@
               "title": "Files"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 377.5,
-    "collapsed": true
+    "width": 377.5
   },
   "right": {
     "id": "5689001c4553b175",
@@ -322,7 +320,7 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "5fa0c6653de1c775",
+  "active": "974f9231aef97f7c",
   "lastOpenFiles": [
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260425041111.png",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260425035506.png",
