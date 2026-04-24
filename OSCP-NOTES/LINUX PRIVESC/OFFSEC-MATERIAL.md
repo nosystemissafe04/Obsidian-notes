@@ -246,3 +246,17 @@ CUSTOM CONFIGURATION OF SUDO CAT BE FOUND IN `/etc/sudoers` FILE
 sudo -l
 ```
 
+AGAIN THE GTFOBINS WEBSITE WILLHEP
+
+
+
+
+
+
+
+
+
+
+
+
+
