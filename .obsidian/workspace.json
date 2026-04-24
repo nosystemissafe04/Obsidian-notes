@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md",
+                "file": "OSCP-NOTES/BASH FOO.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "OFFSEC-MATERIAL"
+              "title": "BASH FOO"
             }
           }
         ],
@@ -153,12 +153,12 @@
               "title": "Files"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 377.5,
-    "collapsed": true
+    "width": 377.5
   },
   "right": {
     "id": "5689001c4553b175",
@@ -323,8 +323,8 @@
   },
   "active": "5fa0c6653de1c775",
   "lastOpenFiles": [
-    "OSCP-NOTES/LINUX PRIVESC/CVE.md",
     "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md",
+    "OSCP-NOTES/LINUX PRIVESC/CVE.md",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260425041111.png",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260425035506.png",
     "OSCP-NOTES/BASH FOO.md",

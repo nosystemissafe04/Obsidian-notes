@@ -249,18 +249,19 @@ sudo -l
 
 AGAIN THE <mark class="hltr-myblue">GTFOBINS</mark> WEBSITE WILL HELP US FIND THE COMMAND TO PRIVESCK
 
-*CHECKING SYSLOG IF THE COMMANDS DOES NOT WORK*
-```SHELL
-cat /var/log/syslog | grep <sudo-binary-we-are-exploiting>
-```
-
-NEEDS SUDO PERM TO CHECK APPARMOR PROTECTED BINARIES 
-```shell
-su - root
-aa-status
-```
-
-THIS WILL SHOW IF THE BINARY IS PROTECTED BY APPARMOUR OR NOT 
+> [!check]
+> *CHECKING SYSLOG IF THE COMMANDS DOES NOT WORK*
+> ```SHELL
+> cat /var/log/syslog | grep <sudo-binary-we-are-exploiting>
+> ```
+> 
+> NEEDS SUDO PERM TO CHECK APPARMOR PROTECTED BINARIES 
+> ```shell
+> su - root
+> aa-status
+> ```
+> 
+> THIS WILL SHOW IF THE BINARY IS PROTECTED BY APPARMOUR OR NOT 
 
 
 

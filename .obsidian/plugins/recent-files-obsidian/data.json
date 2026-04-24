@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "BASH FOO",
+      "path": "OSCP-NOTES/BASH FOO.md"
+    },
+    {
       "basename": "OFFSEC-MATERIAL",
       "path": "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md"
     },
     {
       "basename": "CVE",
       "path": "OSCP-NOTES/LINUX PRIVESC/CVE.md"
-    },
-    {
-      "basename": "BASH FOO",
-      "path": "OSCP-NOTES/BASH FOO.md"
     },
     {
       "basename": "MODIFY LAUNCH DAEMON",
