@@ -284,7 +284,10 @@ uname -r
 arch
 ```
 
-
+*searchsploit finding public exploits*
+```shell
+searchsploit "linux kernel ubuntu <version> local priviledge escalation" | grep "4." |
+```
 
 
 
