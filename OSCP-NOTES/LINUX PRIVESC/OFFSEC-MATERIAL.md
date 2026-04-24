@@ -238,4 +238,4 @@ look for <mark class="hltr-mycolor">cap_setuid+ep</mark>
 ---
 
 **ABUSING SUDO**
-[[]]
+[[CVE#CVE-2019-14287 — sudo `-u -1` Integer Overflow]]
