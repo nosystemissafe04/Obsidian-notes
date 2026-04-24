@@ -120,7 +120,7 @@ find / -perm -u=s -type f 2>/dev/null
 ```
 
 
-### FILE-TRANSFER 
+###### **FILE-TRANSFER** 
 
 **NETCAT**
 
@@ -163,12 +163,16 @@ COMBINE BOTH OF THEM
 watch -n 1 "ps auxwwf | grep <string-to-search>"
 ```
 
+---
+
 **ABUSING CRON JOBS**
 
 *CHECKING CRON LOGS FOR RUNNING CRON JOBS*
 ```SHELL
 grep "CRON" /var/log/syslog
 ```
+
+---
 
 **ABUSING PASSWORD AUTHENTICATION**
 
