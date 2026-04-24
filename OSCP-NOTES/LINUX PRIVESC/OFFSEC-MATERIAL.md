@@ -170,3 +170,4 @@ watch -n 1 "ps auxwwf | grep <string-to-search>"
 grep "CRON" /var/log/syslog
 ```
 
+**ABUSING PASSWORD AUTHENTICATION**
