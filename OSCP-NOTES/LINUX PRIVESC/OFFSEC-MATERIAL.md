@@ -248,6 +248,10 @@ sudo -l
 
 AGAIN THE <mark class="hltr-myblue">GTFOBINS</mark> WEBSITE WILL HELP US FIND THE COMMAND TO PRIVESCK
 
+*CHECKING SYSLOG IF THE COMMANDS DOES NOT WORK*
+```SHELL
+cat /var/log/syslog | grep <sudo-binary-we-are-exploiting>
+```
 
 
 
