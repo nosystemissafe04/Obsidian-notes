@@ -230,4 +230,4 @@ SUCH AS TRAFFIC CAPTURING AND KERNEL MODULES
 ![[Pasted image 20260425041111.png]]
 
 look for <mark class="hltr-mycolor">cap_setuid+ep</mark> 
-`e` means effective ui
+`e` means <mark class="hltr-green-flag">effective uid</mark> and `p` means <mark class="hltr-green-flag">permitted</mark>
