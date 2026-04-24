@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/LDAP-ENUMERATION/LAB-SETUP.md",
+                "file": "OSCP-NOTES/Kerberos/KERBEROS AUTHENTICATION AND TICKETS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "LAB-SETUP"
+              "title": "KERBEROS AUTHENTICATION AND TICKETS"
             }
           }
         ],
@@ -323,6 +323,7 @@
   },
   "active": "5fa0c6653de1c775",
   "lastOpenFiles": [
+    "OSCP-NOTES/LDAP-ENUMERATION/LAB-SETUP.md",
     "OSCP-NOTES/LDAP-ENUMERATION/LDAP-ENUMERATION WITH NETEXEC.md",
     "OSCP-NOTES/SMB-ENUMERATION/NETEXEC - SMB ENUMERATION.md",
     "OSCP-NOTES/SMB-ENUMERATION/IMPACKET-SMB-ENUMERATION.md",
@@ -355,7 +356,6 @@
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260421030425.png",
     "OSCP-NOTES/LINUX PRIVESC/assets",
     "OSCP-NOTES/CTF/STUCKED AT.md",
-    "OSCP-NOTES/IMAP.md",
     "OSCP-NOTES/AV-BYPASS/assets/Pasted image 20260419173054.png",
     "OSCP-NOTES/AV-BYPASS/assets/Pasted image 20260419172814.png",
     "OSCP-NOTES/AV-BYPASS/assets",

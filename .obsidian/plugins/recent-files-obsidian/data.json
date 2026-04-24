@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "KERBEROS AUTHENTICATION AND TICKETS",
+      "path": "OSCP-NOTES/Kerberos/KERBEROS AUTHENTICATION AND TICKETS.md"
+    },
+    {
       "basename": "LAB-SETUP",
       "path": "OSCP-NOTES/LDAP-ENUMERATION/LAB-SETUP.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Modules",
       "path": "TREASURE/Powershell for Infosec/Modules.md"
-    },
-    {
-      "basename": "Session History and History File",
-      "path": "TREASURE/Powershell for Infosec/Session History and History File.md"
     }
   ],
   "omittedPaths": [],
