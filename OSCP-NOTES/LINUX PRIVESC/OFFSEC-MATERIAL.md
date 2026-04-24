@@ -204,6 +204,13 @@ su root2
 > ```SHELL
 > grep /proc/<PID>/status 
 > ```
+> 
+> ```shell
+> cat /proc/<PID>/status | grep Uid
+> ```
+> ```shell
+> ls -asl /usr/bin/passwd
+> ```
 
 
 
