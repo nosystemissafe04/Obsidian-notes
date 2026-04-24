@@ -235,3 +235,7 @@ look for <mark class="hltr-mycolor">cap_setuid+ep</mark>
 *exploting capabilities*
 	again go to gtfobins website and find the capabitlites section there you will find the command 
 
+---
+
+**ABUSING SUDO**
+[[]]
