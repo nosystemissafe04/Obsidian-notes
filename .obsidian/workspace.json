@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md",
+                "file": "OSCP-NOTES/WINDOWS PrivEsk/NETWORK ENUMERATION.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "OFFSEC-MATERIAL"
+              "title": "NETWORK ENUMERATION"
             }
           }
         ],
@@ -323,8 +323,10 @@
   },
   "active": "5fa0c6653de1c775",
   "lastOpenFiles": [
-    "OSCP-NOTES/BASH FOO.md",
+    "OSCP-NOTES/WINDOWS PrivEsk/AUTOMATED TOOLS.md",
+    "OSCP-NOTES/WINDOWS PrivEsk/AV ENUMERATION.md",
     "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md",
+    "OSCP-NOTES/BASH FOO.md",
     "OSCP-NOTES/LINUX PRIVESC/CVE.md",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260425041111.png",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260425035506.png",
@@ -357,7 +359,6 @@
     "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION).md",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/ENABLING REMOTE DESKTOP.md",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/KERNEL EXPLOIT.md",
-    "OSCP-NOTES/Advance-windows-privesk Vonnie/TERMINAL HISTORY.md",
     "OSCP-NOTES/LINUX PRIVESC",
     "OSCP-NOTES/AV-BYPASS",
     "OSCP-NOTES/SQLi/assets/Pasted image 20260406044741.png",
