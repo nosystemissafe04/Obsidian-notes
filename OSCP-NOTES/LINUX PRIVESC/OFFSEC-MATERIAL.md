@@ -289,7 +289,9 @@ arch
 searchsploit "linux kernel ubuntu <version> local priviledge escalation" | grep "4." | grep -v "< 4.4.0" | grep -v "4.8"
 ```
 
-here we are filtering the output to the specific kernel versionand os version 
+here we are filtering the output to the specific kernel version and os version 
+
+
 
 
 
