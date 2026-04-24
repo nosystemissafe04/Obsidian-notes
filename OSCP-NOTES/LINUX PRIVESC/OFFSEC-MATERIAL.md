@@ -194,7 +194,7 @@ su root2
 
 **ABUSING SETUID BINARIES AND CAPABILITIES**
 
-> [!check] what happens when a non privileged user wants to write to a non writable file , it works with the help of <mark class="hltr-mycolor">UID and GID</mark> 
+> [!check] what happens when a non privileged user wants to write to a non writable file , it works with the help of <mark class="hltr-myblue">UID and GID</mark> 
 > 
 > ```shell
 > ps u -C passwd
