@@ -254,9 +254,12 @@ AGAIN THE <mark class="hltr-myblue">GTFOBINS</mark> WEBSITE WILL HELP US FIND TH
 cat /var/log/syslog | grep <sudo-binary-we-are-exploiting>
 ```
 
+NEEDS SUDO PERM TO CHECK APPARMOR PROTECTED BINARIES 
 ```shell
-
+su - root
+aa-status
 ```
+
 
 
 
