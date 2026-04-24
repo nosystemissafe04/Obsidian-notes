@@ -1,5 +1,9 @@
 ```CMD
 whoami
+
+whoami /groups
+
+whaomi /priv
 ```
 
 ```cmd
