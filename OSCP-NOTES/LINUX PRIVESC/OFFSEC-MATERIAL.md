@@ -213,7 +213,7 @@ su root2
 > ```
 
 SUID SET TO A BINARY CAN BE USED FOR PRIVESK
-GOTO GTFOBINS AND FIND THE BINARY AND YOU WILL GET THE COMMAND 
+GOTO <mark class="hltr-myblue">GTFOBINS</mark> AND FIND THE BINARY AND YOU WILL GET THE COMMAND 
 
 ```SHELL
 find /home/joe/desktop -exec "/usr/bin/bash" -p \;
@@ -233,7 +233,7 @@ look for <mark class="hltr-mycolor">cap_setuid+ep</mark>
 `e` means <mark class="hltr-green-flag">effective uid</mark> and `p` means <mark class="hltr-green-flag">permitted</mark>
 
 *exploting capabilities*
-	again go to gtfobins website and find the capabitlites section there you will find the command 
+	again go to <mark class="hltr-myblue">gtfobins</mark> website and find the capabitlites section there you will find the command 
 
 ---
 
@@ -246,7 +246,7 @@ CUSTOM CONFIGURATION OF SUDO CAT BE FOUND IN `/etc/sudoers` FILE
 sudo -l
 ```
 
-AGAIN THE GTFOBINS WEBSITE WILLHEP
+AGAIN THE <mark class="hltr-myblue">GTFOBINS</mark> WEBSITE WILL HELP US FIND THE COMMAND TO PRIVESCK
 
 
 
