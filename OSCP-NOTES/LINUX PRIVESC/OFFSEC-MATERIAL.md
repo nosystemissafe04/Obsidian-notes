@@ -194,9 +194,11 @@ su root2
 
 **ABUSING SETUID BINARIES AND CAPABILITIES**
 
+> [!check]
+> 
+> ```shell
+> ps u -C passwd
+> ```
+> 
+> ![[Pasted image 20260425035506.png]]
 
-```shell
-ps u -C passwd
-```
-
-![[Pasted image 20260425035506.png]]
