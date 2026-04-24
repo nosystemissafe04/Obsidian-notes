@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/WINDOWS PrivEsk/Untitled.md",
+                "file": "OSCP-NOTES/WINDOWS PrivEsk/OFFSEC MATERIAL.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "OFFSEC MATERIAL"
             }
           }
         ],
@@ -324,7 +324,7 @@
   "active": "5fa0c6653de1c775",
   "lastOpenFiles": [
     "OSCP-NOTES/CHEATSHEETS/Filtering commands.md",
-    "OSCP-NOTES/WINDOWS PrivEsk/Untitled.md",
+    "OSCP-NOTES/WINDOWS PrivEsk/OFFSEC MATERIAL.md",
     "OSCP-NOTES/CTF/STUCKED AT.md",
     "OSCP-NOTES/INFO-WHY'S/Privileges level and user account access Level.md",
     "OSCP-NOTES/INFO-WHY'S/NMAP scan time impact.md",
