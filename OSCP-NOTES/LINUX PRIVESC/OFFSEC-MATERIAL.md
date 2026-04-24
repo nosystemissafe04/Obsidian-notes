@@ -179,6 +179,6 @@ openssl passwd toor
 ```
 
 ```shell
-echo "root2"
+echo "root2":<cript-hash-we-will-get-from-opnessl>:0:0:root
 ```
 
