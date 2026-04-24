@@ -201,5 +201,10 @@ su root2
 > ```
 > 
 > ![[Pasted image 20260425035506.png]]
+> ```SHELL
+> grep /proc/<PID>/status 
+> ```
+
+
 
     
