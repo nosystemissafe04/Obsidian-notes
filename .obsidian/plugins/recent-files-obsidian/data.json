@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "STUCKED AT",
+      "path": "OSCP-NOTES/CTF/STUCKED AT.md"
+    },
+    {
+      "basename": "Privileges level and user account access Level",
+      "path": "OSCP-NOTES/INFO-WHY'S/Privileges level and user account access Level.md"
+    },
+    {
+      "basename": "NMAP scan time impact",
+      "path": "OSCP-NOTES/INFO-WHY'S/NMAP scan time impact.md"
+    },
+    {
       "basename": "KERBEROS AUTHENTICATION AND TICKETS",
       "path": "OSCP-NOTES/Kerberos/KERBEROS AUTHENTICATION AND TICKETS.md"
     },
@@ -105,10 +117,6 @@
       "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-LOCAL-PORT-FORWARD-EXPLANATION.md"
     },
     {
-      "basename": "STUCKED AT",
-      "path": "OSCP-NOTES/CTF/STUCKED AT.md"
-    },
-    {
       "basename": "IMAP",
       "path": "OSCP-NOTES/IMAP.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Powershell Fundamentals",
       "path": "TREASURE/Powershell for Infosec/Powershell Fundamentals.md"
-    },
-    {
-      "basename": "Powershell logging and logging bypass",
-      "path": "TREASURE/Powershell for Infosec/Powershell logging and logging bypass.md"
-    },
-    {
-      "basename": "Modules",
-      "path": "TREASURE/Powershell for Infosec/Modules.md"
     }
   ],
   "omittedPaths": [],
