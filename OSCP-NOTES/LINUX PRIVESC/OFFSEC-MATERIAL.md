@@ -202,3 +202,4 @@ su root2
 > 
 > ![[Pasted image 20260425035506.png]]
 
+  
