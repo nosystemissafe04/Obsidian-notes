@@ -233,4 +233,5 @@ look for <mark class="hltr-mycolor">cap_setuid+ep</mark>
 `e` means <mark class="hltr-green-flag">effective uid</mark> and `p` means <mark class="hltr-green-flag">permitted</mark>
 
 *exploting capabilities*
-	again go to 
+	again go to gtfobins website and find the capabitlites section there you will find the command 
+
