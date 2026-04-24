@@ -174,5 +174,11 @@ grep "CRON" /var/log/syslog
 
 *CHECK THE /etc/passwd FILE PERMISSION IF WE CAN WRITE TO THIS FILE WE CAN APPEND OUR OWN CREATED PASSWORD , THE PASSWORD IS STORED IN /etc/shadow FILE NORMALLY BUT IF THERE IS A PASSWORD PRESENT IN /etc/passwd it will be given more priority over shadow file*
 
+```shell
+openssl passwd toor
+```
 
+```shell
+echo "root2"
+```
 
