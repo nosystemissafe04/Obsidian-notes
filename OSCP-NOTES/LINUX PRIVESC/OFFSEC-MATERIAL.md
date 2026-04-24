@@ -243,4 +243,6 @@ look for <mark class="hltr-mycolor">cap_setuid+ep</mark>
 CUSTOM CONFIGURATION OF SUDO CAT BE FOUND IN `/etc/sudoers` FILE
 
 ```SHELL
+sudo -l
 ```
+
