@@ -260,6 +260,25 @@ su - root
 aa-status
 ```
 
+THIS WILL SHOW IF THE BINARY IS PROTECTED BY APPARMOUR OR NOT 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
