@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "OSCP-NOTES/WINDOWS PrivEsk/Untitled.md"
+    },
+    {
+      "basename": "Filtering commands",
+      "path": "OSCP-NOTES/CHEATSHEETS/Filtering commands.md"
+    },
+    {
       "basename": "STUCKED AT",
       "path": "OSCP-NOTES/CTF/STUCKED AT.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Doubts",
       "path": "TREASURE/Powershell for Infosec/Doubts.md"
-    },
-    {
-      "basename": "Credentials and Remoting",
-      "path": "TREASURE/Powershell for Infosec/Credentials and Remoting.md"
-    },
-    {
-      "basename": "Powershell Fundamentals",
-      "path": "TREASURE/Powershell for Infosec/Powershell Fundamentals.md"
     }
   ],
   "omittedPaths": [],

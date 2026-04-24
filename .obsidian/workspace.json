@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/CTF/STUCKED AT.md",
+                "file": "OSCP-NOTES/WINDOWS PrivEsk/Untitled.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STUCKED AT"
+              "title": "Untitled"
             }
           }
         ],
@@ -323,6 +323,9 @@
   },
   "active": "5fa0c6653de1c775",
   "lastOpenFiles": [
+    "OSCP-NOTES/CHEATSHEETS/Filtering commands.md",
+    "OSCP-NOTES/WINDOWS PrivEsk/Untitled.md",
+    "OSCP-NOTES/CTF/STUCKED AT.md",
     "OSCP-NOTES/INFO-WHY'S/Privileges level and user account access Level.md",
     "OSCP-NOTES/INFO-WHY'S/NMAP scan time impact.md",
     "OSCP-NOTES/Kerberos/KERBEROS AUTHENTICATION AND TICKETS.md",
@@ -349,9 +352,6 @@
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SOCAT.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/CHISEL.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-REMOTE-DYNAMIC-PORT-FORWARDING.md",
-    "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-REMOTE-PORT-FORWARDING.md",
-    "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-DYNAMIC-PORT-FORWARDING-EXPLANATION.md",
-    "OSCP-NOTES/TUNNELING AND PORT FORWARDING/TUNNELING THROUGH DEEP PACKET INSPECTION.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260421033341.png",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260421030425.png",
