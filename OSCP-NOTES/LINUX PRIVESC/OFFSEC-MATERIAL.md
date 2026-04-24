@@ -267,7 +267,18 @@ AGAIN THE <mark class="hltr-myblue">GTFOBINS</mark> WEBSITE WILL HELP US FIND TH
 ---
 
 **EXPLOITING KERNEL VULNERABILITY**
+*FINDING THE ARCHITECTURE KERNEL VERSION AND OS VERSOIN*
+```SHELL
+cat /etc/issue
+```
 
+```shell
+uname -r
+```
+
+```shell
+arch
+```
 
 
 
