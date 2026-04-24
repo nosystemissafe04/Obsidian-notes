@@ -54,6 +54,16 @@
               "icon": "lucide-file",
               "title": "OFFSEC MATERIAL"
             }
+          },
+          {
+            "id": "7e41815648b3bbe5",
+            "type": "leaf",
+            "state": {
+              "type": "mb-playground-view-type",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Meta Bind playground"
+            }
           }
         ],
         "currentTab": 1
@@ -75,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "SUDO",
+                "query": "\"net user\"",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -153,13 +163,11 @@
               "title": "Files"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 377.5,
-    "collapsed": true
+    "width": 377.5
   },
   "right": {
     "id": "5689001c4553b175",
@@ -322,8 +330,9 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "5fa0c6653de1c775",
+  "active": "974f9231aef97f7c",
   "lastOpenFiles": [
+    "OSCP-NOTES/TOOLS/RUSTSCAN.md",
     "OSCP-NOTES/CHEATSHEETS/Filtering commands.md",
     "OSCP-NOTES/WINDOWS PrivEsk/OFFSEC MATERIAL.md",
     "OSCP-NOTES/CTF/STUCKED AT.md",
@@ -345,7 +354,6 @@
     "OSCP-NOTES/LINUX PRIVESC/MODIFY LAUNCH DAEMON.md",
     "OSCP-NOTES/LINUX PRIVESC/ADV PRIVESCK VONNIE HUDSONE.md",
     "OSCP-NOTES/Commands.md",
-    "OSCP-NOTES/TOOLS/RUSTSCAN.md",
     "OSCP-NOTES/SQLi/ERROR BASED.md",
     "OSCP-NOTES/TOOLS",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/MEGA-CHEATSHEET.md",

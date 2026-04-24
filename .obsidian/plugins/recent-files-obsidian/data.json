@@ -5,6 +5,10 @@
       "path": "OSCP-NOTES/WINDOWS PrivEsk/OFFSEC MATERIAL.md"
     },
     {
+      "basename": "RUSTSCAN",
+      "path": "OSCP-NOTES/TOOLS/RUSTSCAN.md"
+    },
+    {
       "basename": "Filtering commands",
       "path": "OSCP-NOTES/CHEATSHEETS/Filtering commands.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "Commands",
       "path": "OSCP-NOTES/Commands.md"
-    },
-    {
-      "basename": "RUSTSCAN",
-      "path": "OSCP-NOTES/TOOLS/RUSTSCAN.md"
     },
     {
       "basename": "ERROR BASED",
