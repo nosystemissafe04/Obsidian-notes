@@ -228,3 +228,6 @@ SUCH AS TRAFFIC CAPTURING AND KERNEL MODULES
 ```
 
 ![[Pasted image 20260425041111.png]]
+
+look for <mark class="hltr-mycolor">cap_setuid+ep</mark> 
+`e` means effective ui
