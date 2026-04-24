@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "BASH FOO",
-      "path": "OSCP-NOTES/BASH FOO.md"
-    },
-    {
       "basename": "OFFSEC-MATERIAL",
       "path": "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md"
+    },
+    {
+      "basename": "BASH FOO",
+      "path": "OSCP-NOTES/BASH FOO.md"
     },
     {
       "basename": "CVE",

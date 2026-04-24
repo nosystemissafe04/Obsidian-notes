@@ -192,7 +192,7 @@ su root2
 
 ---
 
-**ABUSING SETUID BINARIES AND CAPABILITIES**
+###### **ABUSING SETUID BINARIES AND CAPABILITIES**
 
 > [!check]
 >  what happens when a non privileged user wants to write to a non writable file , it works with the help of <mark class="hltr-myblue">UID and GID</mark> 
@@ -238,7 +238,7 @@ look for <mark class="hltr-mycolor">cap_setuid+ep</mark>
 
 ---
 
-**ABUSING SUDO**
+###### **ABUSING SUDO**
 [[CVE#CVE-2019-14287 — sudo `-u -1` Integer Overflow]]
 
 CUSTOM CONFIGURATION OF SUDO CAT BE FOUND IN `/etc/sudoers` FILE
