@@ -239,3 +239,8 @@ look for <mark class="hltr-mycolor">cap_setuid+ep</mark>
 
 **ABUSING SUDO**
 [[CVE#CVE-2019-14287 — sudo `-u -1` Integer Overflow]]
+
+CUSTOM CONFIGURATION OF SUDO CAT BE FOUND IN `/etc/sudoers` FILE
+
+```SHELL
+```
