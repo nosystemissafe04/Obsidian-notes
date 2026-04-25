@@ -94,7 +94,7 @@ get-process
 
 ### HIDDEN IN PLAIN VIEW
 ```POWERSHELL
-get-childitem -path C:\ -include
+get-childitem -path C:\ -include *.kdbx -file -recurse -erroraction silentlycontinue
 ```
 
 
