@@ -65,5 +65,6 @@ netstat -ano
 
 **finding all the installed applicaton**
 we will query two registry keys to list both 32 and 64bit applications
-```powershel
+```powershell
+get-itemproperty "HKLM:\SOFTWARE\Wow6432Node\Microsoft\"
 ```
