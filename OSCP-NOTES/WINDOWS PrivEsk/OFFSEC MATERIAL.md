@@ -16,6 +16,11 @@ net user <username>
 net group <groupname>
 ```
 
+****
+```powershell
+get-localuser
+```
+
 ```cmd
 ifconfig
 ```
