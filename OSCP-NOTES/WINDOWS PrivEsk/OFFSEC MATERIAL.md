@@ -16,7 +16,7 @@ net user <username>
 net group <groupname>
 ```
 
-****
+**list of local user and they are enable or not**
 ```powershell
 get-localuser
 ```
