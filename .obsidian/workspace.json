@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"net user\"",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -167,7 +167,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 377.5,
+    "collapsed": true
   },
   "right": {
     "id": "5689001c4553b175",
@@ -330,7 +331,7 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "974f9231aef97f7c",
+  "active": "5fa0c6653de1c775",
   "lastOpenFiles": [
     "OSCP-NOTES/TOOLS/RUSTSCAN.md",
     "OSCP-NOTES/CHEATSHEETS/Filtering commands.md",
