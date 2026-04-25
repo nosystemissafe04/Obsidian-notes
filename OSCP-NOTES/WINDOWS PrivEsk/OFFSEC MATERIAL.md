@@ -93,7 +93,9 @@ get-process
 
 
 ### HIDDEN IN PLAIN VIEW
-
+```POWERSHELL
+get-childitem -path C:\ -include
+```
 
 
 
