@@ -119,7 +119,10 @@ get-childitem -path C:\users\dave -include *.txt,*.pdf,*.xls,*.xlsx,*.doc,*.docx
 <mark class="hltr-green-flag">runas</mark> can be used on local and domain account
 *without access to GUI we cannot use runas bcz the password prompt does not work in commonly used shells*
 
-
+```powershell
+runas /user:<username> cmd
+```
+then it will p
 
 
 
