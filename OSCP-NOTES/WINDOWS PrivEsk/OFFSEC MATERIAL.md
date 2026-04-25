@@ -117,7 +117,7 @@ get-childitem -path C:\users\dave -include *.txt,*.pdf,*.xls,*.xlsx,*.doc,*.docx
 - *if the user is not a member of remote management and remote desktop we need to pivot with the help of <mark class="hltr-green-flag">runas</mark>*
 
 <mark class="hltr-green-flag">runas</mark> can be used on local and domain account
-*without access to GUI we cannot use r*
+*without access to GUI we cannot use runas bcz the password prompt does not work in commonly used shells*
 
 
 
