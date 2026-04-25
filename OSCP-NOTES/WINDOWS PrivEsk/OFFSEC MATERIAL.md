@@ -37,6 +37,8 @@ net localgroup
 ```powershell
 get-localgroup
 ```
+*remember to distinguish between standard and non standard groups*
+
 `REMOTE MANAGEMENT` = USERS WHO CAN ACCESS IT VIA WMI 
 `REMOTE DESKTOP` = USERS WHO CAN RDP TO THE MACHINE 
 `BACKUP OPERATORS` = OVERRIDE SECURITY RESTRICTIONS
