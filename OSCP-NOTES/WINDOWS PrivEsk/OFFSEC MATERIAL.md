@@ -13,7 +13,7 @@ net user
 net group 
 ```
 
-
+**finding other user information**
 ```
 net user <username>
 
@@ -24,8 +24,6 @@ net group <groupname>
 ```powershell
 get-localuser
 ```
-
----
 
 **list of local groups**
 ```powershell
