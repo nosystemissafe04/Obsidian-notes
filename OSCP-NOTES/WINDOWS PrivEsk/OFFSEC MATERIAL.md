@@ -116,7 +116,8 @@ get-childitem -path C:\users\dave -include *.txt,*.pdf,*.xls,*.xlsx,*.doc,*.docx
 - *if we did horizontal escalation by finding any passwords , we ned to repeate the whole process of finding any sensitive file and configuration files*
 - *if the user is not a member of remote management and remote desktop we need to pivot with the help of <mark class="hltr-green-flag">runas</mark>*
 
-local and domain account 
+<mark class="hltr-green-flag">runas</mark> can be used on local and domain account
+*without access to GUI we cannot use r*
 
 
 
