@@ -74,3 +74,11 @@ get-itemproperty "HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Un
 ```powershell
 get-itemproperty "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\*" | select displayname
 ```
+
+SOME APPLICATION MAY NOT BE SHOWN IN TH
+
+
+
+
+
+
