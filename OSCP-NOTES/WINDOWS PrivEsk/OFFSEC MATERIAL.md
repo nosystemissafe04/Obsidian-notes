@@ -111,7 +111,7 @@ checking the directory of user
 get-childitem -path C:\users\dave -include *.txt,*.pdf,*.xls,*.xlsx,*.doc,*.docx -file -recurse -erroraction silentlycontinue
 ```
 
-*if we did horizontal escalation by finding any passwords , we ned to *
+*if we did horizontal escalation by finding any passwords , we ned to repeate the whole process of finding any sensitive file and configuration files*
 
 
 
