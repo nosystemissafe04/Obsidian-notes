@@ -105,7 +105,7 @@ BASED ONTHE INFORMATION WE GATHERED , IF XAMPP OR OTHER APPLICATION ARE RUNNING 
 get-childitem -path C:\xampp -include *.txt,*.ini -file -recurse -erroraction silentlycontinue
 ```
 
-
+checking the directory of user
 
 
 
