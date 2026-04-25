@@ -44,7 +44,12 @@ get-localgroup
 get-localgroupmember <groupname>
 ```
 
-**system information **
+**system information , architechture , os version , patched or not **
+```powershell
+systeminfo
+```
+
+
 ```cmd
 ifconfig
 ```
