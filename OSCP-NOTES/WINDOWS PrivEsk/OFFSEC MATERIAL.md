@@ -49,11 +49,11 @@ get-localgroupmember <groupname>
 systeminfo
 ```
 
-
+**network information**
 ```cmd
-ifconfig
+ifconfig /all
 ```
 
-```cmd
-
+```powershell
+ro
 ```
