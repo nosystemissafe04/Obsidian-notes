@@ -97,7 +97,15 @@ get-process
 get-childitem -path C:\ -include *.kdbx -file -recurse -erroraction silentlycontinue
 ```
 
-BASED ONTHE INFORMATION WE GATHERED , IF XAMPP OR OTHER APPLICATION ARE RUNNING WE WILL TARGET THOSE APPLICATION TO FIND THE PA
+BASED ONTHE INFORMATION WE GATHERED , IF XAMPP OR OTHER APPLICATION ARE RUNNING WE WILL TARGET THOSE APPLICATION TO FIND THE PASSWORDS IF THEY ARE STORED OR NOT
+
+```POWERSHELL
+get-childitem -path C:\xam -include *.kdbx -file -recurse -erroraction silentlycontinue
+```
+
+
+
+
 
 
 
