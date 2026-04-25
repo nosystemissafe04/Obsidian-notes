@@ -35,7 +35,7 @@ net localgroup
 ```powershell
 get-localgroup
 ```
-`REMOTE MANAGEMENT` = 
+`REMOTE MANAGEMENT` = USERS WHO CAN ACCESS IT VIA WMI 
 `REMOTE DESKTOP`
 
 ```cmd
