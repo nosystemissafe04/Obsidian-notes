@@ -122,7 +122,9 @@ get-childitem -path C:\users\dave -include *.txt,*.pdf,*.xls,*.xlsx,*.doc,*.docx
 ```powershell
 runas /user:<username> cmd
 ```
-then it will p
+then it will prompt for password 
+
+
 
 
 
