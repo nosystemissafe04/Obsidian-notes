@@ -124,6 +124,12 @@ runas /user:<username> cmd
 ```
 then it will prompt for password 
 
+**THERE IS ALSO ANOTHER WAY TO DO THE **
+```powershell
+# PowerShell — prompts silently
+ $password = Read-Host "Enter password" -AsSecureString 
+ $credential = New-Object System.Management.Automation.PSCredential("AdminUser", $password) Start-Process "notepad.exe" -Credential $credential
+```
 
 
 
