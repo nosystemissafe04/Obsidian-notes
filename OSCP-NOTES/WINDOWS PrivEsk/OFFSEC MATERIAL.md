@@ -108,8 +108,10 @@ get-childitem -path C:\xampp -include *.txt,*.ini -file -recurse -erroraction si
 checking the directory of user
 
 ```powershell
-get-childitem -path C:\users\dave -include *.txt,*.pdf,* -file -recurse -erroraction silentlycontinue
+get-childitem -path C:\users\dave -include *.txt,*.pdf,*.xls,*.xlsx,*.doc,*.docx -file -recurse -erroraction silentlycontinue
 ```
+
+
 
 
 
