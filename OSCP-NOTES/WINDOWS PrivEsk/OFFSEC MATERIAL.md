@@ -1,3 +1,4 @@
+**user enumeration**
 ```CMD
 whoami
 
@@ -10,7 +11,10 @@ whaomi /priv
 net user 
 
 net group 
+```
 
+
+```
 net user <username>
 
 net group <groupname>
@@ -21,14 +25,20 @@ net group <groupname>
 get-localuser
 ```
 
-**list of local groups **
+---
+
+**list of local groups**
 ```powershell
 net localgroup
 ```
-or
+
+*or*
+
 ```powershell
 get-localgroup
 ```
+
+
 ```cmd
 ifconfig
 ```
