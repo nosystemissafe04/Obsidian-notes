@@ -131,9 +131,12 @@ then it will prompt for password
  $credential = New-Object System.Management.Automation.PSCredential("AdminUser", $password) Start-Process "powershell.exe" -Credential $credential
 ```
 
+**ESCALATION BY PSEXEC**
+```POWERSHELL
+query user
+```
 
-
-
+IF THE USER IS LOGGED IN FOR EXAMPLE ADMIN AND WE HAVE PASSWORD OF IT WE CAN USE PSEXEC FROM SYSINTERNALS TO 
 
 
 
