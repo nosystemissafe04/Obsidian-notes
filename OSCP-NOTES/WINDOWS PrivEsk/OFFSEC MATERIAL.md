@@ -35,7 +35,8 @@ net localgroup
 ```powershell
 get-localgroup
 ```
-`REMOTE `
+`REMOTE MANAGEMENT` = 
+`REMOTE DESKTOP`
 
 ```cmd
 ifconfig
