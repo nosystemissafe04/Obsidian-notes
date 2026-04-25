@@ -1,3 +1,5 @@
+#### SITUATIONAL AWARENESS
+
 **user enumeration**
 ```CMD
 whoami
