@@ -36,7 +36,7 @@ net localgroup
 get-localgroup
 ```
 `REMOTE MANAGEMENT` = USERS WHO CAN ACCESS IT VIA WMI 
-`REMOTE DESKTOP`
+`REMOTE DESKTOP` = USERS WHO CAN RDP TO THE MACHINE 
 
 ```cmd
 ifconfig
