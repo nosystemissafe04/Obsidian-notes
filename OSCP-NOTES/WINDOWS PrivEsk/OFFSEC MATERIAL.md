@@ -92,6 +92,8 @@ get-process
 *the <mark class="hltr-green-flag">pid</mark> we got from netstat command and the <mark class="hltr-green-flag">id</mark> of get-process command can give us which application are running or listening for connections *
 
 
+### HIDDEN IN PLAIN VIEW
+
 
 
 
