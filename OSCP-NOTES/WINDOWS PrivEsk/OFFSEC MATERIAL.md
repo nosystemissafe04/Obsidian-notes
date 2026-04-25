@@ -21,6 +21,14 @@ net group <groupname>
 get-localuser
 ```
 
+**list of local groups **
+```powershell
+net localgroup
+```
+or
+```powershell
+get-localgroup
+```
 ```cmd
 ifconfig
 ```
