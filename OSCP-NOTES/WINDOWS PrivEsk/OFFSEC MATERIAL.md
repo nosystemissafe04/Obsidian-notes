@@ -55,5 +55,10 @@ ifconfig /all
 ```
 
 ```powershell
-ro
+route print
+```
+
+**all active network connections**
+```powershell
+netstat -ano
 ```
