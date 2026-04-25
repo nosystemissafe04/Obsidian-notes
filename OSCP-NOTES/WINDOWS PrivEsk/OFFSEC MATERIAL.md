@@ -100,8 +100,10 @@ get-childitem -path C:\ -include *.kdbx -file -recurse -erroraction silentlycont
 BASED ONTHE INFORMATION WE GATHERED , IF XAMPP OR OTHER APPLICATION ARE RUNNING WE WILL TARGET THOSE APPLICATION TO FIND THE PASSWORDS IF THEY ARE STORED OR NOT
 
 ```POWERSHELL
-get-childitem -path C:\xam -include *.kdbx -file -recurse -erroraction silentlycontinue
+get-childitem -path C:\xampp -include *.txt,*.ini -file -recurse -erroraction silentlycontinue
 ```
+
+
 
 
 
