@@ -39,6 +39,10 @@ get-localgroup
 `REMOTE DESKTOP` = USERS WHO CAN RDP TO THE MACHINE 
 `BACKUP OPERATORS` = OVERRIDE SECURITY RESTRICTIONS
 
+```powershell
+get-localgroupmember
+```
+
 ```cmd
 ifconfig
 ```
