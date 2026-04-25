@@ -44,6 +44,7 @@ get-localgroup
 get-localgroupmember <groupname>
 ```
 
+**system information **
 ```cmd
 ifconfig
 ```
