@@ -63,4 +63,7 @@ route print
 netstat -ano
 ```
 
-****
+**finding all the installed applicaton**
+we will query two registry keys to list both 32 and 64bit applications
+```powershel
+```
