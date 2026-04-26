@@ -146,3 +146,5 @@ psexec.exe \\target -u Administrator -p Password123 -i -s cmd.exe
 ---
 
 ### INFORMATION GOLDMINE POWERSHELL
+**POWERSHELL TRANSCRIPTION AND POWERSHELL SCRIPT BLOCK LOGGING**
+
