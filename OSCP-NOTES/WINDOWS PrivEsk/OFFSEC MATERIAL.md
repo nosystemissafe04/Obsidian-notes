@@ -165,3 +165,8 @@ does not remove psreadline recorded commands
 ```powershell
 (get-psreadlineoption).historysavepath
 ```
+
+**reading transcription logs**
+```powershell
+type 
+```
