@@ -171,7 +171,12 @@ does not remove psreadline recorded commands
 type C:\users\public\transcripts\transcript01.txt
 ```
 
-if we find any powershell remoting thing like if we found a username and password we may get unexpected results best way is to use evil-winrm , powershellremoting works on winrm and evil winrm is best for it if we cant access the machine use port forwarding or pivoting  
+if we find any powershell remoting thing like if we found a username and password we may get unexpected results best way is to use evil-winrm , powershellremoting works on winrm and evil winrm is best for it if we cant access the machine use port forwarding or pivoting 
+
+---
+
+### AUTOMATED ENUMERATION
+
 
 
 
