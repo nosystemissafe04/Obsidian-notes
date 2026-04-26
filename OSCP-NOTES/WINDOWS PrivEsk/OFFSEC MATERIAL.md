@@ -160,4 +160,8 @@ A POWERSHELL MODULE PSREADLINE IS RESPONSIBLE FOR LINE EDITING AND COMMAND HISTO
 ```POWERSHELL
 clear-history
 ```
-does ot 
+does not remove psreadline recorded commands 
+**determining the psreadline module saved history path**
+```powershell
+(get-psreadline)
+```
