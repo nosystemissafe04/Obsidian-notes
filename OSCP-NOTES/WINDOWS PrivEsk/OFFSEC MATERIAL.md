@@ -171,3 +171,4 @@ does not remove psreadline recorded commands
 type C:\users\public\transcripts\transcript01.txt
 ```
 
+if we find any powershell remoting thing like if we found a 
