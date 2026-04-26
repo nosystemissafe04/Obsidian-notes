@@ -141,3 +141,8 @@ IF THE USER IS LOGGED IN FOR EXAMPLE ADMIN AND WE HAVE PASSWORD OF IT WE CAN USE
 ```POWERSHELL
 psexec.exe \\target -u Administrator -p Password123 -i -s cmd.exe
 ```
+
+
+---
+
+### INFORMATION GOLDMINE POWERSHELL
