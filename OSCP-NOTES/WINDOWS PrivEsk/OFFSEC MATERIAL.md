@@ -176,7 +176,7 @@ if we find any powershell remoting thing like if we found a username and passwor
 ---
 
 ### AUTOMATED ENUMERATION
-FGGG
+**WINPEAS**
 
 
 
