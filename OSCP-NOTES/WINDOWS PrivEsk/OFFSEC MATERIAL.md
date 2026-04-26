@@ -168,5 +168,6 @@ does not remove psreadline recorded commands
 
 **reading transcription logs**
 ```powershell
-type 
+type C:\users\public\transcripts\transcript01.txt
 ```
+
