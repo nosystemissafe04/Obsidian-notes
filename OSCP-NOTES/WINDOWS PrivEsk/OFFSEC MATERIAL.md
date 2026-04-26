@@ -163,5 +163,5 @@ clear-history
 does not remove psreadline recorded commands 
 **determining the psreadline module saved history path**
 ```powershell
-(get-psreadline)
+(get-psreadlineoption).historysavepath
 ```
