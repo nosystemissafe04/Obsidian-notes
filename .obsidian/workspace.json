@@ -168,7 +168,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 377.5,
+    "collapsed": true
   },
   "right": {
     "id": "5689001c4553b175",
@@ -331,7 +332,7 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "9fe5df7679baec76",
+  "active": "5fa0c6653de1c775",
   "lastOpenFiles": [
     "OSCP-NOTES/WINDOWS PrivEsk/OFFSEC MATERIAL.md",
     "OSCP-NOTES/TOOLS/RUSTSCAN.md",
