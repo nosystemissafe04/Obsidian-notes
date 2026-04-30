@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/WINDOWS PrivEsk/OFFSEC MATERIAL.md",
+                "file": "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "OFFSEC MATERIAL"
+              "title": "Powershell Fundamentals"
             }
           },
           {
@@ -163,12 +163,12 @@
               "title": "Files"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 377.5,
-    "collapsed": true
+    "width": 377.5
   },
   "right": {
     "id": "5689001c4553b175",
@@ -331,11 +331,11 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "5fa0c6653de1c775",
+  "active": "9fe5df7679baec76",
   "lastOpenFiles": [
+    "OSCP-NOTES/WINDOWS PrivEsk/OFFSEC MATERIAL.md",
     "OSCP-NOTES/TOOLS/RUSTSCAN.md",
     "OSCP-NOTES/CHEATSHEETS/Filtering commands.md",
-    "OSCP-NOTES/WINDOWS PrivEsk/OFFSEC MATERIAL.md",
     "OSCP-NOTES/CTF/STUCKED AT.md",
     "OSCP-NOTES/INFO-WHY'S/Privileges level and user account access Level.md",
     "OSCP-NOTES/INFO-WHY'S/NMAP scan time impact.md",

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Powershell Fundamentals",
+      "path": "TREASURE/Powershell for Infosec/Powershell Fundamentals.md"
+    },
+    {
       "basename": "OFFSEC MATERIAL",
       "path": "OSCP-NOTES/WINDOWS PrivEsk/OFFSEC MATERIAL.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "17. Windows Privilege Escalation",
       "path": "TREASURE/SOURCES/COPY-OSCP/17. Windows Privilege Escalation.md"
-    },
-    {
-      "basename": "Doubts",
-      "path": "TREASURE/Powershell for Infosec/Doubts.md"
     }
   ],
   "omittedPaths": [],
