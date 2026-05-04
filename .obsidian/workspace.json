@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",
+                "file": "OSCP-NOTES/BASH FOO.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Powershell Fundamentals"
+              "title": "BASH FOO"
             }
           },
           {
@@ -334,6 +334,7 @@
   },
   "active": "5fa0c6653de1c775",
   "lastOpenFiles": [
+    "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",
     "OSCP-NOTES/WINDOWS PrivEsk/OFFSEC MATERIAL.md",
     "OSCP-NOTES/TOOLS/RUSTSCAN.md",
     "OSCP-NOTES/CHEATSHEETS/Filtering commands.md",
@@ -362,7 +363,6 @@
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/TUNNELING AND PORT-FORWARD INTRODUCTION.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SOCAT.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/CHISEL.md",
-    "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-REMOTE-DYNAMIC-PORT-FORWARDING.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260421033341.png",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260421030425.png",

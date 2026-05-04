@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "BASH FOO",
+      "path": "OSCP-NOTES/BASH FOO.md"
+    },
+    {
       "basename": "Powershell Fundamentals",
       "path": "TREASURE/Powershell for Infosec/Powershell Fundamentals.md"
     },
@@ -63,10 +67,6 @@
     {
       "basename": "OFFSEC-MATERIAL",
       "path": "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md"
-    },
-    {
-      "basename": "BASH FOO",
-      "path": "OSCP-NOTES/BASH FOO.md"
     },
     {
       "basename": "CVE",
