@@ -28,7 +28,7 @@ powershell by default have some minimal logging called event logging or know to 
 
 this contain information about the event that happens 
 - for example if you  go to powershell events if you open a new session for powershell which  is also an  event and it will log that event . there we can also identify the version that ps session is working on . we can find if  there is some downgrading happend or not 
-- we could also see those providers that we learned in  [[Powershell Fundamentals#Powershell Providers]] starts when we open the a powershell session 
+- we could also see those providers that we learned in  [[TREASURE/Powershell for Infosec/Powershell Fundamentals#Powershell Providers]] starts when we open the a powershell session 
 
 but for logs we have another tool **tailpsoplog** because we have to refersh every time to look for new events in event viewer .
 

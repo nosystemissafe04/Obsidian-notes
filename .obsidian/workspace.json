@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/BASH FOO.md",
+                "file": "youtube/powershell fundamentals.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "BASH FOO"
+              "title": "powershell fundamentals"
             }
           },
           {
@@ -333,6 +333,9 @@
   },
   "active": "5fa0c6653de1c775",
   "lastOpenFiles": [
+    "OSCP-NOTES/BASH FOO.md",
+    "youtube/powershell fundamentals.md",
+    "youtube",
     "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",
     "OSCP-NOTES/WINDOWS PrivEsk/OFFSEC MATERIAL.md",
     "OSCP-NOTES/TOOLS/RUSTSCAN.md",
@@ -349,7 +352,6 @@
     "OSCP-NOTES/WINDOWS PrivEsk/AUTOMATED TOOLS.md",
     "OSCP-NOTES/WINDOWS PrivEsk/AV ENUMERATION.md",
     "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md",
-    "OSCP-NOTES/BASH FOO.md",
     "OSCP-NOTES/LINUX PRIVESC/CVE.md",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260425041111.png",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260425035506.png",
@@ -361,7 +363,6 @@
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/MEGA-CHEATSHEET.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/TUNNELING AND PORT-FORWARD INTRODUCTION.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SOCAT.md",
-    "OSCP-NOTES/TUNNELING AND PORT FORWARDING/CHISEL.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260421033341.png",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260421030425.png",
@@ -378,7 +379,6 @@
     "OSCP-NOTES/Advance-windows-privesk Vonnie/assets/Pasted image 20260403183213.png",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/assets/Pasted image 20260403155826.png",
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Infrastructure Based Enumeration/assets/subdomain-oneliner.sh",
-    "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Shells & Payloads/assets/Shells_Payloads_Module_Cheat_Sheet.pdf",
     "TREASURE/PEN-notes/PRACTICAL MALWARE ANALYSIS/Basic Static Analysis.canvas",
     "Spaces/Untitled 1.canvas",
     "Untitled.canvas",

@@ -67,7 +67,7 @@ PS C:\htb> [IO.File]::WriteAllBytes("C:\Users\Public\id_rsa", [Convert]::FromBas
 its like we are specifying a whole path to a file . in .net and c# there are namespace you can imagine it like a tree branch every branch is different and to reach a point further away to a branch u have to go all the way to it . 
 the **::** is a scope resolution operator used to access **static members** and **static methods** of a class with its class name so writeallbytes is a static method of **file** class . then we used convert class which is also in system.convert namespace and we are using frombase64string method to convert the base64 string to its original form
 
-**We can also run encoded commands in powershell see** => [[Powershell Fundamentals#Encoded command]]  
+**We can also run encoded commands in powershell see** => [[TREASURE/Powershell for Infosec/Powershell Fundamentals#Encoded command]]  
 
 Finally, we can confirm if the file was transferred successfully using the [Get-FileHash](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.2) cmdlet, which does the same thing that `md5sum` does.
 #### Confirming the MD5 Hashes Match
@@ -151,7 +151,7 @@ PS C:\htb> Invoke-WebRequest https://raw.githubusercontent.com/PowerShellMafia/P
 
 Harmj0y has compiled an extensive list of PowerShell download cradles [here](https://gist.github.com/HarmJ0y/bb48307ffa663256e239). It is worth gaining familiarity with them and their nuances, such as a lack of proxy awareness or touching disk (downloading a file onto the target) to select the appropriate one for the situation.
 
-Download credels => [[Powershell Fundamentals#Download Credels]]
+Download credels => [[TREASURE/Powershell for Infosec/Powershell Fundamentals#Download Credels]]
 
 
 #### Common Errors with PowerShell

@@ -6,7 +6,7 @@
 WE NEEDED TO FIND THE EXACT VERSION OF .NETFRAMWORK THE TARGET HOST RUNS
 ![[Pasted image 20260402014431.png]]
 
-`cd HKLM:\` [[Powershell Fundamentals#Powershell Providers]]
+`cd HKLM:\` [[TREASURE/Powershell for Infosec/Powershell Fundamentals#Powershell Providers]]
 
 ```powershell
 cd HKLM:\SOFTWARE\Microsoft\NET Framework Setup\NDP\<VERSION>

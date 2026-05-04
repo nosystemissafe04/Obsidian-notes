@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "powershell fundamentals",
+      "path": "youtube/powershell fundamentals.md"
+    },
+    {
       "basename": "BASH FOO",
       "path": "OSCP-NOTES/BASH FOO.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "misconfigured_access_control_lists",
       "path": "security/docs/attacking_active_directory_domain/active_directory_privilege_escalation/misconfigured_access_control_lists.md"
-    },
-    {
-      "basename": "17. Windows Privilege Escalation",
-      "path": "TREASURE/SOURCES/COPY-OSCP/17. Windows Privilege Escalation.md"
     }
   ],
   "omittedPaths": [],
