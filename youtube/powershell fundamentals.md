@@ -23,7 +23,12 @@ username:password:UID:GID:comment:home_dir:shell
 
 /usr/sbin/nologin
 
+- Also **blocks interactive login** like `/bin/false`
+- BUT it **prints a message** before exiting:
 
+```
+This account is currently not available.
+```
 
 Every object in PowerShell has a `.GetType()` method:
 
