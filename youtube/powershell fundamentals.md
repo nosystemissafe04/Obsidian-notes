@@ -10,3 +10,5 @@ all input and output are .net objects
 functions classes modules
 
 powershell scripts can work with powershell modules like azure sql exchange aws vmware and google cloud 
+
+powershell desired state configuration dsc a management framwork in powershell , as code 
