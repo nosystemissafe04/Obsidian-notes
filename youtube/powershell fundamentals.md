@@ -12,3 +12,8 @@ functions classes modules
 powershell scripts can work with powershell modules like azure sql exchange aws vmware and google cloud 
 
 powershell desired state configuration dsc a management framwork in powershell , as code 
+
+```powershell
+Get-Process firefox | Select-Object Name, Id, CPU
+```
+
