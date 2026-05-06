@@ -15,6 +15,15 @@ powershell desired state configuration dsc a management framwork in powershell ,
 
 username:password:UID:GID:comment:home_dir:shell
 
+/bin/false
+
+- It is literally just a program that **immediately exits with code 1** (failure)
+- No message, no output, nothing — just exits
+- Also used to say **"this is not a real user"**
+
+/usr/sbin/nologin
+
+
 
 Every object in PowerShell has a `.GetType()` method:
 
