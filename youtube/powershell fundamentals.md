@@ -13,6 +13,9 @@ powershell scripts can work with powershell modules like azure sql exchange aws 
 
 powershell desired state configuration dsc a management framwork in powershell , as code 
 
+username:password:UID:GID:comment:home_dir:shell
+
+
 Every object in PowerShell has a `.GetType()` method:
 
 ```powershell

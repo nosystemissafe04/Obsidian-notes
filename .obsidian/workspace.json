@@ -79,8 +79,7 @@
               "title": "BASH FOO"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -346,7 +345,7 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "6deb54ec17c637fd",
+  "active": "5fa0c6653de1c775",
   "lastOpenFiles": [
     "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",
     "OSCP-NOTES/BASH FOO.md",
