@@ -36,3 +36,22 @@ Every object in PowerShell has a `.GetType()` method:
 Get-Process firefox | Select-Object Name, Id, CPU
 ```
 
+```powershell
+# Step 1 — run Get-Process and check its type
+$processes = Get-Process
+$processes.GetType()
+
+# Output:
+# IsPublic IsSerial Name     BaseType
+# -------- -------- ----     --------
+# True     True     Object[] System.Array   ← ITS AN ARRAY!
+```
+
+powershell
+
+```powershell
+# Step 2 — how many items in the array?
+$processes.Count
+# or
+$processes.Length
+```
