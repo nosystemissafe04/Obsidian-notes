@@ -8,3 +8,5 @@ it is built on .net common language runtime
 all input and output are .net objects 
 
 functions classes modules
+
+powershell scripts can work with powershell modules like azure sql exchange aws vmware and google cloud 
