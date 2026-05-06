@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",
+                "file": "youtube/powershell fundamentals.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Powershell Fundamentals"
+              "title": "powershell fundamentals"
             }
           },
           {
@@ -334,11 +334,11 @@
   },
   "active": "5fa0c6653de1c775",
   "lastOpenFiles": [
+    "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",
     "youtube/powershell fundamentals.md",
     "OSCP-NOTES/TOOLS/RUSTSCAN.md",
     "OSCP-NOTES/BASH FOO.md",
     "youtube",
-    "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",
     "OSCP-NOTES/WINDOWS PrivEsk/OFFSEC MATERIAL.md",
     "OSCP-NOTES/CHEATSHEETS/Filtering commands.md",
     "OSCP-NOTES/CTF/STUCKED AT.md",

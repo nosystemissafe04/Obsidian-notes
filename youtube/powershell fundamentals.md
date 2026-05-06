@@ -13,6 +13,8 @@ powershell scripts can work with powershell modules like azure sql exchange aws 
 
 powershell desired state configuration dsc a management framwork in powershell , as code 
 
+Every object in PowerShell has a `.GetType()` method:
+
 ```powershell
 Get-Process firefox | Select-Object Name, Id, CPU
 ```
