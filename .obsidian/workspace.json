@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "32222b6192c07747",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OSCP-NOTES/TOOLS/RUSTSCAN.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "RUSTSCAN"
-            }
-          },
-          {
             "id": "5fa0c6653de1c775",
             "type": "leaf",
             "state": {
@@ -56,17 +32,55 @@
             }
           },
           {
-            "id": "7e41815648b3bbe5",
+            "id": "4c070cd43a312435",
             "type": "leaf",
             "state": {
-              "type": "mb-playground-view-type",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "Meta Bind playground"
+              "title": "Powershell Fundamentals"
+            }
+          },
+          {
+            "id": "6deb54ec17c637fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OSCP-NOTES/BASH FOO.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "BASH FOO"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -332,12 +346,12 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "5fa0c6653de1c775",
+  "active": "6deb54ec17c637fd",
   "lastOpenFiles": [
     "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",
+    "OSCP-NOTES/BASH FOO.md",
     "youtube/powershell fundamentals.md",
     "OSCP-NOTES/TOOLS/RUSTSCAN.md",
-    "OSCP-NOTES/BASH FOO.md",
     "youtube",
     "OSCP-NOTES/WINDOWS PrivEsk/OFFSEC MATERIAL.md",
     "OSCP-NOTES/CHEATSHEETS/Filtering commands.md",
