@@ -57,6 +57,8 @@ $processes.Length
 ```
 
 
+# classes and namespace
+
 
 Exactly! And you can take it even further — this is actually a **sneaky way to teach OOP concepts** without making it feel like a boring programming lecture. Your audience learns it naturally through PowerShell exploration.
 
