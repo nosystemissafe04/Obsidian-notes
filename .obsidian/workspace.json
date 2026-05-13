@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "youtube/powershell fundamentals.md",
+                "file": "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/Untitled.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "powershell fundamentals"
+              "title": "Untitled"
             }
           },
           {
@@ -344,12 +344,14 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "9fe5df7679baec76",
+  "active": "5fa0c6653de1c775",
   "lastOpenFiles": [
-    "Untitled",
+    "youtube/powershell fundamentals.md",
+    "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/Untitled.md",
+    "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV",
+    "MALWARE DEVELOPMENT",
     "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",
     "OSCP-NOTES/BASH FOO.md",
-    "youtube/powershell fundamentals.md",
     "OSCP-NOTES/TOOLS/RUSTSCAN.md",
     "youtube",
     "OSCP-NOTES/WINDOWS PrivEsk/OFFSEC MATERIAL.md",
@@ -387,11 +389,9 @@
     "OSCP-NOTES/AV-BYPASS",
     "OSCP-NOTES/SQLi/assets/Pasted image 20260406044741.png",
     "OSCP-NOTES/SQLi/assets",
-    "OSCP-NOTES/SQLi",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/assets/Pasted image 20260404172233.png",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/assets/Pasted image 20260403183213.png",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/assets/Pasted image 20260403155826.png",
-    "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Infrastructure Based Enumeration/assets/subdomain-oneliner.sh",
     "TREASURE/PEN-notes/PRACTICAL MALWARE ANALYSIS/Basic Static Analysis.canvas",
     "Spaces/Untitled 1.canvas",
     "Untitled.canvas",

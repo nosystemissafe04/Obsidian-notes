@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/Untitled.md"
+    },
+    {
       "basename": "powershell fundamentals",
       "path": "youtube/powershell fundamentals.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "WEAK REGISTRY",
       "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY.md"
-    },
-    {
-      "basename": "misconfigured_access_control_lists",
-      "path": "security/docs/attacking_active_directory_domain/active_directory_privilege_escalation/misconfigured_access_control_lists.md"
     }
   ],
   "omittedPaths": [],
