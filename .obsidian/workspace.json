@@ -181,8 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5,
-    "collapsed": true
+    "width": 377.5
   },
   "right": {
     "id": "5689001c4553b175",
@@ -345,8 +344,9 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "5fa0c6653de1c775",
+  "active": "9fe5df7679baec76",
   "lastOpenFiles": [
+    "Untitled",
     "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",
     "OSCP-NOTES/BASH FOO.md",
     "youtube/powershell fundamentals.md",
@@ -376,7 +376,6 @@
     "OSCP-NOTES/TOOLS",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/MEGA-CHEATSHEET.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/TUNNELING AND PORT-FORWARD INTRODUCTION.md",
-    "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SOCAT.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260421033341.png",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260421030425.png",
