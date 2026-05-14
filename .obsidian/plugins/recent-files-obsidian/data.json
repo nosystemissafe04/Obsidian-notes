@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "OFFSEC-MATERIAL",
+      "path": "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md"
+    },
+    {
       "basename": "payload-allthe-things-windows-priviledge-escalation",
       "path": "payload-allthe-things-windows-priviledge-escalation.md"
     },
     {
       "basename": "BASH FOO",
       "path": "OSCP-NOTES/BASH FOO.md"
-    },
-    {
-      "basename": "OFFSEC-MATERIAL",
-      "path": "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md"
     },
     {
       "basename": "MODIFY LAUNCH DAEMON",

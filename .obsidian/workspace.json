@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "payload-allthe-things-windows-priviledge-escalation.md",
+                "file": "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "payload-allthe-things-windows-priviledge-escalation"
+              "title": "OFFSEC-MATERIAL"
             }
           },
           {
@@ -98,7 +98,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"nc < file\"",
+                "query": "\"nc -nvlp <\"",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -343,8 +343,9 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "974f9231aef97f7c",
+  "active": "5fa0c6653de1c775",
   "lastOpenFiles": [
+    "payload-allthe-things-windows-priviledge-escalation.md",
     "OSCP-NOTES/BASH FOO.md",
     "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md",
     "OSCP-NOTES/LINUX PRIVESC/MODIFY LAUNCH DAEMON.md",
@@ -373,7 +374,6 @@
     "OSCP-NOTES/CTF/STUCKED AT.md",
     "OSCP-NOTES/INFO-WHY'S/Privileges level and user account access Level.md",
     "OSCP-NOTES/INFO-WHY'S/NMAP scan time impact.md",
-    "OSCP-NOTES/Kerberos/KERBEROS AUTHENTICATION AND TICKETS.md",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260425041111.png",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260425035506.png",
     "OSCP-NOTES/TOOLS",
