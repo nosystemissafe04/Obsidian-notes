@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",
+                "file": "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/Untitled.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Powershell Fundamentals"
+              "title": "Untitled"
             }
           },
           {
@@ -346,6 +346,9 @@
   },
   "active": "5fa0c6653de1c775",
   "lastOpenFiles": [
+    "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/assets/Pasted image 20260514181517.png",
+    "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/assets",
+    "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",
     "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md",
     "payload-allthe-things-windows-priviledge-escalation.md",
     "OSCP-NOTES/BASH FOO.md",
@@ -367,14 +370,12 @@
     "youtube/powershell fundamentals.md",
     "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV",
     "MALWARE DEVELOPMENT",
-    "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",
     "OSCP-NOTES/TOOLS/RUSTSCAN.md",
     "youtube",
     "OSCP-NOTES/WINDOWS PrivEsk/OFFSEC MATERIAL.md",
     "OSCP-NOTES/CHEATSHEETS/Filtering commands.md",
     "OSCP-NOTES/CTF/STUCKED AT.md",
     "OSCP-NOTES/INFO-WHY'S/Privileges level and user account access Level.md",
-    "OSCP-NOTES/INFO-WHY'S/NMAP scan time impact.md",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260425041111.png",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260425035506.png",
     "OSCP-NOTES/TOOLS",
@@ -388,7 +389,6 @@
     "OSCP-NOTES/LINUX PRIVESC",
     "OSCP-NOTES/AV-BYPASS",
     "OSCP-NOTES/SQLi/assets/Pasted image 20260406044741.png",
-    "OSCP-NOTES/SQLi/assets",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/assets/Pasted image 20260404172233.png",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/assets/Pasted image 20260403183213.png",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/assets/Pasted image 20260403155826.png",

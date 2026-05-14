@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/Untitled.md"
+    },
+    {
       "basename": "Powershell Fundamentals",
       "path": "TREASURE/Powershell for Infosec/Powershell Fundamentals.md"
     },
@@ -71,10 +75,6 @@
     {
       "basename": "Commands",
       "path": "OSCP-NOTES/Commands.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/Untitled.md"
     },
     {
       "basename": "powershell fundamentals",
