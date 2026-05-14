@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "payload-allthe-things-windows-priviledge-escalation",
+      "path": "payload-allthe-things-windows-priviledge-escalation.md"
+    },
+    {
       "basename": "BASH FOO",
       "path": "OSCP-NOTES/BASH FOO.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "list_of_common_ports",
       "path": "security/docs/attacking_internal_network/list_of_common_ports.md"
-    },
-    {
-      "basename": "Interacting with Common Services",
-      "path": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Attacking Common Services/Interacting with Common Services.md"
     }
   ],
   "omittedPaths": [],

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/BASH FOO.md",
+                "file": "payload-allthe-things-windows-priviledge-escalation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "BASH FOO"
+              "title": "payload-allthe-things-windows-priviledge-escalation"
             }
           },
           {
@@ -98,7 +98,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"nc -nvlp\"",
+                "query": "\"nc < file\"",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -345,6 +345,7 @@
   },
   "active": "974f9231aef97f7c",
   "lastOpenFiles": [
+    "OSCP-NOTES/BASH FOO.md",
     "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md",
     "OSCP-NOTES/LINUX PRIVESC/MODIFY LAUNCH DAEMON.md",
     "OSCP-NOTES/LINUX PRIVESC/CVE.md",
@@ -358,7 +359,6 @@
     "OSCP-NOTES/Advance-windows-privesk Vonnie/KERNEL EXPLOIT.md",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/ENABLING REMOTE DESKTOP.md",
     "OSCP-NOTES/WINDOWS PrivEsk/AUTOMATED TOOLS.md",
-    "OSCP-NOTES/BASH FOO.md",
     "OSCP-NOTES/PASSWORD ATTACK IN ACTIVE DIRECTORY.md",
     "OSCP-NOTES/Commands.md",
     "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/Untitled.md",
