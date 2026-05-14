@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md",
+                "file": "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "OFFSEC-MATERIAL"
+              "title": "Powershell Fundamentals"
             }
           },
           {
@@ -98,7 +98,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"nc -nvlp <\"",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -180,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 377.5,
+    "collapsed": true
   },
   "right": {
     "id": "5689001c4553b175",
@@ -345,9 +346,9 @@
   },
   "active": "5fa0c6653de1c775",
   "lastOpenFiles": [
+    "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md",
     "payload-allthe-things-windows-priviledge-escalation.md",
     "OSCP-NOTES/BASH FOO.md",
-    "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md",
     "OSCP-NOTES/LINUX PRIVESC/MODIFY LAUNCH DAEMON.md",
     "OSCP-NOTES/LINUX PRIVESC/CVE.md",
     "OSCP-NOTES/LINUX PRIVESC/ADV PRIVESCK VONNIE HUDSONE.md",

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Powershell Fundamentals",
+      "path": "TREASURE/Powershell for Infosec/Powershell Fundamentals.md"
+    },
+    {
       "basename": "OFFSEC-MATERIAL",
       "path": "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "powershell fundamentals",
       "path": "youtube/powershell fundamentals.md"
-    },
-    {
-      "basename": "Powershell Fundamentals",
-      "path": "TREASURE/Powershell for Infosec/Powershell Fundamentals.md"
     },
     {
       "basename": "RUSTSCAN",
