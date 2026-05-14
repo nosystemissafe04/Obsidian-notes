@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "BASH FOO",
+      "path": "OSCP-NOTES/BASH FOO.md"
+    },
+    {
+      "basename": "OFFSEC-MATERIAL",
+      "path": "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md"
+    },
+    {
+      "basename": "MODIFY LAUNCH DAEMON",
+      "path": "OSCP-NOTES/LINUX PRIVESC/MODIFY LAUNCH DAEMON.md"
+    },
+    {
+      "basename": "CVE",
+      "path": "OSCP-NOTES/LINUX PRIVESC/CVE.md"
+    },
+    {
       "basename": "ADV PRIVESCK VONNIE HUDSONE",
       "path": "OSCP-NOTES/LINUX PRIVESC/ADV PRIVESCK VONNIE HUDSONE.md"
     },
@@ -39,10 +55,6 @@
     {
       "basename": "AUTOMATED TOOLS",
       "path": "OSCP-NOTES/WINDOWS PrivEsk/AUTOMATED TOOLS.md"
-    },
-    {
-      "basename": "BASH FOO",
-      "path": "OSCP-NOTES/BASH FOO.md"
     },
     {
       "basename": "PASSWORD ATTACK IN ACTIVE DIRECTORY",
@@ -115,18 +127,6 @@
     {
       "basename": "AV ENUMERATION",
       "path": "OSCP-NOTES/WINDOWS PrivEsk/AV ENUMERATION.md"
-    },
-    {
-      "basename": "OFFSEC-MATERIAL",
-      "path": "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md"
-    },
-    {
-      "basename": "CVE",
-      "path": "OSCP-NOTES/LINUX PRIVESC/CVE.md"
-    },
-    {
-      "basename": "MODIFY LAUNCH DAEMON",
-      "path": "OSCP-NOTES/LINUX PRIVESC/MODIFY LAUNCH DAEMON.md"
     },
     {
       "basename": "ERROR BASED",

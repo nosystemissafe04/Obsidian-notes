@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/LINUX PRIVESC/ADV PRIVESCK VONNIE HUDSONE.md",
+                "file": "OSCP-NOTES/BASH FOO.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ADV PRIVESCK VONNIE HUDSONE"
+              "title": "BASH FOO"
             }
           },
           {
@@ -98,7 +98,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\"nc -nvlp\"",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -176,8 +176,7 @@
               "title": "Files"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -344,8 +343,12 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "5fa0c6653de1c775",
+  "active": "974f9231aef97f7c",
   "lastOpenFiles": [
+    "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md",
+    "OSCP-NOTES/LINUX PRIVESC/MODIFY LAUNCH DAEMON.md",
+    "OSCP-NOTES/LINUX PRIVESC/CVE.md",
+    "OSCP-NOTES/LINUX PRIVESC/ADV PRIVESCK VONNIE HUDSONE.md",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION).md",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (HORIZONTAL ESCALATION).md",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY.md",
@@ -371,10 +374,6 @@
     "OSCP-NOTES/INFO-WHY'S/Privileges level and user account access Level.md",
     "OSCP-NOTES/INFO-WHY'S/NMAP scan time impact.md",
     "OSCP-NOTES/Kerberos/KERBEROS AUTHENTICATION AND TICKETS.md",
-    "OSCP-NOTES/LDAP-ENUMERATION/LAB-SETUP.md",
-    "OSCP-NOTES/LDAP-ENUMERATION/LDAP-ENUMERATION WITH NETEXEC.md",
-    "OSCP-NOTES/SMB-ENUMERATION/NETEXEC - SMB ENUMERATION.md",
-    "OSCP-NOTES/SMB-ENUMERATION/IMPACKET-SMB-ENUMERATION.md",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260425041111.png",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260425035506.png",
     "OSCP-NOTES/TOOLS",
