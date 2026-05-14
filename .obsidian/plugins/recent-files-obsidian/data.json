@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "ADV PRIVESCK VONNIE HUDSONE",
+      "path": "OSCP-NOTES/LINUX PRIVESC/ADV PRIVESCK VONNIE HUDSONE.md"
+    },
+    {
+      "basename": "WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION)",
+      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION).md"
+    },
+    {
+      "basename": "WEAK REGISTRY PERMISSIONS (HORIZONTAL ESCALATION)",
+      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (HORIZONTAL ESCALATION).md"
+    },
+    {
+      "basename": "WEAK REGISTRY",
+      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY.md"
+    },
+    {
+      "basename": "TOKEN MANIPULATION (VERTICAL ESCALATION)",
+      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/TOKEN MANIPULATION (VERTICAL ESCALATION).md"
+    },
+    {
+      "basename": "TOKEN MANIPULATION",
+      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/TOKEN MANIPULATION.md"
+    },
+    {
+      "basename": "TERMINAL HISTORY",
+      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/TERMINAL HISTORY.md"
+    },
+    {
       "basename": "KERNEL EXPLOIT",
       "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/KERNEL EXPLOIT.md"
     },
@@ -101,10 +129,6 @@
       "path": "OSCP-NOTES/LINUX PRIVESC/MODIFY LAUNCH DAEMON.md"
     },
     {
-      "basename": "ADV PRIVESCK VONNIE HUDSONE",
-      "path": "OSCP-NOTES/LINUX PRIVESC/ADV PRIVESCK VONNIE HUDSONE.md"
-    },
-    {
       "basename": "ERROR BASED",
       "path": "OSCP-NOTES/SQLi/ERROR BASED.md"
     },
@@ -157,26 +181,6 @@
       "path": "OSCP-NOTES/AV-BYPASS/PHP PASSTHRU().md"
     },
     {
-      "basename": "WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION)",
-      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION).md"
-    },
-    {
-      "basename": "TERMINAL HISTORY",
-      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/TERMINAL HISTORY.md"
-    },
-    {
-      "basename": "TOKEN MANIPULATION",
-      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/TOKEN MANIPULATION.md"
-    },
-    {
-      "basename": "TOKEN MANIPULATION (VERTICAL ESCALATION)",
-      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/TOKEN MANIPULATION (VERTICAL ESCALATION).md"
-    },
-    {
-      "basename": "WEAK REGISTRY PERMISSIONS (HORIZONTAL ESCALATION)",
-      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (HORIZONTAL ESCALATION).md"
-    },
-    {
       "basename": "NFS",
       "path": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Host Based Enumeration/NFS.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Interacting with Common Services",
       "path": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Attacking Common Services/Interacting with Common Services.md"
-    },
-    {
-      "basename": "EBOWLA",
-      "path": "OSCP-NOTES/AV-BYPASS/EBOWLA.md"
     }
   ],
   "omittedPaths": [],

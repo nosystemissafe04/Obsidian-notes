@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/Advance-windows-privesk Vonnie/KERNEL EXPLOIT.md",
+                "file": "OSCP-NOTES/LINUX PRIVESC/ADV PRIVESCK VONNIE HUDSONE.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "KERNEL EXPLOIT"
+              "title": "ADV PRIVESCK VONNIE HUDSONE"
             }
           },
           {
@@ -346,6 +346,13 @@
   },
   "active": "5fa0c6653de1c775",
   "lastOpenFiles": [
+    "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION).md",
+    "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (HORIZONTAL ESCALATION).md",
+    "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY.md",
+    "OSCP-NOTES/Advance-windows-privesk Vonnie/TOKEN MANIPULATION (VERTICAL ESCALATION).md",
+    "OSCP-NOTES/Advance-windows-privesk Vonnie/TOKEN MANIPULATION.md",
+    "OSCP-NOTES/Advance-windows-privesk Vonnie/TERMINAL HISTORY.md",
+    "OSCP-NOTES/Advance-windows-privesk Vonnie/KERNEL EXPLOIT.md",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/ENABLING REMOTE DESKTOP.md",
     "OSCP-NOTES/WINDOWS PrivEsk/AUTOMATED TOOLS.md",
     "OSCP-NOTES/BASH FOO.md",
@@ -368,15 +375,8 @@
     "OSCP-NOTES/LDAP-ENUMERATION/LDAP-ENUMERATION WITH NETEXEC.md",
     "OSCP-NOTES/SMB-ENUMERATION/NETEXEC - SMB ENUMERATION.md",
     "OSCP-NOTES/SMB-ENUMERATION/IMPACKET-SMB-ENUMERATION.md",
-    "OSCP-NOTES/WINDOWS PrivEsk/NETWORK ENUMERATION.md",
-    "OSCP-NOTES/WINDOWS PrivEsk/AV ENUMERATION.md",
-    "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md",
-    "OSCP-NOTES/LINUX PRIVESC/CVE.md",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260425041111.png",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260425035506.png",
-    "OSCP-NOTES/LINUX PRIVESC/MODIFY LAUNCH DAEMON.md",
-    "OSCP-NOTES/LINUX PRIVESC/ADV PRIVESCK VONNIE HUDSONE.md",
-    "OSCP-NOTES/SQLi/ERROR BASED.md",
     "OSCP-NOTES/TOOLS",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260421033341.png",
