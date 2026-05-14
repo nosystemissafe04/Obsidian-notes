@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/Untitled.md",
+                "file": "OSCP-NOTES/Advance-windows-privesk Vonnie/KERNEL EXPLOIT.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "KERNEL EXPLOIT"
             }
           },
           {
@@ -181,8 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5,
-    "collapsed": true
+    "width": 377.5
   },
   "right": {
     "id": "5689001c4553b175",
@@ -347,12 +346,16 @@
   },
   "active": "5fa0c6653de1c775",
   "lastOpenFiles": [
-    "youtube/powershell fundamentals.md",
+    "OSCP-NOTES/Advance-windows-privesk Vonnie/ENABLING REMOTE DESKTOP.md",
+    "OSCP-NOTES/WINDOWS PrivEsk/AUTOMATED TOOLS.md",
+    "OSCP-NOTES/BASH FOO.md",
+    "OSCP-NOTES/PASSWORD ATTACK IN ACTIVE DIRECTORY.md",
+    "OSCP-NOTES/Commands.md",
     "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/Untitled.md",
+    "youtube/powershell fundamentals.md",
     "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV",
     "MALWARE DEVELOPMENT",
     "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",
-    "OSCP-NOTES/BASH FOO.md",
     "OSCP-NOTES/TOOLS/RUSTSCAN.md",
     "youtube",
     "OSCP-NOTES/WINDOWS PrivEsk/OFFSEC MATERIAL.md",
@@ -366,7 +369,6 @@
     "OSCP-NOTES/SMB-ENUMERATION/NETEXEC - SMB ENUMERATION.md",
     "OSCP-NOTES/SMB-ENUMERATION/IMPACKET-SMB-ENUMERATION.md",
     "OSCP-NOTES/WINDOWS PrivEsk/NETWORK ENUMERATION.md",
-    "OSCP-NOTES/WINDOWS PrivEsk/AUTOMATED TOOLS.md",
     "OSCP-NOTES/WINDOWS PrivEsk/AV ENUMERATION.md",
     "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md",
     "OSCP-NOTES/LINUX PRIVESC/CVE.md",
@@ -374,11 +376,8 @@
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260425035506.png",
     "OSCP-NOTES/LINUX PRIVESC/MODIFY LAUNCH DAEMON.md",
     "OSCP-NOTES/LINUX PRIVESC/ADV PRIVESCK VONNIE HUDSONE.md",
-    "OSCP-NOTES/Commands.md",
     "OSCP-NOTES/SQLi/ERROR BASED.md",
     "OSCP-NOTES/TOOLS",
-    "OSCP-NOTES/TUNNELING AND PORT FORWARDING/MEGA-CHEATSHEET.md",
-    "OSCP-NOTES/TUNNELING AND PORT FORWARDING/TUNNELING AND PORT-FORWARD INTRODUCTION.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260421033341.png",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260421030425.png",

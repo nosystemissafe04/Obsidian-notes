@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "KERNEL EXPLOIT",
+      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/KERNEL EXPLOIT.md"
+    },
+    {
+      "basename": "ENABLING REMOTE DESKTOP",
+      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/ENABLING REMOTE DESKTOP.md"
+    },
+    {
+      "basename": "AUTOMATED TOOLS",
+      "path": "OSCP-NOTES/WINDOWS PrivEsk/AUTOMATED TOOLS.md"
+    },
+    {
+      "basename": "BASH FOO",
+      "path": "OSCP-NOTES/BASH FOO.md"
+    },
+    {
+      "basename": "PASSWORD ATTACK IN ACTIVE DIRECTORY",
+      "path": "OSCP-NOTES/PASSWORD ATTACK IN ACTIVE DIRECTORY.md"
+    },
+    {
+      "basename": "Commands",
+      "path": "OSCP-NOTES/Commands.md"
+    },
+    {
       "basename": "Untitled",
       "path": "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/Untitled.md"
     },
@@ -11,10 +35,6 @@
     {
       "basename": "Powershell Fundamentals",
       "path": "TREASURE/Powershell for Infosec/Powershell Fundamentals.md"
-    },
-    {
-      "basename": "BASH FOO",
-      "path": "OSCP-NOTES/BASH FOO.md"
     },
     {
       "basename": "RUSTSCAN",
@@ -65,10 +85,6 @@
       "path": "OSCP-NOTES/WINDOWS PrivEsk/NETWORK ENUMERATION.md"
     },
     {
-      "basename": "AUTOMATED TOOLS",
-      "path": "OSCP-NOTES/WINDOWS PrivEsk/AUTOMATED TOOLS.md"
-    },
-    {
       "basename": "AV ENUMERATION",
       "path": "OSCP-NOTES/WINDOWS PrivEsk/AV ENUMERATION.md"
     },
@@ -87,10 +103,6 @@
     {
       "basename": "ADV PRIVESCK VONNIE HUDSONE",
       "path": "OSCP-NOTES/LINUX PRIVESC/ADV PRIVESCK VONNIE HUDSONE.md"
-    },
-    {
-      "basename": "Commands",
-      "path": "OSCP-NOTES/Commands.md"
     },
     {
       "basename": "ERROR BASED",
@@ -149,14 +161,6 @@
       "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION).md"
     },
     {
-      "basename": "ENABLING REMOTE DESKTOP",
-      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/ENABLING REMOTE DESKTOP.md"
-    },
-    {
-      "basename": "KERNEL EXPLOIT",
-      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/KERNEL EXPLOIT.md"
-    },
-    {
       "basename": "TERMINAL HISTORY",
       "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/TERMINAL HISTORY.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "EBOWLA",
       "path": "OSCP-NOTES/AV-BYPASS/EBOWLA.md"
-    },
-    {
-      "basename": "WEAK REGISTRY",
-      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY.md"
     }
   ],
   "omittedPaths": [],
