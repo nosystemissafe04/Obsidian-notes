@@ -32,6 +32,30 @@
             }
           },
           {
+            "id": "d62c0c6fb7d62f7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "youtube/powershell fundamentals.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "powershell fundamentals"
+            }
+          },
+          {
             "id": "4c070cd43a312435",
             "type": "leaf",
             "state": {
@@ -79,7 +103,8 @@
               "title": "BASH FOO"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -345,10 +370,12 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "5fa0c6653de1c775",
+  "active": "d62c0c6fb7d62f7f",
   "lastOpenFiles": [
-    "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",
+    "Untitled.md",
     "youtube/powershell-from-microsoft.md",
+    "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",
+    "OSCP-NOTES/BASH FOO.md",
     "youtube/assets/Pasted image 20260517180543.png",
     "youtube/assets/Pasted image 20260517180530.png",
     "youtube/assets",
@@ -359,7 +386,6 @@
     "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/assets/Pasted image 20260514181517.png",
     "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/assets",
     "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md",
-    "OSCP-NOTES/BASH FOO.md",
     "OSCP-NOTES/LINUX PRIVESC/MODIFY LAUNCH DAEMON.md",
     "OSCP-NOTES/LINUX PRIVESC/CVE.md",
     "OSCP-NOTES/LINUX PRIVESC/ADV PRIVESCK VONNIE HUDSONE.md",

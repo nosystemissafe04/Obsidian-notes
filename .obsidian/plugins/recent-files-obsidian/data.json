@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "powershell fundamentals",
+      "path": "youtube/powershell fundamentals.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Untitled.md"
+    },
+    {
       "basename": "powershell-from-microsoft",
       "path": "youtube/powershell-from-microsoft.md"
     },
@@ -9,8 +17,8 @@
       "path": "TREASURE/Powershell for Infosec/Powershell Fundamentals.md"
     },
     {
-      "basename": "powershell fundamentals",
-      "path": "youtube/powershell fundamentals.md"
+      "basename": "BASH FOO",
+      "path": "OSCP-NOTES/BASH FOO.md"
     },
     {
       "basename": "payload-allthe-things-windows-priviledge-escalation",
@@ -27,10 +35,6 @@
     {
       "basename": "OFFSEC-MATERIAL",
       "path": "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md"
-    },
-    {
-      "basename": "BASH FOO",
-      "path": "OSCP-NOTES/BASH FOO.md"
     },
     {
       "basename": "MODIFY LAUNCH DAEMON",
@@ -195,10 +199,6 @@
     {
       "basename": "NFS",
       "path": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Host Based Enumeration/NFS.md"
-    },
-    {
-      "basename": "privilege_escalation_-_linux",
-      "path": "security/docs/post_exploitation/privilege_escalation_-_linux.md"
     }
   ],
   "omittedPaths": [],
