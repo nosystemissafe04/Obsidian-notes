@@ -38,3 +38,9 @@ $PSVersionTable
 
 `Get-Help` is a multipurpose command that helps you learn how to use commands once you find them.
 
+#### GET-HELP
+
+- it initially performs a wildcard search for command names based on your input.
+ ```POWERSHELL
+  Get-Help -Name Get-Help
+  ```
