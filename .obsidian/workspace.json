@@ -79,7 +79,8 @@
               "title": "BASH FOO"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -345,10 +346,10 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "5fa0c6653de1c775",
+  "active": "4c070cd43a312435",
   "lastOpenFiles": [
-    "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",
     "youtube/powershell-from-microsoft.md",
+    "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",
     "youtube/assets/Pasted image 20260517180543.png",
     "youtube/assets/Pasted image 20260517180530.png",
     "youtube/assets",
