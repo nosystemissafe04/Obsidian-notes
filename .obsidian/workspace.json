@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/Untitled.md",
+                "file": "youtube/powershell fundamentals.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "powershell fundamentals"
             }
           },
           {
@@ -176,12 +176,12 @@
               "title": "Files"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 377.5,
-    "collapsed": true
+    "width": 377.5
   },
   "right": {
     "id": "5689001c4553b175",
@@ -344,13 +344,16 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "5fa0c6653de1c775",
+  "active": "9fe5df7679baec76",
   "lastOpenFiles": [
+    "payload-allthe-things-windows-priviledge-escalation.md",
+    "Untitled.base",
+    "youtube/powershell fundamentals.md",
+    "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/Untitled.md",
+    "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",
     "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/assets/Pasted image 20260514181517.png",
     "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/assets",
-    "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",
     "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md",
-    "payload-allthe-things-windows-priviledge-escalation.md",
     "OSCP-NOTES/BASH FOO.md",
     "OSCP-NOTES/LINUX PRIVESC/MODIFY LAUNCH DAEMON.md",
     "OSCP-NOTES/LINUX PRIVESC/CVE.md",
@@ -366,8 +369,6 @@
     "OSCP-NOTES/WINDOWS PrivEsk/AUTOMATED TOOLS.md",
     "OSCP-NOTES/PASSWORD ATTACK IN ACTIVE DIRECTORY.md",
     "OSCP-NOTES/Commands.md",
-    "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/Untitled.md",
-    "youtube/powershell fundamentals.md",
     "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV",
     "MALWARE DEVELOPMENT",
     "OSCP-NOTES/TOOLS/RUSTSCAN.md",
@@ -387,11 +388,9 @@
     "OSCP-NOTES/AV-BYPASS/assets/Pasted image 20260419172814.png",
     "OSCP-NOTES/AV-BYPASS/assets",
     "OSCP-NOTES/LINUX PRIVESC",
-    "OSCP-NOTES/AV-BYPASS",
     "OSCP-NOTES/SQLi/assets/Pasted image 20260406044741.png",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/assets/Pasted image 20260404172233.png",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/assets/Pasted image 20260403183213.png",
-    "OSCP-NOTES/Advance-windows-privesk Vonnie/assets/Pasted image 20260403155826.png",
     "TREASURE/PEN-notes/PRACTICAL MALWARE ANALYSIS/Basic Static Analysis.canvas",
     "Spaces/Untitled 1.canvas",
     "Untitled.canvas",

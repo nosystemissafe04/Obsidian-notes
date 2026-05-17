@@ -1,20 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Powershell Fundamentals",
-      "path": "TREASURE/Powershell for Infosec/Powershell Fundamentals.md"
+      "basename": "Untitled",
+      "path": "youtube/Untitled.md"
+    },
+    {
+      "basename": "powershell fundamentals",
+      "path": "youtube/powershell fundamentals.md"
+    },
+    {
+      "basename": "payload-allthe-things-windows-priviledge-escalation",
+      "path": "payload-allthe-things-windows-priviledge-escalation.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Untitled.base"
     },
     {
       "basename": "Untitled",
       "path": "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/Untitled.md"
     },
     {
-      "basename": "OFFSEC-MATERIAL",
-      "path": "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md"
+      "basename": "Powershell Fundamentals",
+      "path": "TREASURE/Powershell for Infosec/Powershell Fundamentals.md"
     },
     {
-      "basename": "payload-allthe-things-windows-priviledge-escalation",
-      "path": "payload-allthe-things-windows-priviledge-escalation.md"
+      "basename": "OFFSEC-MATERIAL",
+      "path": "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md"
     },
     {
       "basename": "BASH FOO",
@@ -75,10 +87,6 @@
     {
       "basename": "Commands",
       "path": "OSCP-NOTES/Commands.md"
-    },
-    {
-      "basename": "powershell fundamentals",
-      "path": "youtube/powershell fundamentals.md"
     },
     {
       "basename": "RUSTSCAN",
@@ -191,14 +199,6 @@
     {
       "basename": "privilege_escalation_-_linux",
       "path": "security/docs/post_exploitation/privilege_escalation_-_linux.md"
-    },
-    {
-      "basename": "Network Services",
-      "path": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Password Attacks/Network Services.md"
-    },
-    {
-      "basename": "list_of_common_ports",
-      "path": "security/docs/attacking_internal_network/list_of_common_ports.md"
     }
   ],
   "omittedPaths": [],
