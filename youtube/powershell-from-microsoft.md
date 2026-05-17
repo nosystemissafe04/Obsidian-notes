@@ -24,3 +24,4 @@ $PSVersionTable
 
 - For instance, `Get-Process` is the cmdlet to determine what processes are running, and `Get-Service` is the cmdlet to retrieve a list of services
 
+- _"PowerShell command"_ describes any command in PowerShell, regardless of whether it's a cmdlet, function, or alias
