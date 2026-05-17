@@ -15,4 +15,8 @@ $PSVersionTable
 ### POWERSHELL HELP SYSTEM
 
 - Experts don't always know the answers, but they know how to figure out the answers.
+- Becoming proficient with the Help system is the key to success with PowerShell.
+
+
+- Compiled commands in PowerShell are known as cmdlets,
 - 
