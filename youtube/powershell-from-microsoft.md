@@ -35,3 +35,6 @@ $PSVersionTable
 - `Get-Member`
 
  Both `Get-Help` and `Get-Command` are invaluable resources for discovering and understanding commands in PowerShell.
+
+`Get-Help` is a multipurpose command that helps you learn how to use commands once you find them.
+
