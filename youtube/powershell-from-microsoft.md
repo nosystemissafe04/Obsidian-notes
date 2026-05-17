@@ -19,4 +19,5 @@ $PSVersionTable
 
 
 - Compiled commands in PowerShell are known as cmdlets,
+- The naming convention for cmdlets follows a singular **Verb-Noun** format to make them easily discoverable
 - 
