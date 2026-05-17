@@ -62,5 +62,7 @@ Get-Help -Name Get-Help
 
 -  Parameters allow you to specify options and arguments that change the behavior of a command.
 -  The **SYNTAX** section of each help article outlines the available parameters for the command.
+- `Get-Help` has several parameters that you can specify to return the entire help article or a subset for a command.
+- 
 
 
