@@ -71,5 +71,8 @@ SYNTAX Get-Help [[-Name] <System.String>] [-Category {Alias | Cmdlet | Provider 
 - the information appears to be repeated six times.
 - Each of those blocks is an individual parameter set, indicating the `Get-Help` cmdlet features six distinct sets of parameters
 -  A closer look reveals each parameter set contains at least one unique parameter, making it different from the others
+
+- Parameter sets are mutually exclusive.
+- Once you specify a unique parameter that only exists in one parameter set, PowerShell limits you to using the parameters contained within that parameter set
 - 
 
