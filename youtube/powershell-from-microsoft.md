@@ -14,4 +14,5 @@ $PSVersionTable
 
 ### POWERSHELL HELP SYSTEM
 
-
+- Experts don't always know the answers, but they know how to figure out the answers.
+- 
