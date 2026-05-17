@@ -25,3 +25,13 @@ $PSVersionTable
 - For instance, `Get-Process` is the cmdlet to determine what processes are running, and `Get-Service` is the cmdlet to retrieve a list of services
 
 - _"PowerShell command"_ describes any command in PowerShell, regardless of whether it's a cmdlet, function, or alias
+
+- You can also run operating system native commands from PowerShell, such as traditional command-line programs like `ping.exe` and `ipconfig.exe`.
+
+## The three core cmdlets in PowerShell
+
+- `Get-Help`
+- `Get-Command`
+- `Get-Member`)
+
+I'm often asked: _"How do you figure out what the commands are in PowerShell?"_. Both `Get-Help` and `Get-Command` are invaluable resources for discovering and understanding commands in PowerShell.
