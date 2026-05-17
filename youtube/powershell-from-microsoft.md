@@ -57,3 +57,10 @@ Get-Help -Name Get-Help
 ##### TROUBLESHOOT
 
 - If you don't receive this message, run `Update-Help` from an elevated PowerShell session running as an administrator.
+
+### PARAMETERS
+
+-  Parameters allow you to specify options and arguments that change the behavior of a command.
+-  The **SYNTAX** section of each help article outlines the available parameters for the command.
+
+
