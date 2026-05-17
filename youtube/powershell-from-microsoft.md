@@ -74,5 +74,17 @@ SYNTAX Get-Help [[-Name] <System.String>] [-Category {Alias | Cmdlet | Provider 
 
 - Parameter sets are mutually exclusive.
 - Once you specify a unique parameter that only exists in one parameter set, PowerShell limits you to using the parameters contained within that parameter set
-- 
+- For instance, you can't use the **Full** and **Detailed** parameters of `Get-Help` together because they belong to different parameter sets.
+
+Each of the following parameters belongs to a different parameter set for the `Get-Help` cmdlet.
+
+- Full
+- Detailed
+- Examples
+- Online
+- Parameter
+- ShowWindow
+
+[](https://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/02-help-system?view=powershell-7.6&source=recommendations#the-command-syntax)
+
 
