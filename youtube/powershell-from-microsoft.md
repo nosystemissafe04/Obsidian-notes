@@ -41,6 +41,12 @@ $PSVersionTable
 #### GET-HELP
 
 - it initially performs a wildcard search for command names based on your input.
- ```POWERSHELL
-  Get-Help -Name Get-Help
-  ```
+
+```POWERSHELL
+GET-HELP
+```
+
+```POWERSHELL
+Get-Help -Name Get-Help
+```
+
