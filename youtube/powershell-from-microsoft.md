@@ -52,4 +52,8 @@ Get-Help -Name Get-Help
 
 - Beginning with PowerShell version 3.0, the help content doesn't ship preinstalled with the operating system. When you run `Get-Help` for the first time, a message asks if you want to download the PowerShell help files to your computer.
 
-*UNINSTALL HELP COMMAND THEN ON VIDEO TO TELL THAT IF IT IS NOT INSTALLED*
+*UNINSTALL HELP COMMAND THEN ON VIDEO TO TELL THAT IF IT IS NOT INSTALLED THIS COMMAND WILL RUN UPDATE-HELP AND WILL DOWNLOAD THE HELP CONTENT*
+
+##### TROUBLESHOOT
+
+- If you don't receive this message, run `Update-Help` from an elevated PowerShell session running as an administrator.
