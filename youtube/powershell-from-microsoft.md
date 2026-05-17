@@ -19,5 +19,8 @@ $PSVersionTable
 
 
 - Compiled commands in PowerShell are known as cmdlets,
+
 - The naming convention for cmdlets follows a singular **Verb-Noun** format to make them easily discoverable
+
 - For instance, `Get-Process` is the cmdlet to determine what processes are running, and `Get-Service` is the cmdlet to retrieve a list of services
+
