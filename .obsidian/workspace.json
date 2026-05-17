@@ -79,7 +79,8 @@
               "title": "BASH FOO"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -345,13 +346,13 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "5fa0c6653de1c775",
+  "active": "4c070cd43a312435",
   "lastOpenFiles": [
+    "youtube/powershell-from-microsoft.md",
     "youtube/assets/Pasted image 20260517180543.png",
     "youtube/assets/Pasted image 20260517180530.png",
     "youtube/assets",
     "youtube/powershell fundamentals.md",
-    "youtube/powershell-from-microsoft.md",
     "payload-allthe-things-windows-priviledge-escalation.md",
     "Untitled.base",
     "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/Untitled.md",
@@ -392,7 +393,6 @@
     "OSCP-NOTES/AV-BYPASS/assets/Pasted image 20260419172814.png",
     "OSCP-NOTES/AV-BYPASS/assets",
     "OSCP-NOTES/SQLi/assets/Pasted image 20260406044741.png",
-    "OSCP-NOTES/Advance-windows-privesk Vonnie/assets/Pasted image 20260404172233.png",
     "TREASURE/PEN-notes/PRACTICAL MALWARE ANALYSIS/Basic Static Analysis.canvas",
     "Spaces/Untitled 1.canvas",
     "Untitled.canvas",

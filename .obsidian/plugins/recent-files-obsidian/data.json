@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Powershell Fundamentals",
+      "path": "TREASURE/Powershell for Infosec/Powershell Fundamentals.md"
+    },
+    {
       "basename": "powershell-from-microsoft",
       "path": "youtube/powershell-from-microsoft.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "Untitled",
       "path": "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/Untitled.md"
-    },
-    {
-      "basename": "Powershell Fundamentals",
-      "path": "TREASURE/Powershell for Infosec/Powershell Fundamentals.md"
     },
     {
       "basename": "OFFSEC-MATERIAL",
