@@ -32,6 +32,6 @@ $PSVersionTable
 
 - `Get-Help`
 - `Get-Command`
-- `Get-Member`)
+- `Get-Member`
 
-I'm often asked: _"How do you figure out what the commands are in PowerShell?"_. Both `Get-Help` and `Get-Command` are invaluable resources for discovering and understanding commands in PowerShell.
+ Both `Get-Help` and `Get-Command` are invaluable resources for discovering and understanding commands in PowerShell.
