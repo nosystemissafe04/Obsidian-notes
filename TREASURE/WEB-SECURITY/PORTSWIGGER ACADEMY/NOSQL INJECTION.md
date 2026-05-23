@@ -30,8 +30,9 @@ $Foo \xYZ
 
 **herer we are checking for special character sanitization**
 
-```url
+```url-incoded-url
 https://insecure-website.com/product/lookup?category='%22%60%7b%0d%0a%3b%24Foo%7d%0d%0a%24Foo%20%5cxYZ%00
 ```
 
 If this causes a change from the original response, this may indicate that user input isn't filtered or sanitized correctly.
+
