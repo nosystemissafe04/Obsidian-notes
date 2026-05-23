@@ -27,3 +27,5 @@ To test whether the input may be vulnerable, submit a fuzz string in the value o
 ;$Foo} 
 $Foo \xYZ
 ```
+
+**herer we are checking for special cah**
