@@ -6,3 +6,5 @@
 
 #### SYNCTAX INJECTION 
 - test each input and try to break the syntax of the query by *fuzz strings and special characters* that trigger a database error 
+- what our goal is to find out detection and prevention system in place like sanitization and filteration of input which goes into database 
+- 
