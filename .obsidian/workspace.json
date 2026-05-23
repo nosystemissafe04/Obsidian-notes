@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/Untitled.md",
+                "file": "TREASURE/Networking/Nmap/What is Nmap.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "What is Nmap"
             }
           },
           {
@@ -369,8 +369,10 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "d62c0c6fb7d62f7f",
+  "active": "9fe5df7679baec76",
   "lastOpenFiles": [
+    "TREASURE/Untitled",
+    "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/Untitled.md",
     "youtube/POINTERS IN C PROGRAMMING.md",
     "youtube/powershell fundamentals.md",
     "Untitled.md",
@@ -382,7 +384,6 @@
     "youtube/assets",
     "payload-allthe-things-windows-priviledge-escalation.md",
     "Untitled.base",
-    "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/Untitled.md",
     "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/assets/Pasted image 20260514181517.png",
     "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/assets",
     "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md",
@@ -405,7 +406,6 @@
     "OSCP-NOTES/TOOLS/RUSTSCAN.md",
     "youtube",
     "OSCP-NOTES/WINDOWS PrivEsk/OFFSEC MATERIAL.md",
-    "OSCP-NOTES/CHEATSHEETS/Filtering commands.md",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260425041111.png",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260425035506.png",
     "OSCP-NOTES/TOOLS",

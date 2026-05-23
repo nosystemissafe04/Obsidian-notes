@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "What is Nmap",
+      "path": "TREASURE/Networking/Nmap/What is Nmap.md"
+    },
+    {
       "basename": "Untitled",
       "path": "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/Untitled.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "IMAP",
       "path": "OSCP-NOTES/IMAP.md"
-    },
-    {
-      "basename": "PHP PASSTHRU()",
-      "path": "OSCP-NOTES/AV-BYPASS/PHP PASSTHRU().md"
     }
   ],
   "omittedPaths": [],
