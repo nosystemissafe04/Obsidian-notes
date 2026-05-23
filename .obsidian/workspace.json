@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "youtube/powershell fundamentals.md",
+                "file": "youtube/POINTERS IN C PROGRAMMING.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "powershell fundamentals"
+              "title": "POINTERS IN C PROGRAMMING"
             }
           },
           {
@@ -206,8 +206,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5,
-    "collapsed": true
+    "width": 377.5
   },
   "right": {
     "id": "5689001c4553b175",
@@ -372,6 +371,8 @@
   },
   "active": "d62c0c6fb7d62f7f",
   "lastOpenFiles": [
+    "youtube/powershell fundamentals.md",
+    "youtube/POINTERS IN C PROGRAMMING.md",
     "Untitled.md",
     "youtube/powershell-from-microsoft.md",
     "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",
@@ -379,7 +380,6 @@
     "youtube/assets/Pasted image 20260517180543.png",
     "youtube/assets/Pasted image 20260517180530.png",
     "youtube/assets",
-    "youtube/powershell fundamentals.md",
     "payload-allthe-things-windows-priviledge-escalation.md",
     "Untitled.base",
     "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/Untitled.md",
@@ -406,7 +406,6 @@
     "youtube",
     "OSCP-NOTES/WINDOWS PrivEsk/OFFSEC MATERIAL.md",
     "OSCP-NOTES/CHEATSHEETS/Filtering commands.md",
-    "OSCP-NOTES/CTF/STUCKED AT.md",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260425041111.png",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260425035506.png",
     "OSCP-NOTES/TOOLS",

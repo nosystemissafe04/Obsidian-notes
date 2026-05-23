@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "POINTERS IN C PROGRAMMING",
+      "path": "youtube/POINTERS IN C PROGRAMMING.md"
+    },
+    {
       "basename": "powershell fundamentals",
       "path": "youtube/powershell fundamentals.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "PHP PASSTHRU()",
       "path": "OSCP-NOTES/AV-BYPASS/PHP PASSTHRU().md"
-    },
-    {
-      "basename": "NFS",
-      "path": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Footprinting/Host Based Enumeration/NFS.md"
     }
   ],
   "omittedPaths": [],
