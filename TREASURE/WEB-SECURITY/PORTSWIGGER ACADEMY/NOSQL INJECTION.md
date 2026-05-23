@@ -19,3 +19,11 @@ this causes the application to send JSON query to get relevant product from prod
 ```js
 this.category == 'fizzy'
 ```
+
+To test whether the input may be vulnerable, submit a fuzz string in the value of the `category` parameter. An example string for MongoDB is:
+
+```
+'"`{
+;$Foo} 
+$Foo \xYZ
+```
