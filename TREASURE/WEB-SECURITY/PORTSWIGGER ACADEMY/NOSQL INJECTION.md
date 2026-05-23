@@ -15,4 +15,7 @@ https://insecure-website.com/product/lookup?category=fizzy
 ```
 user selected fizzy drinks category 
 
-this causes the application to send JSON query to get relevant product 
+this causes the application to send JSON query to get relevant product from product route in api and product collection in mongodb database 
+```js
+this.category == 'fizzy'
+```
