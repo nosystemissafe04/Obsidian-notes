@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TREASURE/Networking/Nmap/What is Nmap.md",
+                "file": "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY/NOSQL INJECTION.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "What is Nmap"
+              "title": "NOSQL INJECTION"
             }
           },
           {
@@ -206,7 +206,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 377.5,
+    "collapsed": true
   },
   "right": {
     "id": "5689001c4553b175",
@@ -369,9 +370,13 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "9fe5df7679baec76",
+  "active": "d62c0c6fb7d62f7f",
   "lastOpenFiles": [
-    "TREASURE/Untitled",
+    "TREASURE/Networking/Nmap/What is Nmap.md",
+    "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY/NOSQL INJECTION.md",
+    "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY/Untitled",
+    "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY",
+    "TREASURE/WEB-SECURITY",
     "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/Untitled.md",
     "youtube/POINTERS IN C PROGRAMMING.md",
     "youtube/powershell fundamentals.md",
@@ -405,17 +410,13 @@
     "MALWARE DEVELOPMENT",
     "OSCP-NOTES/TOOLS/RUSTSCAN.md",
     "youtube",
-    "OSCP-NOTES/WINDOWS PrivEsk/OFFSEC MATERIAL.md",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260425041111.png",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260425035506.png",
     "OSCP-NOTES/TOOLS",
-    "OSCP-NOTES/TUNNELING AND PORT FORWARDING",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260421033341.png",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260421030425.png",
-    "OSCP-NOTES/LINUX PRIVESC/assets",
     "OSCP-NOTES/AV-BYPASS/assets/Pasted image 20260419173054.png",
     "OSCP-NOTES/AV-BYPASS/assets/Pasted image 20260419172814.png",
-    "OSCP-NOTES/AV-BYPASS/assets",
     "OSCP-NOTES/SQLi/assets/Pasted image 20260406044741.png",
     "TREASURE/PEN-notes/PRACTICAL MALWARE ANALYSIS/Basic Static Analysis.canvas",
     "Spaces/Untitled 1.canvas",
