@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "youtube/POINTERS IN C PROGRAMMING.md",
+                "file": "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/Untitled.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "POINTERS IN C PROGRAMMING"
+              "title": "Untitled"
             }
           },
           {
@@ -371,8 +371,8 @@
   },
   "active": "d62c0c6fb7d62f7f",
   "lastOpenFiles": [
-    "youtube/powershell fundamentals.md",
     "youtube/POINTERS IN C PROGRAMMING.md",
+    "youtube/powershell fundamentals.md",
     "Untitled.md",
     "youtube/powershell-from-microsoft.md",
     "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",
