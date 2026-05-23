@@ -5,4 +5,4 @@
 - operator injection - when we use nosql query operator to manipulate queries 
 
 #### SYNCTAX INJECTION 
-- test each input and try to break the syntax of the query 
+- test each input and try to break the syntax of the query by *fuzz strings and special characters* that trigger a database error 
