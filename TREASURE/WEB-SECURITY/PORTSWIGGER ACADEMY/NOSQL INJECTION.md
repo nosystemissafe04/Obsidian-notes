@@ -13,4 +13,6 @@
 ```URL
 https://insecure-website.com/product/lookup?category=fizzy
 ```
-user selected fizzy drinks 
+user selected fizzy drinks category 
+
+this causes the application to send JSON query to get relevant product 
