@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY/NOSQL INJECTION.md",
+                "file": "OSCP-NOTES/WEB/Untitled.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "NOSQL INJECTION"
+              "title": "Untitled"
             }
           },
           {
@@ -206,8 +206,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5,
-    "collapsed": true
+    "width": 377.5
   },
   "right": {
     "id": "5689001c4553b175",
@@ -372,10 +371,13 @@
   },
   "active": "d62c0c6fb7d62f7f",
   "lastOpenFiles": [
+    "OSCP-NOTES/WEB/SQLi/ERROR BASED.md",
+    "OSCP-NOTES/WEB/Untitled.md",
+    "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY/NOSQL INJECTION.md",
+    "OSCP-NOTES/WEB",
     "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY/assets/nosql-injection-graphic.svg",
     "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY/assets",
     "TREASURE/Networking/Nmap/What is Nmap.md",
-    "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY/NOSQL INJECTION.md",
     "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY/Untitled",
     "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY",
     "TREASURE/WEB-SECURITY",
@@ -407,17 +409,14 @@
     "OSCP-NOTES/Advance-windows-privesk Vonnie/ENABLING REMOTE DESKTOP.md",
     "OSCP-NOTES/WINDOWS PrivEsk/AUTOMATED TOOLS.md",
     "OSCP-NOTES/PASSWORD ATTACK IN ACTIVE DIRECTORY.md",
-    "OSCP-NOTES/Commands.md",
     "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV",
     "MALWARE DEVELOPMENT",
-    "youtube",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260425041111.png",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260425035506.png",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260421033341.png",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260421030425.png",
     "OSCP-NOTES/AV-BYPASS/assets/Pasted image 20260419173054.png",
     "OSCP-NOTES/AV-BYPASS/assets/Pasted image 20260419172814.png",
-    "OSCP-NOTES/SQLi/assets/Pasted image 20260406044741.png",
     "TREASURE/PEN-notes/PRACTICAL MALWARE ANALYSIS/Basic Static Analysis.canvas",
     "Spaces/Untitled 1.canvas",
     "Untitled.canvas",

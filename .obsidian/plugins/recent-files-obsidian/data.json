@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "OSCP-NOTES/WEB/Untitled.md"
+    },
+    {
+      "basename": "ERROR BASED",
+      "path": "OSCP-NOTES/WEB/SQLi/ERROR BASED.md"
+    },
+    {
       "basename": "NOSQL INJECTION",
       "path": "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY/NOSQL INJECTION.md"
     },
@@ -157,10 +165,6 @@
       "path": "OSCP-NOTES/WINDOWS PrivEsk/AV ENUMERATION.md"
     },
     {
-      "basename": "ERROR BASED",
-      "path": "OSCP-NOTES/SQLi/ERROR BASED.md"
-    },
-    {
       "basename": "MEGA-CHEATSHEET",
       "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/MEGA-CHEATSHEET.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "TUNNELING AND PORT FORWORDING",
       "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/TUNNELING AND PORT FORWORDING.md"
-    },
-    {
-      "basename": "SSH-LOCAL-PORT-FORWARD-EXPLANATION",
-      "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-LOCAL-PORT-FORWARD-EXPLANATION.md"
     }
   ],
   "omittedPaths": [],
