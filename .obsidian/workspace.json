@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/WEB/Untitled.md",
+                "file": "OSCP-NOTES/WEB/PHPINFO.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "PHPINFO"
             }
           },
           {
@@ -206,7 +206,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 377.5,
+    "collapsed": true
   },
   "right": {
     "id": "5689001c4553b175",
@@ -372,7 +373,7 @@
   "active": "d62c0c6fb7d62f7f",
   "lastOpenFiles": [
     "OSCP-NOTES/WEB/SQLi/ERROR BASED.md",
-    "OSCP-NOTES/WEB/Untitled.md",
+    "OSCP-NOTES/WEB/PHPINFO.md",
     "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY/NOSQL INJECTION.md",
     "OSCP-NOTES/WEB",
     "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY/assets/nosql-injection-graphic.svg",
