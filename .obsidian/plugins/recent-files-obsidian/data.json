@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "FFUF",
+      "path": "OSCP-NOTES/WEB/FFUF.md"
+    },
+    {
       "basename": "PHPINFO",
       "path": "OSCP-NOTES/WEB/PHPINFO.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "TUNNELING THROUGH DEEP PACKET INSPECTION",
       "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/TUNNELING THROUGH DEEP PACKET INSPECTION.md"
-    },
-    {
-      "basename": "TUNNELING AND PORT FORWORDING",
-      "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/TUNNELING AND PORT FORWORDING.md"
     }
   ],
   "omittedPaths": [],

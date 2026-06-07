@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/WEB/PHPINFO.md",
+                "file": "OSCP-NOTES/WEB/FFUF.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "PHPINFO"
+              "title": "FFUF"
             }
           },
           {
@@ -206,8 +206,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5,
-    "collapsed": true
+    "width": 377.5
   },
   "right": {
     "id": "5689001c4553b175",
@@ -372,8 +371,9 @@
   },
   "active": "d62c0c6fb7d62f7f",
   "lastOpenFiles": [
-    "OSCP-NOTES/WEB/SQLi/ERROR BASED.md",
     "OSCP-NOTES/WEB/PHPINFO.md",
+    "OSCP-NOTES/WEB/FFUF.md",
+    "OSCP-NOTES/WEB/SQLi/ERROR BASED.md",
     "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY/NOSQL INJECTION.md",
     "OSCP-NOTES/WEB",
     "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY/assets/nosql-injection-graphic.svg",
@@ -409,7 +409,6 @@
     "OSCP-NOTES/Advance-windows-privesk Vonnie/KERNEL EXPLOIT.md",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/ENABLING REMOTE DESKTOP.md",
     "OSCP-NOTES/WINDOWS PrivEsk/AUTOMATED TOOLS.md",
-    "OSCP-NOTES/PASSWORD ATTACK IN ACTIVE DIRECTORY.md",
     "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV",
     "MALWARE DEVELOPMENT",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260425041111.png",
