@@ -7,4 +7,5 @@ more recursion = more time to complete the scan
 
 *we cannot add .php on fuzz string there maybe directory which will not resolve if the name does not match , so its better to do that it will scan the single string 2 time without ext and with ext so now we can find out which one are dirs and which are not*
 
+- also add `-v` to show `full urls` otherwise we willnot find out which dir contain which file 
 
