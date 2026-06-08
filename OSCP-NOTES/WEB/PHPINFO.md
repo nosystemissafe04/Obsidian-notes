@@ -14,4 +14,5 @@ session.save_path             ← where sessions are stored
 HOMEPATH                      <- apache being running in which user 
 USERNAME                      <- 
 USERPROFILE                   <- home dir of user 
+LOGONSERVER                   <- HOSTNAME OF THE SERVER 
 ```
