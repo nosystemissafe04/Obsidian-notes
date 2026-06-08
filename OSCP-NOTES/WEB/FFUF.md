@@ -15,4 +15,4 @@ ffuf -w /opt/useful/seclists/Discovery/Web-Content/directory-list-2.3-small.txt:
 
 **DNS**
 
-DNS PLAY A VITAL 
+DNS PLAY A VITAL ROLE IF WE ADD A DOMAIN NAME ENTRY ON /etc/hosts file and then visit the website we may get new subdomains and new website running on it , so if we find a name add that and then start again 
