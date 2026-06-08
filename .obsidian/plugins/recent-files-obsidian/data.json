@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "FFUF",
-      "path": "OSCP-NOTES/WEB/FFUF.md"
-    },
-    {
       "basename": "PHPINFO",
       "path": "OSCP-NOTES/WEB/PHPINFO.md"
+    },
+    {
+      "basename": "FFUF",
+      "path": "OSCP-NOTES/WEB/FFUF.md"
     },
     {
       "basename": "ERROR BASED",

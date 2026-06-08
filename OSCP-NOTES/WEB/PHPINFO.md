@@ -11,4 +11,5 @@ open_basedir                  ← file access restrictions
 SERVER["DOCUMENT_ROOT"]       ← web root path
 SCRIPT_FILENAME               ← absolute path
 session.save_path             ← where sessions are stored
+HOMEPATH
 ```%%  %%
