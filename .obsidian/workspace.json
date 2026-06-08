@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/WEB/PHPINFO.md",
+                "file": "OSCP-NOTES/WEB/FFUF.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "PHPINFO"
+              "title": "FFUF"
             }
           },
           {
@@ -372,8 +372,8 @@
   },
   "active": "d62c0c6fb7d62f7f",
   "lastOpenFiles": [
-    "OSCP-NOTES/WEB/FFUF.md",
     "OSCP-NOTES/WEB/PHPINFO.md",
+    "OSCP-NOTES/WEB/FFUF.md",
     "OSCP-NOTES/WEB/SQLi/ERROR BASED.md",
     "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY/NOSQL INJECTION.md",
     "OSCP-NOTES/WEB",
