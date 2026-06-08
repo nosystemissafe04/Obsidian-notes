@@ -9,3 +9,6 @@ more recursion = more time to complete the scan
 
 - also add `-v` to show `full urls` otherwise we willnot find out which dir contain which file 
 
+```bash
+ffuf -w /opt/useful/seclists/Discovery/Web-Content/directory-list-2.3-small.txt:FUZZ -u http://SERVER_IP:PORT/FUZZ -recursion -recursion-depth 1 -e .php -v
+```
