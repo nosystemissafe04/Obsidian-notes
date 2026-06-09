@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "VHOST FUZZING",
-      "path": "OSCP-NOTES/WEB/VHOST FUZZING.md"
-    },
-    {
       "basename": "FFUF",
       "path": "OSCP-NOTES/WEB/FFUF.md"
+    },
+    {
+      "basename": "VHOST FUZZING",
+      "path": "OSCP-NOTES/WEB/VHOST FUZZING.md"
     },
     {
       "basename": "PHPINFO",
