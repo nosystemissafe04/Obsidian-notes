@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "VHOST FUZZING",
+      "path": "OSCP-NOTES/WEB/VHOST FUZZING.md"
+    },
+    {
       "basename": "FFUF",
       "path": "OSCP-NOTES/WEB/FFUF.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "SSH-DYNAMIC-PORT-FORWARDING-EXPLANATION",
       "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-DYNAMIC-PORT-FORWARDING-EXPLANATION.md"
-    },
-    {
-      "basename": "TUNNELING THROUGH DEEP PACKET INSPECTION",
-      "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/TUNNELING THROUGH DEEP PACKET INSPECTION.md"
     }
   ],
   "omittedPaths": [],
