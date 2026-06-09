@@ -4,7 +4,7 @@ As we saw in the previous section, we were able to fuzz public sub-domains using
 
 ## Vhosts vs. Sub-domains
 
-The key difference between VHosts and sub-domains is that a VHost is basically a 'sub-domain' served on the same server and has the same IP, such that a single IP could be serving two or more different websites.
+The key difference between VHosts and sub-domains is that a VHost is basically a 'sub-domain' served on the **same server and has the same IP, such that a single IP could be serving two or more different websites.**
 
 `VHosts may or may not have public DNS records.`
 
