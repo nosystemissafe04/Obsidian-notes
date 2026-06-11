@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",
+                "file": "TREASURE/Powershell for Infosec/Credentials and Remoting.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,11 +76,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Powershell Fundamentals"
+              "title": "Credentials and Remoting"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -346,8 +346,10 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "d62c0c6fb7d62f7f",
+  "active": "4c070cd43a312435",
   "lastOpenFiles": [
+    "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",
+    "OSCP-NOTES/WINDOWS PrivEsk/OFFSEC MATERIAL.md",
     "OSCP-NOTES/WINDOWS PrivEsk/NETWORK ENUMERATION.md",
     "OSCP-NOTES/WINDOWS PrivEsk/KERNEL EXPLOITATION FOR PRIVESK.md",
     "OSCP-NOTES/WINDOWS PrivEsk/AV ENUMERATION.md",
@@ -372,7 +374,6 @@
     "youtube/powershell fundamentals.md",
     "Untitled.md",
     "youtube/powershell-from-microsoft.md",
-    "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",
     "OSCP-NOTES/BASH FOO.md",
     "youtube/assets/Pasted image 20260517180543.png",
     "youtube/assets/Pasted image 20260517180530.png",
@@ -385,7 +386,6 @@
     "OSCP-NOTES/LINUX PRIVESC/MODIFY LAUNCH DAEMON.md",
     "OSCP-NOTES/LINUX PRIVESC/CVE.md",
     "OSCP-NOTES/LINUX PRIVESC/ADV PRIVESCK VONNIE HUDSONE.md",
-    "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION).md",
     "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV",
     "MALWARE DEVELOPMENT",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260425041111.png",

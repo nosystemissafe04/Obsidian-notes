@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Credentials and Remoting",
+      "path": "TREASURE/Powershell for Infosec/Credentials and Remoting.md"
+    },
+    {
+      "basename": "Powershell Fundamentals",
+      "path": "TREASURE/Powershell for Infosec/Powershell Fundamentals.md"
+    },
+    {
       "basename": "OFFSEC MATERIAL",
       "path": "OSCP-NOTES/WINDOWS PrivEsk/OFFSEC MATERIAL.md"
     },
@@ -63,10 +71,6 @@
     {
       "basename": "Untitled",
       "path": "Untitled.md"
-    },
-    {
-      "basename": "Powershell Fundamentals",
-      "path": "TREASURE/Powershell for Infosec/Powershell Fundamentals.md"
     },
     {
       "basename": "BASH FOO",
@@ -195,10 +199,6 @@
     {
       "basename": "SSH-REMOTE-PORT-FORWARDING",
       "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-REMOTE-PORT-FORWARDING.md"
-    },
-    {
-      "basename": "SSH-DYNAMIC-PORT-FORWARDING-EXPLANATION",
-      "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-DYNAMIC-PORT-FORWARDING-EXPLANATION.md"
     }
   ],
   "omittedPaths": [],
