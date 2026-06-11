@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-LOCAL-PORT-FORWARD-EXPLANATION.md",
+                "file": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/CHISEL.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "SSH-LOCAL-PORT-FORWARD-EXPLANATION"
+              "title": "CHISEL"
             }
           },
           {
@@ -182,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 377.5,
+    "collapsed": true
   },
   "right": {
     "id": "5689001c4553b175",
@@ -347,6 +348,7 @@
   },
   "active": "d62c0c6fb7d62f7f",
   "lastOpenFiles": [
+    "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-LOCAL-PORT-FORWARD-EXPLANATION.md",
     "OSCP-NOTES/WEB/FFUF.md",
     "OSCP-NOTES/WEB/VHOST FUZZING.md",
     "OSCP-NOTES/WEB/PHPINFO.md",
@@ -384,7 +386,6 @@
     "OSCP-NOTES/Advance-windows-privesk Vonnie/TOKEN MANIPULATION.md",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/TERMINAL HISTORY.md",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/KERNEL EXPLOIT.md",
-    "OSCP-NOTES/Advance-windows-privesk Vonnie/ENABLING REMOTE DESKTOP.md",
     "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV",
     "MALWARE DEVELOPMENT",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260425041111.png",
