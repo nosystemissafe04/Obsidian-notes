@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/WEB/FFUF.md",
+                "file": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-LOCAL-PORT-FORWARD-EXPLANATION.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "FFUF"
+              "title": "SSH-LOCAL-PORT-FORWARD-EXPLANATION"
             }
           },
           {
@@ -77,30 +77,6 @@
               },
               "icon": "lucide-file",
               "title": "Powershell Fundamentals"
-            }
-          },
-          {
-            "id": "6deb54ec17c637fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OSCP-NOTES/BASH FOO.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "BASH FOO"
             }
           }
         ],
@@ -372,8 +348,8 @@
   },
   "active": "d62c0c6fb7d62f7f",
   "lastOpenFiles": [
-    "OSCP-NOTES/WEB/VHOST FUZZING.md",
     "OSCP-NOTES/WEB/FFUF.md",
+    "OSCP-NOTES/WEB/VHOST FUZZING.md",
     "OSCP-NOTES/WEB/PHPINFO.md",
     "OSCP-NOTES/WEB/SQLi/ERROR BASED.md",
     "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY/NOSQL INJECTION.md",
