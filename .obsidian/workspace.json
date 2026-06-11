@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -346,8 +346,9 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "4c070cd43a312435",
+  "active": "d62c0c6fb7d62f7f",
   "lastOpenFiles": [
+    "TREASURE/Powershell for Infosec/Credentials and Remoting.md",
     "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",
     "OSCP-NOTES/WINDOWS PrivEsk/OFFSEC MATERIAL.md",
     "OSCP-NOTES/WINDOWS PrivEsk/NETWORK ENUMERATION.md",
@@ -385,7 +386,6 @@
     "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md",
     "OSCP-NOTES/LINUX PRIVESC/MODIFY LAUNCH DAEMON.md",
     "OSCP-NOTES/LINUX PRIVESC/CVE.md",
-    "OSCP-NOTES/LINUX PRIVESC/ADV PRIVESCK VONNIE HUDSONE.md",
     "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV",
     "MALWARE DEVELOPMENT",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260425041111.png",
