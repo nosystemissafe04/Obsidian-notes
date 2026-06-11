@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Attacking Common Services/Attacking SQL Databases.md",
+                "file": "OSCP-NOTES/WINDOWS PrivEsk/OFFSEC MATERIAL.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Attacking SQL Databases"
+              "title": "OFFSEC MATERIAL"
             }
           },
           {
@@ -182,8 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5,
-    "collapsed": true
+    "width": 377.5
   },
   "right": {
     "id": "5689001c4553b175",
@@ -348,6 +347,11 @@
   },
   "active": "d62c0c6fb7d62f7f",
   "lastOpenFiles": [
+    "OSCP-NOTES/WINDOWS PrivEsk/NETWORK ENUMERATION.md",
+    "OSCP-NOTES/WINDOWS PrivEsk/KERNEL EXPLOITATION FOR PRIVESK.md",
+    "OSCP-NOTES/WINDOWS PrivEsk/AV ENUMERATION.md",
+    "OSCP-NOTES/WINDOWS PrivEsk/AUTOMATED TOOLS.md",
+    "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Attacking Common Services/Attacking SQL Databases.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/CHISEL.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-LOCAL-PORT-FORWARD-EXPLANATION.md",
     "OSCP-NOTES/WEB/FFUF.md",
@@ -381,11 +385,6 @@
     "OSCP-NOTES/LINUX PRIVESC/CVE.md",
     "OSCP-NOTES/LINUX PRIVESC/ADV PRIVESCK VONNIE HUDSONE.md",
     "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION).md",
-    "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (HORIZONTAL ESCALATION).md",
-    "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY.md",
-    "OSCP-NOTES/Advance-windows-privesk Vonnie/TOKEN MANIPULATION (VERTICAL ESCALATION).md",
-    "OSCP-NOTES/Advance-windows-privesk Vonnie/TOKEN MANIPULATION.md",
-    "OSCP-NOTES/Advance-windows-privesk Vonnie/TERMINAL HISTORY.md",
     "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV",
     "MALWARE DEVELOPMENT",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260425041111.png",

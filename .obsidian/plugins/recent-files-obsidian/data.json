@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "OFFSEC MATERIAL",
+      "path": "OSCP-NOTES/WINDOWS PrivEsk/OFFSEC MATERIAL.md"
+    },
+    {
+      "basename": "NETWORK ENUMERATION",
+      "path": "OSCP-NOTES/WINDOWS PrivEsk/NETWORK ENUMERATION.md"
+    },
+    {
+      "basename": "KERNEL EXPLOITATION FOR PRIVESK",
+      "path": "OSCP-NOTES/WINDOWS PrivEsk/KERNEL EXPLOITATION FOR PRIVESK.md"
+    },
+    {
+      "basename": "AV ENUMERATION",
+      "path": "OSCP-NOTES/WINDOWS PrivEsk/AV ENUMERATION.md"
+    },
+    {
+      "basename": "AUTOMATED TOOLS",
+      "path": "OSCP-NOTES/WINDOWS PrivEsk/AUTOMATED TOOLS.md"
+    },
+    {
       "basename": "Attacking SQL Databases",
       "path": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Attacking Common Services/Attacking SQL Databases.md"
     },
@@ -109,10 +129,6 @@
       "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/ENABLING REMOTE DESKTOP.md"
     },
     {
-      "basename": "AUTOMATED TOOLS",
-      "path": "OSCP-NOTES/WINDOWS PrivEsk/AUTOMATED TOOLS.md"
-    },
-    {
       "basename": "PASSWORD ATTACK IN ACTIVE DIRECTORY",
       "path": "OSCP-NOTES/PASSWORD ATTACK IN ACTIVE DIRECTORY.md"
     },
@@ -123,10 +139,6 @@
     {
       "basename": "RUSTSCAN",
       "path": "OSCP-NOTES/TOOLS/RUSTSCAN.md"
-    },
-    {
-      "basename": "OFFSEC MATERIAL",
-      "path": "OSCP-NOTES/WINDOWS PrivEsk/OFFSEC MATERIAL.md"
     },
     {
       "basename": "Filtering commands",
@@ -163,14 +175,6 @@
     {
       "basename": "IMPACKET-SMB-ENUMERATION",
       "path": "OSCP-NOTES/SMB-ENUMERATION/IMPACKET-SMB-ENUMERATION.md"
-    },
-    {
-      "basename": "NETWORK ENUMERATION",
-      "path": "OSCP-NOTES/WINDOWS PrivEsk/NETWORK ENUMERATION.md"
-    },
-    {
-      "basename": "AV ENUMERATION",
-      "path": "OSCP-NOTES/WINDOWS PrivEsk/AV ENUMERATION.md"
     },
     {
       "basename": "MEGA-CHEATSHEET",
