@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/CTF/KEVIN.md",
+                "file": "OSCP-NOTES/CTF/KEVIN - OFFSEC.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "KEVIN"
+              "title": "KEVIN - OFFSEC"
             }
           },
           {
@@ -348,7 +348,7 @@
   "active": "d62c0c6fb7d62f7f",
   "lastOpenFiles": [
     "OSCP-NOTES/CTF/SLORT - OFFSEC.md",
-    "OSCP-NOTES/CTF/KEVIN.md",
+    "OSCP-NOTES/CTF/KEVIN - OFFSEC.md",
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Attacking Common Services/Attacking SQL Databases.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/CHISEL.md",
     "OSCP-NOTES/WINDOWS PrivEsk/OFFSEC MATERIAL.md",
