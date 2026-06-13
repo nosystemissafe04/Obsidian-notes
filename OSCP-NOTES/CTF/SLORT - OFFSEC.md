@@ -148,7 +148,7 @@ SELECT 0x[your hex data] INTO DUMPFILE 'C:\\Windows\\Temp\\shell.exe'
 after execution i found it via my shell and varified that it exists 
 it get executed and then i got the shell
 
-****
+**THERE IS STILL ANOTHER PATH TO IT BY OVERRIGHTING THE TASK XML AND THEN EDITING IT TO MAKE CODE EXECUTION OF A REVERSE SHELL**
 ### Overwrite Task XML
 
 Task XMLs are stored at:
