@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "CHISEL",
+      "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/CHISEL.md"
+    },
+    {
       "basename": "OFFSEC MATERIAL",
       "path": "OSCP-NOTES/WINDOWS PrivEsk/OFFSEC MATERIAL.md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "Attacking SQL Databases",
       "path": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Attacking Common Services/Attacking SQL Databases.md"
-    },
-    {
-      "basename": "CHISEL",
-      "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/CHISEL.md"
     },
     {
       "basename": "SSH-LOCAL-PORT-FORWARD-EXPLANATION",
