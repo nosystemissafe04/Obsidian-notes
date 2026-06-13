@@ -12,3 +12,16 @@ used chisel to port forward , then accessed it on browser now i have the mysql a
 
 *we could also port forward to mysql directly , and then access it but phpmyadmin have graphical interface which makes it easy to navigate*
 
+### 1.1 Check FILE Privilege
+
+sql
+
+```sql
+-- Check if current MySQL user has FILE privilege
+SELECT * FROM information_schema.USER_PRIVILEGES 
+WHERE PRIVILEGE_TYPE = 'FILE';
+
+-- Check current user
+SELECT user();
+SELECT current_user();
+```
