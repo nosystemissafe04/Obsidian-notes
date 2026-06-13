@@ -10,4 +10,5 @@ replaced the task with my custom binary and got admin
 we found `phpmyadmin` which is being accessed by localhost only 
 used chisel to port forward , then accessed it on browser now i have the mysql access 
 
-*we could also port forward to *
+*we could also port forward to mysql directly , and then access it but phpmyadmin have graphical interface which makes it easy to navigate*
+
