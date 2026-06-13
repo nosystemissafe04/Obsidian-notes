@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/CTF/Untitled.md",
+                "file": "OSCP-NOTES/CTF/SLORT - OFFSEC.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "SLORT - OFFSEC"
             }
           },
           {
@@ -182,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 377.5,
+    "collapsed": true
   },
   "right": {
     "id": "5689001c4553b175",
@@ -348,7 +349,7 @@
   "active": "d62c0c6fb7d62f7f",
   "lastOpenFiles": [
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Attacking Common Services/Attacking SQL Databases.md",
-    "OSCP-NOTES/CTF/Untitled.md",
+    "OSCP-NOTES/CTF/SLORT - OFFSEC.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/CHISEL.md",
     "OSCP-NOTES/WINDOWS PrivEsk/OFFSEC MATERIAL.md",
     "TREASURE/Powershell for Infosec/Credentials and Remoting.md",
