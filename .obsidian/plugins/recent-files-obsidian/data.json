@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Attacking SQL Databases",
+      "path": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Attacking Common Services/Attacking SQL Databases.md"
+    },
+    {
       "basename": "CHISEL",
       "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/CHISEL.md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "AUTOMATED TOOLS",
       "path": "OSCP-NOTES/WINDOWS PrivEsk/AUTOMATED TOOLS.md"
-    },
-    {
-      "basename": "Attacking SQL Databases",
-      "path": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Attacking Common Services/Attacking SQL Databases.md"
     },
     {
       "basename": "SSH-LOCAL-PORT-FORWARD-EXPLANATION",

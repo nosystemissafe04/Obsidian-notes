@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/CHISEL.md",
+                "file": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Attacking Common Services/Attacking SQL Databases.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHISEL"
+              "title": "Attacking SQL Databases"
             }
           },
           {
@@ -348,6 +348,7 @@
   },
   "active": "d62c0c6fb7d62f7f",
   "lastOpenFiles": [
+    "OSCP-NOTES/TUNNELING AND PORT FORWARDING/CHISEL.md",
     "OSCP-NOTES/WINDOWS PrivEsk/OFFSEC MATERIAL.md",
     "TREASURE/Powershell for Infosec/Credentials and Remoting.md",
     "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",
@@ -356,7 +357,6 @@
     "OSCP-NOTES/WINDOWS PrivEsk/AV ENUMERATION.md",
     "OSCP-NOTES/WINDOWS PrivEsk/AUTOMATED TOOLS.md",
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Attacking Common Services/Attacking SQL Databases.md",
-    "OSCP-NOTES/TUNNELING AND PORT FORWARDING/CHISEL.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-LOCAL-PORT-FORWARD-EXPLANATION.md",
     "OSCP-NOTES/WEB/FFUF.md",
     "OSCP-NOTES/WEB/VHOST FUZZING.md",
