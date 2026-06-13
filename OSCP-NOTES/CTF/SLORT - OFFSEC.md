@@ -124,4 +124,5 @@ head -c 8 shell.hex
 # should show: 4d5a9000 ✅
 ```
 
-now we will execute the 
+now we have two options `dumpfile` and `outfile`
+dumpfile will be used for binary data and outfile
