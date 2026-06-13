@@ -7,4 +7,5 @@ replaced the task with my custom binary and got admin
 
 **but there is another path to it for escalation** 
 
-we found phpmyadmin which is being accessed by localhost only 
+we found `phpmyadmin` which is being accessed by localhost only 
+used chisel to port forward , then 
