@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "OSCP-NOTES/CTF/Untitled.md"
+    },
+    {
       "basename": "Attacking SQL Databases",
       "path": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Attacking Common Services/Attacking SQL Databases.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "SSH-REMOTE-DYNAMIC-PORT-FORWARDING",
       "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-REMOTE-DYNAMIC-PORT-FORWARDING.md"
-    },
-    {
-      "basename": "SSH-REMOTE-PORT-FORWARDING",
-      "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-REMOTE-PORT-FORWARDING.md"
     }
   ],
   "omittedPaths": [],

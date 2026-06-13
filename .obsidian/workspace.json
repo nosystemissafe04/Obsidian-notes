@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Attacking Common Services/Attacking SQL Databases.md",
+                "file": "OSCP-NOTES/CTF/Untitled.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Attacking SQL Databases"
+              "title": "Untitled"
             }
           },
           {
@@ -347,6 +347,8 @@
   },
   "active": "d62c0c6fb7d62f7f",
   "lastOpenFiles": [
+    "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Attacking Common Services/Attacking SQL Databases.md",
+    "OSCP-NOTES/CTF/Untitled.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/CHISEL.md",
     "OSCP-NOTES/WINDOWS PrivEsk/OFFSEC MATERIAL.md",
     "TREASURE/Powershell for Infosec/Credentials and Remoting.md",
@@ -355,7 +357,6 @@
     "OSCP-NOTES/WINDOWS PrivEsk/KERNEL EXPLOITATION FOR PRIVESK.md",
     "OSCP-NOTES/WINDOWS PrivEsk/AV ENUMERATION.md",
     "OSCP-NOTES/WINDOWS PrivEsk/AUTOMATED TOOLS.md",
-    "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Attacking Common Services/Attacking SQL Databases.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-LOCAL-PORT-FORWARD-EXPLANATION.md",
     "OSCP-NOTES/WEB/FFUF.md",
     "OSCP-NOTES/WEB/VHOST FUZZING.md",
@@ -384,7 +385,6 @@
     "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/assets",
     "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md",
     "OSCP-NOTES/LINUX PRIVESC/MODIFY LAUNCH DAEMON.md",
-    "OSCP-NOTES/LINUX PRIVESC/CVE.md",
     "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV",
     "MALWARE DEVELOPMENT",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260425041111.png",
