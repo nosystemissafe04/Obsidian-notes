@@ -8,4 +8,6 @@ replaced the task with my custom binary and got admin
 **but there is another path to it for escalation** 
 
 we found `phpmyadmin` which is being accessed by localhost only 
-used chisel to port forward , then 
+used chisel to port forward , then accessed it on browser now i have the mysql access 
+
+*we could also port forward to *
