@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "KEVIN",
+      "path": "OSCP-NOTES/CTF/KEVIN.md"
+    },
+    {
       "basename": "SLORT - OFFSEC",
       "path": "OSCP-NOTES/CTF/SLORT - OFFSEC.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "SOCAT",
       "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SOCAT.md"
-    },
-    {
-      "basename": "SSH-REMOTE-DYNAMIC-PORT-FORWARDING",
-      "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-REMOTE-DYNAMIC-PORT-FORWARDING.md"
     }
   ],
   "omittedPaths": [],
