@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "IMAP",
+      "path": "OSCP-NOTES/IMAP.md"
+    },
+    {
+      "basename": "VHOST FUZZING",
+      "path": "OSCP-NOTES/WEB/VHOST FUZZING.md"
+    },
+    {
+      "basename": "Active directory Enumeration",
+      "path": "OSCP-NOTES/Active Directory Introduction and Enumeration/Active directory Enumeration.md"
+    },
+    {
       "basename": "KEVIN - OFFSEC",
       "path": "OSCP-NOTES/CTF/KEVIN - OFFSEC.md"
     },
@@ -51,10 +63,6 @@
     {
       "basename": "FFUF",
       "path": "OSCP-NOTES/WEB/FFUF.md"
-    },
-    {
-      "basename": "VHOST FUZZING",
-      "path": "OSCP-NOTES/WEB/VHOST FUZZING.md"
     },
     {
       "basename": "PHPINFO",
@@ -191,14 +199,6 @@
     {
       "basename": "MEGA-CHEATSHEET",
       "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/MEGA-CHEATSHEET.md"
-    },
-    {
-      "basename": "TUNNELING AND PORT-FORWARD INTRODUCTION",
-      "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/TUNNELING AND PORT-FORWARD INTRODUCTION.md"
-    },
-    {
-      "basename": "SOCAT",
-      "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SOCAT.md"
     }
   ],
   "omittedPaths": [],

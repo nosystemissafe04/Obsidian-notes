@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/CTF/KEVIN - OFFSEC.md",
+                "file": "OSCP-NOTES/IMAP.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "KEVIN - OFFSEC"
+              "title": "IMAP"
             }
           },
           {
@@ -347,8 +347,10 @@
   },
   "active": "d62c0c6fb7d62f7f",
   "lastOpenFiles": [
-    "OSCP-NOTES/CTF/SLORT - OFFSEC.md",
+    "OSCP-NOTES/WEB/VHOST FUZZING.md",
+    "OSCP-NOTES/Active Directory Introduction and Enumeration/Active directory Enumeration.md",
     "OSCP-NOTES/CTF/KEVIN - OFFSEC.md",
+    "OSCP-NOTES/CTF/SLORT - OFFSEC.md",
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Attacking Common Services/Attacking SQL Databases.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/CHISEL.md",
     "OSCP-NOTES/WINDOWS PrivEsk/OFFSEC MATERIAL.md",
@@ -360,7 +362,6 @@
     "OSCP-NOTES/WINDOWS PrivEsk/AUTOMATED TOOLS.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-LOCAL-PORT-FORWARD-EXPLANATION.md",
     "OSCP-NOTES/WEB/FFUF.md",
-    "OSCP-NOTES/WEB/VHOST FUZZING.md",
     "OSCP-NOTES/WEB/PHPINFO.md",
     "OSCP-NOTES/WEB/SQLi/ERROR BASED.md",
     "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY/NOSQL INJECTION.md",
@@ -384,7 +385,6 @@
     "Untitled.base",
     "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/assets/Pasted image 20260514181517.png",
     "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/assets",
-    "OSCP-NOTES/LINUX PRIVESC/OFFSEC-MATERIAL.md",
     "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV",
     "MALWARE DEVELOPMENT",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260425041111.png",
