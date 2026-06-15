@@ -8,3 +8,4 @@
 
 - vulnerable hosts and services - anything that can be quick win ( an esy host to exploit and gain foothold)
 
+**FOR INITIALS WE CAN **
