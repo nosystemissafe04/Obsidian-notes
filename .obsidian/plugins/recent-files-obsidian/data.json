@@ -2,19 +2,19 @@
   "recentFiles": [
     {
       "basename": "Untitled",
-      "path": "OSCP-NOTES/Active Directory Introduction and Enumeration/Untitled.md"
+      "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/Untitled.md"
     },
     {
       "basename": "ACTIVE DIRECTORY ENUMERATION USING LEGACY TOOLS",
-      "path": "OSCP-NOTES/Active Directory Introduction and Enumeration/ACTIVE DIRECTORY ENUMERATION USING LEGACY TOOLS.md"
+      "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY ENUMERATION USING LEGACY TOOLS.md"
+    },
+    {
+      "basename": "Active directory Enumeration",
+      "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/Active directory Enumeration.md"
     },
     {
       "basename": "PASSWORD ATTACK IN ACTIVE DIRECTORY",
       "path": "OSCP-NOTES/PASSWORD ATTACK IN ACTIVE DIRECTORY.md"
-    },
-    {
-      "basename": "Active directory Enumeration",
-      "path": "OSCP-NOTES/Active Directory Introduction and Enumeration/Active directory Enumeration.md"
     },
     {
       "basename": "IMAP",

@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/Active Directory Introduction and Enumeration/Untitled.md",
+                "file": "OSCP-NOTES/Active Directory Enumeration and Attacks/Untitled.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -347,10 +347,10 @@
   },
   "active": "d62c0c6fb7d62f7f",
   "lastOpenFiles": [
-    "OSCP-NOTES/Active Directory Introduction and Enumeration/ACTIVE DIRECTORY ENUMERATION USING LEGACY TOOLS.md",
-    "OSCP-NOTES/Active Directory Introduction and Enumeration/Untitled.md",
+    "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY ENUMERATION USING LEGACY TOOLS.md",
+    "OSCP-NOTES/Active Directory Enumeration and Attacks/Active directory Enumeration.md",
+    "OSCP-NOTES/Active Directory Enumeration and Attacks/Untitled.md",
     "OSCP-NOTES/PASSWORD ATTACK IN ACTIVE DIRECTORY.md",
-    "OSCP-NOTES/Active Directory Introduction and Enumeration/Active directory Enumeration.md",
     "OSCP-NOTES/IMAP.md",
     "OSCP-NOTES/WEB/VHOST FUZZING.md",
     "OSCP-NOTES/CTF/KEVIN - OFFSEC.md",
