@@ -19,3 +19,9 @@ USED TOOLS HERE
 
 AND THE ONE WHICH I DIDNT EXPECT TO SEE HERE **RESPONDER** TO ANALYZE NETWORK TRAFFIC 
 
+[Responder](https://github.com/lgandx/Responder-Windows) is a tool built to listen, analyze, and poison `LLMNR`, `NBT-NS`, and `MDNS` requests and responses.
+
+```BASH
+sudo responder -I ens224 -A
+```
+
