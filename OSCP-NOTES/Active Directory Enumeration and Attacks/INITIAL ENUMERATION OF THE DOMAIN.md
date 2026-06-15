@@ -8,4 +8,4 @@
 
 - vulnerable hosts and services - anything that can be quick win ( an esy host to exploit and gain foothold)
 
-**FOR INITIALS WE CAN **
+**FOR INITIALS WE DID MONITOR NETWORK TRAFFIC TO GET TO KNOW ABOUT WHAT IS HAPPEININNG WE FOUND ARP AND MDNS PACKETS , WE FOUND SOME HOST IN ARP **
