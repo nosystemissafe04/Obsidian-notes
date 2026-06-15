@@ -35,3 +35,4 @@ Here we'll start `fping` with a few flags: `a` to show targets that are aliv
 fping -asgq 172.16.5.0/23
 ```
 
+ We can combine the successful results and the information we gleaned from our passive checks into a list for a more detailed scan with Nmap
