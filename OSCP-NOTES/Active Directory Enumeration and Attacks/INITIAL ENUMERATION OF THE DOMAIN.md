@@ -38,3 +38,8 @@ fping -asgq 172.16.5.0/23
  We can combine the successful results and the information we gleaned from our passive checks into a list for a more detailed scan with Nmap
 
 **NMAP SCANNING**
+ it would be wise of us to focus on standard protocols typically seen accompanying AD services, such as DNS, SMB, LDAP, and Kerberos name a few. Below is a quick example of a simple Nmap scan.
+
+```BASH
+sudo nmap -v -A -iL hosts.txt -oN /home/htb-student/Documents/host-enum
+```
