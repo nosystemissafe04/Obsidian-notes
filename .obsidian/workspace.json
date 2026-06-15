@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/IMAP.md",
+                "file": "OSCP-NOTES/Active Directory Introduction and Enumeration/Untitled.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "IMAP"
+              "title": "Untitled"
             }
           },
           {
@@ -347,8 +347,12 @@
   },
   "active": "d62c0c6fb7d62f7f",
   "lastOpenFiles": [
-    "OSCP-NOTES/WEB/VHOST FUZZING.md",
+    "OSCP-NOTES/Active Directory Introduction and Enumeration/ACTIVE DIRECTORY ENUMERATION USING LEGACY TOOLS.md",
+    "OSCP-NOTES/Active Directory Introduction and Enumeration/Untitled.md",
+    "OSCP-NOTES/PASSWORD ATTACK IN ACTIVE DIRECTORY.md",
     "OSCP-NOTES/Active Directory Introduction and Enumeration/Active directory Enumeration.md",
+    "OSCP-NOTES/IMAP.md",
+    "OSCP-NOTES/WEB/VHOST FUZZING.md",
     "OSCP-NOTES/CTF/KEVIN - OFFSEC.md",
     "OSCP-NOTES/CTF/SLORT - OFFSEC.md",
     "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Attacking Common Services/Attacking SQL Databases.md",
@@ -375,13 +379,9 @@
     "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/Untitled.md",
     "youtube/POINTERS IN C PROGRAMMING.md",
     "youtube/powershell fundamentals.md",
-    "Untitled.md",
-    "youtube/powershell-from-microsoft.md",
-    "OSCP-NOTES/BASH FOO.md",
     "youtube/assets/Pasted image 20260517180543.png",
     "youtube/assets/Pasted image 20260517180530.png",
     "youtube/assets",
-    "payload-allthe-things-windows-priviledge-escalation.md",
     "Untitled.base",
     "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/assets/Pasted image 20260514181517.png",
     "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/assets",

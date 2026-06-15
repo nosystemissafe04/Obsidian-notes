@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "OSCP-NOTES/Active Directory Introduction and Enumeration/Untitled.md"
+    },
+    {
+      "basename": "ACTIVE DIRECTORY ENUMERATION USING LEGACY TOOLS",
+      "path": "OSCP-NOTES/Active Directory Introduction and Enumeration/ACTIVE DIRECTORY ENUMERATION USING LEGACY TOOLS.md"
+    },
+    {
+      "basename": "PASSWORD ATTACK IN ACTIVE DIRECTORY",
+      "path": "OSCP-NOTES/PASSWORD ATTACK IN ACTIVE DIRECTORY.md"
+    },
+    {
+      "basename": "Active directory Enumeration",
+      "path": "OSCP-NOTES/Active Directory Introduction and Enumeration/Active directory Enumeration.md"
+    },
+    {
       "basename": "IMAP",
       "path": "OSCP-NOTES/IMAP.md"
     },
     {
       "basename": "VHOST FUZZING",
       "path": "OSCP-NOTES/WEB/VHOST FUZZING.md"
-    },
-    {
-      "basename": "Active directory Enumeration",
-      "path": "OSCP-NOTES/Active Directory Introduction and Enumeration/Active directory Enumeration.md"
     },
     {
       "basename": "KEVIN - OFFSEC",
@@ -149,10 +161,6 @@
       "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/ENABLING REMOTE DESKTOP.md"
     },
     {
-      "basename": "PASSWORD ATTACK IN ACTIVE DIRECTORY",
-      "path": "OSCP-NOTES/PASSWORD ATTACK IN ACTIVE DIRECTORY.md"
-    },
-    {
       "basename": "Commands",
       "path": "OSCP-NOTES/Commands.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "NETEXEC - SMB ENUMERATION",
       "path": "OSCP-NOTES/SMB-ENUMERATION/NETEXEC - SMB ENUMERATION.md"
-    },
-    {
-      "basename": "IMPACKET-SMB-ENUMERATION",
-      "path": "OSCP-NOTES/SMB-ENUMERATION/IMPACKET-SMB-ENUMERATION.md"
-    },
-    {
-      "basename": "MEGA-CHEATSHEET",
-      "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/MEGA-CHEATSHEET.md"
     }
   ],
   "omittedPaths": [],
