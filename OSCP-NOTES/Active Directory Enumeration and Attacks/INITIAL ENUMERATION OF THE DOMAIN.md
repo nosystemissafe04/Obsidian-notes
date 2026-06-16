@@ -45,4 +45,5 @@ sudo nmap -v -A -iL hosts.txt -oN /home/htb-student/Documents/host-enum
 ```
 
 **KERBRUTE - INTERNAL AD USERNAME ENUMERATION**
-  It takes advantage of the fact that Kerberos pre-authentication failures often will not trigger logs or alerts
+ It takes advantage of the fact that Kerberos pre-authentication failures often will not trigger logs or alerts
+ 
