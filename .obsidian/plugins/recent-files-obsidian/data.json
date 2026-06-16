@@ -5,6 +5,10 @@
       "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-LOCAL-PORT-FORWARD-EXPLANATION.md"
     },
     {
+      "basename": "SOCAT",
+      "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SOCAT.md"
+    },
+    {
       "basename": "INITIAL ENUMERATION OF THE DOMAIN",
       "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "LDAP-ENUMERATION WITH NETEXEC",
       "path": "OSCP-NOTES/LDAP-ENUMERATION/LDAP-ENUMERATION WITH NETEXEC.md"
-    },
-    {
-      "basename": "NETEXEC - SMB ENUMERATION",
-      "path": "OSCP-NOTES/SMB-ENUMERATION/NETEXEC - SMB ENUMERATION.md"
     }
   ],
   "omittedPaths": [],
