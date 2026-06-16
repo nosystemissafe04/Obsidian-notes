@@ -50,5 +50,6 @@ sudo nmap -v -A -iL hosts.txt -oN /home/htb-student/Documents/host-enum
  -  We can point Kerbrute at the DC we found earlier and feed it a wordlist.
  - To get started with Kerbrute, we can download [precompiled binaries](https://github.com/ropnop/kerbrute/releases/latest)
 
-```SHEL
+```SHELL
+kerbrute userenum -d INLANEFREIGHT.LOCAL --dc 172.16.5.5 jsmith.txt -o valid_ad_users
 ```
