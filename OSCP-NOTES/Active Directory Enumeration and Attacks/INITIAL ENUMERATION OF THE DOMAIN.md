@@ -91,3 +91,5 @@ net use \\host\ipc$ "" /u:""
 
 net use \\DC01\ipc$ "" /u:""
 ```
+
+#### Enumerating the Password Policy - from Linux - LDAP Anonymous Bind
