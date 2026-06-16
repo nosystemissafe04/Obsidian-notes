@@ -99,3 +99,6 @@ net use \\DC01\ipc$ "" /u:""
 ```SHELL
 ldapsearch -h 172.16.5.5 -x -b "DC=INLANEFREIGHT,DC=LOCAL" -s sub "*" | grep -m 1 -B 10 pwdHistoryLength
 ```
+
+*Note: In newer versions of `ldapsearch`, the `-h` parameter was deprecated in favor for `-H`.*
+
