@@ -86,3 +86,8 @@ enum4linux-ng -P 172.16.5.5 -oA ilfreight
 ```
 
 #### Enumerating Null Session - from Windows
+```SHELL
+net use \\host\ipc$ "" /u:""
+
+net use \\DC01\ipc$ "" /u:""
+```
