@@ -68,4 +68,9 @@ nxc smb 172.16.5.5 -u avazquez -p Password123 --pass-pol
 #### Enumerating the Password Policy - from Linux - SMB NULL Sessions
 - SMB NULL sessions allow an unauthenticated attacker to retrieve information from the domain, such as a complete listing of users, groups, computers, user account attributes, and the domain password policy
 - When creating a domain in earlier versions of Windows Server, anonymous access was granted to certain shares, which allowed for domain enumeration. An SMB NULL session can be enumerated easily. For enumeration, we can use tools such as `enum4linux`, `CrackMapExec`, `rpcclient`, etc.
-- 
+
+```shell
+rpcclient -U "" -N 172.16.5.5
+rpcclient $> querydominfo
+```
+
