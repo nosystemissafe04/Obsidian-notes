@@ -74,3 +74,13 @@ rpcclient -U "" -N 172.16.5.5
 rpcclient $> querydominfo
 ```
 
+**USING ENUM4LINUX**
+```SHELL
+enum4linux -P 172.16.5.5
+```
+
+- The tool [enum4linux-ng](https://github.com/cddmp/enum4linux-ng) is a rewrite of `enum4linux` in Python, but has additional features such as the ability to export data as YAML or JSON files
+
+```SHELL
+
+```
