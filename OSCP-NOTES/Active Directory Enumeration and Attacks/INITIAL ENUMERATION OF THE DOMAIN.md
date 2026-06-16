@@ -53,3 +53,5 @@ sudo nmap -v -A -iL hosts.txt -oN /home/htb-student/Documents/host-enum
 ```SHELL
 kerbrute userenum -d INLANEFREIGHT.LOCAL --dc 172.16.5.5 jsmith.txt -o valid_ad_users
 ```
+
+## ENUMERATING 
