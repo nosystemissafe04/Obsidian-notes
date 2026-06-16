@@ -65,4 +65,4 @@ OR
 nxc smb 172.16.5.5 -u avazquez -p Password123 --pass-pol
 ```
 
-####  the Password Policy - from Linux - SMB NULL Sessions
+#### Enumerating the Password Policy - from Linux - SMB NULL Sessions
