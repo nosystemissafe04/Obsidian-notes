@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-LOCAL-PORT-FORWARD-EXPLANATION.md",
+                "file": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SOCAT.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "SSH-LOCAL-PORT-FORWARD-EXPLANATION"
+              "title": "SOCAT"
             }
           },
           {
@@ -347,8 +347,9 @@
   },
   "active": "d62c0c6fb7d62f7f",
   "lastOpenFiles": [
-    "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SOCAT.md",
+    "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-DYNAMIC-PORT-FORWARDING-EXPLANATION.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-LOCAL-PORT-FORWARD-EXPLANATION.md",
+    "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SOCAT.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY ENUMERATION USING LEGACY TOOLS.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/Active directory Enumeration.md",
@@ -378,7 +379,6 @@
     "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY",
     "TREASURE/WEB-SECURITY",
     "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/Untitled.md",
-    "youtube/POINTERS IN C PROGRAMMING.md",
     "youtube/assets/Pasted image 20260517180543.png",
     "youtube/assets/Pasted image 20260517180530.png",
     "youtube/assets",

@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "SSH-LOCAL-PORT-FORWARD-EXPLANATION",
-      "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-LOCAL-PORT-FORWARD-EXPLANATION.md"
-    },
-    {
       "basename": "SOCAT",
       "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SOCAT.md"
+    },
+    {
+      "basename": "SSH-DYNAMIC-PORT-FORWARDING-EXPLANATION",
+      "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-DYNAMIC-PORT-FORWARDING-EXPLANATION.md"
+    },
+    {
+      "basename": "SSH-LOCAL-PORT-FORWARD-EXPLANATION",
+      "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-LOCAL-PORT-FORWARD-EXPLANATION.md"
     },
     {
       "basename": "INITIAL ENUMERATION OF THE DOMAIN",
@@ -195,10 +199,6 @@
     {
       "basename": "LAB-SETUP",
       "path": "OSCP-NOTES/LDAP-ENUMERATION/LAB-SETUP.md"
-    },
-    {
-      "basename": "LDAP-ENUMERATION WITH NETEXEC",
-      "path": "OSCP-NOTES/LDAP-ENUMERATION/LDAP-ENUMERATION WITH NETEXEC.md"
     }
   ],
   "omittedPaths": [],
