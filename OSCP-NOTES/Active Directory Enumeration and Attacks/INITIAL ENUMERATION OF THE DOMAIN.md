@@ -105,3 +105,9 @@ ldapsearch -h 172.16.5.5 -x -b "DC=INLANEFREIGHT,DC=LOCAL" -s sub "*" | grep -m 
 #### Enumerating the Password Policy - from Windows
  If we can authenticate to the domain from a Windows host, we can use built-in Windows binaries such as `net.exe` to retrieve the password policy. We can also use various tools such as PowerView, CrackMapExec ported to Windows, SharpMapExec, SharpView, etc.
 
+#### Using PowerView
+
+
+```powershell
+PS C:\htb> import-module .\PowerView.ps1 PS C:\htb> Get-DomainPolicy Unicode        : @{Unicode=yes} SystemAccess   : @{MinimumPasswordAge=1; MaximumPasswordAge=-1; MinimumPasswordLength=8; PasswordComplexity=1;                  PasswordHistorySize=24; LockoutBadCount=5; ResetLockoutCount=30; LockoutDuration=30;                 RequireLogonToChangePassword=0; ForceLogoffWhenHourExpire=0; ClearTextPassword=0;                 LSAAnonymousNameLookup=0} KerberosPolicy : @{MaxTicketAge=10; MaxRenewAge=7; MaxServiceAge=600; MaxClockSkew=5; TicketValidateClient=1} Version        : @{signature="$CHICAGO$"; Revision=1} RegistryValues : @{MACHINE\System\CurrentControlSet\Control\Lsa\NoLMHash=System.Object[]} Path           : \\INLANEFREIGHT.LOCAL\sysvol\INLANEFREIGHT.LOCAL\Policies\{31B2F340-016D-11D2-945F-00C04FB984F9}\MACHI                  NE\Microsoft\Windows NT\SecEdit\GptTmpl.inf GPOName        : {31B2F340-016D-11D2-945F-00C04FB984F9} GPODisplayName : Default Domain Policy
+```
