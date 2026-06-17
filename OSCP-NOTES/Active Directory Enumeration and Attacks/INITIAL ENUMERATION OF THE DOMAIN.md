@@ -240,5 +240,11 @@ From a foothold on a domain-joined Windows host, the [DomainPasswordSpray](http
 
  we can also supply a user list to the tool if we are on a Windows host but not authenticated to the domain.
 
+#### Using DomainPasswordSpray.ps1
+```powershell
+Import-Module .\DomainPasswordSpray.ps1
+Invoke-DomainPasswordSpray -Password Welcome1 -OutFile spray_success -ErrorAction SilentlyContinue
+```
+
 There are several options available to us with the tool. Since the host is domain-joined, we will skip the `-UserList` flag and let the tool generate a list for us. We'll supply the `Password` flag and one single password and then use the `-OutFile` flag to write our output to a file for later use.
 
