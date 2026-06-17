@@ -54,7 +54,8 @@ sudo nmap -v -A -iL hosts.txt -oN /home/htb-student/Documents/host-enum
 kerbrute userenum -d INLANEFREIGHT.LOCAL --dc 172.16.5.5 jsmith.txt -o valid_ad_users
 ```
 
-## ENUMERATING THE PASSWORD POLICY FROM LINUX - CREDENTIALED
+## pa
+#### ENUMERATING THE PASSWORD POLICY FROM LINUX - CREDENTIALED
 
 - password policy can also be obtained remotely using tools such as [CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec) or `rpcclient`.
 ```SHELL
