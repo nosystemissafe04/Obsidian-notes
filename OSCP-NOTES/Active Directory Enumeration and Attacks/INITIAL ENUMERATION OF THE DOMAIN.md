@@ -131,3 +131,10 @@ The default password policy when a new domain is created is as follows, and ther
 | Reset account lockout counter after         | Not set       |
 
 ## PASSWORD SPRAYING - MAKING A TARGET USER LIST
+There are several ways that we can gather a target list of valid users:
+
+- By leveraging an SMB NULL session to retrieve a complete list of domain users from the domain controller
+- Utilizing an LDAP anonymous bind to query LDAP anonymously and pull down the domain user list
+- Using a tool such as `Kerbrute` to validate users utilizing a word list from a source such as the [statistically-likely-usernames](https://github.com/insidetrust/statistically-likely-usernames) GitHub repo, or gathered by using a tool such as [linkedin2username](https://github.com/initstring/linkedin2username) to create a list of potentially valid users
+- Using a set of credentials from a Linux or Windows attack system either provided by our client or obtained through another means such as LLMNR/NBT-NS response poisoning using `Responder` or even a successful password spray using a smaller wordlist
+
