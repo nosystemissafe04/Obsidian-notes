@@ -223,3 +223,6 @@ sudo crackmapexec smb 172.16.5.5 -u avazquez -p Password123
 ```
 
 ### Local Administrator Password Reuse
+
+
+Sometimes we may only retrieve the NTLM hash for the local administrator account from the local SAM database. In these instances, we can spray the NT hash across an entire subnet (or multiple subnets) to hunt for local administrator accounts with the same password set. In the example below, we attempt to authenticate to all hosts in a /23 network using the built-in local administrator account NT hash retrieved from another machine. The `--local-auth` flag will tell the tool only to attempt to log in one time on each machine
