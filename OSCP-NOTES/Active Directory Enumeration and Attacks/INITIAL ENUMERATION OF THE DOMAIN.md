@@ -57,7 +57,7 @@ kerbrute userenum -d INLANEFREIGHT.LOCAL --dc 172.16.5.5 jsmith.txt -o valid_ad_
 ## PASSWORD POLICY
 #### ENUMERATING THE PASSWORD POLICY FROM LINUX - CREDENTIALED
 
-- password policy can also be obtained remotely using tools such as [CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec) or `rpcclient`.
+- password policy can also be obtained remotely using tools such as [CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec) or `rpcclient` .
 ```SHELL
 crackmapexec smb 172.16.5.5 -u avazquez -p Password123 --pass-pol
 ```
