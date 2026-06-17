@@ -140,3 +140,5 @@ There are several ways that we can gather a target list of valid users:
 
 #### SMB NULL Session to Pull User List
 If you already have credentials for a domain user or `SYSTEM` access on a Windows host, then you can easily query Active Directory for this information.
+It’s possible to do this using the SYSTEM account because it can `impersonate` the computer. A computer object is treated as a domain user account (with some differences, such as authenticating across forest trusts). 
+
