@@ -129,3 +129,5 @@ The default password policy when a new domain is created is as follows, and ther
 | Account lockout duration                    | Not set       |
 | Account lockout threshold                   | 0             |
 | Reset account lockout counter after         | Not set       |
+
+## PASSWORD SPRAYING - MAKING A TARGET USER LIST
