@@ -149,9 +149,9 @@ It’s possible to do this using the SYSTEM account because it can `impersonate
 enum4linux -U 172.16.5.5 | grep "user:" | cut -f2 -d"[" | cut -f1 -d"]"
 ```
 
+#### Using rpcclient
 We can use the `enumdomusers` command after connecting anonymously using `rpcclient`.
 
-#### Using rpcclient
 ```SHELL
 rpcclient -U "" -N 172.16.5.5
 rpcclient $> enumdomusers
