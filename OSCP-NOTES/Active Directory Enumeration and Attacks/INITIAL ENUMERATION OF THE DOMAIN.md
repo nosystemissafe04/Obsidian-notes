@@ -178,3 +178,5 @@ ldapsearch -h 172.16.5.5 -x -b "DC=INLANEFREIGHT,DC=LOCAL" -s sub "(&(objectclas
 ./windapsearch.py --dc-ip 172.16.5.5 -u "" -U
 ```
 
+### Enumerating Users with Kerbrute
+This tool uses [Kerberos Pre-Authentication](https://ldapwiki.com/wiki/Wiki.jsp?page=Kerberos%20Pre-Authentication), which is a much faster and potentially stealthier way to perform password spraying
