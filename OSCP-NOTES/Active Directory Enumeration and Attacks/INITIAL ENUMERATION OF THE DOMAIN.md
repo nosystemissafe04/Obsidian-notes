@@ -102,3 +102,6 @@ ldapsearch -h 172.16.5.5 -x -b "DC=INLANEFREIGHT,DC=LOCAL" -s sub "*" | grep -m 
 
 *Note: In newer versions of `ldapsearch`, the `-h` parameter was deprecated in favor for `-H`.*
 
+#### Enumerating the Password Policy - from Windows
+ If we can authenticate to the domain from a Windows host, we can use built-in Windows binaries such as `net.exe` to retrieve the password policy. We can also use various tools such as PowerView, CrackMapExec ported to Windows, SharpMapExec, SharpView, etc.
+
