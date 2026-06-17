@@ -165,3 +165,10 @@ Finally, we can use `CrackMapExec` with the `--users` flag. This is a useful
 crackmapexec smb 172.16.5.5 --users
 ```
 
+#### Gathering Users with LDAP Anonymous
+
+We can use various tools to gather users when we find an LDAP anonymous bind. Some examples include [windapsearch](https://github.com/ropnop/windapsearch) and [ldapsearch](https://linux.die.net/man/1/ldapsearch). If we choose to use `ldapsearch` we will need to specify a valid LDAP search filter
+
+```SHELL
+ldapsearch -h 172.16.5.5 -x -b "DC=INLANEFREIGHT,DC=LOCAL" -s sub "(&(objectclass=user))" | grep sAMAccountName: | cut -f2 -d" "
+```
