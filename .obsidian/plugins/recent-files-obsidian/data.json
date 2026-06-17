@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "CROSS-SITE REQUEST FORGERY",
+      "path": "PortSwigger Academy/CROSS-SITE REQUEST FORGERY.md"
+    },
+    {
       "basename": "INITIAL ENUMERATION OF THE DOMAIN",
       "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "KERBEROS AUTHENTICATION AND TICKETS",
       "path": "OSCP-NOTES/Kerberos/KERBEROS AUTHENTICATION AND TICKETS.md"
-    },
-    {
-      "basename": "LAB-SETUP",
-      "path": "OSCP-NOTES/LDAP-ENUMERATION/LAB-SETUP.md"
     }
   ],
   "omittedPaths": [],

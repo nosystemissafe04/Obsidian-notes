@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md",
+                "file": "PortSwigger Academy/CROSS-SITE REQUEST FORGERY.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "INITIAL ENUMERATION OF THE DOMAIN"
+              "title": "CROSS-SITE REQUEST FORGERY"
             }
           },
           {
@@ -182,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 377.5,
+    "collapsed": true
   },
   "right": {
     "id": "5689001c4553b175",
@@ -347,10 +348,12 @@
   },
   "active": "d62c0c6fb7d62f7f",
   "lastOpenFiles": [
+    "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md",
+    "PortSwigger Academy/CROSS-SITE REQUEST FORGERY.md",
+    "PortSwigger Academy",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SOCAT.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-DYNAMIC-PORT-FORWARDING-EXPLANATION.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-LOCAL-PORT-FORWARD-EXPLANATION.md",
-    "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY ENUMERATION USING LEGACY TOOLS.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/Active directory Enumeration.md",
     "OSCP-NOTES/PASSWORD ATTACK IN ACTIVE DIRECTORY.md",
@@ -378,7 +381,6 @@
     "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY/Untitled",
     "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY",
     "TREASURE/WEB-SECURITY",
-    "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/Untitled.md",
     "youtube/assets/Pasted image 20260517180543.png",
     "youtube/assets/Pasted image 20260517180530.png",
     "youtube/assets",
@@ -386,7 +388,6 @@
     "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/assets/Pasted image 20260514181517.png",
     "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV/assets",
     "MALWARE DEVELOPMENT/SEKTOR7-RED-TEAM-MALDEV",
-    "MALWARE DEVELOPMENT",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260425041111.png",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260425035506.png",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260421033341.png",
