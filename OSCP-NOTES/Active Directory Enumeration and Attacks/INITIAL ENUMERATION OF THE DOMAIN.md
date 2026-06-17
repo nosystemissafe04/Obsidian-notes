@@ -175,5 +175,6 @@ ldapsearch -h 172.16.5.5 -x -b "DC=INLANEFREIGHT,DC=LOCAL" -s sub "(&(objectclas
 
 #### Using windapsearch
 ```SHELL
-
+./windapsearch.py --dc-ip 172.16.5.5 -u "" -U
 ```
+
