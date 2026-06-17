@@ -199,3 +199,5 @@ If we are unable to create a valid username list using any of the methods highli
 ```SHELL
 sudo crackmapexec smb 172.16.5.5 -u htb-student -p Academy_student_AD! --users
 ```
+
+# Internal Password Spraying - from Linux
