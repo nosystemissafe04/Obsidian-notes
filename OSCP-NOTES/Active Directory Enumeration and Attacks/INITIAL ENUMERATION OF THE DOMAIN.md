@@ -157,3 +157,11 @@ rpcclient -U "" -N 172.16.5.5
 rpcclient $> enumdomusers
 ```
 
+#### Using CrackMapExec --users Flag
+
+Finally, we can use `CrackMapExec` with the `--users` flag. This is a useful tool that will also show the `badpwdcount` (invalid login attempts), so we can remove any accounts from our list that are close to the lockout threshold. It also shows the `baddpwdtime`, which is the date and time of the last bad password attempt, so we can see how close an account is to having its `badpwdcount` reset. In an environment with multiple Domain Controllers, this value is maintained separately on each one. To get an accurate total of the account's bad password attempts, we would have to either query each Domain Controller and use the sum of the values or query the Domain Controller with the PDC Emulator FSMO role.
+
+```SHELL
+crackmapexec smb 172.16.5.5 --users
+```
+
