@@ -251,3 +251,8 @@ There are several options available to us with the tool. Since the host is domai
 *We could also utilize Kerbrute to perform the same user enumeration and spraying*
 
 ## Enumerating Security Controls
+
+#### Windows Defender
+
+Windows Defender (or [Microsoft Defender](https://en.wikipedia.org/wiki/Microsoft_Defender) after the Windows 10 May 2020 Update) has greatly improved over the years and, by default, will block tools such as `PowerView`
+
