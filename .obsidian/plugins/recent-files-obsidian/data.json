@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "INITIAL ENUMERATION OF THE DOMAIN",
+      "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md"
+    },
+    {
       "basename": "CROSS-SITE REQUEST FORGERY",
       "path": "PortSwigger Academy/CROSS-SITE REQUEST FORGERY.md"
     },
     {
-      "basename": "INITIAL ENUMERATION OF THE DOMAIN",
-      "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md"
+      "basename": "Credentials and Remoting",
+      "path": "TREASURE/Powershell for Infosec/Credentials and Remoting.md"
     },
     {
       "basename": "SOCAT",
@@ -59,10 +63,6 @@
     {
       "basename": "OFFSEC MATERIAL",
       "path": "OSCP-NOTES/WINDOWS PrivEsk/OFFSEC MATERIAL.md"
-    },
-    {
-      "basename": "Credentials and Remoting",
-      "path": "TREASURE/Powershell for Infosec/Credentials and Remoting.md"
     },
     {
       "basename": "Powershell Fundamentals",

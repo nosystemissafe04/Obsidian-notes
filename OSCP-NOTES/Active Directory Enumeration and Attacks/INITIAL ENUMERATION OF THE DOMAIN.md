@@ -250,3 +250,4 @@ There are several options available to us with the tool. Since the host is domai
 
 *We could also utilize Kerbrute to perform the same user enumeration and spraying*
 
+## Enumerating Security Controls
