@@ -256,3 +256,8 @@ There are several options available to us with the tool. Since the host is domai
 
 Windows Defender (or [Microsoft Defender](https://en.wikipedia.org/wiki/Microsoft_Defender) after the Windows 10 May 2020 Update) has greatly improved over the years and, by default, will block tools such as `PowerView`
 
+We can use the built-in PowerShell cmdlet [Get-MpComputerStatus](https://docs.microsoft.com/en-us/powershell/module/defender/get-mpcomputerstatus?view=win10-ps) to get the current Defender status. we can see that the `RealTimeProtectionEnabled` parameter is set to `True`, which means Defender is enabled on the system.
+
+```shell
+Get-MpComputerStatus
+```
