@@ -294,3 +294,6 @@ We can use the `Get-LAPSComputers` function to search for computers that have 
 ```powershell
 Get-LAPSComputers
 ```
+
+
+# 
