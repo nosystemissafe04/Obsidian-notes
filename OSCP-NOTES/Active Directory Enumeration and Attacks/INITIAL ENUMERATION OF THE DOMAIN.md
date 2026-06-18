@@ -323,3 +323,10 @@ sudo crackmapexec smb 172.16.5.130 -u forend -p Klmcargo2 --loggedon-users
 ```
 
 #### CME Share Searching
+
+```shell
+sudo crackmapexec smb 172.16.5.5 -u forend -p Klmcargo2 --shares
+```
+
+##### Spider_plus
+ 
