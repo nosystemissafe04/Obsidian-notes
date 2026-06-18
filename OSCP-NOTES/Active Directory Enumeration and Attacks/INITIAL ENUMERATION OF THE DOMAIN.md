@@ -261,3 +261,5 @@ We can use the built-in PowerShell cmdlet [Get-MpComputerStatus](https://docs.m
 ```shell
 Get-MpComputerStatus
 ```
+
+#### AppLocker
