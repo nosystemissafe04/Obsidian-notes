@@ -340,3 +340,8 @@ CME writes the results to a JSON file located at `/tmp/cme_spider_plus/<ip of h
 ```shell
 smbmap -u forend -p Klmcargo2 -d INLANEFREIGHT.LOCAL -H 172.16.5.5
 ```
+
+#### Recursive List Of All Directories
+```shell
+smbmap -u forend -p Klmcargo2 -d INLANEFREIGHT.LOCAL -H 172.16.5.5 -R 'Department Shares' --dir-only
+```
