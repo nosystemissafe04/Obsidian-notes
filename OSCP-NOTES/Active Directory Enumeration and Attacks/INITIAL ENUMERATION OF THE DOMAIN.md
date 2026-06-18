@@ -316,7 +316,10 @@ sudo crackmapexec smb 172.16.5.5 -u forend -p Klmcargo2 --groups
 ```
 
 The above snippet lists the groups within the domain and the number of users in each. The output also shows the built-in groups on the Domain Controller, such as `Backup Operators`. We can begin to note down groups of interest. Take note of key groups like `Administrators`, `Domain Admins`, `Executives`, any groups that may contain privileged IT admins, etc. These groups will likely contain users with elevated privileges worth targeting during our assessment.
+#### CME - Logged On Users
 
 ```shell
 sudo crackmapexec smb 172.16.5.130 -u forend -p Klmcargo2 --loggedon-users
 ```
+
+#### CME Share Searching
