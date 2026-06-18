@@ -333,4 +333,6 @@ sudo crackmapexec smb 172.16.5.5 -u forend -p Klmcargo2 --shares
  sudo crackmapexec smb 172.16.5.5 -u forend -p Klmcargo2 -M spider_plus --share 'Department Shares'
  ```
 we can dig into the shares and spider each directory looking for files. The module `spider_plus` will dig through each readable share on the host and list all readable files. Let's give it a try.
+CME writes the results to a JSON file located at `/tmp/cme_spider_plus/<ip of host>`
 
+#### SMBMap
