@@ -55,8 +55,7 @@
               "title": "Powershell Language Modes"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -322,8 +321,9 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "140e6eb4334c27c5",
+  "active": "d62c0c6fb7d62f7f",
   "lastOpenFiles": [
+    "TREASURE/Powershell for Infosec/Powershell Language Modes.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md",
     "PortSwigger Academy/CROSS-SITE REQUEST FORGERY.md",
     "TREASURE/Powershell for Infosec/Credentials and Remoting.md",
@@ -353,7 +353,6 @@
     "OSCP-NOTES/WEB",
     "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY/assets/nosql-injection-graphic.svg",
     "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY/assets",
-    "TREASURE/Networking/Nmap/What is Nmap.md",
     "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY/Untitled",
     "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY",
     "TREASURE/WEB-SECURITY",

@@ -273,3 +273,7 @@ Get-AppLockerPolicy -Effective | select -ExpandProperty RuleCollections
 #### PowerShell Constrained Language Mode
 
 PowerShell [Constrained Language Mode](https://devblogs.microsoft.com/powershell/powershell-constrained-language-mode/) locks down many of the features needed to use PowerShell effectively, such as blocking COM objects, only allowing approved .NET types, XAML-based workflows, PowerShell classes, and more. We can quickly enumerate whether we are in Full Language Mode or Constrained Language Mode.[[Powershell Language Modes]]
+
+```powershell
+$ExecutionContext.SessionState.LanguageMode
+```
