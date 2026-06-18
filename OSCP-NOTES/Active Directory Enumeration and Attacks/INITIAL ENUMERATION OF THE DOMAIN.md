@@ -329,4 +329,8 @@ sudo crackmapexec smb 172.16.5.5 -u forend -p Klmcargo2 --shares
 ```
 
 ##### Spider_plus
- 
+ ```shell
+ sudo crackmapexec smb 172.16.5.5 -u forend -p Klmcargo2 -M spider_plus --share 'Department Shares'
+ ```
+we can dig into the shares and spider each directory looking for files. The module `spider_plus` will dig through each readable share on the host and list all readable files. Let's give it a try.
+
