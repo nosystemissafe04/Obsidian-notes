@@ -277,3 +277,7 @@ PowerShell [Constrained Language Mode](https://devblogs.microsoft.com/powershel
 ```powershell
 $ExecutionContext.SessionState.LanguageMode
 ```
+
+#### LAPS
+```pwoer
+```
