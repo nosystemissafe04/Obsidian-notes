@@ -356,3 +356,8 @@ The use of `--dir-only` provided only the output of all directories and did no
 rpcclient -U "" -N 172.16.5.5
 ```
 
+#### rpcclient Enumeration
+
+- The [SID](https://docs.microsoft.com/en-us/windows/security/identity-protection/access-control/security-identifiers) for the INLANEFREIGHT.LOCAL domain is: `S-1-5-21-3842939050-3880317879-2865463114`.
+- When an object is created within a domain, the number above (SID) will be combined with a RID to make a unique value used to represent the object.
+- So the domain user `htb-student` with a RID:0x457 Hex 0x457 would = decimal `1111`, will have a full user SID of: `S-1-5-21-3842939050-3880317879-2865463114-1111`.
