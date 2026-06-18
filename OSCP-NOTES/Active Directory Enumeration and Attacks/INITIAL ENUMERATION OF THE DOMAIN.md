@@ -303,9 +303,14 @@ We are interested in information about domain user and computer attributes, grou
 #### CrackMapExec or NetExec
 
 We'll start by using the SMB protocol to enumerate users and groups. We will target the Domain Controller (whose address we uncovered earlier) because it holds all data in the domain database that we are interested in. Make sure you preface all commands with `sudo`.
+#### CME - Domain User Enumeration
 
 ```shell
 sudo crackmapexec smb 172.16.5.5 -u forend -p Klmcargo2 --users
 ```
 
 #### CME - Domain Group Enumeration
+
+```shell
+sudo crackmapexec smb 172.16.5.5 -u forend -p Klmcargo2 --groups
+```
