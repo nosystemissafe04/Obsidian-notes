@@ -300,7 +300,11 @@ Get-LAPSComputers
 
 We are interested in information about domain user and computer attributes, group membership, Group Policy Objects, permissions, ACLs, trusts, and more. We have various options available, but the most important thing to remember is that most of these tools will not work without valid domain user credentials at any permission level. So at a minimum, we will have to have acquired a user's cleartext password, NTLM password hash, or SYSTEM access on a domain-joined host.
 
-#### CrackMapExec
+#### CrackMapExec or NetExec
 
 We'll start by using the SMB protocol to enumerate users and groups. We will target the Domain Controller (whose address we uncovered earlier) because it holds all data in the domain database that we are interested in. Make sure you preface all commands with `sudo`.
+
+```shell
+sudo crackmapexec smb 172.16.5.5 -u forend -p Klmcargo2 --users
+```
 
