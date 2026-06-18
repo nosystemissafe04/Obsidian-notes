@@ -336,3 +336,7 @@ we can dig into the shares and spider each directory looking for files. The modu
 CME writes the results to a JSON file located at `/tmp/cme_spider_plus/<ip of host>`
 
 #### SMBMap
+ we can use SMBMap to recursively list directories, list the contents of a directory, search file contents, and more.
+```shell
+smbmap -u forend -p Klmcargo2 -d INLANEFREIGHT.LOCAL -H 172.16.5.5
+```
