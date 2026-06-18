@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "INITIAL ENUMERATION OF THE DOMAIN"
             }
+          },
+          {
+            "id": "140e6eb4334c27c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TREASURE/Powershell for Infosec/Powershell Language Modes.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Powershell Language Modes"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -297,11 +322,11 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "d62c0c6fb7d62f7f",
+  "active": "140e6eb4334c27c5",
   "lastOpenFiles": [
+    "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md",
     "PortSwigger Academy/CROSS-SITE REQUEST FORGERY.md",
     "TREASURE/Powershell for Infosec/Credentials and Remoting.md",
-    "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md",
     "PortSwigger Academy",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SOCAT.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-DYNAMIC-PORT-FORWARDING-EXPLANATION.md",

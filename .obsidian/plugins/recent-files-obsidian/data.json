@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Powershell Language Modes",
+      "path": "TREASURE/Powershell for Infosec/Powershell Language Modes.md"
+    },
+    {
       "basename": "INITIAL ENUMERATION OF THE DOMAIN",
       "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "NMAP scan time impact",
       "path": "OSCP-NOTES/INFO-WHY'S/NMAP scan time impact.md"
-    },
-    {
-      "basename": "KERBEROS AUTHENTICATION AND TICKETS",
-      "path": "OSCP-NOTES/Kerberos/KERBEROS AUTHENTICATION AND TICKETS.md"
     }
   ],
   "omittedPaths": [],
