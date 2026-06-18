@@ -288,3 +288,9 @@ The `Find-AdmPwdExtendedRights` checks the rights on each computer with LAPS e
 ```powerhshell
 Find-AdmPwdExtendedRights
 ```
+
+We can use the `Get-LAPSComputers` function to search for computers that have LAPS enabled when passwords expire, and even the randomized passwords in cleartext if our user has access.
+
+```powershell
+Get-LAPSComputers
+```
