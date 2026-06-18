@@ -279,5 +279,12 @@ $ExecutionContext.SessionState.LanguageMode
 ```
 
 #### LAPS
-```pwoer
+```powershell
+Find-LAPSDelegatedGroups
+```
+
+The `Find-AdmPwdExtendedRights` checks the rights on each computer with LAPS enabled for any groups with read access and users with "All Extended Rights." Users with "All Extended Rights" can read LAPS passwords and may be less protected than users in delegated groups, so this is worth checking for.
+
+```powerhshell
+Find-AdmPwdExtendedRights
 ```
