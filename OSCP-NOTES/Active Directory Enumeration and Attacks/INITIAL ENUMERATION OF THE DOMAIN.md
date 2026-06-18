@@ -350,3 +350,9 @@ The use of `--dir-only` provided only the output of all directories and did no
 
 #### rpcclient
 [rpcclient](https://www.samba.org/samba/docs/current/man-html/rpcclient.1.html) is a handy tool created for use with the Samba protocol and to provide extra functionality via MS-RPC. It can enumerate, add, change, and even remove objects from AD.
+
+##### NULL SMB SESSION 
+```shell
+rpcclient -U "" -N 172.16.5.5
+```
+
