@@ -367,7 +367,13 @@ rpcclient -U "" -N 172.16.5.5
 rpcclient $> queryuser 0x457
 ```
 
+#### Enumdomusers
 
+ If we wished to enumerate all users to gather the RIDs for more than just one, we would use the `enumdomusers` command.
+
+```shell
+rpcclient $> enumdomusers
+```
 
 
 
