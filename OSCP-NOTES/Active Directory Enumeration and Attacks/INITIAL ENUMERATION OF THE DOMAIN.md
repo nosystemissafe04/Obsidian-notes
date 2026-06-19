@@ -387,3 +387,5 @@ The tool creates a remote service by uploading a randomly-named executable to th
 ```shell
 psexec.py inlanefreight.local/wley:'transporter@4'@172.16.5.125
 ```
+
+#### wmiexec.py
