@@ -375,5 +375,6 @@ rpcclient $> queryuser 0x457
 rpcclient $> enumdomusers
 ```
 
+*Our enumeration can go into great detail utilizing rpcclient. We could even start performing actions such as editing users and groups or adding our own into the domain, but this is out of scope for this module*
 
 
