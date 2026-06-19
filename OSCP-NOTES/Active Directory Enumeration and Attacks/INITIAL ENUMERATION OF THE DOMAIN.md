@@ -382,3 +382,8 @@ rpcclient $> enumdomusers
 #### Psexec.py
 The tool creates a remote service by uploading a randomly-named executable to the `ADMIN$` share on the target host. It then registers the service via `RPC` and the `Windows Service Control Manager`. Once established, communication happens over a named pipe, providing an interactive remote shell as `SYSTEM` on the victim host.
 
+*To connect to a host with psexec.py, we need credentials for a user with local administrator privileges.*
+
+```shell
+psexec.py inlanefreight.local/wley:'transporter@4'@172.16.5.125
+```
