@@ -402,3 +402,8 @@ enumerate users, groups, and computers from a Windows domain by utilizing LDAP q
 
 *We have several options with Windapsearch to perform standard enumeration (dumping users, computers, and groups) and more detailed enumeration. The `--da` (enumerate domain admins group members ) option and the `-PU` ( find privileged users) options. The `-PU` option is interesting because it will perform a recursive search for users with nested group membership.*
 
+##### Windapsearch - Domain Admins
+```shell
+python3 windapsearch.py --dc-ip 172.16.5.5 -u forend@inlanefreight.local -p Klmcargo2 --da
+```
+
