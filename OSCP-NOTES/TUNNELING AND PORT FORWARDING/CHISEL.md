@@ -141,7 +141,7 @@ chisel client  YOUR_IP:9001   R:socks
 Flow:
 
 YOUR KALI                    VICTIM                    INTERNAL NETWORK
-──────────────               ──────────────            ────────────────
+isel──────────────               ──────────────            ────────────────
 proxychains nmap
 192.168.1.0/24
         │
