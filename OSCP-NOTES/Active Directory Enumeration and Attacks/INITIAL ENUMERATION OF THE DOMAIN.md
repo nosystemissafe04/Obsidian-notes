@@ -414,4 +414,9 @@ python3 windapsearch.py --dc-ip 172.16.5.5 -u forend@inlanefreight.local -p Klmc
 
  check for users with elevated privileges that may have gone unnoticed. This is a great check for reporting since it will most likely inform the customer of *users with excess privileges from nested group membership*.
  
+#### BLOODHOUND.PY
+ The tool uses [graph theory](https://en.wikipedia.org/wiki/Graph_theory) to visually represent relationships and uncover attack paths that would have been difficult, or even impossible to detect with other tools. The tool consists of two parts: the [SharpHound collector](https://github.com/BloodHoundAD/BloodHound/tree/master/Collectors) written in C# for use on Windows systems, or for this section, the BloodHound.py collector (also referred to as an `ingestor`) and the [BloodHound](https://github.com/BloodHoundAD/BloodHound/releases) GUI tool which allows us to upload collected data in the form of JSON files. Once uploaded, we can run various pre-built queries or write custom queries using [Cypher language](https://specterops.io/blog/2017/09/18/bloodhound-intro-to-cypher/).
+
+The tool collects data from AD such as users, groups, computers, group membership, GPOs, ACLs, domain trusts, local admin access, user sessions, computer and user properties, RDP access, WinRM access, etc.
+
 
