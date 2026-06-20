@@ -411,3 +411,7 @@ python3 windapsearch.py --dc-ip 172.16.5.5 -u forend@inlanefreight.local -p Klmc
 ```shell
 python3 windapsearch.py --dc-ip 172.16.5.5 -u forend@inlanefreight.local -p Klmcargo2 -PU
 ```
+
+ check for users with elevated privileges that may have gone unnoticed. This is a great check for reporting since it will most likely inform the customer of *users with excess privileges from nested group membership*.
+ 
+
