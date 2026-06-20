@@ -407,3 +407,7 @@ enumerate users, groups, and computers from a Windows domain by utilizing LDAP q
 python3 windapsearch.py --dc-ip 172.16.5.5 -u forend@inlanefreight.local -p Klmcargo2 --da
 ```
 
+##### #### Windapsearch - Privileged Users
+```shell
+python3 windapsearch.py --dc-ip 172.16.5.5 -u forend@inlanefreight.local -p Klmcargo2 -PU
+```
