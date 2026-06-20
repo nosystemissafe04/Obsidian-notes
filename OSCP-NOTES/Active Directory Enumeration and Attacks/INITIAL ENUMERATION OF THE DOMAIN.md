@@ -433,3 +433,6 @@ sudo neo4j start
 ```
 
 zip all the json files 
+```shell
+zip -r ilfreight_bh.zip *.json
+```
