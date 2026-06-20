@@ -436,3 +436,5 @@ zip all the json files
 ```shell
 zip -r ilfreight_bh.zip *.json
 ```
+
+upload the file and go to analysis flags 
