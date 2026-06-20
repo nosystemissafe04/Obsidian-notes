@@ -438,3 +438,6 @@ zip -r ilfreight_bh.zip *.json
 ```
 
 upload the file and go to analysis flags 
+
+the `Database Info` tab after uploading data, search for a node such as `Domain Users` and, scroll through all of the options under the `Node Info` tab, check out the pre-built queries under the `Analysis` tab, many which are powerful and can quickly find various ways to domain takeover. Finally, experiment with some custom Cypher queries
+
