@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/Untitled.md"
+    },
+    {
       "basename": "INITIAL ENUMERATION OF THE DOMAIN",
       "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Privileges level and user account access Level",
       "path": "OSCP-NOTES/INFO-WHY'S/Privileges level and user account access Level.md"
-    },
-    {
-      "basename": "NMAP scan time impact",
-      "path": "OSCP-NOTES/INFO-WHY'S/NMAP scan time impact.md"
     }
   ],
   "omittedPaths": [],
