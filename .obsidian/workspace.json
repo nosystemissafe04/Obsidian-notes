@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-DYNAMIC-PORT-FORWARDING-EXPLANATION.md",
+                "file": "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "SSH-DYNAMIC-PORT-FORWARDING-EXPLANATION"
+              "title": "INITIAL ENUMERATION OF THE DOMAIN"
             }
           },
           {
@@ -323,6 +323,9 @@
   },
   "active": "d62c0c6fb7d62f7f",
   "lastOpenFiles": [
+    "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY ENUMERATION USING LEGACY TOOLS.md",
+    "OSCP-NOTES/Active Directory Enumeration and Attacks/Active directory Enumeration.md",
+    "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-DYNAMIC-PORT-FORWARDING-EXPLANATION.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/CHISEL.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md",
     "TREASURE/Powershell for Infosec/Powershell Language Modes.md",
@@ -330,10 +333,7 @@
     "TREASURE/Powershell for Infosec/Credentials and Remoting.md",
     "PortSwigger Academy",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SOCAT.md",
-    "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-DYNAMIC-PORT-FORWARDING-EXPLANATION.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-LOCAL-PORT-FORWARD-EXPLANATION.md",
-    "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY ENUMERATION USING LEGACY TOOLS.md",
-    "OSCP-NOTES/Active Directory Enumeration and Attacks/Active directory Enumeration.md",
     "OSCP-NOTES/PASSWORD ATTACK IN ACTIVE DIRECTORY.md",
     "OSCP-NOTES/IMAP.md",
     "OSCP-NOTES/WEB/VHOST FUZZING.md",
