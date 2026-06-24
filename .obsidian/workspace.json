@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/Active Directory Enumeration and Attacks/Untitled.md",
+                "file": "OSCP-NOTES/Active Directory Enumeration and Attacks/RPCCLIENT DOMAIN ENUMERATION.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "RPCCLIENT DOMAIN ENUMERATION"
             }
           },
           {
@@ -157,7 +157,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 377.5,
+    "collapsed": true
   },
   "right": {
     "id": "5689001c4553b175",
@@ -323,7 +324,7 @@
   "active": "d62c0c6fb7d62f7f",
   "lastOpenFiles": [
     "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md",
-    "OSCP-NOTES/Active Directory Enumeration and Attacks/Untitled.md",
+    "OSCP-NOTES/Active Directory Enumeration and Attacks/RPCCLIENT DOMAIN ENUMERATION.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY ENUMERATION USING LEGACY TOOLS.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/Active directory Enumeration.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-DYNAMIC-PORT-FORWARDING-EXPLANATION.md",
