@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "RPCCLIENT DOMAIN ENUMERATION",
-      "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/RPCCLIENT DOMAIN ENUMERATION.md"
-    },
-    {
       "basename": "INITIAL ENUMERATION OF THE DOMAIN",
       "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md"
+    },
+    {
+      "basename": "Powershell Language Modes",
+      "path": "TREASURE/Powershell for Infosec/Powershell Language Modes.md"
+    },
+    {
+      "basename": "RPCCLIENT DOMAIN ENUMERATION",
+      "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/RPCCLIENT DOMAIN ENUMERATION.md"
     },
     {
       "basename": "ACTIVE DIRECTORY ENUMERATION USING LEGACY TOOLS",
@@ -23,10 +27,6 @@
     {
       "basename": "CHISEL",
       "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/CHISEL.md"
-    },
-    {
-      "basename": "Powershell Language Modes",
-      "path": "TREASURE/Powershell for Infosec/Powershell Language Modes.md"
     },
     {
       "basename": "CROSS-SITE REQUEST FORGERY",
