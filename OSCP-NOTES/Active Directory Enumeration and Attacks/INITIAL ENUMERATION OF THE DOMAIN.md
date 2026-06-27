@@ -480,4 +480,9 @@ This cmdlet will print out any trust relationships the domain has. We can determ
 Get-ADGroup -Filter * | select name
 ```
 
-#### Detailed 
+#### Detailed Group Info
+`
+```powershell
+Get-ADGroup -Identity "Backup Operators"
+```
+
