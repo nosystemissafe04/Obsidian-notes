@@ -607,3 +607,6 @@ visualize relationships in the domain
 ```powershell
 .\SharpHound.exe -c All --zipfilename ILFREIGHT
 ```
+
+queries in the `Analysis` tab. The query `Find Computers with Unsupported Operating Systems` is great for finding outdated and unsupported operating systems running legacy software
+
