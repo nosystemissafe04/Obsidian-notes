@@ -555,5 +555,12 @@ Adding the `-Recurse` switch tells PowerView that if it finds any groups that 
 #### Trust Enumeration
 
 ```powershell
-
+Get-DomainTrustMapping
 ```
+
+#### Testing for Local Admin Access
+
+```powershell
+Test-AdminAccess -ComputerName ACADEMY-EA-MS01
+```
+
