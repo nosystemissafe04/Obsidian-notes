@@ -455,5 +455,6 @@ If the module is not loaded, run `Import-Module ActiveDirectory` to load it fo
 it will only load the module from disk , to download a module from the internet we need `install-module` commandlet 
 
 #### activedirectory module - get domain info 
-```
+```powershell
+get-addomain
 ```
