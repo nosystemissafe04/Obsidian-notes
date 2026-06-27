@@ -537,3 +537,7 @@ Let's examine some of PowerView's capabilities and see what data it returns. The
 |`Get-DomainForeignUser`|Enumerates users who are in groups outside of the user's domain|
 |`Get-DomainForeignGroupMember`|Enumerates groups with users outside of the group's domain and returns each foreign member|
 |`Get-DomainTrustMapping`|Will enumerate all trusts for the current domain and any others seen.|
+
+```powershell
+ PS C:\Tools> Import-Module .\PowerView.ps1 PS C:\htb> Get-DomainUser -Identity mmorgan -Domain inlanefreight.local | Select-Object -Property
+```
