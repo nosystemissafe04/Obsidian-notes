@@ -486,3 +486,9 @@ Get-ADGroup -Filter * | select name
 Get-ADGroup -Identity "Backup Operators"
 ```
 
+####  MEMBER LISTING - GROUP MEMBERSHIP
+
+```powershell
+Get-ADGroupMember -Identity "Backup Operators"
+```
+
