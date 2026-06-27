@@ -465,3 +465,7 @@ Get-ADUser -Filter {ServicePrincipalName -ne "$null"} -Properties ServicePrincip
 ```
 
  We will be filtering for accounts with the `ServicePrincipalName` property populated. This will get us a listing of accounts that may be susceptible to a Kerberoasting attack
+
+
+
+This cmdlet will print out any trust relationships the domain has. We can determine if they are trusts within our forest or with domains in other forests, the type of trust, the direction of the trust, and the name of the domain the relationship is with. This will be useful later on when looking to take advantage of child-to-parent trust relationships and attacking across forest trusts.
