@@ -461,5 +461,7 @@ get-addomain
 
 #### Get-ADUser
 ```powershell
-
+Get-ADUser -Filter {ServicePrincipalName -ne "$null"} -Properties ServicePrincipalName
 ```
+
+ We will be filtering for accounts with the `ServicePrincipalName` property populated. This will get us a listing of accounts that may be susceptible to a Kerberoasting attack
