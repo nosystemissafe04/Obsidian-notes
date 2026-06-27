@@ -452,4 +452,8 @@ a curatred list of cheatsheet to work with active directory
 
 If the module is not loaded, run `Import-Module ActiveDirectory` to load it for use.
 
-it will only load the module from disk , to dowloa
+it will only load the module from disk , to download a module from the internet we need `install-module` commandlet 
+
+#### activedirectory module - get domain info 
+```
+```
