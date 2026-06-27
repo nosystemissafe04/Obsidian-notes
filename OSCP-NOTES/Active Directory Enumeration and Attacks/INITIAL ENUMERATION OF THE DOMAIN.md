@@ -602,3 +602,8 @@ We may find passwords, SSH keys, configuration files, or other data that can be 
 
 visualize relationships in the domain
 
+*we must authenticate as a domain user from a Windows attack host positioned within the network (but not joined to the domain) or transfer the tool to a domain-joined host.*
+
+```powershell
+.\SharpHound.exe -c All --zipfilename ILFREIGHT
+```
