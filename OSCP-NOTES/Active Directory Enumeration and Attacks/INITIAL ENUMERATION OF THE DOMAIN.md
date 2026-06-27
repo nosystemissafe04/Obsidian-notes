@@ -545,3 +545,7 @@ PS C:\htb> Get-DomainUser -Identity mmorgan -Domain inlanefreight.local | Select
 
 This will provide us with information on all users or specific users we specify.
 
+```powershell
+
+```
+Adding the `-Recurse` switch tells PowerView that if it finds any groups that are part of the target group (nested group membership) to list out the members of those groups. For example, the output below shows that the `Secadmins` group is part of the `Domain Admins` group through nested group membership. In this case, we will be able to view all of the members of that group who inherit Domain Admin rights via their group membership.
