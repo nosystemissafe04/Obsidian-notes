@@ -446,3 +446,9 @@ the `Database Info` tab after uploading data, search for a node such as `Doma
 # https://wadcoms.github.io/
 a curatred list of cheatsheet to work with active directory
 
+## Credentialed Enumeration - from Windows
+
+ The [Get-Module](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/get-module?view=powershell-7.2) cmdlet, which is part of the [Microsoft.PowerShell.Core module](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/?view=powershell-7.2), will list all available modules, their version, and potential commands for use. This is a great way to see if anything like Git or custom administrator scripts are installed.
+
+If the module is not loaded, run `Import-Module ActiveDirectory` to load it for use.
+
