@@ -42,7 +42,7 @@ For more detail combine with `enumdomusers` + `queryuser` to check `bad_password
 
 ### User enumeration
 
-bash
+*bash*
 
 ```bash
 enumdomusers                          # list all domain users + RIDs
