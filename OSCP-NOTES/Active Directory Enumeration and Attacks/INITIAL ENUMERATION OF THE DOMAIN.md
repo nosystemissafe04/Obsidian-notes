@@ -579,5 +579,11 @@ Get-DomainUser -SPN -Properties samaccountname,ServicePrincipalName
 
 Another tool worth experimenting with is SharpView, a .NET port of PowerView. Many of the same functions supported by PowerView can be used with SharpView. We can type a method name with `-Help` to get an argument list.
 
-*if the or*
+*if the organization disabled powershell or we want to avoid using powershell we can use sharpview*
+
+```cmd
+.\SharpView.exe Get-DomainUser -Identity forend
+```
+
+
 
