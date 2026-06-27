@@ -575,4 +575,9 @@ Get-DomainUser -SPN -Properties samaccountname,ServicePrincipalName
  *check for users with the SPN attribute set, which indicates that the account may be subjected to a Kerberoasting attack.*
 
 
+### SharpView
+
+Another tool worth experimenting with is SharpView, a .NET port of PowerView. Many of the same functions supported by PowerView can be used with SharpView. We can type a method name with `-Help` to get an argument list.
+
+*if the or*
 
