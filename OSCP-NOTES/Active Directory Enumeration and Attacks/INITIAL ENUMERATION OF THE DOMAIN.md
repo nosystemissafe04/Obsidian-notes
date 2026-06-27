@@ -495,8 +495,7 @@ Get-ADGroupMember -Identity "Backup Operators"
 *We can see that one account, `backupagent`, belongs to this group. It is worth noting this down because if we can take over this service account through some attack, we could use its membership in the Backup Operators group to take over the domain. We can perform this process for the other groups to fully understand the domain membership setup. Try repeating the process with a few different groups.*
 
 *Utilizing the ActiveDirectory module on a host can be a stealthier way of performing actions than dropping a tool onto a host or loading it into memory and attempting to use it. This way, our actions could potentially blend in more*
-
-#### PowerView
+### PowerView
  It is a highly versatile tool that can provide us with great insight into the security posture of our client's domain. It requires more manual work to determine misconfigurations and relationships within the domain than BloodHound
 
 Let's examine some of PowerView's capabilities and see what data it returns. The table below describes some of the most useful functions PowerView offers.
@@ -537,7 +536,7 @@ Let's examine some of PowerView's capabilities and see what data it returns. The
 | `Get-DomainForeignUser`             | Enumerates users who are in groups outside of the user's domain                            |
 | `Get-DomainForeignGroupMember`      | Enumerates groups with users outside of the group's domain and returns each foreign member |
 | `Get-DomainTrustMapping`            | Will enumerate all trusts for the current domain and any others seen.                      |
-
+#### Get-DomainUser- domain user information
 
 ```powershell
 PS C:\Tools> Import-Module .\PowerView.ps1 
@@ -545,3 +544,4 @@ PS C:\htb> Get-DomainUser -Identity mmorgan -Domain inlanefreight.local | Select
 ```
 
 This will provide us with information on all users or specific users we specify.
+
