@@ -564,3 +564,15 @@ Get-DomainTrustMapping
 Test-AdminAccess -ComputerName ACADEMY-EA-MS01
 ```
 
+ *we determined that the user we are currently using is an administrator on the host ACADEMY-EA-MS01. We can perform the same function for each host to see where we have administrative access*
+
+#### Finding Users With SPN Set
+
+```powershell
+Get-DomainUser -SPN -Properties samaccountname,ServicePrincipalName
+```
+
+ *check for users with the SPN attribute set, which indicates that the account may be subjected to a Kerberoasting attack.*
+
+
+
