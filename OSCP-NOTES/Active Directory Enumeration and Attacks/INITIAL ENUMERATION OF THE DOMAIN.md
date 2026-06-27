@@ -496,3 +496,4 @@ Get-ADGroupMember -Identity "Backup Operators"
 
 *Utilizing the ActiveDirectory module on a host can be a stealthier way of performing actions than dropping a tool onto a host or loading it into memory and attempting to use it. This way, our actions could potentially blend in more*
 
+#### PowerView
