@@ -458,3 +458,8 @@ it will only load the module from disk , to download a module from the internet 
 ```powershell
 get-addomain
 ```
+
+#### Get-ADUser
+```powershell
+
+```
