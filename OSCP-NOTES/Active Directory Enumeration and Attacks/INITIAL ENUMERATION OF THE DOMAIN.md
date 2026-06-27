@@ -598,3 +598,7 @@ The `-s` tells it to print results to the console for us, the `-d` specifies
 
 We may find passwords, SSH keys, configuration files, or other data that can be used to further our access. Snaffler color codes the output for us and provides us with a rundown of the file types found in the shares.
 
+## BloodHound
+
+visualize relationships in the domain
+
