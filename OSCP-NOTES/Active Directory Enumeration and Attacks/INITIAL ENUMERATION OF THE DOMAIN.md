@@ -621,4 +621,4 @@ Sometimes we will see hosts that are no longer powered on but still appear as re
 
 - custom cypher queries cheatsheet 
 
-what we have 
+what we have found until now is credentials , and enumerated users , groups , computers , gpo , local admin rights , service principal name 
