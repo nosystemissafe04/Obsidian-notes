@@ -617,3 +617,7 @@ Sometimes we will see hosts that are no longer powered on but still appear as re
 #### LOCAL ADMINS 
 *it is possible to have a domain account or a group of domain or the whole domain user to have administrator rights on a host in the network , we can check that with bloodhound `Find Computers where Domain Users are Local Admin` query if we find an account which have local admin access on the host we will be able to retrieve credentials from memory or find other sensitive data*
 
+## https://hausec.com/2019/09/09/bloodhound-cypher-cheatsheet/
+
+- custom cypher queries cheatsheet 
+
