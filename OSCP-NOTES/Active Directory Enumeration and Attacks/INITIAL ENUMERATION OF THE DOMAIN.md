@@ -615,4 +615,4 @@ queries in the `Analysis` tab. The query `Find Computers with Unsupported Ope
 Sometimes we will see hosts that are no longer powered on but still appear as records in AD. We should always validate whether they are "live" or not before making recommendations in our reports.
 
 #### LOCAL ADMINS 
-*it is possible to have a domain account or a group of domain or the whole domain user to have administrator rights on a host in the network , we can check that with *
+*it is possible to have a domain account or a group of domain or the whole domain user to have administrator rights on a host in the network , we can check that with bloodhound `Find Computers where Domain Users are Local Admin` query *
