@@ -621,4 +621,5 @@ Sometimes we will see hosts that are no longer powered on but still appear as re
 
 - custom cypher queries cheatsheet 
 
-what we have found until now is credentials , and enumerated users , groups , computers , gpo , local admin rights , service principal name , we learned to do that with linux and windows , with credential and without credential and what are the i
+what we have found until now is credentials , and enumerated users , groups , computers , gpo , local admin rights , service principal name , we learned to do that with linux and windows , with credential and without credential and what are the dependencies involved in it 
+
