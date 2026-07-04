@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "KERBEROASTING - FROM LINUX",
+      "path": "OSCP-NOTES/KERBEROASTING - FROM LINUX.md"
+    },
+    {
       "basename": "INITIAL ENUMERATION OF THE DOMAIN",
       "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Filtering commands",
       "path": "OSCP-NOTES/CHEATSHEETS/Filtering commands.md"
-    },
-    {
-      "basename": "STUCKED AT",
-      "path": "OSCP-NOTES/CTF/STUCKED AT.md"
     }
   ],
   "omittedPaths": [],

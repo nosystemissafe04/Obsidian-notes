@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md",
+                "file": "OSCP-NOTES/KERBEROASTING - FROM LINUX.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "INITIAL ENUMERATION OF THE DOMAIN"
+              "title": "KERBEROASTING - FROM LINUX"
             }
           },
           {
@@ -157,7 +157,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 377.5,
+    "collapsed": true
   },
   "right": {
     "id": "5689001c4553b175",
@@ -322,8 +323,9 @@
   },
   "active": "d62c0c6fb7d62f7f",
   "lastOpenFiles": [
-    "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY ENUMERATION WITH LOLBAS.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md",
+    "OSCP-NOTES/KERBEROASTING - FROM LINUX.md",
+    "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY ENUMERATION WITH LOLBAS.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/RPCCLIENT DOMAIN ENUMERATION.md",
     "TREASURE/Powershell for Infosec/Powershell Language Modes.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY ENUMERATION USING LEGACY TOOLS.md",
@@ -348,7 +350,6 @@
     "OSCP-NOTES/WINDOWS PrivEsk/AV ENUMERATION.md",
     "OSCP-NOTES/WINDOWS PrivEsk/AUTOMATED TOOLS.md",
     "OSCP-NOTES/WEB/FFUF.md",
-    "OSCP-NOTES/WEB/PHPINFO.md",
     "OSCP-NOTES/WEB",
     "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY/assets/nosql-injection-graphic.svg",
     "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY/assets",
