@@ -6,3 +6,5 @@ Domain accounts are often used to run services to overcome the network authentic
 
 Domain accounts running services are often local administrators, if not highly privileged domain accounts.
 
+service accounts may be granted administrator privileges on multiple servers across the enterprise. Many services require elevated privileges on various systems, so service accounts are often added to privileged groups, such as Domain Admins, either directly or via nested membership.
+
