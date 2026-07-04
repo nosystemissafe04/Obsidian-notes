@@ -19,3 +19,19 @@ Service accounts are often configured with weak or reused password to simplify a
 > A prerequisite to performing Kerberoasting attacks is either domain user credentials (cleartext or just an NTLM hash if using Impacket), a shell in the context of a domain user, or account such as SYSTEM. Once we have this level of access, we can start. We must also know which host in the domain is a Domain Controller so we can query it.
 
 
+## Kerberoasting - Performing the Attack
+
+Depending on your position in a network, this attack can be performed in multiple ways:
+
+- From a non-domain joined Linux host using valid domain user credentials.
+- From a domain-joined Linux host as root after retrieving the keytab file.
+- From a domain-joined Windows host authenticated as a domain user.
+- From a domain-joined Windows host with a shell in the context of a domain account.
+- As SYSTEM on a domain-joined Windows host.
+- From a non-domain joined Windows host using [runas](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc771525\(v=ws.11\)) /netonly.
+
+Several tools can be utilized to perform the attack:
+
+- Impacket’s [GetUserSPNs.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/GetUserSPNs.py) from a non-domain joined Linux host.
+- A combination of the built-in *setspn.exe* Windows binary, PowerShell, and Mimikatz.
+- From Windows, utilizing tools such as PowerView, [Rubeus](https://github.com/GhostPack/Rubeus), and other PowerShell scripts.
