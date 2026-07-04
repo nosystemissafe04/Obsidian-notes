@@ -14,6 +14,8 @@ Service accounts are often configured with weak or reused password to simplify a
 
 ## Kerberoasting with GetUserSPNs.py
 
-> [!NOTE]
+> [!quote]
 > 
 > A prerequisite to performing Kerberoasting attacks is either domain user credentials (cleartext or just an NTLM hash if using Impacket), a shell in the context of a domain user, or account such as SYSTEM. Once we have this level of access, we can start. We must also know which host in the domain is a Domain Controller so we can query it.
+
+
