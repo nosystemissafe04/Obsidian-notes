@@ -33,5 +33,13 @@ Depending on your position in a network, this attack can be performed in multipl
 Several tools can be utilized to perform the attack:
 
 - Impacket’s [GetUserSPNs.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/GetUserSPNs.py) from a non-domain joined Linux host.
-- A combination of the built-in *setspn.exe* Windows binary, PowerShell, and Mimikatz.
-- From Windows, utilizing tools such as PowerView, [Rubeus](https://github.com/GhostPack/Rubeus), and other PowerShell scripts.
+- A combination of the built-in *setspn.exe* Windows binary, *PowerShell*, and *Mimikatz*.
+- From Windows, utilizing tools such as *PowerView*, [Rubeus](https://github.com/GhostPack/Rubeus), and other *PowerShell scripts*.
+
+
+#### Listing SPN Accounts with GetUserSPNs.py
+
+```shell
+GetUserSPNs.py -dc-ip 172.16.5.5 INLANEFREIGHT.LOCAL/forend
+```
+
