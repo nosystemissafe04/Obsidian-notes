@@ -3,3 +3,6 @@ Kerberoasting is a lateral movement/privilege escalation technique in Active Dir
 Domain accounts are often used to run services to overcome the network authentication limitations of built-in accounts such as `NT AUTHORITY\LOCAL SERVICE`
 
  Any domain user can request a Kerberos ticket for any service account in the same domain. This is also possible across forest trusts if authentication is permitted across the trust boundary. All you need to perform a Kerberoasting attack is an account's cleartext password (or NTLM hash)
+
+Domain accounts running services are often local administrators, if not highly privileged domain accounts.
+
