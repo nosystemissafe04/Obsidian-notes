@@ -315,3 +315,37 @@ A lot can be done with UAC filters, operators, and attribute matching with OID r
 ---
 
 We have now used our foothold to perform credentialed enumeration with tools on Linux and Windows attack hosts and using built-in tools and validated host and domain information. We have proven that we can access internal hosts, password spraying, and LLMNR/NBT-NS poisoning works and that we can utilize tools that already reside on the hosts to perform our actions. Now we will take it a step further and tackle a TTP every AD pentester should have in their toolbelt, `Kerberoasting`.
+
+
+
+-   
+    
+    ## Question 1
+    
+    +40
+    
+    ---
+    
+    ### Enumerate the host's security configuration information and provide its AMProductVersion.
+    
+    RDP to with user "htb-student" and password "Academy_student_AD!"
+    
+    Submit
+    
+- ## Question 2
+    
+    +40
+    
+    ---
+    
+    ### What domain user is explicitly listed as a member of the local Administrators group on the target host?
+    
+    Submit
+    
+- ## Question 3
+    
+    +40
+    
+    ---
+    
+    ### Utilizing techniques learned in this section, find the flag hidden in the description field of a disabled account with administrative privileges. Submit the flag as the answer.
