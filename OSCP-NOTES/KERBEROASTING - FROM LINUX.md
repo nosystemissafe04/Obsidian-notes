@@ -84,4 +84,7 @@ then verified with crackmapexec to find if we can get a shell or not and the cre
 
 #### Enumerating SPNs with setspn.exe
 
+```shell
+setspn.exe -Q */*
+```
 
