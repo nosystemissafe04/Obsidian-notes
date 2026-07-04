@@ -125,12 +125,12 @@ Now that we have a solid feel for the state of our host, we can enumerate the ne
 
 ## Network Information
 
-|**Networking Commands**|**Description**|
-|---|---|
-|`arp -a`|Lists all known hosts stored in the arp table.|
-|`ipconfig /all`|Prints out adapter settings for the host. We can figure out the network segment from here.|
-|`route print`|Displays the routing table (IPv4 & IPv6) identifying known networks and layer three routes shared with the host.|
-|`netsh advfirewall show allprofiles`|Displays the status of the host's firewall. We can determine if it is active and filtering traffic.|
+| **Networking Commands**              | **Description**                                                                                                  |
+| ------------------------------------ | ---------------------------------------------------------------------------------------------------------------- |
+| `arp -a`                             | Lists all known hosts stored in the arp table.                                                                   |
+| `ipconfig /all`                      | Prints out adapter settings for the host. We can figure out the network segment from here.                       |
+| `route print`                        | Displays the routing table (IPv4 & IPv6) identifying known networks and layer three routes shared with the host. |
+| `netsh advfirewall show allprofiles` | Displays the status of the host's firewall. We can determine if it is active and filtering traffic.              |
 
 Commands such as `ipconfig /all` and `systeminfo` show us some basic networking configurations. Two more important commands provide us with a ton of valuable data and could help us further our access. `arp -a` and `route print` will show us what hosts the box we are on is aware of and what networks are known to the host. Any networks that appear in the routing table are potential avenues for lateral movement because they are accessed enough that a route was added, or it has administratively been set there so that the host knows how to access resources on the domain. These two commands can be especially helpful in the discovery phase of a black box assessment where we have to limit our scanning
 
