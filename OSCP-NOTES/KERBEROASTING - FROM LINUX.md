@@ -78,8 +78,10 @@ keberoasted the user and found the tgs
 then cracked it offline with hashcat 
 then verified with crackmapexec to find if we can get a shell or not and the creds are valid
 
+---
 
+# Kerberoasting - from Windows
 
-
+#### Enumerating SPNs with setspn.exe
 
 
