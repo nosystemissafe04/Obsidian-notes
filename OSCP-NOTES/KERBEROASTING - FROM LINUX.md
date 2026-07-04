@@ -88,3 +88,9 @@ then verified with crackmapexec to find if we can get a shell or not and the cre
 setspn.exe -Q */*
 ```
 
+We will notice many different SPNs returned for the various hosts in the domain.
+We will focus on `user accounts` and ignore the computer accounts returned by the tool.
+using PowerShell, we can request TGS tickets for an account in the shell above and load them into memory. Once they are loaded into memory, we can extract them using `Mimikatz`
+
+#### Targeting a Single User
+
