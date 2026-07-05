@@ -474,7 +474,7 @@ Get-ADTrust -Filter *
 
 This cmdlet will print out any trust relationships the domain has. We can determine if they are trusts within our forest or with domains in other forests, the type of trust, the direction of the trust, and the name of the domain the relationship is with. This will be useful later on when looking to take advantage of child-to-parent trust relationships and attacking across forest trusts.
 
-#### Group Enumeration [[]]
+#### Group Enumeration [[OSCP-NOTES/ACTIVE]]
 
 ```powershell
 Get-ADGroup -Filter * | select name
