@@ -216,6 +216,11 @@ This will create a file called `crack_file`. We then must modify the file a bit
 sed 's/\$krb5tgs\$\(.*\):\(.*\)/\$krb5tgs\$23\$\*\1\*\$\2/' crack_file > sqldev_tgs_hashcat
 ```
 
+```shell
+sed -E 's/\$krb5tgs\$([0-9]+)\$([^:]+):(.+)/$krb5tgs$\1$*\2*$\3/' crack_file > sqldev_tgs_hashcat
+```
+
+```
 #### Viewing the Prepared Hash
 
 ```shell
