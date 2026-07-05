@@ -305,6 +305,11 @@ or via LDAP filter:
 **Kerberoasting tools typically request `RC4 encryption` when performing the attack and initiating TGS-REQ requests. This is because RC4 is [weaker](https://www.stigviewer.com/stigs/microsoft_windows_10/2025-02-25/finding/V-220936) and easier to crack offline using tools such as Hashcat than other encryption algorithms such as AES-128 and AES-256. When performing Kerberoasting in most environments, we will retrieve hashes that begin with `$krb5tgs$23$*`, an RC4 (type 23) encrypted ticket. Sometimes we will receive an AES-256 (type 18) encrypted hash or hash that begins with `$krb5tgs$18$*`. While it is possible to crack AES-128 (type 17) and AES-256 (type 18) TGS tickets using [Hashcat](https://github.com/hashcat/hashcat/pull/1955), it will typically be significantly more time consuming than cracking an RC4 (type 23) encrypted ticket, but still possible especially if a weak password is chosen**
 
 
+### CHECKING THE ENCRYPTION TYPE OF KERBEROS TICKET OF AN ACCOUNT
 
+WITH THE HELP OF POWERVIEW WE CAN CHECK IF
+
+```POWERSHELL
+```
 
 
