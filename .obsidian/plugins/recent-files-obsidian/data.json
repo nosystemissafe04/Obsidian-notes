@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "KERBEROASTING",
+      "path": "OSCP-NOTES/KERBEROASTING.md"
+    },
+    {
+      "basename": "KERBEROSTING",
+      "path": "OSCP-NOTES/Kerberos/KERBEROSTING.md"
+    },
+    {
       "basename": "Powershell Language Modes",
       "path": "TREASURE/Powershell for Infosec/Powershell Language Modes.md"
     },
     {
       "basename": "DISABLE WINDOWS PROTECTION",
       "path": "OSCP-NOTES/DISABLE WINDOWS PROTECTION.md"
-    },
-    {
-      "basename": "KERBEROASTING",
-      "path": "OSCP-NOTES/KERBEROASTING.md"
     },
     {
       "basename": "ACTIVE DIRECTORY ENUMERATION WITH LOLBAS",
@@ -195,10 +199,6 @@
     {
       "basename": "Commands",
       "path": "OSCP-NOTES/Commands.md"
-    },
-    {
-      "basename": "RUSTSCAN",
-      "path": "OSCP-NOTES/TOOLS/RUSTSCAN.md"
     }
   ],
   "omittedPaths": [],
