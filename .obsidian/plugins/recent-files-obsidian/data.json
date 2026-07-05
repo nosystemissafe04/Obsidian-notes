@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "INITIAL ENUMERATION OF THE DOMAIN",
+      "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md"
+    },
+    {
       "basename": "KERBEROASTING",
       "path": "OSCP-NOTES/KERBEROASTING.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "ACTIVE DIRECTORY ENUMERATION WITH LOLBAS",
       "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY ENUMERATION WITH LOLBAS.md"
-    },
-    {
-      "basename": "INITIAL ENUMERATION OF THE DOMAIN",
-      "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md"
     },
     {
       "basename": "RPCCLIENT DOMAIN ENUMERATION",
