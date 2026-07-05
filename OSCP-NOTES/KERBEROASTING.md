@@ -284,3 +284,19 @@ We can first use Rubeus to gather some stats. From the output below, we can see 
 
 Let's use Rubeus to request tickets for accounts with the `admincount` attribute set to `1`. These would likely be high-value targets and worth our initial focus for offline cracking efforts with Hashcat. Be sure to specify the `/nowrap` flag so that the hash can be more easily copied down for offline cracking using Hashcat. Per the documentation, the ""/nowrap" flag prevents any base64 ticket blobs from being column wrapped for any function"; therefore, we won't have to worry about trimming white space or newlines before cracking with Hashcat
 
+```powershell
+.\Rubeus.exe kerberoast /ldapfilter:'admincount=1' /nowrap
+```
+
+powerview
+
+```powershell
+Get-DomainUser -AdminCount
+```
+
+or via LDAP filter:
+
+```
+(&(objectCategory=person)(objectClass=user)(admincount=1))
+```
+
