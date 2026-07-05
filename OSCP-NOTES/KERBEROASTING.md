@@ -261,4 +261,4 @@ cat .\ilfreight_tgs.csv "SamAccountName","DistinguishedName","ServicePrincipalNa
 
 **We can also use [Rubeus](https://github.com/GhostPack/Rubeus) from GhostPack to perform Kerberoasting even faster and easier. Rubeus provides us with a variety of options for performing Kerberoasting.**
 
-### USING RU
+### USING RUBEUS
