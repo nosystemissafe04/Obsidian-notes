@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md",
+                "file": "OSCP-NOTES/Active Directory Enumeration and Attacks/KERBEROASTING.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "INITIAL ENUMERATION OF THE DOMAIN"
+              "title": "KERBEROASTING"
             }
           },
           {
@@ -182,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 377.5,
+    "collapsed": true
   },
   "right": {
     "id": "5689001c4553b175",
@@ -347,14 +348,14 @@
   },
   "active": "140e6eb4334c27c5",
   "lastOpenFiles": [
-    "OSCP-NOTES/Active Directory Enumeration and Attacks/AD CREDENTIAL GROUP ENUMERATION AND MEMBERS FROM LINUX.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md",
+    "OSCP-NOTES/Active Directory Enumeration and Attacks/AD CREDENTIAL GROUP ENUMERATION AND MEMBERS FROM LINUX.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/AD CREDENTIALED GROUP ENUMERATION AND MEMBERS FROM WINDOWS.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY ENUMERATION WITH LOLBAS.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY ENUMERATION USING LEGACY TOOLS.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/Active directory Enumeration.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/RPCCLIENT DOMAIN ENUMERATION.md",
-    "OSCP-NOTES/KERBEROASTING.md",
+    "OSCP-NOTES/Active Directory Enumeration and Attacks/KERBEROASTING.md",
     "OSCP-NOTES/Kerberos/KERBEROSTING.md",
     "TREASURE/Powershell for Infosec/Powershell Language Modes.md",
     "OSCP-NOTES/DISABLE WINDOWS PROTECTION.md",
