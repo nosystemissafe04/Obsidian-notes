@@ -1,3 +1,6 @@
+# KERBEROASTING - FROM LINUX
+
+
 Kerberoasting is a lateral movement/privilege escalation technique in Active Directory environments. This attack targets [Service Principal Names (SPN)](https://docs.microsoft.com/en-us/windows/win32/ad/service-principal-names) accounts. SPNs are unique identifiers that Kerberos uses to map a service instance to a service account in whose context the service is running.
 
 Domain accounts are often used to run services to overcome the network authentication limitations of built-in accounts such as `NT AUTHORITY\LOCAL SERVICE`
@@ -226,4 +229,6 @@ hashcat -m 13100 sqldev_tgs_hashcat /usr/share/wordlists/rockyou.txt
 ```
 
 *If we decide to skip the base64 output with Mimikatz and type `mimikatz # kerberos::list /export`, the .kirbi file (or files) will be written to disk. In this case, we can download the file(s) and run `kirbi2john.py` against them directly, skipping the base64 decoding step.*
+
+## Automated / Tool Based Route
 

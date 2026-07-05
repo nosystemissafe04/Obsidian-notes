@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/KERBEROASTING - FROM LINUX.md",
+                "file": "OSCP-NOTES/KERBEROASTING.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "KERBEROASTING - FROM LINUX"
+              "title": "KERBEROASTING"
             }
           },
           {
@@ -323,7 +323,7 @@
   "active": "d62c0c6fb7d62f7f",
   "lastOpenFiles": [
     "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY ENUMERATION WITH LOLBAS.md",
-    "OSCP-NOTES/KERBEROASTING - FROM LINUX.md",
+    "OSCP-NOTES/KERBEROASTING.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/RPCCLIENT DOMAIN ENUMERATION.md",
     "TREASURE/Powershell for Infosec/Powershell Language Modes.md",
