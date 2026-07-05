@@ -185,3 +185,15 @@ If we do not specify the `base64 /out:true` command, Mimikatz will extract the
 
 Next, we can take the base64 blob and remove new lines and white spaces since the output is column wrapped, and we need it all on one line for the next step.
 
+#### Preparing the Base64 Blob for Cracking
+
+```shell
+echo "<base64 blob>" | tr -d \\n
+```
+
+We can place the above single line of output into a file and convert it back to a `.kirbi` file using the `base64` utility.
+
+```shell
+cat encoded_file | base64 -d > sqldev.kirbi
+```
+
