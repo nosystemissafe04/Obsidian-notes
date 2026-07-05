@@ -382,4 +382,10 @@ hashcat -m 19700 aes_to_crack /usr/share/wordlists/rockyou.txt
 
 **ITS A FLAW IN AD VERSION WIN SERVER 2016 WHICH ALLOWS A USER TO DOWNGRADE EVEN WHEN IT IS CONFIGURED TO ONLY RETUREN AES ENCRYPTED TICKETS , WE CAN ACHIEVE THIS WITH THE HELP OF RUBEUS**
 
+#### Using the /tgtdeleg Flag
 
+We can use Rubeus with the `/tgtdeleg` flag to specify that we want only RC4 encryption when requesting a new service ticket. The tool does this by specifying RC4 encryption as the only algorithm we support in the body of the TGS request. This may be a failsafe built-in to Active Directory for backward compatibility. By using this flag, we can request an RC4 (type 23) encrypted ticket that can be cracked much faster.
+
+![Rubeus tool output showing kerberoasting action for user 'testspn' with RC4_HMAC and AES encryption types, displaying hash details.](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/143/kerb_tgs_18.png)
+
+In the above image, we can see that when supplying the `/tgtdeleg` flag, the tool requested an RC4 ticket even though the supported encryption types are listed as AES 128/256. This simple example shows the importance of detailed enumeration and digging deeper when performing attacks such as Kerberoasting. Here we could downgrade from AES to RC4 and cut cracking time down by over 4 minutes and 30 seconds. In a real-world engagement where we have a strong GPU password cracking rig at our disposal, this type of downgrade could result in a hash cracking in a few hours instead of a few days and could make or break our assessment.
