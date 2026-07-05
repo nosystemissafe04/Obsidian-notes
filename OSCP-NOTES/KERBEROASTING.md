@@ -262,3 +262,13 @@ cat .\ilfreight_tgs.csv "SamAccountName","DistinguishedName","ServicePrincipalNa
 **We can also use [Rubeus](https://github.com/GhostPack/Rubeus) from GhostPack to perform Kerberoasting even faster and easier. Rubeus provides us with a variety of options for performing Kerberoasting.**
 
 ### USING RUBEUS
+*options we have with rubeus*
+
+- Performing Kerberoasting and outputting hashes to a file
+- Using alternate credentials
+- Performing Kerberoasting combined with a pass-the-ticket attack
+- Performing "opsec" Kerberoasting to filter out AES-enabled accounts
+- Requesting tickets for accounts passwords set between a specific date range
+- Placing a limit on the number of tickets requested
+- Performing AES Kerberoasting
+
