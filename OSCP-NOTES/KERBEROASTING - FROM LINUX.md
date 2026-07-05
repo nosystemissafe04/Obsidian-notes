@@ -205,3 +205,6 @@ Next, we can use [this](https://raw.githubusercontent.com/nidem/kerberoast/907b
 python2.7 kirbi2john.py sqldev.kirbi
 ```
 
+This will create a file called `crack_file`. We then must modify the file a bit to be able to use Hashcat against the hash.
+
+#### Modifiying crack_file for Hashcat
