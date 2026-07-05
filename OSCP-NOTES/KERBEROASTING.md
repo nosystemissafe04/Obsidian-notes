@@ -232,3 +232,14 @@ hashcat -m 13100 sqldev_tgs_hashcat /usr/share/wordlists/rockyou.txt
 
 ## Automated / Tool Based Route
 
+Next, we'll cover two much quicker ways to perform Kerberoasting from a Windows host. First, let's use [PowerView](https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Recon/PowerView.ps1) to extract the TGS tickets and convert them to Hashcat format. We can start by enumerating SPN accounts.
+
+#### Using PowerView to Enumerate SPN Accounts
+
+```SHELL
+Import-Module .\PowerView.ps1
+Get-DomainUser * -spn | select samaccountname
+```
+
+#### Using PowerView to Target a Specific User
+
