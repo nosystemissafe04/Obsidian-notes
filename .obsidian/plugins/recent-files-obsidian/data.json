@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "DISABLE WINDOWS PROTECTION",
+      "path": "OSCP-NOTES/DISABLE WINDOWS PROTECTION.md"
+    },
+    {
       "basename": "KERBEROASTING",
       "path": "OSCP-NOTES/KERBEROASTING.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "RUSTSCAN",
       "path": "OSCP-NOTES/TOOLS/RUSTSCAN.md"
-    },
-    {
-      "basename": "Filtering commands",
-      "path": "OSCP-NOTES/CHEATSHEETS/Filtering commands.md"
     }
   ],
   "omittedPaths": [],
