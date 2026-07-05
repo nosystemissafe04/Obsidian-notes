@@ -379,4 +379,3 @@ hashcat -m 19700 aes_to_crack /usr/share/wordlists/rockyou.txt
 ```
 
 
-
