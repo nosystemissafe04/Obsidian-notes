@@ -378,4 +378,6 @@ Requesting a new ticket with Rubeus will show us that the account name is using 
 hashcat -m 19700 aes_to_crack /usr/share/wordlists/rockyou.txt
 ```
 
+## REQUESTING RC4 ON WINDOWS SERVER 2016 EVEN WHEN AES IS CONFIGURED 
 
+**ITS A FLAW IN AD VERSION WIN SERVER 2016 WHICH ALLOWS A USER TO DOWNGRADE EVEN WHEN THE IT IS CON**
