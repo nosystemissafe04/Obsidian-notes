@@ -353,6 +353,7 @@ The **msDS-SupportedEncryptionTypes** attribute uses a single HEX value to def
 |30|0x1E|DES_CBC_MD5, RC4, AES 128, AES 256|
 |31|0x1F|DES_CBC_CRC, DES_CBC_MD5, RC4-HMAC, AES128-CTS-HMAC-SHA1-96, AES256-CTS-HMAC-SHA1-96|
 
+THE ABOVE TABLE SHOWS US WHAT THE USER ACCOUNT SUPPORTS WHICH USER
 #### Cracking the Ticket with Hashcat & rockyou.txt
 ```SHELL
 hashcat -m 13100 rc4_to_crack /usr/share/wordlists/rockyou.txt
