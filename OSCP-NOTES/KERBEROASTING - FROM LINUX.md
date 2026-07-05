@@ -209,3 +209,7 @@ This will create a file called `crack_file`. We then must modify the file a bit
 
 #### Modifiying crack_file for Hashcat
 
+```shell
+sed 's/\$krb5tgs\$\(.*\):\(.*\)/\$krb5tgs\$23\$\*\1\*\$\2/' crack_file > sqldev_tgs_hashcat
+```
+
