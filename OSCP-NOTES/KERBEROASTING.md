@@ -372,5 +372,11 @@ Requesting a new ticket with Rubeus will show us that the account name is using 
 .\Rubeus.exe kerberoast /user:testspn /nowrap
 ```
 
+*To run this through Hashcat, we need to use hash mode `19700`, which is `Kerberos 5, etype 18, TGS-REP (AES256-CTS-HMAC-SHA1-96)` per the handy Hashcat [example_hashes](https://hashcat.net/wiki/doku.php?id=example_hashes) table. We run the AES hash as follows and check the status, which shows it should take over 23 minutes to run through the entire rockyou.txt wordlist by typing `s` to see the status of the cracking job.*
+
+```SHELL
+hashcat -m 19700 aes_to_crack /usr/share/wordlists/rockyou.txt
+```
+
 
 
