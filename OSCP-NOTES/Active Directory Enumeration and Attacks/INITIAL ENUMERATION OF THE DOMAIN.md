@@ -310,7 +310,8 @@ We'll start by using the SMB protocol to enumerate users and groups. We will tar
 sudo crackmapexec smb 172.16.5.5 -u forend -p Klmcargo2 --users
 ```
 
-#### CME - Domain Group Enumeration [[OSCP-NOTES/ACTIVE]]
+#### CME - Domain Group Enumeration [[AD CREDENTIAL GROUP ENUMERATION AND MEMBERS FROM LINUX]]
+
 
 ```shell
 sudo crackmapexec smb 172.16.5.5 -u forend -p Klmcargo2 --groups
