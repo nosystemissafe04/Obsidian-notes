@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/Untitled.md"
+    },
+    {
+      "basename": "AD CREDENTIAL GROUP ENUMERATION AND MEMBERS FROM LINUX",
+      "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/AD CREDENTIAL GROUP ENUMERATION AND MEMBERS FROM LINUX.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "OSCP-NOTES/Untitled.md"
+    },
+    {
       "basename": "KERBEROASTING",
       "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/KERBEROASTING.md"
     },
     {
       "basename": "INITIAL ENUMERATION OF THE DOMAIN",
       "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md"
-    },
-    {
-      "basename": "AD CREDENTIAL GROUP ENUMERATION AND MEMBERS FROM LINUX",
-      "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/AD CREDENTIAL GROUP ENUMERATION AND MEMBERS FROM LINUX.md"
     },
     {
       "basename": "AD CREDENTIALED GROUP ENUMERATION AND MEMBERS FROM WINDOWS",
@@ -191,14 +199,6 @@
     {
       "basename": "TOKEN MANIPULATION",
       "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/TOKEN MANIPULATION.md"
-    },
-    {
-      "basename": "TERMINAL HISTORY",
-      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/TERMINAL HISTORY.md"
-    },
-    {
-      "basename": "KERNEL EXPLOIT",
-      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/KERNEL EXPLOIT.md"
     }
   ],
   "omittedPaths": [],
