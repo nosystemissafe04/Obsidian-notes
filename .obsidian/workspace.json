@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/Active Directory Enumeration and Attacks/Untitled.md",
+                "file": "OSCP-NOTES/Active Directory Enumeration and Attacks/ACCESS CONTROL LIST - ACL.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "ACCESS CONTROL LIST - ACL"
             }
           }
         ],
@@ -158,7 +158,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 377.5,
+    "collapsed": true
   },
   "right": {
     "id": "5689001c4553b175",
@@ -321,10 +322,10 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "9fe5df7679baec76",
+  "active": "fe6d7a45e4f73a22",
   "lastOpenFiles": [
     "OSCP-NOTES/Active Directory Enumeration and Attacks/AD CREDENTIAL GROUP ENUMERATION AND MEMBERS FROM LINUX.md",
-    "OSCP-NOTES/Active Directory Enumeration and Attacks/Untitled.md",
+    "OSCP-NOTES/Active Directory Enumeration and Attacks/ACCESS CONTROL LIST - ACL.md",
     "OSCP-NOTES/Untitled.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/KERBEROASTING.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md",
