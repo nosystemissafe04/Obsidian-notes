@@ -307,9 +307,13 @@ or via LDAP filter:
 
 ### CHECKING THE ENCRYPTION TYPE OF KERBEROS TICKET OF AN ACCOUNT
 
-WITH THE HELP OF POWERVIEW WE CAN CHECK IF
+WITH THE HELP OF POWERVIEW WE CAN CHECK IF THE TARGET USER HAVE DEFAULT ENCRYPTION OR AES ENCRYPTION 
 
 ```POWERSHELL
+Get-DomainUser testspn -Properties samaccountname,serviceprincipalname,msds-supportedencryptiontypes
 ```
+
+*we can see that the `msDS-SupportedEncryptionTypes` attribute is set to `0`. The chart [here](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/decrypting-the-selection-of-supported-kerberos-encryption-types/ba-p/1628797) tells us that a decimal value of `0` means that a specific encryption type is not defined and set to the default of `RC4_HMAC_MD5`.*
+
 
 
