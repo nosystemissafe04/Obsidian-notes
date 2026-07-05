@@ -297,7 +297,7 @@ Get-LAPSComputers
 ```
 
 
-# Credentialed Enumeration - from Linux
+# Credentialed Enumeration - from Linux 
 
 We are interested in information about domain user and computer attributes, group membership, Group Policy Objects, permissions, ACLs, trusts, and more. We have various options available, but the most important thing to remember is that most of these tools will not work without valid domain user credentials at any permission level. So at a minimum, we will have to have acquired a user's cleartext password, NTLM password hash, or SYSTEM access on a domain-joined host.
 
@@ -310,7 +310,7 @@ We'll start by using the SMB protocol to enumerate users and groups. We will tar
 sudo crackmapexec smb 172.16.5.5 -u forend -p Klmcargo2 --users
 ```
 
-#### CME - Domain Group Enumeration
+#### CME - Domain Group Enumeration [[OSCP-NOTES/ACTIVE]]
 
 ```shell
 sudo crackmapexec smb 172.16.5.5 -u forend -p Klmcargo2 --groups

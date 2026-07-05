@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "INITIAL ENUMERATION OF THE DOMAIN",
+      "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md"
+    },
+    {
       "basename": "AD CREDENTIAL GROUP ENUMERATION AND MEMBERS FROM LINUX",
       "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/AD CREDENTIAL GROUP ENUMERATION AND MEMBERS FROM LINUX.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "ACTIVE DIRECTORY ENUMERATION USING LEGACY TOOLS",
       "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY ENUMERATION USING LEGACY TOOLS.md"
-    },
-    {
-      "basename": "INITIAL ENUMERATION OF THE DOMAIN",
-      "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md"
     },
     {
       "basename": "Active directory Enumeration",
