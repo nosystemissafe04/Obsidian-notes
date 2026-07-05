@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/Active Directory Enumeration and Attacks/AD CREDENTIALED GROUP ENUMERATION AND MEMBERS FROM WINDOWS.md",
+                "file": "OSCP-NOTES/Active Directory Enumeration and Attacks/AD CREDENTIAL GROUP ENUMERATION AND MEMBERS FROM LINUX.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AD CREDENTIALED GROUP ENUMERATION AND MEMBERS FROM WINDOWS"
+              "title": "AD CREDENTIAL GROUP ENUMERATION AND MEMBERS FROM LINUX"
             }
           }
         ],
@@ -182,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 377.5,
+    "collapsed": true
   },
   "right": {
     "id": "5689001c4553b175",
@@ -345,11 +346,11 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "9fe5df7679baec76",
+  "active": "fe6d7a45e4f73a22",
   "lastOpenFiles": [
+    "OSCP-NOTES/Active Directory Enumeration and Attacks/AD CREDENTIALED GROUP ENUMERATION AND MEMBERS FROM WINDOWS.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY ENUMERATION WITH LOLBAS.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY ENUMERATION USING LEGACY TOOLS.md",
-    "OSCP-NOTES/Active Directory Enumeration and Attacks/AD CREDENTIALED GROUP ENUMERATION AND MEMBERS FROM WINDOWS.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/Active directory Enumeration.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/AD CREDENTIAL GROUP ENUMERATION AND MEMBERS FROM LINUX.md",
