@@ -354,10 +354,6 @@ The **msDS-SupportedEncryptionTypes** attribute uses a single HEX value to def
 |31|0x1F|DES_CBC_CRC, DES_CBC_MD5, RC4-HMAC, AES128-CTS-HMAC-SHA1-96, AES256-CTS-HMAC-SHA1-96|
 
 THE ABOVE TABLE SHOWS US WHAT THE USER ACCOUNT SUPPORTS IF THE VALUE OF msDS-SupportedEncryptionTypes is 28 that user account allows rc4 and aes both , but if the value is 24 only aes will be issued by KDC bcz it cannot downgrade as per the value , so it mean we can request rc4 if the value is 28 or 4 or 0 or wherever we see rc4 in table
-#### Cracking the Ticket with Hashcat & rockyou.txt
-```SHELL
-hashcat -m 13100 rc4_to_crack /usr/share/wordlists/rockyou.txt
-```
 
 
 
