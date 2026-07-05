@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY GROUP ENUMERATION AND MEMBERS FROM WINDOWS.md",
+                "file": "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +52,21 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ACTIVE DIRECTORY GROUP ENUMERATION AND MEMBERS FROM WINDOWS"
+              "title": "INITIAL ENUMERATION OF THE DOMAIN"
+            }
+          },
+          {
+            "id": "fe6d7a45e4f73a22",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -322,7 +332,7 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "140e6eb4334c27c5",
+  "active": "fe6d7a45e4f73a22",
   "lastOpenFiles": [
     "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY GROUP ENUMERATION AND MEMBERS FROM WINDOWS.md",
