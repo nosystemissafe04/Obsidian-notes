@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md",
+                "file": "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY GROUP ENUMERATION AND MEMBERS FROM WINDOWS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "INITIAL ENUMERATION OF THE DOMAIN"
+              "title": "ACTIVE DIRECTORY GROUP ENUMERATION AND MEMBERS FROM WINDOWS"
             }
           }
         ],
@@ -324,8 +324,9 @@
   },
   "active": "140e6eb4334c27c5",
   "lastOpenFiles": [
-    "OSCP-NOTES/Active Directory Enumeration and Attacks/RPCCLIENT DOMAIN ENUMERATION.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md",
+    "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY GROUP ENUMERATION AND MEMBERS FROM WINDOWS.md",
+    "OSCP-NOTES/Active Directory Enumeration and Attacks/RPCCLIENT DOMAIN ENUMERATION.md",
     "OSCP-NOTES/KERBEROASTING.md",
     "OSCP-NOTES/Kerberos/KERBEROSTING.md",
     "TREASURE/Powershell for Infosec/Powershell Language Modes.md",
@@ -350,7 +351,6 @@
     "TREASURE/Powershell for Infosec/Powershell Fundamentals.md",
     "OSCP-NOTES/WINDOWS PrivEsk/NETWORK ENUMERATION.md",
     "OSCP-NOTES/WINDOWS PrivEsk/KERNEL EXPLOITATION FOR PRIVESK.md",
-    "OSCP-NOTES/WINDOWS PrivEsk/AV ENUMERATION.md",
     "OSCP-NOTES/WEB",
     "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY/assets/nosql-injection-graphic.svg",
     "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY/assets",

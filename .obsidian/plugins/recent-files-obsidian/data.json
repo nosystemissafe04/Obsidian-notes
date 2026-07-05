@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "ACTIVE DIRECTORY GROUP ENUMERATION AND MEMBERS FROM WINDOWS",
+      "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY GROUP ENUMERATION AND MEMBERS FROM WINDOWS.md"
+    },
+    {
       "basename": "INITIAL ENUMERATION OF THE DOMAIN",
       "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "ENABLING REMOTE DESKTOP",
       "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/ENABLING REMOTE DESKTOP.md"
-    },
-    {
-      "basename": "Commands",
-      "path": "OSCP-NOTES/Commands.md"
     }
   ],
   "omittedPaths": [],
