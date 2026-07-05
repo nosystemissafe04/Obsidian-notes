@@ -55,7 +55,8 @@
               "title": "Powershell Language Modes"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -321,10 +322,10 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "d62c0c6fb7d62f7f",
+  "active": "140e6eb4334c27c5",
   "lastOpenFiles": [
-    "OSCP-NOTES/KERBEROASTING.md",
     "OSCP-NOTES/DISABLE WINDOWS PROTECTION.md",
+    "OSCP-NOTES/KERBEROASTING.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY ENUMERATION WITH LOLBAS.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/RPCCLIENT DOMAIN ENUMERATION.md",
