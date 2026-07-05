@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md",
+                "file": "OSCP-NOTES/Active Directory Enumeration and Attacks/RPCCLIENT DOMAIN ENUMERATION.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "INITIAL ENUMERATION OF THE DOMAIN"
+              "title": "RPCCLIENT DOMAIN ENUMERATION"
             }
           }
         ],
@@ -324,12 +324,12 @@
   },
   "active": "140e6eb4334c27c5",
   "lastOpenFiles": [
+    "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md",
     "OSCP-NOTES/KERBEROASTING.md",
     "OSCP-NOTES/Kerberos/KERBEROSTING.md",
     "TREASURE/Powershell for Infosec/Powershell Language Modes.md",
     "OSCP-NOTES/DISABLE WINDOWS PROTECTION.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY ENUMERATION WITH LOLBAS.md",
-    "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/RPCCLIENT DOMAIN ENUMERATION.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY ENUMERATION USING LEGACY TOOLS.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/Active directory Enumeration.md",
