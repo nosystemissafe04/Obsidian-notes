@@ -272,5 +272,7 @@ cat .\ilfreight_tgs.csv "SamAccountName","DistinguishedName","ServicePrincipalNa
 - Placing a limit on the number of tickets requested
 - Performing AES Kerberoasting
 
-#### Using the /stats
+#### Using the /stats Flag
+
 We can first use Rubeus to gather some stats. From the output below, we can see that there are nine Kerberoastable users, seven of which support RC4 encryption for ticket requests and two of which support AES 128/256. More on encryption types later. We also see that all nine accounts had their password set this year (2022 at the time of writing). If we saw any SPN accounts with their passwords set 5 or more years ago, they could be promising targets as they could have a weak password that was set and never changed when the organization was less mature.
+
