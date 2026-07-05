@@ -180,4 +180,8 @@ ZWZyZWlnaHQubG9jYWw6MTQzMw==
 
 <SNIP>
 ```
-```
+
+If we do not specify the `base64 /out:true` command, Mimikatz will extract the tickets and write them to `.kirbi` files. Depending on our position on the network and if we can easily move files to our attack host, this can be easier when we go to crack the tickets. Let's take the base64 blob retrieved above and prepare it for cracking.
+
+Next, we can take the base64 blob and remove new lines and white spaces since the output is column wrapped, and we need it all on one line for the next step.
+
