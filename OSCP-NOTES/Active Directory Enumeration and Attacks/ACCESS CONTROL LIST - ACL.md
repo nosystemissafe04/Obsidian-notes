@@ -32,3 +32,8 @@ Each ACE is made up of the following `four` components:
 ## ACL Enumeration
 
 #### POWERVIEW
+
+```POWERSHELL
+Find-InterestingDomainAcl
+```
+
