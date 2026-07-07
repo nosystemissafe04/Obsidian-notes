@@ -37,3 +37,4 @@ Each ACE is made up of the following `four` components:
 Find-InterestingDomainAcl
 ```
 
+this will give us a lot of information which is likely overwhelm us and its time consuming to do that 
