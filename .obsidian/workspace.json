@@ -55,8 +55,7 @@
               "title": "Execution policy"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -321,8 +320,9 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "fe6d7a45e4f73a22",
+  "active": "d62c0c6fb7d62f7f",
   "lastOpenFiles": [
+    "TREASURE/Powershell for Infosec/Execution policy.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/ACCESS CONTROL LIST - ACL.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/assets/acl_dacl_sacl_tree.svg",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/assets",

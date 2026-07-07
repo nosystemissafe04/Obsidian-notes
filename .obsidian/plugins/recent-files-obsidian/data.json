@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "DISABLE WINDOWS PROTECTION",
+      "path": "OSCP-NOTES/DISABLE WINDOWS PROTECTION.md"
+    },
+    {
       "basename": "Execution policy",
       "path": "TREASURE/Powershell for Infosec/Execution policy.md"
     },
@@ -51,10 +55,6 @@
     {
       "basename": "Powershell Language Modes",
       "path": "TREASURE/Powershell for Infosec/Powershell Language Modes.md"
-    },
-    {
-      "basename": "DISABLE WINDOWS PROTECTION",
-      "path": "OSCP-NOTES/DISABLE WINDOWS PROTECTION.md"
     },
     {
       "basename": "SSH-DYNAMIC-PORT-FORWARDING-EXPLANATION",
