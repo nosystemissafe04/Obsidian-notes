@@ -25,3 +25,10 @@ Each ACE is made up of the following `four` components:
 4. An [access mask](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-dtyp/7a53f60e-e730-4dfe-bbe9-b21b62eb790b?redirectedfrom=MSDN) which is a 32-bit value that defines the rights granted to an object
 
 
+
+
+----
+
+## ACL Enumeration
+
+#### POWERVIEW
