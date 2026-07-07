@@ -38,3 +38,5 @@ Find-InterestingDomainAcl
 ```
 
 this will give us a lot of information which is likely overwhelm us and its time consuming to do that 
+
+there is a way to use a tool such as PowerView more effectively -- by performing targeted enumeration starting with a user that we have control over.
