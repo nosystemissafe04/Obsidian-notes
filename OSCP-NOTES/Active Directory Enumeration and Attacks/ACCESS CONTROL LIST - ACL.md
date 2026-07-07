@@ -46,3 +46,4 @@ Import-Module .\PowerView.ps1
 $sid = Convert-NameToSid wley
 ```
 
+#### Using Get-DomainObjectACL
