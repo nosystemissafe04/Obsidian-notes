@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/Active Directory Enumeration and Attacks/ACCESS CONTROL LIST - ACL.md",
+                "file": "TREASURE/Powershell for Infosec/Execution policy.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ACCESS CONTROL LIST - ACL"
+              "title": "Execution policy"
             }
           }
         ],
@@ -75,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "forend",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -153,13 +153,11 @@
               "title": "Files"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 377.5,
-    "collapsed": true
+    "width": 377.5
   },
   "right": {
     "id": "5689001c4553b175",
@@ -324,10 +322,10 @@
   },
   "active": "fe6d7a45e4f73a22",
   "lastOpenFiles": [
+    "OSCP-NOTES/Active Directory Enumeration and Attacks/ACCESS CONTROL LIST - ACL.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/assets/acl_dacl_sacl_tree.svg",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/assets",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/AD CREDENTIAL GROUP ENUMERATION AND MEMBERS FROM LINUX.md",
-    "OSCP-NOTES/Active Directory Enumeration and Attacks/ACCESS CONTROL LIST - ACL.md",
     "OSCP-NOTES/Untitled.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/KERBEROASTING.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md",
@@ -369,7 +367,6 @@
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260421033341.png",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260421030425.png",
     "OSCP-NOTES/AV-BYPASS/assets/Pasted image 20260419173054.png",
-    "OSCP-NOTES/AV-BYPASS/assets/Pasted image 20260419172814.png",
     "TREASURE/PEN-notes/PRACTICAL MALWARE ANALYSIS/Basic Static Analysis.canvas",
     "Spaces/Untitled 1.canvas",
     "Untitled.canvas",

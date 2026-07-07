@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Execution policy",
+      "path": "TREASURE/Powershell for Infosec/Execution policy.md"
+    },
+    {
       "basename": "ACCESS CONTROL LIST - ACL",
       "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/ACCESS CONTROL LIST - ACL.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "TOKEN MANIPULATION (VERTICAL ESCALATION)",
       "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/TOKEN MANIPULATION (VERTICAL ESCALATION).md"
-    },
-    {
-      "basename": "TOKEN MANIPULATION",
-      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/TOKEN MANIPULATION.md"
     }
   ],
   "omittedPaths": [],
