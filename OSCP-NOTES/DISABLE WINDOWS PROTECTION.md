@@ -64,4 +64,4 @@ Uninstall-WindowsFeature -Name Windows-Defender
 
 A couple of practical notes for your Kerberoasting sim specifically: none of this is actually required for Kerberoasting itself to work at the protocol level — TGS-REQ/REP is legitimate Kerberos traffic and Defender doesn't block the _request_. What Defender flags is the tool binary (Rubeus.exe gets signature-detected almost immediately) or memory-injection behavior. If your goal is testing detection evasion rather than just "can I get a hash," it's worth doing the exercise both ways — once with Defender on to see what actually gets flagged (Rubeus vs. the native `KerberosRequestorSecurityToken` .NET approach you were looking at earlier), then again with it off as a baseline comparison. That contrast is usually more useful for OSCP-style reporting than just having AV off from the start.
 
-**EXECUTION POLICY AND NOT BEING ABLE TO **
+**EXECUTION POLICY AND NOT BEING ABLE TO EXECUTE SCRIPT WE HAVE TO REMOVE OR DO AMSI BYPASS OR EXECUTION POLICY BYPASS OR IF WE HAVE PERMISSION THEN CHANGE IT TO BYPASS**
