@@ -276,3 +276,9 @@ Set-DomainObject -Credential $Cred2 -Identity adunn -Clear serviceprincipalname 
 ```powershell
 Remove-DomainGroupMember -Identity "Help Desk Level 1" -Members 'damundsen' -Credential $Cred2 -Verbose
 ```
+
+#### Confirming damundsen was Removed from the Group
+```powershell
+Get-DomainGroupMember -Identity "Help Desk Level 1" | Select MemberName |? {$_.MemberName -eq 'damundsen'} -Verbose
+```
+
