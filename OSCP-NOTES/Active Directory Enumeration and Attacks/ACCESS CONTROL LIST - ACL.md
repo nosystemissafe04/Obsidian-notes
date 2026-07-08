@@ -86,3 +86,9 @@ quick look at how we could do this using the [Get-Acl](https://docs.microsoft.c
 ```POWERSHELL
 Get-ADUser -Filter * | Select-Object -ExpandProperty SamAccountName > ad_users.txt
 ```
+
+*We then read each line of the file using a `foreach` loop, and use the `Get-Acl` cmdlet to retrieve ACL information for each domain user by feeding each line of the `ad_users.txt` file to the `Get-ADUser` cmdlet. We then select just the `Access property`, which will give us information about access rights. Finally, we set the `IdentityReference` property to the user we are in control of (or looking to see what rights they have)*
+
+```POWERSHELL
+foreach($line in [System.IO.File]::ReadLines("C:\Users\htb-student\Desktop\ad_users.txt")) {get-acl "AD:\$(Get-ADUser $line)" | Select-Object Path -ExpandProperty Access | Where-Object {$_.IdentityReference -match 'INLANEFREIGHT\\wley'}}
+```
