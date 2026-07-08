@@ -197,3 +197,11 @@ $SecPassword = ConvertTo-SecureString '<PASSWORD HERE>' -AsPlainText -Force
 
  $Cred = New-Object System.Management.Automation.PSCredential('INLANEFREIGHT\wley', $SecPassword)
 ```
+
+ we must create a [SecureString object](https://docs.microsoft.com/en-us/dotnet/api/system.security.securestring?view=net-6.0) which represents the password we want to set for the target user `damundsen`.
+
+#### Creating a SecureString Object
+
+```powershell
+$damundsenPassword = ConvertTo-SecureString 'Pwn3d_by_ACLs!' -AsPlainText -Force
+```
