@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "DISABLE WINDOWS PROTECTION",
-      "path": "OSCP-NOTES/DISABLE WINDOWS PROTECTION.md"
-    },
-    {
       "basename": "Execution policy",
       "path": "TREASURE/Powershell for Infosec/Execution policy.md"
+    },
+    {
+      "basename": "DISABLE WINDOWS PROTECTION",
+      "path": "OSCP-NOTES/DISABLE WINDOWS PROTECTION.md"
     },
     {
       "basename": "ACCESS CONTROL LIST - ACL",
