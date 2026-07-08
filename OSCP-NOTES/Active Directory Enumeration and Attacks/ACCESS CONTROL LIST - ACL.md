@@ -148,3 +148,27 @@ Get-DomainObjectACL -ResolveGUIDs -Identity * | ? {$_.SecurityIdentifier -eq $ad
 ## Enumerating ACLs with BloodHound
 
 we can set the `wley` user as our starting node, select the `Node Info` tab and scroll down to `Outbound Control Rights`. This option will show us objects we have control over directly, via group membership, and the number of objects that our user could lead to us controlling via ACL attack paths under `Transitive Object Control`. If we click on the `1` next to `First Degree Object Control`, we see the first set of rights that we enumerated, `ForceChangePassword` over the `damundsen` user.
+
+#### Viewing Node Info through BloodHound
+
+![BloodHound interface showing node info for WLEY@INLANEFREIGHT.LOCALl with execution and control rights, connected to DAMUNDSEN@INLANEFREIGHT.LOCAL via ForceChangePassword.](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/143/wley_damundsen.png)
+
+If we right-click on the line between the two objects, a menu will pop up. If we select `Help`, we will be presented with help around abusing this ACE, including:
+
+- More info on the specific right, tools, and commands that can be used to pull off this attack
+- Operational Security (Opsec) considerations
+- External references.
+
+We'll dig into this menu more later on.
+
+#### Investigating ForceChangePassword Further
+
+![Popup window in BloodHound showing ForceChangePassword capability for WLEY@INLANEFREIGHT.LOCAL to change DAMUNDSEN@INLANEFREIGHT.LOCAL's password without knowing the current password.](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/143/help_edge.png)
+
+If we click on the `16` next to `Transitive Object Control`, we will see the entire path that we painstakingly enumerated above. From here, we could leverage the help menus for each edge to find ways to best pull off each attack.
+
+#### Viewing Potential Attack Paths through BloodHound
+
+![BloodHound graph showing WLEY@INLANEFREIGHT.LOCAL's connections to various groups and users, including CONTRACTORS, FILE SHARE, and DOMAIN USERS, with relationships like MemberOf and ForceChangePassword.](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/143/wley_path.png)
+
+Finally, we can use the pre-built queries in BloodHound to confirm that the `adunn` user has DCSync rights.
