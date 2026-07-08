@@ -115,3 +115,9 @@ Get-DomainGroup -Identity "Help Desk Level 1" | select memberof
 
  A quick search shows us that the `Help Desk Level 1` group is nested into the `Information Technology` group, meaning that we can obtain any rights that the `Information Technology` group grants to its members if we just add ourselves to the `Help Desk Level 1` group where our user `damundsen` has `GenericWrite` privileges.
 
+- We have control over the user `wley` whose hash we retrieved earlier in the module (assessment) using Responder and cracked offline using Hashcat to reveal the cleartext password value
+- We enumerated objects that the user `wley` has control over and found that we could force change the password of the user `damundsen`
+- From here, we found that the `damundsen` user can add a member to the `Help Desk Level 1` group using `GenericWrite` privileges
+- The `Help Desk Level 1` group is nested into the `Information Technology` group, which grants members of that group any rights provisioned to the `Information Technology` group
+
+#### Investigating the Information Technology Group
