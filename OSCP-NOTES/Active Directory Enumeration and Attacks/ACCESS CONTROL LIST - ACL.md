@@ -185,3 +185,5 @@ Finally, we can use the pre-built queries in BloodHound to confirm that the `ad
 
 ![BloodHound graph showing ADUNN@INLANEFREIGHT.LOCAL's connections to various groups and users, including DOMAIN ADMINS and ENTERPRISE DOMAIN CONTROLLERS, with relationships like MemberOf and GetChangesAll.](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/143/adunn_dcsync.png)
 
+
+## Abusing ACLs
