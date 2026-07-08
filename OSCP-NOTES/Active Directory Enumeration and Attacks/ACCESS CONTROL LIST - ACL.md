@@ -113,3 +113,5 @@ Now we can see that our user `damundsen` has `GenericWrite` privileges over 
 Get-DomainGroup -Identity "Help Desk Level 1" | select memberof
 ```
 
+ A quick search shows us that the `Help Desk Level 1` group is nested into the `Information Technology` group, meaning that we can obtain any rights that the `Information Technology` group grants to its members if we just add ourselves to the `Help Desk Level 1` group where our user `damundsen` has `GenericWrite` privileges.
+
