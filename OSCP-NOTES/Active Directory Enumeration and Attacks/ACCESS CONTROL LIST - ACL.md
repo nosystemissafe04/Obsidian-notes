@@ -172,3 +172,8 @@ If we click on the `16` next to `Transitive Object Control`, we will see the 
 ![BloodHound graph showing WLEY@INLANEFREIGHT.LOCAL's connections to various groups and users, including CONTRACTORS, FILE SHARE, and DOMAIN USERS, with relationships like MemberOf and ForceChangePassword.](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/143/wley_path.png)
 
 Finally, we can use the pre-built queries in BloodHound to confirm that the `adunn` user has DCSync rights.
+
+#### Viewing Pre-Build queries through BloodHound
+
+![BloodHound graph showing ADUNN@INLANEFREIGHT.LOCAL's connections to various groups and users, including DOMAIN ADMINS and ENTERPRISE DOMAIN CONTROLLERS, with relationships like MemberOf and GetChangesAll.](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/143/adunn_dcsync.png)
+
