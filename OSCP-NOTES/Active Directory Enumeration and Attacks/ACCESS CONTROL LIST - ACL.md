@@ -215,3 +215,6 @@ cd C:\Tools\
 Import-Module .\PowerView.ps1
 Set-DomainUserPassword -Identity damundsen -AccountPassword $damundsenPassword -Credential $Cred -Verbos
 ```
+
+used securestring for password of damundsen and credential object containing username and password of user wley
+
