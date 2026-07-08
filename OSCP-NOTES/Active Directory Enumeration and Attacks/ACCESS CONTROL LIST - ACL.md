@@ -92,3 +92,6 @@ Get-ADUser -Filter * | Select-Object -ExpandProperty SamAccountName > ad_users.t
 ```POWERSHELL
 foreach($line in [System.IO.File]::ReadLines("C:\Users\htb-student\Desktop\ad_users.txt")) {get-acl "AD:\$(Get-ADUser $line)" | Select-Object Path -ExpandProperty Access | Where-Object {$_.IdentityReference -match 'INLANEFREIGHT\\wley'}}
 ```
+
+Once we have this data, we could follow the same methods shown above to convert the GUID to a human-readable format to understand what rights we have over the target user.
+
