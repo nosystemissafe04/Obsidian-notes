@@ -52,4 +52,10 @@ We can then use the `Get-DomainObjectACL` function to perform our targeted sea
 
 *One important thing to note is that if we search without the flag `ResolveGUIDs`, we will see results like the below, where the right `ExtendedRight` does not give us a clear picture of what ACE entry the user `wley` has over `damundsen`. This is because the `ObjectAceType` property is returning a GUID value that is not human readable.*
 
-**without -R**
+**without -ResolveGUID FLAG**
+
+```POWERSHELL
+Get-DomainObjectACL -Identity * | ? {$_.SecurityIdentifier -eq $sid}
+```
+
+ Alternatively, we could do a reverse search using PowerShell to map the right name back to the GUID value.
