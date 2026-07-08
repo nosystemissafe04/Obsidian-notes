@@ -11,11 +11,11 @@ There are two types of ACLs:
 
 There are `three` main types of ACEs that can be applied to all securable objects in AD:
 
-|**ACE**|**Description**|
-|---|---|
-|`Access denied ACE`|Used within a DACL to show that a user or group is explicitly denied access to an object|
-|`Access allowed ACE`|Used within a DACL to show that a user or group is explicitly granted access to an object|
-|`System audit ACE`|Used within a SACL to generate audit logs when a user or group attempts to access an object. It records whether access was granted or not and what type of access occurred|
+| **ACE**              | **Description**                                                                                                                                                            |
+| -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Access denied ACE`  | Used within a DACL to show that a user or group is explicitly denied access to an object                                                                                   |
+| `Access allowed ACE` | Used within a DACL to show that a user or group is explicitly granted access to an object                                                                                  |
+| `System audit ACE`   | Used within a SACL to generate audit logs when a user or group attempts to access an object. It records whether access was granted or not and what type of access occurred |
 
 Each ACE is made up of the following `four` components:
 

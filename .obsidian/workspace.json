@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TREASURE/Powershell for Infosec/Execution policy.md",
+                "file": "OSCP-NOTES/Active Directory Enumeration and Attacks/ACCESS CONTROL LIST - ACL.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Execution policy"
+              "title": "ACCESS CONTROL LIST - ACL"
             }
           }
         ],
@@ -323,10 +323,10 @@
   },
   "active": "fe6d7a45e4f73a22",
   "lastOpenFiles": [
-    "OSCP-NOTES/DISABLE WINDOWS PROTECTION.md",
-    "TREASURE/Powershell for Infosec/Execution policy.md",
-    "OSCP-NOTES/Active Directory Enumeration and Attacks/ACCESS CONTROL LIST - ACL.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/assets/acl_dacl_sacl_tree.svg",
+    "TREASURE/Powershell for Infosec/Execution policy.md",
+    "OSCP-NOTES/DISABLE WINDOWS PROTECTION.md",
+    "OSCP-NOTES/Active Directory Enumeration and Attacks/ACCESS CONTROL LIST - ACL.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/assets",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/AD CREDENTIAL GROUP ENUMERATION AND MEMBERS FROM LINUX.md",
     "OSCP-NOTES/Untitled.md",
@@ -351,7 +351,6 @@
     "OSCP-NOTES/WEB/VHOST FUZZING.md",
     "OSCP-NOTES/CTF/KEVIN - OFFSEC.md",
     "OSCP-NOTES/CTF/SLORT - OFFSEC.md",
-    "TREASURE/PEN-notes/Hack The Box - Penetration Testing Path/Attacking Common Services/Attacking SQL Databases.md",
     "OSCP-NOTES/WEB",
     "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY/assets/nosql-injection-graphic.svg",
     "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY/assets",

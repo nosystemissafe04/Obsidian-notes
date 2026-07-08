@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "ACCESS CONTROL LIST - ACL",
+      "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/ACCESS CONTROL LIST - ACL.md"
+    },
+    {
+      "basename": "acl_dacl_sacl_tree",
+      "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/assets/acl_dacl_sacl_tree.svg"
+    },
+    {
       "basename": "Execution policy",
       "path": "TREASURE/Powershell for Infosec/Execution policy.md"
     },
     {
       "basename": "DISABLE WINDOWS PROTECTION",
       "path": "OSCP-NOTES/DISABLE WINDOWS PROTECTION.md"
-    },
-    {
-      "basename": "ACCESS CONTROL LIST - ACL",
-      "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/ACCESS CONTROL LIST - ACL.md"
     },
     {
       "basename": "AD CREDENTIAL GROUP ENUMERATION AND MEMBERS FROM LINUX",
@@ -195,10 +199,6 @@
     {
       "basename": "WEAK REGISTRY",
       "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY.md"
-    },
-    {
-      "basename": "TOKEN MANIPULATION (VERTICAL ESCALATION)",
-      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/TOKEN MANIPULATION (VERTICAL ESCALATION).md"
     }
   ],
   "omittedPaths": [],
