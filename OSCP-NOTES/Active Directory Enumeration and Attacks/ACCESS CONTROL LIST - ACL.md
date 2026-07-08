@@ -59,3 +59,10 @@ Get-DomainObjectACL -Identity * | ? {$_.SecurityIdentifier -eq $sid}
 ```
 
  Alternatively, we could do a reverse search using PowerShell to map the right name back to the GUID value.
+
+#### Performing a Reverse Search & Mapping to a GUID Value
+
+```POWERSHELL
+$guid= "00299570-246d-11d0-a768-00aa006e0529"
+
+```
