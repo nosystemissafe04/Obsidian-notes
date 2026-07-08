@@ -240,3 +240,9 @@ Get-ADGroup -Identity "Help Desk Level 1" -Properties * | Select -ExpandProperty
 ```powershell
 Add-DomainGroupMember -Identity 'Help Desk Level 1' -Members 'damundsen' -Credential $Cred2 -Verbose
 ```
+
+#### Confirming damundsen was Added to the Group
+
+```powershell
+Get-DomainGroupMember -Identity "Help Desk Level 1" | Select MemberName
+```
