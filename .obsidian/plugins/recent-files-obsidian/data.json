@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "KERBEROASTING",
-      "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/KERBEROASTING.md"
-    },
-    {
       "basename": "ACCESS CONTROL LIST - ACL",
       "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/ACCESS CONTROL LIST - ACL.md"
+    },
+    {
+      "basename": "KERBEROASTING",
+      "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/KERBEROASTING.md"
     },
     {
       "basename": "acl_dacl_sacl_tree",
