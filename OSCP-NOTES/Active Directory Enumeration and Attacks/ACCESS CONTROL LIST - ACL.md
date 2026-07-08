@@ -148,7 +148,10 @@ Get-DomainObjectACL -ResolveGUIDs -Identity * | ? {$_.SecurityIdentifier -eq $ad
 #### FINDING THE ACL ON A GROUP OR A SPECIFIC OBJECT FOR A USER 
 
 ```POWERSHELL
-get-domainobjectacl -identity "GPO Management" -ResolveGUIDs | where-object {$_.SecurityIdentifier}
+#sid of the user which we want to check the acl of 
+$sid = convert-nametosid username
+
+get-domainobjectacl -identity "GPO Management" -ResolveGUIDs | where-object {$_.SecurityIdentifier -eq $sid}
 ```
 ## Enumerating ACLs with BloodHound
 
