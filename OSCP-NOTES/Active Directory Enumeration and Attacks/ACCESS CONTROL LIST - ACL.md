@@ -121,3 +121,17 @@ Get-DomainGroup -Identity "Help Desk Level 1" | select memberof
 - The `Help Desk Level 1` group is nested into the `Information Technology` group, which grants members of that group any rights provisioned to the `Information Technology` group
 
 #### Investigating the Information Technology Group
+
+```powershell
+$itgroupsid = Convert-NameToSid "Information Technology"
+
+Get-DomainObjectACL -ResolveGUIDs -Identity * | ? {$_.SecurityIdentifier -eq $itgroupsid} -Verbose
+
+```
+
+ doing our search using `Get-DomainObjectACL` shows us that members of the `Information Technology` group have `GenericAll` rights over the user `adunn`, which means we could:
+
+- Modify group membership
+- Force change a password
+- Perform a targeted Kerberoasting attack and attempt to crack the user's password if it is weak
+
