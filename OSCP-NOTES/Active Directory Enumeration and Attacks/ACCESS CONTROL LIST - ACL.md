@@ -47,3 +47,6 @@ $sid = Convert-NameToSid wley
 ```
 
 #### Using Get-DomainObjectACL
+
+We can then use the `Get-DomainObjectACL` function to perform our targeted search. In the below example, we are using this function to find all domain objects that our user has rights over by mapping the user's SID using the `$sid` variable to the `SecurityIdentifier` property which is what tells us _who_ has the given right over an object.
+
