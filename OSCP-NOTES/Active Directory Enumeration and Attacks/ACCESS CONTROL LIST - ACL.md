@@ -135,3 +135,12 @@ Get-DomainObjectACL -ResolveGUIDs -Identity * | ? {$_.SecurityIdentifier -eq $it
 - Force change a password
 - Perform a targeted Kerberoasting attack and attempt to crack the user's password if it is weak
 
+let's see if the `adunn` user has any type of interesting access that we may be able to leverage to get closer to our goal.
+
+```powershell
+$adunnsid = Convert-NameToSid adunn
+
+Get-DomainObjectACL -ResolveGUIDs -Identity * | ? {$_.SecurityIdentifier -eq $adunnsid} -Verbose
+```
+
+
