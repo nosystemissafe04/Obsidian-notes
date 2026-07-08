@@ -187,3 +187,11 @@ Finally, we can use the pre-built queries in BloodHound to confirm that the `ad
 
 
 ## Abusing ACLs
+
+first, we must authenticate as `wley` and force change the password of the user `damundsen`. We can start by opening a PowerShell console and authenticating as the `wley` user.
+
+#### Creating a PSCredential Object
+
+```powershell
+$SecPassword = ConvertTo-SecureString '<PASSWORD HERE>' -AsPlainText -Force
+```
