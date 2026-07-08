@@ -107,3 +107,9 @@ Get-DomainObjectACL -ResolveGUIDs -Identity * | ? {$_.SecurityIdentifier -eq $si
 
 Now we can see that our user `damundsen` has `GenericWrite` privileges over the `Help Desk Level 1` group. This means, among other things, that we can add any user (or ourselves) to this group and inherit any rights that this group has applied to it. A search for rights conferred upon this group does not return anything interesting.
 
+#### Investigating the Help Desk Level 1 Group with Get-DomainGroup
+
+```powershell
+Get-DomainGroup -Identity "Help Desk Level 1" | select memberof
+```
+
