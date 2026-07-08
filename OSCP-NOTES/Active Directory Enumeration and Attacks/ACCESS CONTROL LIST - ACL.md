@@ -194,4 +194,6 @@ first, we must authenticate as `wley` and force change the password of the use
 
 ```powershell
 $SecPassword = ConvertTo-SecureString '<PASSWORD HERE>' -AsPlainText -Force
+
+ $Cred = New-Object System.Management.Automation.PSCredential('INLANEFREIGHT\wley', $SecPassword)
 ```
