@@ -236,3 +236,7 @@ $Cred2 = New-Object System.Management.Automation.PSCredential('INLANEFREIGHT\dam
 Get-ADGroup -Identity "Help Desk Level 1" -Properties * | Select -ExpandProperty Members
 ```
 
+**adding damundsen to the group**
+```powershell
+Add-DomainGroupMember -Identity 'Help Desk Level 1' -Members 'damundsen' -Credential $Cred2 -Verbose
+```
