@@ -265,4 +265,14 @@ Set-DomainObject -Credential $Cred2 -Identity adunn -SET @{serviceprincipalname=
 
  The last step is to attempt to crack the password offline using Hashcat. Once we have the cleartext password, we could now authenticate as the `adunn` user and perform the DCSync attack
 
-## Cleanup
+## Cleanup - notforoscp
+
+#### Removing the Fake SPN from adunn's Account
+```powershell
+Set-DomainObject -Credential $Cred2 -Identity adunn -Clear serviceprincipalname -Verbose
+```
+
+#### Removing damundsen from the Help Desk Level 1 Group
+```powershell
+Remove-DomainGroupMember -Identity "Help Desk Level 1" -Members 'damundsen' -Credential $Cred2 -Verbose
+```
