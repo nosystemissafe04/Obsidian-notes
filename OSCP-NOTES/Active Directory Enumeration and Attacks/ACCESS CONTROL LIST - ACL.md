@@ -63,6 +63,9 @@ Get-DomainObjectACL -Identity * | ? {$_.SecurityIdentifier -eq $sid}
 #### Performing a Reverse Search & Mapping to a GUID Value
 
 ```POWERSHELL
+
 $guid= "00299570-246d-11d0-a768-00aa006e0529"
 
+Get-ADObject -SearchBase "CN=Extended-Rights,$((Get-ADRootDSE).ConfigurationNamingContext)" -Filter {ObjectClass -like 'ControlAccessRight'} -Properties * |Select Name,DisplayName,DistinguishedName,rightsGuid| ?{$_.rightsGuid -eq $guid} | fl
 ```
+
