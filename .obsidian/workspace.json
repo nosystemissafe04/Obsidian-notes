@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/Active Directory Enumeration and Attacks/ACCESS CONTROL LIST - ACL.md",
+                "file": "OSCP-NOTES/Active Directory Enumeration and Attacks/DCSync attack.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ACCESS CONTROL LIST - ACL"
+              "title": "DCSync attack"
             }
           }
         ],
@@ -324,9 +324,10 @@
   },
   "active": "fe6d7a45e4f73a22",
   "lastOpenFiles": [
+    "OSCP-NOTES/Active Directory Enumeration and Attacks/ACCESS CONTROL LIST - ACL.md",
+    "OSCP-NOTES/Active Directory Enumeration and Attacks/DCSync attack.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/assets/Pasted image 20260708142324.png",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/KERBEROASTING.md",
-    "OSCP-NOTES/Active Directory Enumeration and Attacks/ACCESS CONTROL LIST - ACL.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/assets/acl_dacl_sacl_tree.svg",
     "TREASURE/Powershell for Infosec/Execution policy.md",
     "OSCP-NOTES/DISABLE WINDOWS PROTECTION.md",
@@ -369,7 +370,6 @@
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260425035506.png",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260421033341.png",
     "OSCP-NOTES/LINUX PRIVESC/assets/Pasted image 20260421030425.png",
-    "OSCP-NOTES/AV-BYPASS/assets/Pasted image 20260419173054.png",
     "TREASURE/PEN-notes/PRACTICAL MALWARE ANALYSIS/Basic Static Analysis.canvas",
     "Spaces/Untitled 1.canvas",
     "Untitled.canvas",

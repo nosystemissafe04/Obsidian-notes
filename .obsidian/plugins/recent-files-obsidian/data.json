@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "DCSync attack",
+      "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/DCSync attack.md"
+    },
+    {
       "basename": "ACCESS CONTROL LIST - ACL",
       "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/ACCESS CONTROL LIST - ACL.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "WEAK REGISTRY PERMISSIONS (HORIZONTAL ESCALATION)",
       "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (HORIZONTAL ESCALATION).md"
-    },
-    {
-      "basename": "WEAK REGISTRY",
-      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY.md"
     }
   ],
   "omittedPaths": [],
