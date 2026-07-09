@@ -44,3 +44,7 @@ secretsdump.py -outputfile inlanefreight_hashes -just-dc INLANEFREIGHT/adunn@172
 
 *If we check the files created using the `-just-dc` flag, we will see that there are three: one containing the NTLM hashes, one containing Kerberos keys, and one that would contain cleartext passwords from the NTDS for any accounts set with [reversible encryption](https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/store-passwords-using-reversible-encryption) enabled.*
 
+#### Viewing an Account with Reversible Encryption Password Storage Set
+
+![Active Directory Users and Computers showing PROXYAGENT properties with account options and expiration settings.](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/143/reverse_encrypt.png)
+
