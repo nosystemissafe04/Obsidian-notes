@@ -57,4 +57,10 @@ secretsdump.py -outputfile inlanefreight_hashes -just-dc INLANEFREIGHT/adunn@172
 Get-ADUser -Filter 'userAccountControl -band 128' -Properties userAccountControl
 ```
 
+#### Checking for Reversible Encryption Option using Get-DomainUser
+
+```powershell
+Get-DomainUser -Identity * | ? {$_.useraccountcontrol -like '*ENCRYPTED_TEXT_PWD_ALLOWED*'} |select samaccountname,useraccountcontrol
+```
+
 
