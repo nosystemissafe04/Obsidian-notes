@@ -51,3 +51,8 @@ secretsdump.py -outputfile inlanefreight_hashes -just-dc INLANEFREIGHT/adunn@172
 *When this option is set on a user account, it does not mean that the passwords are stored in cleartext. Instead, they are stored using RC4 encryption. The trick here is that the key needed to decrypt them is stored in the registry (the [Syskey](https://docs.microsoft.com/en-us/windows-server/security/kerberos/system-key-utility-technical-overview)) and can be extracted by a Domain Admin or equivalent. Tools such as `secretsdump.py` will decrypt any passwords stored using reversible encryption while dumping the NTDS file either as a Domain Admin or using an attack such as DCSync. If this setting is disabled on an account, a user will need to change their password for it to be stored using one-way encryption. Any passwords set on accounts with this setting enabled will be stored using reversible encryption until they are changed. We can enumerate this using the `Get-ADUser` cmdlet:*
 
 
+#### Enumerating Further using Get-ADUser
+
+```powershell
+Get-ADUser -Filter 'userAccountControl -band 128' -Properties userAccountControl
+```
