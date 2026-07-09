@@ -71,3 +71,7 @@ C:\Windows\system32>runas /netonly /user:INLANEFREIGHT\adunn powershell Enter th
 
 #### Performing the Attack with Mimikatz
 
+We can perform the attack with Mimikatz as well. Using Mimikatz, we must target a specific user. Here we will target the built-in administrator account. We could also target the `krbtgt` account and use this to create a `Golden Ticket` for persistence
+
+*Also it is important to note that Mimikatz must be ran in the context of the user who has DCSync privileges. We can utilize `runas.exe` to accomplish this:*
+
