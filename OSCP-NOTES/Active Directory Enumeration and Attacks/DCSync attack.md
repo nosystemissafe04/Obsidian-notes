@@ -63,4 +63,11 @@ Get-ADUser -Filter 'userAccountControl -band 128' -Properties userAccountControl
 Get-DomainUser -Identity * | ? {$_.useraccountcontrol -like '*ENCRYPTED_TEXT_PWD_ALLOWED*'} |select samaccountname,useraccountcontrol
 ```
 
+#### Using runas.exe
+
+```powershell
+C:\Windows\system32>runas /netonly /user:INLANEFREIGHT\adunn powershell Enter the password for INLANEFREIGHT\adunn: Attempting to start powershell as user "INLANEFREIGHT\adunn" ...
+```
+
+#### Performing the Attack with Mimikatz
 
