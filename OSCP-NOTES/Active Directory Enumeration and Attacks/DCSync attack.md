@@ -11,3 +11,9 @@ To perform this attack, you must have control over an account that has the right
 ```powershell
 Get-DomainUser -Identity adunn |select samaccountname,objectsid,memberof,useraccountcontrol |fl
 ```
+
+
+
+ 
+ We first get the user's SID in the above command and then check all ACLs set on the domain object (`"DC=inlanefreight,DC=local"`) using [Get-ObjectAcl](https://powersploit.readthedocs.io/en/latest/Recon/Get-DomainObjectAcl/) to get the ACLs associated with the object. Here we search specifically for replication rights and check if our user `adunn` (denoted in the below command as `$sid`) possesses these rights.
+
