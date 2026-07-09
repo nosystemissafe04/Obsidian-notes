@@ -36,4 +36,9 @@ secretsdump.py -outputfile inlanefreight_hashes -just-dc INLANEFREIGHT/adunn@172
 - `-just-dc-user <USERNAME>` to only extract data for a specific user
 - `-pwd-last-set` to see when each account's password was last changed
 -  `-history` if we want to dump password history, which may be helpful for offline password cracking or as supplemental data on domain password strength metrics for our client
-- 
+- The `-user-status` is another helpful flag to check and see if a user is disabled. We can dump the NTDS data with this flag and then filter out disabled users when providing our client with password cracking statistics to ensure that data such as:
+	- Number and % of passwords cracked
+	- top 10 passwords
+	- Password length metrics
+	- Password re-use
+
