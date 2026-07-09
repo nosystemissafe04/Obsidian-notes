@@ -31,3 +31,9 @@ Running the tool as below will write all hashes to files with the prefix `inlan
 ```powershell
 secretsdump.py -outputfile inlanefreight_hashes -just-dc INLANEFREIGHT/adunn@172.16.5.5
 ```
+
+- We can use the `-just-dc-ntlm` flag if we only want NTLM hashes or specify
+- `-just-dc-user <USERNAME>` to only extract data for a specific user
+- `-pwd-last-set` to see when each account's password was last changed
+-  `-history` if we want to dump password history, which may be helpful for offline password cracking or as supplemental data on domain password strength metrics for our client
+- 
