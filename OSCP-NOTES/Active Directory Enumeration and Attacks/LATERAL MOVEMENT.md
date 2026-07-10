@@ -15,6 +15,10 @@ We can enumerate this access in various ways. The easiest, once again, is via Bl
 - [SQLAdmin](https://bloodhound.specterops.io/resources/edges/sql-admin)
 
 ## Remote Desktop
-if we have control of a local admin user on a given machine, we will be able to access it via RDP
+  if we have control of a local admin user on a given machine, we will be able to access it via RDP
+
  Sometimes, we will obtain a foothold with a user that does not have local admin rights anywhere, but does have the rights to RDP into one or more machines.
- 
+
+Using PowerView, we could use the [Get-NetLocalGroupMember](https://powersploit.readthedocs.io/en/latest/Recon/Get-NetLocalGroupMember/) function to begin enumerating members of the `Remote Desktop Users` group on a given host.
+
+``
