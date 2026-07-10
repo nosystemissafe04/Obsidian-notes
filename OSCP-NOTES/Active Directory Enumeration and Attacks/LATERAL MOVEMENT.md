@@ -21,4 +21,10 @@ We can enumerate this access in various ways. The easiest, once again, is via Bl
 
 Using PowerView, we could use the [Get-NetLocalGroupMember](https://powersploit.readthedocs.io/en/latest/Recon/Get-NetLocalGroupMember/) function to begin enumerating members of the `Remote Desktop Users` group on a given host.
 
-``
+#### Enumerating the Remote Desktop Users Group
+
+```POWERSHELL
+Get-NetLocalGroupMember -ComputerName ACADEMY-EA-MS01 -GroupName "Remote Desktop Users"
+```
+
+**WE ARE USING ANOTHER COM**
