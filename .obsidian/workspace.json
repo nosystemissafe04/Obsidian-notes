@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY ENUMERATION WITH LOLBAS.md",
+                "file": "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY ENUMERATION USING LEGACY TOOLS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ACTIVE DIRECTORY ENUMERATION WITH LOLBAS"
+              "title": "ACTIVE DIRECTORY ENUMERATION USING LEGACY TOOLS"
             }
           }
         ],
@@ -347,6 +347,7 @@
   },
   "active": "5345e462480d540b",
   "lastOpenFiles": [
+    "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY ENUMERATION WITH LOLBAS.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY ENUMERATION USING LEGACY TOOLS.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/DCSync attack.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/AD CREDENTIAL GROUP ENUMERATION AND MEMBERS FROM LINUX.md",
@@ -360,7 +361,6 @@
     "TREASURE/Powershell for Infosec/Execution policy.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/assets",
     "OSCP-NOTES/Untitled.md",
-    "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY ENUMERATION WITH LOLBAS.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/Active directory Enumeration.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/RPCCLIENT DOMAIN ENUMERATION.md",
     "OSCP-NOTES/Kerberos/KERBEROSTING.md",
