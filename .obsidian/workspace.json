@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/Active Directory Enumeration and Attacks/DCSync attack.md",
+                "file": "OSCP-NOTES/Active Directory Enumeration and Attacks/AD CREDENTIALED GROUP ENUMERATION AND MEMBERS FROM WINDOWS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "DCSync attack"
+              "title": "AD CREDENTIALED GROUP ENUMERATION AND MEMBERS FROM WINDOWS"
             }
           }
         ],
@@ -347,8 +347,9 @@
   },
   "active": "5345e462480d540b",
   "lastOpenFiles": [
-    "OSCP-NOTES/Active Directory Enumeration and Attacks/ACCESS CONTROL LIST - ACL.md",
+    "OSCP-NOTES/Active Directory Enumeration and Attacks/AD CREDENTIAL GROUP ENUMERATION AND MEMBERS FROM LINUX.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/DCSync attack.md",
+    "OSCP-NOTES/Active Directory Enumeration and Attacks/ACCESS CONTROL LIST - ACL.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/assets/Pasted image 20260708142324.png",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/KERBEROASTING.md",
@@ -356,7 +357,6 @@
     "TREASURE/Powershell for Infosec/Execution policy.md",
     "OSCP-NOTES/DISABLE WINDOWS PROTECTION.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/assets",
-    "OSCP-NOTES/Active Directory Enumeration and Attacks/AD CREDENTIAL GROUP ENUMERATION AND MEMBERS FROM LINUX.md",
     "OSCP-NOTES/Untitled.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/AD CREDENTIALED GROUP ENUMERATION AND MEMBERS FROM WINDOWS.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY ENUMERATION WITH LOLBAS.md",
