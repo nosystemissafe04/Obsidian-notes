@@ -9,6 +9,10 @@
       "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/ACCESS CONTROL LIST - ACL.md"
     },
     {
+      "basename": "INITIAL ENUMERATION OF THE DOMAIN",
+      "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md"
+    },
+    {
       "basename": "KERBEROASTING",
       "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/KERBEROASTING.md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "Untitled",
       "path": "OSCP-NOTES/Untitled.md"
-    },
-    {
-      "basename": "INITIAL ENUMERATION OF THE DOMAIN",
-      "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md"
     },
     {
       "basename": "AD CREDENTIALED GROUP ENUMERATION AND MEMBERS FROM WINDOWS",
