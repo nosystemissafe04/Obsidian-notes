@@ -66,7 +66,8 @@ Get-DomainUser -Identity * | ? {$_.useraccountcontrol -like '*ENCRYPTED_TEXT_PWD
 #### Using runas.exe
 
 ```powershell
-C:\Windows\system32>runas /netonly /user:INLANEFREIGHT\adunn powershell Enter the password for INLANEFREIGHT\adunn: 
+C:\Windows\system32>runas /netonly /user:INLANEFREIGHT\adunn powershell
+powershell Enter the password for INLANEFREIGHT\adunn: 
 Attempting to start powershell as user "INLANEFREIGHT\adunn" ...
 ```
 
