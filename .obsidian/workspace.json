@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY ENUMERATION USING LEGACY TOOLS.md",
+                "file": "OSCP-NOTES/Active Directory Enumeration and Attacks/LATERAL MOVEMENT.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ACTIVE DIRECTORY ENUMERATION USING LEGACY TOOLS"
+              "title": "LATERAL MOVEMENT"
             }
           }
         ],
@@ -182,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 377.5,
+    "collapsed": true
   },
   "right": {
     "id": "5689001c4553b175",
@@ -347,8 +348,9 @@
   },
   "active": "5345e462480d540b",
   "lastOpenFiles": [
-    "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY ENUMERATION WITH LOLBAS.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY ENUMERATION USING LEGACY TOOLS.md",
+    "OSCP-NOTES/Active Directory Enumeration and Attacks/LATERAL MOVEMENT.md",
+    "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY ENUMERATION WITH LOLBAS.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/DCSync attack.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/AD CREDENTIAL GROUP ENUMERATION AND MEMBERS FROM LINUX.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/AD CREDENTIALED GROUP ENUMERATION AND MEMBERS FROM WINDOWS.md",
@@ -376,7 +378,6 @@
     "OSCP-NOTES/IMAP.md",
     "OSCP-NOTES/WEB/VHOST FUZZING.md",
     "OSCP-NOTES/CTF/KEVIN - OFFSEC.md",
-    "OSCP-NOTES/CTF/SLORT - OFFSEC.md",
     "OSCP-NOTES/WEB",
     "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY/assets/nosql-injection-graphic.svg",
     "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY/assets",
