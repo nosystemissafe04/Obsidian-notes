@@ -25,6 +25,10 @@ Using PowerView, we could use the [Get-NetLocalGroupMember](https://powersploit
 
 ```POWERSHELL
 Get-NetLocalGroupMember -ComputerName ACADEMY-EA-MS01 -GroupName "Remote Desktop Users"
+
+ComputerName : ACADEMY-EA-MS01 
+GroupName : Remote Desktop Users 
+MemberName : INLANEFREIGHT\Domain Users SID : S-1-5-21-3842939050-3880317879-2865463114-513 IsGroup : True IsDomain : UNKNOWN
 ```
 
 **WE ARE USING GET-NETLOCALGROUPMEMBER NOT GET-DOMAINGROUPMEMBER THEY BOTH ARE DIFFERENT WE ARE LOCALLY FINDING FOR USERS IN THAT GROUP . THE USERS OF THIS GROUP CAN RDP TO MACHINES IN THE NETWORK WE ARE TARGETING THOSE USERS**
@@ -121,8 +125,14 @@ Import-Module .\PowerUpSQL.ps1
 
 Get-SQLInstanceDomain
 
-ComputerName : ACADEMY-EA-DB01.INLANEFREIGHT.LOCAL Instance : ACADEMY-EA-DB01.INLANEFREIGHT.LOCAL,1433 
-DomainAccountSid : 1500000521000170152142291832437223174127203170152400 DomainAccount : damundsen DomainAccountCn : Dana Amundsen Service : MSSQLSvc Spn : MSSQLSvc/ACADEMY-EA-DB01.INLANEFREIGHT.LOCAL:1433 LastLogon : 4/6/2022 11:59 AM
+ComputerName : ACADEMY-EA-DB01.INLANEFREIGHT.LOCAL 
+Instance : ACADEMY-EA-DB01.INLANEFREIGHT.LOCAL,1433 
+DomainAccountSid : 1500000521000170152142291832437223174127203170152400 
+DomainAccount : damundsen 
+DomainAccountCn : Dana Amundsen 
+Service : MSSQLSvc 
+Spn : MSSQLSvc/ACADEMY-EA-DB01.INLANEFREIGHT.LOCAL:1433 
+LastLogon : 4/6/2022 11:59 AM
 ```
 
 *We could then authenticate against the remote SQL server host and run custom queries or operating system commands*
