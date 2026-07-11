@@ -83,3 +83,10 @@ $cred = new-object System.Management.Automation.PSCredential ("INLANEFREIGHT\for
 Enter-PSSession -ComputerName ACADEMY-EA-MS01 -Credential $cred
 
 ```
+
+#### Connecting to a Target with Evil-WinRM and Valid Credentials
+
+```shell
+evil-winrm -i 10.129.201.234 -u forend
+```
+
