@@ -28,7 +28,10 @@ Get-NetLocalGroupMember -ComputerName ACADEMY-EA-MS01 -GroupName "Remote Desktop
 
 ComputerName : ACADEMY-EA-MS01 
 GroupName : Remote Desktop Users 
-MemberName : INLANEFREIGHT\Domain Users SID : S-1-5-21-3842939050-3880317879-2865463114-513 IsGroup : True IsDomain : UNKNOWN
+MemberName : INLANEFREIGHT\Domain Users 
+SID : S-1-5-21-3842939050-3880317879-2865463114-513 
+IsGroup : True 
+IsDomain : UNKNOWN
 ```
 
 **WE ARE USING GET-NETLOCALGROUPMEMBER NOT GET-DOMAINGROUPMEMBER THEY BOTH ARE DIFFERENT WE ARE LOCALLY FINDING FOR USERS IN THAT GROUP . THE USERS OF THIS GROUP CAN RDP TO MACHINES IN THE NETWORK WE ARE TARGETING THOSE USERS**
@@ -148,4 +151,6 @@ Get-SQLQuery -Verbose -Instance "172.16.5.150,1433" -username "inlanefreight\dam
 ```powershell
 mssqlclient.py INLANEFREIGHT/DAMUNDSEN@172.16.5.150 -windows-auth
 ```
+
+Once connected, we could type `help` to see what commands are available to us.
 
