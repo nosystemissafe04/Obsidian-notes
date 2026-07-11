@@ -99,9 +99,14 @@ More often than not, we will encounter SQL servers in the environments we face. 
 - LLMNR/NBT-NS Response Spoofing or password spraying.
 - Another way that you may find SQL server credentials is using the tool [Snaffler](https://github.com/SnaffCon/Snaffler) to find web.config or other types of configuration files that contain SQL server connection strings.
 
+#### Using a Custom Cypher Query to Check for SQL Admin Rights in BloodHound
+
 BloodHound, once again, is a great bet for finding this type of access via the `SQLAdmin` edge. We can check for `SQL Admin Rights` in the `Node Info` tab for a given user or use this custom Cypher query to search:
 
 ```bloodhound
 MATCH p1=shortestPath((u1:User)-[r1:MemberOf*1..]->(g1:Group)) MATCH p2=(u1)-[:SQLAdmin*1..]->(c:Computer) RETURN p2
 ```
+
+
+![Graph showing SQLAdmin connection from ACADEMY-EA-DB01.INLANEFREIGHT.LOCAL to DAMUNDSEN@INLANEFREIGHT.LOCAL.](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/143/sqladmins_bh.png)
 
