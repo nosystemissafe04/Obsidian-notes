@@ -93,3 +93,9 @@ evil-winrm -i 10.129.201.234 -u forend
 
 ## SQL Server Admin
 
+More often than not, we will encounter SQL servers in the environments we face. It is common to find user and service accounts set up with sysadmin privileges on a given SQL server instance.
+
+- We may obtain credentials for an account with this access via Kerberoasting
+- LLMNR/NBT-NS Response Spoofing or password spraying.
+- Another way that you may find SQL server credentials is using the tool [Snaffler](https://github.com/SnaffCon/Snaffler) to find web.config or other types of configuration files that contain SQL server connection strings.
+
