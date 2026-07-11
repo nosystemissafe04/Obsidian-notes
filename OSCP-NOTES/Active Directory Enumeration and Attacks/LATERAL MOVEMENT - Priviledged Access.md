@@ -120,5 +120,4 @@ cd .\PowerUpSQL\
 Import-Module .\PowerUpSQL.ps1
 
 Get-SQLInstanceDomain
-
 ```
