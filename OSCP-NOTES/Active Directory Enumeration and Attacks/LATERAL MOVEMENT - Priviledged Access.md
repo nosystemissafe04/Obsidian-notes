@@ -78,4 +78,8 @@ We could also add this as a custom query to our BloodHound installation, so it's
 ```powershell
 $password = ConvertTo-SecureString "Klmcargo2" -AsPlainText -Force
 
+$cred = new-object System.Management.Automation.PSCredential ("INLANEFREIGHT\forend", $password)
+
+Enter-PSSession -ComputerName ACADEMY-EA-MS01 -Credential $cred
+
 ```
