@@ -68,3 +68,7 @@ MATCH p1=shortestPath((u1:User)-[r1:MemberOf*1..]->(g1:Group)) MATCH p2=(u1)-[:C
 ![BloodHound graph showing connection from FOREND@INLANEFREIGHT.LOCAL to ACADEMY-EA-MS01.INLANEFREIGHT.LOCAL via CanPSRemote.](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/143/canpsremote_bh_cypherq.png)
 
 We could also add this as a custom query to our BloodHound installation, so it's always available to us.
+
+#### Adding the Cypher Query as a Custom Query in BloodHound
+
+![Interface for creating a custom query to find WinRM users with dangerous rights.](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/143/user_defined_query.png)
