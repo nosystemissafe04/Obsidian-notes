@@ -121,3 +121,12 @@ Import-Module .\PowerUpSQL.ps1
 
 Get-SQLInstanceDomain
 ```
+
+*We could then authenticate against the remote SQL server host and run custom queries or operating system commands*
+
+```powershell
+Get-SQLQuery -Verbose -Instance "172.16.5.150,1433" -username "inlanefreight\damundsen" -password "SQL1234!" -query 'Select @@version'
+```
+
+**We can also authenticate from our Linux attack host using [mssqlclient.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/mssqlclient.py) from the Impacket toolkit.**
+
