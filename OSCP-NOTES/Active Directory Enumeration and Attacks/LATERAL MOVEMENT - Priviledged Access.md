@@ -57,3 +57,14 @@ Like RDP, we may find that either a specific user or an entire group has WinRM a
 Get-NetLocalGroupMember -ComputerName ACADEMY-EA-MS01 -GroupName "Remote Management Users"
 ```
 
+We can also utilize this custom `Cypher query` in BloodHound to hunt for users with this type of access. This can be done by pasting the query into the `Raw Query` box at the bottom of the screen and hitting enter.
+
+```bloodhound
+MATCH p1=shortestPath((u1:User)-[r1:MemberOf*1..]->(g1:Group)) MATCH p2=(u1)-[:CanPSRemote*1..]->(c:Computer) RETURN p2
+```
+
+#### Using the Cypher Query in BloodHound
+
+![BloodHound graph showing connection from FOREND@INLANEFREIGHT.LOCAL to ACADEMY-EA-MS01.INLANEFREIGHT.LOCAL via CanPSRemote.](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/143/canpsremote_bh_cypherq.png)
+
+We could also add this as a custom query to our BloodHound installation, so it's always available to us.
