@@ -169,6 +169,10 @@ SQL> help
      ! {cmd}                    - executes a local shell cmd
 ```
 
-```
 
 We could then choose `enable_xp_cmdshell` to enable the [xp_cmdshell stored procedure](https://docs.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/xp-cmdshell-transact-sql?view=sql-server-ver15) which allows for one to execute operating system commands via the database if the account in question has the proper access rights.
+
+#### Choosing enable_xp_cmdshell
+
+```shell
+```
