@@ -47,4 +47,13 @@ We could also check the `Analysis` tab and run the pre-built queries `Find Wo
 
 To test this access, we can either use a tool such as `xfreerdp` or `Remmina` from our VM or the Pwnbox or *`mstsc.exe` if attacking from a Windows host.*
 
+## WinRM
+
+Like RDP, we may find that either a specific user or an entire group has WinRM access to one or more hosts. This could also be low-privileged access that we could use to hunt for sensitive data or attempt to escalate privileges or may result in local admin access, which could potentially be leveraged to further our access. We can again use the PowerView function `Get-NetLocalGroupMember` to the `Remote Management Users` group. This group has existed since the days of Windows 8/Windows Server 2012 to enable WinRM access without granting local admin rights.
+
+#### Enumerating the Remote Management Users Group
+
+```powershell
+Get-NetLocalGroupMember -ComputerName ACADEMY-EA-MS01 -GroupName "Remote Management Users"
+```
 
