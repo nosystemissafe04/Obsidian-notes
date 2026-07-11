@@ -175,4 +175,6 @@ We could then choose `enable_xp_cmdshell` to enable the [xp_cmdshell stored p
 #### Choosing enable_xp_cmdshell
 
 ```shell
+SQL> enable_xp_cmdshell
 ```
+
