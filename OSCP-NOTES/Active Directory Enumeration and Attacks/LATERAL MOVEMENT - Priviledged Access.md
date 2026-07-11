@@ -72,3 +72,10 @@ We could also add this as a custom query to our BloodHound installation, so it's
 #### Adding the Cypher Query as a Custom Query in BloodHound
 
 ![Interface for creating a custom query to find WinRM users with dangerous rights.](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/143/user_defined_query.png)
+
+#### Establishing WinRM Session from Windows
+
+```powershell
+$password = ConvertTo-SecureString "Klmcargo2" -AsPlainText -Force
+
+```
