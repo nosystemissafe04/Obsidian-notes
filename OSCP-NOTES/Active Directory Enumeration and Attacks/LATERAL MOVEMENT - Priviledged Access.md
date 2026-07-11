@@ -33,3 +33,9 @@ From the information above, we can see that all Domain Users (meaning `all` us
 
 we may find a local privilege escalation vector that could lead to local admin access and credential theft/account takeover for a user with more privileges in the domain. Typically the first thing I check after importing BloodHound data is:
 
+#### Checking the Domain Users Group's Local Admin & Execution Rights using BloodHound
+
+![Graph showing DOMAIN USERS@INLANEFREIGHT.LOCAL with local admin and execution rights, connected to ACADEMY-EA-MS01.INLANEFREIGHT.LOCAL via CanRDP.](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/143/bh_RDP_domain_users.png)
+
+If we gain control over a user through an attack such as LLMNR/NBT-NS Response Spoofing or Kerberoasting, we can search for the username in BloodHound to check what type of remote access rights they have either directly or inherited via group membership under `Execution Rights` on the `Node Info` tab.
+
