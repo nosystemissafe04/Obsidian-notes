@@ -45,5 +45,6 @@ If we gain control over a user through an attack such as LLMNR/NBT-NS Response S
 
 We could also check the `Analysis` tab and run the pre-built queries `Find Workstations where Domain Users can RDP` or `Find Servers where Domain Users can RDP`. There are other ways to enumerate this information, but BloodHound is a powerful tool that can help us narrow down these types of access rights quickly and accurately, which is hugely beneficial to us as penetration testers under time constraints for the assessment period.
 
-To test this access, we can either use a tool such as `xfreerdp` or `Remmina` from our VM or the Pwnbox or `mstsc.exe` if attacking from a Windows host.
+To test this access, we can either use a tool such as `xfreerdp` or `Remmina` from our VM or the Pwnbox or *`mstsc.exe` if attacking from a Windows host.*
+
 
