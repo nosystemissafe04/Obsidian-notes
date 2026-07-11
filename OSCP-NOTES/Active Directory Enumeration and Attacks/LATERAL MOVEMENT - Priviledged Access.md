@@ -154,3 +154,21 @@ mssqlclient.py INLANEFREIGHT/DAMUNDSEN@172.16.5.150 -windows-auth
 
 Once connected, we could type `help` to see what commands are available to us.
 
+#### Viewing our Options with Access to the SQL Server
+
+```shell
+
+SQL> help
+
+     lcd {path}                 - changes the current local directory to {path}
+     exit                       - terminates the server process (and this session)
+     enable_xp_cmdshell         - you know what it means
+     disable_xp_cmdshell        - you know what it means
+     xp_cmdshell {cmd}          - executes cmd using xp_cmdshell
+     sp_start_job {cmd}         - executes cmd using the sql server agent (blind)
+     ! {cmd}                    - executes a local shell cmd
+```
+
+```
+
+We could then choose `enable_xp_cmdshell` to enable the [xp_cmdshell stored procedure](https://docs.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/xp-cmdshell-transact-sql?view=sql-server-ver15) which allows for one to execute operating system commands via the database if the account in question has the proper access rights.
