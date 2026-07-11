@@ -90,3 +90,6 @@ Enter-PSSession -ComputerName ACADEMY-EA-MS01 -Credential $cred
 evil-winrm -i 10.129.201.234 -u forend
 ```
 
+
+## SQL Server Admin
+
