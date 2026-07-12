@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "LATERAL MOVEMENT - Priviledged Access",
+      "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/LATERAL MOVEMENT - Priviledged Access.md"
+    },
+    {
       "basename": "INITIAL ENUMERATION OF THE DOMAIN",
       "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md"
     },
     {
       "basename": "ACCESS CONTROL LIST - ACL",
       "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/ACCESS CONTROL LIST - ACL.md"
-    },
-    {
-      "basename": "LATERAL MOVEMENT - Priviledged Access",
-      "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/LATERAL MOVEMENT - Priviledged Access.md"
     },
     {
       "basename": "ACTIVE DIRECTORY ENUMERATION USING LEGACY TOOLS",
