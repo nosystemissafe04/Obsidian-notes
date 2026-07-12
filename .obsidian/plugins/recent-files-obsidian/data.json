@@ -5,6 +5,10 @@
       "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md"
     },
     {
+      "basename": "ACCESS CONTROL LIST - ACL",
+      "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/ACCESS CONTROL LIST - ACL.md"
+    },
+    {
       "basename": "LATERAL MOVEMENT - Priviledged Access",
       "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/LATERAL MOVEMENT - Priviledged Access.md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "DISABLE WINDOWS PROTECTION",
       "path": "OSCP-NOTES/DISABLE WINDOWS PROTECTION.md"
-    },
-    {
-      "basename": "ACCESS CONTROL LIST - ACL",
-      "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/ACCESS CONTROL LIST - ACL.md"
     },
     {
       "basename": "KERBEROASTING",
