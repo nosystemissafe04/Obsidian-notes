@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "LATERAL MOVEMENT - Priviledged Access",
+      "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/LATERAL MOVEMENT - Priviledged Access.md"
+    },
+    {
       "basename": "ACCESS CONTROL LIST - ACL",
       "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/ACCESS CONTROL LIST - ACL.md"
     },
     {
-      "basename": "LATERAL MOVEMENT - Priviledged Access",
-      "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/LATERAL MOVEMENT - Priviledged Access.md"
+      "basename": "DISABLE WINDOWS PROTECTION",
+      "path": "OSCP-NOTES/DISABLE WINDOWS PROTECTION.md"
     },
     {
       "basename": "INITIAL ENUMERATION OF THE DOMAIN",
@@ -31,10 +35,6 @@
     {
       "basename": "AD CREDENTIALED GROUP ENUMERATION AND MEMBERS FROM WINDOWS",
       "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/AD CREDENTIALED GROUP ENUMERATION AND MEMBERS FROM WINDOWS.md"
-    },
-    {
-      "basename": "DISABLE WINDOWS PROTECTION",
-      "path": "OSCP-NOTES/DISABLE WINDOWS PROTECTION.md"
     },
     {
       "basename": "KERBEROASTING",

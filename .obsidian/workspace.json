@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d62c0c6fb7d62f7f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OSCP-NOTES/DISABLE WINDOWS PROTECTION.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "DISABLE WINDOWS PROTECTION"
-            }
-          },
-          {
             "id": "fe6d7a45e4f73a22",
             "type": "leaf",
             "state": {
@@ -53,6 +29,30 @@
               },
               "icon": "lucide-file",
               "title": "ACCESS CONTROL LIST - ACL"
+            }
+          },
+          {
+            "id": "5b1830bb38480ba4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OSCP-NOTES/Active Directory Enumeration and Attacks/LATERAL MOVEMENT - Priviledged Access.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "LATERAL MOVEMENT - Priviledged Access"
             }
           },
           {
@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -346,17 +346,17 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "5345e462480d540b",
+  "active": "5b1830bb38480ba4",
   "lastOpenFiles": [
+    "OSCP-NOTES/Active Directory Enumeration and Attacks/ACCESS CONTROL LIST - ACL.md",
+    "OSCP-NOTES/DISABLE WINDOWS PROTECTION.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/LATERAL MOVEMENT - Priviledged Access.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md",
-    "OSCP-NOTES/Active Directory Enumeration and Attacks/ACCESS CONTROL LIST - ACL.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY ENUMERATION USING LEGACY TOOLS.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY ENUMERATION WITH LOLBAS.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/DCSync attack.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/AD CREDENTIAL GROUP ENUMERATION AND MEMBERS FROM LINUX.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/AD CREDENTIALED GROUP ENUMERATION AND MEMBERS FROM WINDOWS.md",
-    "OSCP-NOTES/DISABLE WINDOWS PROTECTION.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/assets/Pasted image 20260708142324.png",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/KERBEROASTING.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/assets/acl_dacl_sacl_tree.svg",
