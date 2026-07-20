@@ -79,7 +79,8 @@
               "title": "ACCESS CONTROL LIST - ACL"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -344,8 +345,9 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "fe6d7a45e4f73a22",
+  "active": "5b1830bb38480ba4",
   "lastOpenFiles": [
+    "TREASURE/SOURCES/COPY-OSCP/22. Active Directory Introduction and Enumeration.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/LATERAL MOVEMENT - Priviledged Access.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/ACCESS CONTROL LIST - ACL.md",
     "OSCP-NOTES/DISABLE WINDOWS PROTECTION.md",
@@ -375,7 +377,6 @@
     "OSCP-NOTES/PASSWORD ATTACK IN ACTIVE DIRECTORY.md",
     "OSCP-NOTES/IMAP.md",
     "OSCP-NOTES/WEB/VHOST FUZZING.md",
-    "OSCP-NOTES/CTF/KEVIN - OFFSEC.md",
     "OSCP-NOTES/WEB",
     "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY/assets/nosql-injection-graphic.svg",
     "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY/assets",
