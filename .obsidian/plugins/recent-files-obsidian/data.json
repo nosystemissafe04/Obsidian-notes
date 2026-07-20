@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "22. Active Directory Introduction and Enumeration",
+      "path": "TREASURE/SOURCES/COPY-OSCP/22. Active Directory Introduction and Enumeration.md"
+    },
+    {
       "basename": "LATERAL MOVEMENT - Priviledged Access",
       "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/LATERAL MOVEMENT - Priviledged Access.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "ADV PRIVESCK VONNIE HUDSONE",
       "path": "OSCP-NOTES/LINUX PRIVESC/ADV PRIVESCK VONNIE HUDSONE.md"
-    },
-    {
-      "basename": "WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION)",
-      "path": "OSCP-NOTES/Advance-windows-privesk Vonnie/WEAK REGISTRY PERMISSIONS (VERTICAL ESCALATION).md"
     }
   ],
   "omittedPaths": [],

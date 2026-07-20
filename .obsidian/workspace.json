@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/Active Directory Enumeration and Attacks/LATERAL MOVEMENT - Priviledged Access.md",
+                "file": "TREASURE/SOURCES/COPY-OSCP/22. Active Directory Introduction and Enumeration.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "LATERAL MOVEMENT - Priviledged Access"
+              "title": "22. Active Directory Introduction and Enumeration"
             }
           },
           {
@@ -180,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 377.5,
+    "collapsed": true
   },
   "right": {
     "id": "5689001c4553b175",
@@ -343,10 +344,10 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "974f9231aef97f7c",
+  "active": "fe6d7a45e4f73a22",
   "lastOpenFiles": [
-    "OSCP-NOTES/Active Directory Enumeration and Attacks/ACCESS CONTROL LIST - ACL.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/LATERAL MOVEMENT - Priviledged Access.md",
+    "OSCP-NOTES/Active Directory Enumeration and Attacks/ACCESS CONTROL LIST - ACL.md",
     "OSCP-NOTES/DISABLE WINDOWS PROTECTION.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/ACTIVE DIRECTORY ENUMERATION USING LEGACY TOOLS.md",
