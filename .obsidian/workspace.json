@@ -98,7 +98,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bloodhound-py",
+                "query": "sharphound",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -176,13 +176,11 @@
               "title": "Files"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 377.5,
-    "collapsed": true
+    "width": 377.5
   },
   "right": {
     "id": "5689001c4553b175",
@@ -345,7 +343,7 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "fe6d7a45e4f73a22",
+  "active": "974f9231aef97f7c",
   "lastOpenFiles": [
     "OSCP-NOTES/Active Directory Enumeration and Attacks/ACCESS CONTROL LIST - ACL.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/LATERAL MOVEMENT - Priviledged Access.md",
