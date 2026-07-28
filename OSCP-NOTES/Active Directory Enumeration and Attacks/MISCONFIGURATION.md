@@ -9,7 +9,8 @@ The tool works because, by default, all users can list the child objects of a DN
  By default, querying DNS records using LDAP does not return all results. So by using the `adidnsdump` tool, we can resolve all records in the zone and potentially find something useful for our engagement.
 
 ```SHELL
-adidnsdump -u inlanefreight\\forend ldap://172.16.5.5
+adidnsdump -u inlanefreight\\forend ldap://172.16.5.5 -R
 ```
 
-THIS WILL CREATE A 
+THIS WILL CREATE A CSV FILE of records
+
