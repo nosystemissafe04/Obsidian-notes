@@ -57,4 +57,10 @@ This was patched in 2014 [MS14-025 Vulnerability in GPP could allow elevation o
 
 The XML looks like the following:
 
+If you retrieve the cpassword value more manually, the `gpp-decrypt` utility can be used to decrypt the password as follows:
+
+#### Decrypting the Password with gpp-decrypt
+```shell
+gpp-decrypt VPe/o9YRyz2cksnYRbNeQj35w9KxQ5ttbvtRaAVqxaE
+```
 
