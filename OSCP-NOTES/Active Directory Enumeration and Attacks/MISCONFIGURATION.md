@@ -42,3 +42,12 @@ ls \\academy-ea-dc01\SYSVOL\INLANEFREIGHT.LOCAL\scripts
 
 ## Group Policy Preferences (GPP) Passwords
 
+When a new GPP is created, an .xml file is created in the SYSVOL share, which is also cached locally on endpoints that the Group Policy applies to. These files can include those used to:
+
+- Map drives (drives.xml)
+- Create local users
+- Create printer config files (printers.xml)
+- Creating and updating services (services.xml)
+- Creating scheduled tasks (scheduledtasks.xml)
+- Changing local admin passwords.
+
