@@ -40,3 +40,5 @@ The SYSVOL share can be a treasure trove of data, especially in large organizati
 ls \\academy-ea-dc01\SYSVOL\INLANEFREIGHT.LOCAL\scripts
 ```
 
+## Group Policy Preferences (GPP) Passwords
+
