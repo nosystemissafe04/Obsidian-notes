@@ -73,5 +73,5 @@ CrackMapExec also has two modules for locating and retrieving GPP passwords. One
 #### Locating & Retrieving GPP Passwords with CrackMapExec
 
 ```shell
-
+crackmapexec smb -L | grep gpp
 ```
