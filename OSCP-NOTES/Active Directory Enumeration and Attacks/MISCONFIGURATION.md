@@ -35,3 +35,8 @@ Get-DomainUser -UACFilter PASSWD_NOTREQD | Select-Object samaccountname,useracco
 ## Credentials in SMB Shares and SYSVOL Scripts
 
 The SYSVOL share can be a treasure trove of data, especially in large organizations. We may find many different batch, VBScript, and PowerShell scripts within the scripts directory, which is readable by all authenticated users in the domain. It is worth digging around this directory to hunt for passwords stored in scripts. Sometimes we will find very old scripts containing since disabled accounts or old passwords, but from time to time, we will strike gold, so we should always dig through this directory. Here, we can see an interesting script named `reset_local_admin_pass.vbs`.
+
+```powershell
+ls \\academy-ea-dc01\SYSVOL\INLANEFREIGHT.LOCAL\scripts
+```
+
