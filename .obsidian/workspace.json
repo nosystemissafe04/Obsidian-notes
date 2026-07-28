@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/Active Directory Enumeration and Attacks/LATERAL MOVEMENT - Priviledged Access.md",
+                "file": "OSCP-NOTES/Active Directory Enumeration and Attacks/MISCONFIGURATION.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "LATERAL MOVEMENT - Priviledged Access"
+              "title": "MISCONFIGURATION"
             }
           },
           {
@@ -177,7 +177,8 @@
               "title": "Files"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -347,8 +348,9 @@
   },
   "active": "5b1830bb38480ba4",
   "lastOpenFiles": [
-    "TREASURE/SOURCES/COPY-OSCP/22. Active Directory Introduction and Enumeration.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/LATERAL MOVEMENT - Priviledged Access.md",
+    "OSCP-NOTES/Active Directory Enumeration and Attacks/MISCONFIGURATION.md",
+    "TREASURE/SOURCES/COPY-OSCP/22. Active Directory Introduction and Enumeration.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/ACCESS CONTROL LIST - ACL.md",
     "OSCP-NOTES/DISABLE WINDOWS PROTECTION.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md",
@@ -376,7 +378,6 @@
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-LOCAL-PORT-FORWARD-EXPLANATION.md",
     "OSCP-NOTES/PASSWORD ATTACK IN ACTIVE DIRECTORY.md",
     "OSCP-NOTES/IMAP.md",
-    "OSCP-NOTES/WEB/VHOST FUZZING.md",
     "OSCP-NOTES/WEB",
     "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY/assets/nosql-injection-graphic.svg",
     "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY/assets",

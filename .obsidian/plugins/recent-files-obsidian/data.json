@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "MISCONFIGURATION",
+      "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/MISCONFIGURATION.md"
+    },
+    {
       "basename": "LATERAL MOVEMENT - Priviledged Access",
       "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/LATERAL MOVEMENT - Priviledged Access.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "CVE",
       "path": "OSCP-NOTES/LINUX PRIVESC/CVE.md"
-    },
-    {
-      "basename": "ADV PRIVESCK VONNIE HUDSONE",
-      "path": "OSCP-NOTES/LINUX PRIVESC/ADV PRIVESCK VONNIE HUDSONE.md"
     }
   ],
   "omittedPaths": [],
