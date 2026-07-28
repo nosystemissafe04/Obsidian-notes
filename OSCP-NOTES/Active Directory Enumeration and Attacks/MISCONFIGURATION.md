@@ -22,3 +22,11 @@ Sensitive information such as account passwords are sometimes found in the user 
 Get-DomainUser * | Select-Object samaccountname,description |Where-Object {$_.Description -ne $null}
 ```
 
+## PASSWD_NOTREQD Field
+
+It is possible to come across domain accounts with the [passwd_notreqd](https://ldapwiki.com/wiki/Wiki.jsp?page=PASSWD_NOTREQD) field set in the userAccountControl attribute. If this is set, the user is not subject to the current password policy length, meaning they could have a shorter password or no password at all (if empty passwords are allowed in the domain). A password may be set as blank intentionally (sometimes admins don’t want to be called out of hours to reset user passwords) or accidentally hitting enter before entering a password when changing it via the command line. Just because this flag is set on an account, it doesn't mean that no password is set, just that one may not be required.
+
+#### Checking for PASSWD_NOTREQD Setting using Get-DomainUser
+
+```power
+```
