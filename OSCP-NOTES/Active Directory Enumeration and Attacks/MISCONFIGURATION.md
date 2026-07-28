@@ -17,3 +17,8 @@ THIS WILL CREATE A CSV FILE of records
 ### Password in Description Field
 Sensitive information such as account passwords are sometimes found in the user account `Description` or `Notes` fields and can be quickly enumerated using PowerView. For large domains, it is helpful to export this data to a CSV file to review offline.
 
+#### Finding Passwords in the Description Field using Get-Domain User
+```powershell
+Get-DomainUser * | Select-Object samaccountname,description |Where-Object {$_.Description -ne $null}
+```
+
