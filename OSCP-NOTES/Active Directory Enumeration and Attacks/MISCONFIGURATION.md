@@ -68,3 +68,10 @@ GPP passwords can be located by searching or manually browsing the SYSVOL share 
 
  GPP Metasploit Post Module, and other Python/Ruby scripts which will locate the GPP and return the decrypted cpassword value.
 
+CrackMapExec also has two modules for locating and retrieving GPP passwords. One quick tip to consider during engagements Often, GPP passwords are defined for legacy accounts, and you may therefore retrieve and decrypt the password for a locked or deleted account. However, it is worth attempting to password spray internally with this password (especially if it is unique). Password re-use is widespread, and the GPP password combined with password spraying could result in further access.
+
+#### Locating & Retrieving GPP Passwords with CrackMapExec
+
+```shell
+
+```
