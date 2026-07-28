@@ -6,3 +6,10 @@ This is especially helpful if the naming convention for hosts returned to us in 
 
 The tool works because, by default, all users can list the child objects of a DNS zone in an AD environment.
 
+ By default, querying DNS records using LDAP does not return all results. So by using the `adidnsdump` tool, we can resolve all records in the zone and potentially find something useful for our engagement.
+
+```SHELL
+adidnsdump -u inlanefreight\\forend ldap://172.16.5.5
+```
+
+THIS WILL CREATE A 
