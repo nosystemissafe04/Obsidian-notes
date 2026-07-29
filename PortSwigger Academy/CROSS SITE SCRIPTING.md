@@ -16,4 +16,8 @@ It's long been common practice to use the `alert()` function for this purpose 
 
 ## Reflected xss 
  It arises when an application receives data in an HTTP request and includes that data within the immediate response in an unsafe way.
- 
+The application doesn't perform any other processing of the data, so an attacker can easily construct an attack like this:
+
+```url
+https://insecure-website.com/status?message=<script>/*+Bad+stuff+here...+*/</script> <p>Status: <script>/* Bad stuff here... */</script></p>
+```
