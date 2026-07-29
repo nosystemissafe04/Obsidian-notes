@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP-NOTES/Active Directory Enumeration and Attacks/MISCONFIGURATION.md",
+                "file": "PortSwigger Academy/CROSS SITE SCRIPTING.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MISCONFIGURATION"
+              "title": "CROSS SITE SCRIPTING"
             }
           },
           {
@@ -348,8 +348,10 @@
   },
   "active": "5b1830bb38480ba4",
   "lastOpenFiles": [
-    "OSCP-NOTES/Active Directory Enumeration and Attacks/LATERAL MOVEMENT - Priviledged Access.md",
+    "PortSwigger Academy/CROSS-SITE REQUEST FORGERY.md",
+    "PortSwigger Academy/CROSS SITE SCRIPTING.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/MISCONFIGURATION.md",
+    "OSCP-NOTES/Active Directory Enumeration and Attacks/LATERAL MOVEMENT - Priviledged Access.md",
     "TREASURE/SOURCES/COPY-OSCP/22. Active Directory Introduction and Enumeration.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/ACCESS CONTROL LIST - ACL.md",
     "OSCP-NOTES/DISABLE WINDOWS PROTECTION.md",
@@ -371,13 +373,11 @@
     "TREASURE/Powershell for Infosec/Powershell Language Modes.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-DYNAMIC-PORT-FORWARDING-EXPLANATION.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/CHISEL.md",
-    "PortSwigger Academy/CROSS-SITE REQUEST FORGERY.md",
     "TREASURE/Powershell for Infosec/Credentials and Remoting.md",
     "PortSwigger Academy",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SOCAT.md",
     "OSCP-NOTES/TUNNELING AND PORT FORWARDING/SSH-LOCAL-PORT-FORWARD-EXPLANATION.md",
     "OSCP-NOTES/PASSWORD ATTACK IN ACTIVE DIRECTORY.md",
-    "OSCP-NOTES/IMAP.md",
     "OSCP-NOTES/WEB",
     "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY/assets/nosql-injection-graphic.svg",
     "TREASURE/WEB-SECURITY/PORTSWIGGER ACADEMY/assets",

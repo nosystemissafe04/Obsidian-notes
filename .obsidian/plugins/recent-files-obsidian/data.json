@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "CROSS SITE SCRIPTING",
+      "path": "PortSwigger Academy/CROSS SITE SCRIPTING.md"
+    },
+    {
+      "basename": "CROSS-SITE REQUEST FORGERY",
+      "path": "PortSwigger Academy/CROSS-SITE REQUEST FORGERY.md"
+    },
+    {
       "basename": "MISCONFIGURATION",
       "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/MISCONFIGURATION.md"
     },
@@ -83,10 +91,6 @@
     {
       "basename": "CHISEL",
       "path": "OSCP-NOTES/TUNNELING AND PORT FORWARDING/CHISEL.md"
-    },
-    {
-      "basename": "CROSS-SITE REQUEST FORGERY",
-      "path": "PortSwigger Academy/CROSS-SITE REQUEST FORGERY.md"
     },
     {
       "basename": "Credentials and Remoting",
@@ -195,10 +199,6 @@
     {
       "basename": "MODIFY LAUNCH DAEMON",
       "path": "OSCP-NOTES/LINUX PRIVESC/MODIFY LAUNCH DAEMON.md"
-    },
-    {
-      "basename": "CVE",
-      "path": "OSCP-NOTES/LINUX PRIVESC/CVE.md"
     }
   ],
   "omittedPaths": [],
