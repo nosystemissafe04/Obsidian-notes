@@ -12,4 +12,4 @@ It's long been common practice to use the `alert()` function for this purpose 
 ## TYPES OF XSS 
 - reflected xss = where the malicious script comes from the current HTTP request 
 - stores xss = where the malicious script comes from the websites database 
-- dom-based xss = 
+- dom-based xss = where the vulnerability exists in client side code rather than server-side code 
