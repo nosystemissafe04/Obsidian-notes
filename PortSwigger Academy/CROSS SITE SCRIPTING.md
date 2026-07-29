@@ -13,3 +13,7 @@ It's long been common practice to use the `alert()` function for this purpose 
 - reflected xss = where the malicious script comes from the current HTTP request 
 - stores xss = where the malicious script comes from the websites database 
 - dom-based xss = where the vulnerability exists in client side code rather than server-side code 
+
+## Reflected xss 
+ It arises when an application receives data in an HTTP request and includes that data within the immediate response in an unsafe way.
+ 
