@@ -6,3 +6,4 @@ Cross-site scripting works by manipulating a vulnerable web site so that it retu
 
 ## XSS proof of concept
 
+It's long been common practice to use the `alert()` function for this purpose because it's short, harmless, and pretty hard to miss when it's successfully called
