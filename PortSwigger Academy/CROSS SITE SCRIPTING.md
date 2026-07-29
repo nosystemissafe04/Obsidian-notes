@@ -24,3 +24,6 @@ https://insecure-website.com/status?message=<script>/*+Bad+stuff+here...+*/</scr
 
 If the user visits the URL constructed by the attacker, then the attacker's script executes in the user's browser, in the context of that user's session with the application. At that point, the script can carry out any action, and retrieve any data, to which the user has access.
 
+## Stored cross-site scripting
+
+Stored XSS (also known as persistent or second-order XSS) arises when an application receives data from an untrusted source and includes that data within its later HTTP responses in an unsafe way.
