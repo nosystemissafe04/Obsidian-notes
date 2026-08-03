@@ -79,8 +79,7 @@
               "title": "ACCESS CONTROL LIST - ACL"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -346,10 +345,10 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "5b1830bb38480ba4",
+  "active": "fe6d7a45e4f73a22",
   "lastOpenFiles": [
-    "PortSwigger Academy/CROSS-SITE REQUEST FORGERY.md",
     "PortSwigger Academy/CROSS SITE SCRIPTING.md",
+    "PortSwigger Academy/CROSS-SITE REQUEST FORGERY.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/MISCONFIGURATION.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/LATERAL MOVEMENT - Priviledged Access.md",
     "TREASURE/SOURCES/COPY-OSCP/22. Active Directory Introduction and Enumeration.md",
