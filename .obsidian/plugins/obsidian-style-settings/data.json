@@ -10,7 +10,7 @@
   "anuppuccin-theme-settings@@anuppuccin-theme-light": "ctp-rosepine-light",
   "anuppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-mauve",
   "catppuccin-interface-styles@@ctp-bold-folder-title": true,
-  "shimmering-focus@@centered-canvas-notes": true,
+  "shimmering-focus@@centered-canvas-notes": false,
   "shimmering-focus@@show-urls": true,
   "shimmering-focus@@private-mode": false,
   "shimmering-focus@@no-codeblock-line-numbers": true,
