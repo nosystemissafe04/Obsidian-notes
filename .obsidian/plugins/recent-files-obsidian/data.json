@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "MISCONFIGURATION",
+      "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/MISCONFIGURATION.md"
+    },
+    {
       "basename": "22. Active Directory Introduction and Enumeration",
       "path": "TREASURE/SOURCES/COPY-OSCP/22. Active Directory Introduction and Enumeration.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "CROSS-SITE REQUEST FORGERY",
       "path": "PortSwigger Academy/CROSS-SITE REQUEST FORGERY.md"
-    },
-    {
-      "basename": "MISCONFIGURATION",
-      "path": "OSCP-NOTES/Active Directory Enumeration and Attacks/MISCONFIGURATION.md"
     },
     {
       "basename": "LATERAL MOVEMENT - Priviledged Access",

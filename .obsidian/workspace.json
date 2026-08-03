@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TREASURE/SOURCES/COPY-OSCP/22. Active Directory Introduction and Enumeration.md",
+                "file": "OSCP-NOTES/Active Directory Enumeration and Attacks/MISCONFIGURATION.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "22. Active Directory Introduction and Enumeration"
+              "title": "MISCONFIGURATION"
             }
           },
           {
@@ -347,11 +347,11 @@
   },
   "active": "fe6d7a45e4f73a22",
   "lastOpenFiles": [
+    "TREASURE/SOURCES/COPY-OSCP/22. Active Directory Introduction and Enumeration.md",
     "PortSwigger Academy/CROSS SITE SCRIPTING.md",
     "PortSwigger Academy/CROSS-SITE REQUEST FORGERY.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/MISCONFIGURATION.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/LATERAL MOVEMENT - Priviledged Access.md",
-    "TREASURE/SOURCES/COPY-OSCP/22. Active Directory Introduction and Enumeration.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/ACCESS CONTROL LIST - ACL.md",
     "OSCP-NOTES/DISABLE WINDOWS PROTECTION.md",
     "OSCP-NOTES/Active Directory Enumeration and Attacks/INITIAL ENUMERATION OF THE DOMAIN.md",
